@@ -1,5 +1,18 @@
-Step 1: Extract contents of cgi-basic-catalog-resources.zip to a directory (from here on refered to as <CATALOG_HOME>
+Step 1: Set up the xml catalog located at https://www.seegrid.csiro.au/subversion/GeoSciML/trunk/schema/ (as per instructions included in that directory).
 
-Step 2: Copy the "cgi-iugs.org" folder and "catalog.xml" file from this directory to <CATALOG_HOME>
+Step 2: Add the following lines of text to the "catalog.xml" file. (e.g. copy and past somewhre within the <catalog> </catalog> tags) :-
 
-Step 3: Use <CATALOG_HOME>/catalog.xml as the OASIS XML Catalog to validate GeoSciML documents with.
+
+
+	<!-- ===================== GGIC MineralOccurrence Resources ===================== -->
+	<rewriteSystem systemIdStartString="https://www.seegrid.csiro.au/subversion/xmml/GGIC/trunk/schema/MineralOccurrence/1.0.0/"
+		rewritePrefix="/ggic.gov.au/MineralOccurrence/"/>
+	<rewriteURI uriStartString="https://www.seegrid.csiro.au/subversion/xmml/GGIC/trunk/schema/MineralOccurrence/1.0.0/"
+		rewritePrefix="/ggic.gov.au/MineralOccurrence/"/>
+
+
+
+
+Step 3: Create a new directory called <CATALOG_HOME>/ggic.gov.au/MineralOccurrence/ and paste a copy of the mineralOccurrence.xsd file there.
+
+Step 4: Use <CATALOG_HOME>/catalog.xml as the OASIS XML Catalog to validate GeoSciML and MineralOccurrence documents with.
