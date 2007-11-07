@@ -9,7 +9,9 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns:cgu="urn:cgi:xmlns:CGI:Utilities:1.0"
 	xsi:schemaLocation="urn:cgi:xmlns:GGIC:MineralOccurrence:1.0 https://www.seegrid.csiro.au/subversion/xmml/GGIC/trunk/schema/MineralOccurrence/1.0.0/mineralOccurrence.xsd">
+		
 <!-- Prepared by B. Simons and A. Seymon, GeoScience Victoria - October 2007 -->  
+
 <!-- GSV VicMine "Mine Name - Primary" from [t_md_site; mine_name; mine_name_type_cd; primary_flg] should be used here -->
 	<gml:name>Wilga</gml:name>
 <!-- GSV VicMine Site ID from [t_md_site; site_id] along with the GSV feature urn should be used for GML:name to identify the feature-->
