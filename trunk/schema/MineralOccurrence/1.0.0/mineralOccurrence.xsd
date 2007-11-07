@@ -9,7 +9,7 @@
     </annotation>
     <import namespace="http://www.opengis.net/gml" schemaLocation="http://schemas.opengis.net/gml/3.1.1/base/gml.xsd"/>
     <import namespace="urn:cgi:xmlns:CGI:GeoSciML:2.0"
-        schemaLocation="https://www.seegrid.csiro.au/subversion/GeoSciML/branches/2.0.beta/schema/cgi-iugs.org/GeoSciML/2.0.0/geosciml.xsd"/>
+        schemaLocation="https://www.seegrid.csiro.au/subversion/GeoSciML/trunk/schema/GeoSciML/geosciml.xsd"/>
     <element name="MiningActivity" substitutionGroup="gml:_Feature" type="mo:MiningActivityType">
         <annotation>
             <documentation>The process of extracting metallic or non-metallic mineral deposits from the Earth. The term
