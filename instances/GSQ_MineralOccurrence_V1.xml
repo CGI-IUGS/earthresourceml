@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mo:MineralOccurrence gml:id="id_mo01" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:mo="urn:cgi:xmlns:GGIC:MineralOccurrence:1.0" xmlns:om="http://www.opengis.net/om" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cgu="urn:cgi:xmlns:CGI:Utilities:1.0" xsi:schemaLocation="urn:cgi:xmlns:GGIC:MineralOccurrence:1.0 https://www.seegrid.csiro.au/subversion/xmml/GGIC/trunk/schema/MineralOccurrence/1.0.0/mineralOccurrence.xsd">
+	<!-- Prepared by T Denaro and P Lin, Geological Survey of Queensland - December 2007 -->
+	<!-- Some dummy data used for testing -->
+	<!-- SGF_SITES.MAIN_OCCUR_NAME should be used here -->
+	<gml:name>Cannington</gml:name>
+	<!-- SGF_SITES.SITE_NO along with the GSQ feature urn should be used for GML:name to identify the feature-->
+	<gml:name codeSpace="urn:ietf:rfc:2141">urn:cgi:feature:GSQ:Minocc:Site_No_493633</gml:name>
+	<!-- GSQ MINOCC doesn't contain any observation method. Observation method is mandatory defaulting to "null [unspecified]" -->
+	<gsml:observationMethod>
+		<gsml:CGI_TermValue>
+			<gsml:value codeSpace="urn:cgi:classifierScheme:CGI:NullValues">null [unspecified]</gsml:value>
+		</gsml:CGI_TermValue>
+	</gsml:observationMethod>
+	<!-- GSQ MINOCC doesn't specify purpose. All entries have purpose"Instance" -->
+	<gsml:purpose>instance</gsml:purpose>
+	<gsml:occurrence>
+		<gsml:MappedFeature gml:id="id_mf01">
+			<!-- GSQ MINOCC Site Feature, Feature Type = gml:name. Description = gml:description. Location Type = another gml:name -->
+			<gml:description/>
+			<gml:name>Centre of resource</gml:name>
+			<gsml:observationMethod>
+				<gsml:CGI_TermValue>
+					<!-- Observation method comes from SGF_SITES.LOC_METHOD_CODE. Lookup table is CPF_LOCATION_METHODS-->
+					<gsml:value codeSpace="urn:cgi:classifierScheme:GSQ:CaptureMethod">Global Positioning System (AMG-66)</gsml:value>
+				</gsml:CGI_TermValue>
+			</gsml:observationMethod>
+			<!-- GSQ MINOCC stores positional accuracy in SGF_SITES.LOC_ACCURACY -->
+			<gsml:positionalAccuracy>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:m">50</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</gsml:positionalAccuracy>
+			<gsml:shape>
+				<!-- EPSG number for MGA94 Zone 54 is inserted here; requires coding to depend on MGA zone; in GSQ MINOCC this data comes from SGF_LOCATIONS.ZONE -->
+				<gml:Point srsName="EPSG:28354">
+					<!-- Easting and northing come from SGF_LOCATIONS.EASTING and SGF_LOCATIONS.NORTHING. Values are in GDA94 -->
+					<gml:pos>491720 7582016</gml:pos>
+				</gml:Point>
+			</gsml:shape>
+			<!-- gsml:specification specifies which GeologicFeature the MappedFeature refers to.-->
+			<gsml:specification xlink:href="urn:cgi:feature:GSQ:Minocc:Site_No_493633"/>
+			<!-- samplingFrame specifies the shape that contains the whole feature -->
+			<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+		</gsml:MappedFeature>
+	</gsml:occurrence>
+	<gsml:preferredAge>
+		<gsml:GeologicEvent>
+			<!-- GSQ MINOCC stores mineralisation age in SGF_INTVL_LITHOLOGY.FROM_AGE_UNIT_CODE and SGF_INTVL_LITHOLOGY.FROM_AGE_UNIT_CODE. Conditions are where SGF_INTERVALS.INTVL_TYPE_CODE='OREBOD' and SGF_INTVL_LITHOLOGY.ROCK_CODE='ORE'. Decode from CPF_AGE_UNITS -->
+			<gsml:eventAge>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:ICS:StratChart2008">Palaeoproterozoic</gsml:value>
+				</gsml:CGI_TermValue>
+			</gsml:eventAge>
+			<!-- GSQ MINOCC does not store eventEnvironment. Will default to 'unknown'  -->
+			<gsml:eventEnvironment>
+				<gsml:CGI_TermValue>
+					<gsml:qualifier>nil:unknown</gsml:qualifier>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:CGI:NullValues">null [unknown]</gsml:value>
+				</gsml:CGI_TermValue>
+			</gsml:eventEnvironment>
+			<!-- GSQ MINOCC does not store eventProcess - default to 'Mineralisation' -->
+			<gsml:eventProcess>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:GGIC:EventProcess">Mineralisation</gsml:value>
+				</gsml:CGI_TermValue>
+			</gsml:eventProcess>
+		</gsml:GeologicEvent>
+	</gsml:preferredAge>
+	<!-- GSQ MINOCC stores references as codes in SGF_BIBLIO_REFERENCES.REFERENCE_CODE and SGF_BIBLIO_REFERENCES.REFERENCE_ID. This provides a two-part code such as BR5738 or ERMS22614. Codes with the prefix "BR" refer to the Bibliographic References system in Merlin (Table BRF_BIBLIO_REFERENCES) which stores Author, Year, Title and Source for each reference. Codes with the prefix "ERMS" refer to the Exploration Report Management System in Merlin (Table ERF_EXPLORATION_REPORTS) which stores Author, Report Date and Report Title for each reference  -->
+	<mo:sourceReference xlink:href="urn:cgi:object:GSQ:BR:5738"/>
+	<mo:sourceReference xlink:href="urn:cgi:object:GSQ:BR:8371"/>
+	<mo:sourceReference xlink:href="urn:cgi:object:GSQ:ERMS:22614"/>
+	<mo:dimension>
+		<!-- GSQ MINOCC stores orebody dimensions in SGF_INTERVALS.BOTTOM, SGF_IINTERVALS.LENGTH, AND SGF_IINTERVALS.WIDTH. Conditions are where SGF_INTERVALS.INTVL_TYPE_CODE='OREBOD'.  -->
+		<mo:EarthResourceDimension>
+			<mo:depth>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:m">500</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:depth>
+			<mo:length>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:m">1200</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:length>
+			<mo:width>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:m">400</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:width>
+		</mo:EarthResourceDimension>
+	</mo:dimension>
+	<!-- Deposit Expression comes from SGF_INTVL_OBSERVS.OBSERV_TYPE_VALUE_CODE, where SGF_INTERVALS.INTVL_TYPE_CODE='OREBOD' and SGF_INTVL_OBSERVS.OBSERV_TYPE_CODE='DEXP' . Lookup table is  CPF_OBSERV_TYPE_VALUES -->
+	<mo:expression>
+		<gsml:CGI_TermValue>
+			<gsml:value codeSpace="urn:cgi:classifierScheme:GSQ:Expression">Concealed</gsml:value>
+		</gsml:CGI_TermValue>
+	</mo:expression>
+	<!-- Deposit Expression comes from SGF_INTVL_OBSERVS.OBSERV_TYPE_VALUE_CODE, where SGF_INTERVALS.INTVL_TYPE_CODE='OREBOD' and SGF_INTVL_OBSERVS.OBSERV_TYPE_CODE='DFRM' . Lookup table is  CPF_OBSERV_TYPE_VALUES -->
+	<mo:form>
+		<gsml:CGI_TermValue>
+			<gsml:value codeSpace="urn:cgi:classifierScheme:GSQ:Form">Stratabound</gsml:value>
+		</gsml:CGI_TermValue>
+	</mo:form>
+	<mo:form>
+		<gsml:CGI_TermValue>
+			<gsml:value codeSpace="urn:cgi:classifierScheme:GSQ:Form">Breccia</gsml:value>
+		</gsml:CGI_TermValue>
+	</mo:form>
+	<mo:form>
+		<gsml:CGI_TermValue>
+			<gsml:value codeSpace="urn:cgi:classifierScheme:GSQ:Form">Vein</gsml:value>
+		</gsml:CGI_TermValue>
+	</mo:form>
+	<mo:planarOrientation>
+		<!-- Planar Orientation not available for Cannington. Dummy vaules used. -->
+		<gsml:CGI_PlanarOrientation>
+			<gsml:convention>dip dip direction</gsml:convention>
+			<gsml:azimuth>
+				<!-- Dip azimuth sourced from SGF_INTVL_STRUCT_MEASURES.AZIMUTH, where SGF_INTERVALS.INTVL_TYPE_CODE='OREBOD', SGF_INTVL_STRUCT_MEASURES.QUANT_STRUCT_TYPE_CODE='OBDY' AND SGF_INTVL_OBSERVS.OBSERV_TYPE_CODE='DFRM'. -->
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:degree">270</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</gsml:azimuth>
+			<gsml:dip>
+				<!-- Dip sourced from SGF_INTVL_STRUCT_MEASURES.DIP_PLUNGE, where SGF_INTERVALS.INTVL_TYPE_CODE='OREBOD', SGF_INTVL_STRUCT_MEASURES.QUANT_STRUCT_TYPE_CODE='OBDY' AND SGF_INTVL_OBSERVS.OBSERV_TYPE_CODE='DFRM'. -->
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:degree">45</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</gsml:dip>
+			<gsml:polarity>not applicable</gsml:polarity>
+		</gsml:CGI_PlanarOrientation>
+	</mo:planarOrientation>
+	<mo:shape>
+		<!-- GSQ has shape data, but not for Cannington. Dummy data. Deposit Shape comes from SGF_INTVL_OBSERVS.OBSERV_TYPE_VALUE_CODE, where SGF_INTERVALS.INTVL_TYPE_CODE='OREBOD' and SGF_INTVL_OBSERVS.OBSERV_TYPE_CODE='SHAP' . Lookup table is  CPF_OBSERV_TYPE_VALUES -->
+		<gsml:CGI_TermValue>
+			<gsml:value codeSpace="urn:cgi:classifierScheme:GSQ:Shape">Lenticular</gsml:value>
+		</gsml:CGI_TermValue>
+	</mo:shape>
+	<mo:classification>
+		<mo:MineralDepositModel>
+			<!-- Difference between Deposit Group and Deposit Type is still not clear. Awaiting more information from P Lewis and L Wyborn.  -->
+			<!-- GSQ MINOCC records deposit models at two levels - a General Orebody Model (GORMOD) and Detailed Orebody Model (DORMOD). MineralDepositGroup will normally come from DORMOD. Where DORMOD is not present, it should come from GORMOD. GORMOD and DORMOD are stored as interval interpretations in  SGF_INTVL_INTERPRETS.INTERPRET.TYPE.CODE. The model codes are stored in SGF_INTVL_INTERPRETS.INTERPRET.TYPE.VALUE.CODE.Lookup for the codes is CPF_INTERPRET_TYPE_VALES.  -->
+			<mo:mineralDepositGroup codeSpace="urn:cgi:classifierScheme:GSq:DepositGroup">Sediment-hosted Pb-Zn (Broken Hill type)</mo:mineralDepositGroup>
+			<!-- GSQ MINOCC does not store a separate Deposit Type. Revert to a null value. -->
+			<mo:mineralDepositType codeSpace="urn:cgi:classifierScheme:CGI:NullValues">null [unknown]</mo:mineralDepositType>
+		</mo:MineralDepositModel>
+	</mo:classification>
+	<!-- GSQ MINOCC records commodities for the occurrence in SGF_COMMODITIES.COMMDOITY CODE. The importance/ranking of the commodies is recorded as a sequential numerical ranking in SGF_COMMODITIES.COMMODITY_ORDER. Commodity codes lookup is CPF_COMMODITIES, which includes a cross reference to GA commodity codes and decodes.-->
+	<mo:commodityDescription>
+		<mo:Commodity gml:id="comm_Ag03">
+			<mo:commodityGroup/>
+			<mo:commodityName>Silver</mo:commodityName>
+			<!-- GSQ MINOCC does not record Commodity Importance -->
+			<mo:commodityRank>1</mo:commodityRank>
+			<!-- source href should point to the feature id.  This could be gml:id but is better if it is the urn -->
+			<mo:source xlink:href="urn:cgi:feature:GSQ:Minocc:Site_No_493633"/>
+		</mo:Commodity>
+	</mo:commodityDescription>
+	<mo:commodityDescription>
+		<mo:Commodity gml:id="comm_Pb03">
+			<mo:commodityGroup/>
+			<mo:commodityName>Lead</mo:commodityName>
+			<!-- GSQ MINOCC does not record Commodity Importance -->
+			<mo:commodityRank>2</mo:commodityRank>
+			<!-- source href should point to the feature id.  This could be gml:id but is better if it is the urn -->
+			<mo:source xlink:href="urn:cgi:feature:GSQ:Minocc:Site_No_493633"/>
+		</mo:Commodity>
+	</mo:commodityDescription>
+	<mo:commodityDescription>
+		<mo:Commodity gml:id="comm_Zn03">
+			<mo:commodityGroup/>
+			<mo:commodityName>Zinc</mo:commodityName>
+			<!-- GSQ MINOCC does not record Commodity Importance -->
+			<mo:commodityRank>3</mo:commodityRank>
+			<!-- source href should point to the feature id.  This could be gml:id but is better if it is the urn -->
+			<mo:source xlink:href="urn:cgi:feature:GSQ:Minocc:Site_No_493633"/>
+		</mo:Commodity>
+	</mo:commodityDescription>
+	<!-- GSQ MINOCC describes host rocks as Intervals (SGF_INTERVALS) with INTVL_TYPE_CODE = 'HROCK'.  -->
+	<mo:composition>
+		<mo:EarthResourceMaterial>
+			<mo:earthResourceMaterialRole>host rock</mo:earthResourceMaterialRole>
+			<mo:material>
+				<gsml:Rock>
+					<gsml:purpose>instance</gsml:purpose>
+					<!-- GSQ MINOCC does not include consolidation degree. It is implied by the lithology name, with additional descriptors for coherence. -->
+					<gsml:consolidationDegree>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="urn:cgi:classifierScheme:CGI:NullValues">null [unspecified]</gsml:value>
+						</gsml:CGI_TermValue>
+						<!--	</gsml:value> -->
+						<!-- /gsml:CGI_Term -->
+					</gsml:consolidationDegree>
+					<!--  Controlled Concept Lithology using gml:name etc requires a dummy gml:id.  This prevents having the same ControlledConcept in two places
+ in the same document without having different gml:ids 
+The ControlledConcepts should be included by reference only -->
+					<gsml:lithology>
+						<!-- GSQ MINOCC stores host rock lithologies in SGF_INTVL_LITHOLOGY.ROCK_CODE  where SGF_INTERVALS.INTVL_TYPE_CODE = 'HROCK'   Lookup for lithology codes is CPF_ROCK_NAMES -->
+						<gsml:ControlledConcept gml:id="id_cc01">
+							<gml:name codeSpace="urn:ietf:rfc:2141">urn:cgi:classifier:CGI:Lithology:2007:schist</gml:name>
+							<gsml:identifier codeSpace="urn:ietf:rfc:2141">urn:cgi:classifier:CGI:Lithology:2007:schist</gsml:identifier>
+							<gsml:name xml:lang="en" codeSpace="urn:cgi:classifierScheme:GSQ:Lithology">schist</gsml:name>
+							<gsml:vocabulary xlink:href="urn:cgi:classifierScheme:CGI:Lithology:2007"/>
+						</gsml:ControlledConcept>
+					</gsml:lithology>
+				</gsml:Rock>
+			</mo:material>
+		</mo:EarthResourceMaterial>
+	</mo:composition>
+	<mo:composition>
+		<mo:EarthResourceMaterial>
+			<mo:earthResourceMaterialRole>host rock</mo:earthResourceMaterialRole>
+			<mo:material>
+				<gsml:Rock>
+					<gsml:purpose>instance</gsml:purpose>
+					<!-- GSQ MINOCC does not include consolidation degree. It is implied by the lithology name, with additional descriptors for coherence. -->
+					<gsml:consolidationDegree>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="urn:cgi:classifierScheme:CGI:NullValues">null [unspecified]</gsml:value>
+						</gsml:CGI_TermValue>
+						<!--	</gsml:value> -->
+						<!-- /gsml:CGI_Term -->
+					</gsml:consolidationDegree>
+					<!--  Controlled Concept Lithology using gml:name etc requires a dummy gml:id.  This prevents having the same ControlledConcept in two places
+ in the same document without having different gml:ids 
+The ControlledConcepts should be included by reference only -->
+					<gsml:lithology>
+						<!-- GSQ MINOCC stores host rock lithologies in SGF_INTVL_LITHOLOGY.ROCK_CODE  where SGF_INTERVALS.INTVL_TYPE_CODE = 'HROCK'   Lookup for lithology codes is CPF_ROCK_NAMES -->
+						<gsml:ControlledConcept gml:id="id_cc02">
+							<gml:name codeSpace="urn:ietf:rfc:2141">urn:cgi:classifier:CGI:Lithology:2007:gneiss</gml:name>
+							<gsml:identifier codeSpace="urn:ietf:rfc:2141">urn:cgi:classifier:CGI:Lithology:2007:gneiss</gsml:identifier>
+							<gsml:name xml:lang="en" codeSpace="urn:cgi:classifierScheme:GSQ:Lithology">gneiss</gsml:name>
+							<gsml:vocabulary xlink:href="urn:cgi:classifierScheme:CGI:Lithology:2007"/>
+						</gsml:ControlledConcept>
+					</gsml:lithology>
+				</gsml:Rock>
+			</mo:material>
+		</mo:EarthResourceMaterial>
+	</mo:composition>
+	<mo:composition>
+		<mo:EarthResourceMaterial>
+			<!-- GSQ MINOCC stores the role of the minerals making up a deposit in SGF_LITH_OBSERVS.OBSERV_TYPE_QUAL_CODE, where SGF_INTERVALS.INTVL_CODE = 'OREBOD' and SGF_INTVL_LITHOLOGY.ROCK_CODE = 'ORE' and SGF_LITH_OBSERVS.OBSER_TYPE_CODE = 'MINR' Possible categories are 'alteration, primary, secondary, gangue' but not all data records have this field populated. Assign 'unspecified' where not recorded. The lookup table for observation qualifier codes is CPF_OBSERV_TYPE_QUALS -->
+			<mo:earthResourceMaterialRole>primary</mo:earthResourceMaterialRole>
+			<mo:material>
+				<gsml:Mineral>
+					<gsml:purpose>instance</gsml:purpose>
+					<gsml:mineralName>
+						<!-- GSQ MINOCC stores the minerals making up a deposit in SGF_LITH_OBSERVS.OBSERV_TYPE_VALUE_CODE, where SGF_INTERVALS.INTVL_CODE = 'OREBOD' and SGF_INTVL_LITHOLOGY.ROCK_CODE = 'ORE' and SGF_LITH_OBSERVS.OBSER_TYPE_CODE = 'MINR' and SGF_LITH_OBSERVS.OBSER_TYPE_QUAL_CODE = 'PRIM' The lookup table for mineral codes is CPF_MINERAL -->
+						<gsml:ControlledConcept gml:id="id_cc03">
+							<gml:name codeSpace="urn:ietf:rfc:2141">urn:cgi:classifier:CGI:Minerals:galena</gml:name>
+							<gsml:identifier codeSpace="urn:ietf:rfc:2141">urn:cgi:classifier:CGI:Minerals:galena</gsml:identifier>
+							<gsml:name xml:lang="en" codeSpace="urn:cgi:classifierScheme:GSQ:Minerals">galena</gsml:name>
+							<gsml:vocabulary xlink:href="urn:cgi:classifierScheme:CGI:Minerals"/>
+						</gsml:ControlledConcept>
+					</gsml:mineralName>
+				</gsml:Mineral>
+			</mo:material>
+		</mo:EarthResourceMaterial>
+	</mo:composition>
+	<mo:composition>
+		<mo:EarthResourceMaterial>
+			<!-- GSQ MINOCC stores the role of the minerals making up a deposit in SGF_LITH_OBSERVS.OBSERV_TYPE_QUAL_CODE, where SGF_INTERVALS.INTVL_CODE = 'OREBOD' and SGF_INTVL_LITHOLOGY.ROCK_CODE = 'ORE' and SGF_LITH_OBSERVS.OBSER_TYPE_CODE = 'MINR' Possible categories are 'alteration, primary, secondary, gangue' but not all data records have this field populated. Assign 'unspecified where not recorded'. The lookup table for observation qualifier codes is CPF_OBSERV_TYPE_QUALS -->
+			<mo:earthResourceMaterialRole>secondary</mo:earthResourceMaterialRole>
+			<mo:material>
+				<gsml:Mineral>
+					<gsml:purpose>instance</gsml:purpose>
+					<gsml:mineralName>
+						<!-- GSQ MINOCC stores the minerals making up a deposit in SGF_LITH_OBSERVS.OBSERV_TYPE_VALUE_CODE, where SGF_INTERVALS.INTVL_CODE = 'OREBOD' and SGF_INTVL_LITHOLOGY.ROCK_CODE = 'ORE' and SGF_LITH_OBSERVS.OBSER_TYPE_CODE = 'MINR' and SGF_LITH_OBSERVS.OBSER_TYPE_QUAL_CODE = 'SECO' The lookup table for mineral codes is CPF_MINERAL -->
+						<gsml:ControlledConcept gml:id="id_cc04">
+							<gml:name codeSpace="urn:ietf:rfc:2141">urn:cgi:classifier:CGI:Minerals:cerussite</gml:name>
+							<gsml:identifier codeSpace="urn:ietf:rfc:2141">urn:cgi:classifier:CGI:Minerals:cerussite</gsml:identifier>
+							<gsml:name xml:lang="en" codeSpace="urn:cgi:classifierScheme:GSQ:Minerals">cerussite</gsml:name>
+							<gsml:vocabulary xlink:href="urn:cgi:classifierScheme:CGI:Minerals"/>
+						</gsml:ControlledConcept>
+					</gsml:mineralName>
+				</gsml:Mineral>
+			</mo:material>
+		</mo:EarthResourceMaterial>
+	</mo:composition>
+	<mo:composition>
+		<mo:EarthResourceMaterial>
+			<!-- GSQ MINOCC stores the role of the minerals making up a deposit in SGF_LITH_OBSERVS.OBSERV_TYPE_QUAL_CODE, where SGF_INTERVALS.INTVL_CODE = 'OREBOD' and SGF_INTVL_LITHOLOGY.ROCK_CODE = 'ORE' and SGF_LITH_OBSERVS.OBSER_TYPE_CODE = 'MINR' Possible categories are 'alteration, primary, secondary, gangue' but not all data records have this field populated. Assign 'unspecified where not recorded'. The lookup table for observation qualifier codes is CPF_OBSERV_TYPE_QUALS -->
+			<mo:earthResourceMaterialRole>alteration product</mo:earthResourceMaterialRole>
+			<mo:material>
+				<gsml:Mineral>
+					<gsml:purpose>instance</gsml:purpose>
+					<gsml:mineralName>
+						<!-- GSQ MINOCC stores the minerals making up a deposit in SGF_LITH_OBSERVS.OBSERV_TYPE_VALUE_CODE, where SGF_INTERVALS.INTVL_CODE = 'OREBOD' and SGF_INTVL_LITHOLOGY.ROCK_CODE = 'ORE' and SGF_LITH_OBSERVS.OBSER_TYPE_CODE = 'MINR' and SGF_LITH_OBSERVS.OBSER_TYPE_QUAL_CODE = 'ALTN' The lookup table for mineral codes is CPF_MINERAL -->
+						<gsml:ControlledConcept gml:id="id_cc05">
+							<gml:name codeSpace="urn:ietf:rfc:2141">urn:cgi:classifier:CGI:Minerals:garnet</gml:name>
+							<gsml:identifier codeSpace="urn:ietf:rfc:2141">urn:cgi:classifier:CGI:Minerals:garnet</gsml:identifier>
+							<gsml:name xml:lang="en" codeSpace="urn:cgi:classifierScheme:GSQ:Minerals">garnet</gsml:name>
+							<gsml:vocabulary xlink:href="urn:cgi:classifierScheme:CGI:Minerals"/>
+						</gsml:ControlledConcept>
+					</gsml:mineralName>
+				</gsml:Mineral>
+			</mo:material>
+		</mo:EarthResourceMaterial>
+	</mo:composition>
+	<mo:resourceExtraction>
+		<!-- GSQ MINOCC stores production figures in SGF_PRODUCTION_ORE AND SGF_PRODUCTION_COMMODITES -->
+		<mo:MiningActivity gml:id="id_ma01">
+			<mo:activityDuration>
+				<gml:TimePeriod>
+					<gml:begin>
+						<!-- GSQ MINOCC stores start date for production period in SGF_PRODUCTION_ORE.PROD_START_DATE -->
+						<gml:TimeInstant>
+							<gml:timePosition>01-Jul-2001</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:begin>
+					<gml:end>
+						<!-- GSQ MINOCC stores end date for production period in SGF_PRODUCTION_ORE.PROD_END_DATE -->
+						<gml:TimeInstant>
+							<gml:timePosition>30-Jun-2002</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:end>
+				</gml:TimePeriod>
+			</mo:activityDuration>
+			<!-- GSQ MINOCC does not store activity type as a specific field. Default to unspecified -->
+			<mo:activityType>unspecified</mo:activityType>
+			<!-- GSQ MINOCC stores ore produced in SGF_PRODUCTION_ORE.ORE_AMOUNT. Units are tonnes. Ore amount will be null where it has not been reported. How will this be handled.  -->
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:t">2200000</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine>
+				<mo:Mine gml:id="id_mine01">
+					<!-- GSQ MINOCC does not adequately store start and end dates for mine. Do not include.  -->
+					<mo:mineName>
+						<!-- GSQ MINOCC stores a list of alternative mine names in SGF_OCCUR_NAMES.OCCUR.NAMES  The preferred (main) name is flagged in SGF_OCCUR_NAMES.MAIN_NAME_FLAG -->
+						<mo:MineNamePreference>
+							<!-- isPreferred is Boolean, true=yes false=no -->
+							<mo:isPreferred>true</mo:isPreferred>
+							<mo:mineName>Cannington</mo:mineName>
+						</mo:MineNamePreference>
+					</mo:mineName>
+					<!-- the alternative names are non-preferred -->
+					<mo:mineName>
+						<mo:MineNamePreference>
+							<mo:isPreferred>false</mo:isPreferred>
+							<mo:mineName>Cannington Silver Mine</mo:mineName>
+						</mo:MineNamePreference>
+					</mo:mineName>
+					<!-- GSQ MINOCC does not store a source reference for the mine name. default to 'Unspecified' -->
+					<!-- GSQ MINOCC does not store Related Mines in any consistent fashion. -->
+					<mo:sourceReference/>
+					<!-- GSQ MINOCC stores Mine Status in SGF_SITES.MINE_STATUS_CODE  Options are OP (Operating), AB (Abandoned) and CAM (Care and Maintenance) OP will have to decode as ''operating continuously' -->
+					<mo:status>operating continuously</mo:status>
+					<mo:relatedActivity xlink:href="id_ma01"/>
+				</mo:Mine>
+			</mo:associatedMine>
+			<!-- GSQ MINOCC does not store information on the raw material processed other than attributes such as sulphide ore, tailings, alluvium, oxide ore, etc. -->
+			<mo:deposit xlink:href="id_mo01"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<!-- GSQ MINOCC stores commodities produced in SGF_PRODUCTION_COMMODITIES.COMMODITY_CODE and GF_PRODUCTION_COMMODITIES.COMMODITY_FORM_CODE   Lookups are CPF_COMMODITIES and CPF_COMMODITY_FORMS -->
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="urn:cgi:classifierScheme:GSQ:ProductionMaterials">silver metal</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<!-- GSQ MINOCC stores source reference for each production period in SGF_PRODUCTION_ORE.REFERENCE_CODE and SGF_PRODUCTION_ORE.REFERENCE_ID  Xlink to 'urn:cgi:object:GSQ:BR:"Reference_Id"' or Xlink to 'urn:cgi:object:GSQ:ERMS:"Reference_Id"'   Use "Unspecified" if blank  -->
+					<mo:sourceReference xlink:href="urn:cgi:object:GSQ:BR:6187"/>
+					<!-- GSQ MINOCC stores production grades for each commodity in SGF_PRODUCTION_COMMODITIES.COMMODITY_GRADE and SGF_PRODUCTION_COMMODITIES.GRADE_UNIT_MEASURE_CODE  Lookup for grade unit measure codes is CPF_UNITS_OF_MEASURE -->
+					<mo:grade>
+						<!-- gsml:CGI_Numeric -->
+						<!--	<gsml:value> -->
+						<gsml:CGI_NumericValue>
+							<!-- Is g/T a UCUM uom? If not what does the urn point to? -->
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:g/t">507</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+						<!--	</gsml:value> -->
+						<!-- /gsml:CGI_Numeric -->
+					</mo:grade>
+					<!-- GSQ MINOCC stores production amount for each commodity in SGF_PRODUCTION_COMMODITIES.COMMODITY_AMOUNT and SGF_PRODUCTION_COMMODITIES.AMOUNT_UNIT_MEASURE_CODE  Lookup for amount unit measure codes is CPF_UNITS_OF_MEASURE  -->
+					<mo:production>
+						<!-- gsml:CGI_Numeric -->
+						<!--	<gsml:value> -->
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:kg">1117000</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+						<!--	</gsml:value> -->
+						<!-- /gsml:CGI_Numeric -->
+					</mo:production>
+					<!-- GSQ MiNOCC doesn't contain recovery values -->
+					<mo:sourceCommodity xlink:href="comm_Ag03"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</mo:resourceExtraction>
+	<mo:resourceExtraction>
+		<!-- GSQ MINOCC stores production figures in SGF_PRODUCTION_ORE AND SGF_PRODUCTION_COMMODITES -->
+		<mo:MiningActivity gml:id="id_ma02">
+			<mo:activityDuration>
+				<gml:TimePeriod>
+					<gml:begin>
+						<!-- GSQ MINOCC stores start date for production period in SGF_PRODUCTION_ORE.PROD_START_DATE -->
+						<gml:TimeInstant>
+							<gml:timePosition>01-Jul-2001</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:begin>
+					<gml:end>
+						<!-- GSQ MINOCC stores end date for production period in SGF_PRODUCTION_ORE.PROD_END_DATE -->
+						<gml:TimeInstant>
+							<gml:timePosition>30-Jun-2002</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:end>
+				</gml:TimePeriod>
+			</mo:activityDuration>
+			<!-- GSQ MINOCC does not store activity type as a specific field. Default to unspecified -->
+			<mo:activityType>unspecified</mo:activityType>
+			<!-- GSQ MINOCC stores ore produced in SGF_PRODUCTION_ORE.ORE_AMOUNT. Units are tonnes. Ore amount will be null where it has not been reported. How will this be handled.  -->
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:t">2200000</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine>
+				<mo:Mine gml:id="id_mine02">
+					<!-- GSQ MINOCC does not adequately store start and end dates for mine. Do not include.  -->
+					<mo:mineName>
+						<!-- GSQ MINOCC stores a list of alternative mine names in SGF_OCCUR_NAMES.OCCUR.NAMES  The preferred (main) name is flagged in SGF_OCCUR_NAMES.MAIN_NAME_FLAG -->
+						<mo:MineNamePreference>
+							<!-- isPreferred is Boolean, true=yes false=no -->
+							<mo:isPreferred>true</mo:isPreferred>
+							<mo:mineName>Cannington</mo:mineName>
+						</mo:MineNamePreference>
+					</mo:mineName>
+					<!-- the alternative names are non-preferred -->
+					<mo:mineName>
+						<mo:MineNamePreference>
+							<mo:isPreferred>false</mo:isPreferred>
+							<mo:mineName>Cannington Silver Mine</mo:mineName>
+						</mo:MineNamePreference>
+					</mo:mineName>
+					<!-- GSQ MINOCC does not store a source reference for the mine name. default to 'Unspecified' -->
+					<!-- GSQ MINOCC does not store Related Mines in any consistent fashion. -->
+					<mo:sourceReference/>
+					<!-- GSQ MINOCC stores Mine Status in SGF_SITES.MINE_STATUS_CODE  Options are OP (Operating), AB (Abandoned) and CAM (Care and Maintenance) OP will have to decode as ''operating continuously' -->
+					<mo:status>operating continuously</mo:status>
+					<mo:relatedActivity xlink:href="id_ma02"/>
+				</mo:Mine>
+			</mo:associatedMine>
+			<!-- GSQ MINOCC does not store information on the raw material processed other than attributes such as sulphide ore, tailings, alluvium, oxide ore, etc. -->
+			<mo:deposit xlink:href="id_mo01"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<!-- GSQ MINOCC stores commodities produced in SGF_PRODUCTION_COMMODITIES.COMMODITY_CODE and GF_PRODUCTION_COMMODITIES.COMMODITY_FORM_CODE   Lookups are CPF_COMMODITIES and CPF_COMMODITY_FORMS -->
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="urn:cgi:classifierScheme:GSQ:ProductionMaterials">lead metal</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<!-- GSQ MINOCC stores source reference for each production period in SGF_PRODUCTION_ORE.REFERENCE_CODE and SGF_PRODUCTION_ORE.REFERENCE_ID  Xlink to 'urn:cgi:object:GSQ:BR:"Reference_Id"' or Xlink to 'urn:cgi:object:GSQ:ERMS:"Reference_Id"'   Use "Unspecified" if blank  -->
+					<mo:sourceReference xlink:href="urn:cgi:object:GSQ:BR:6187"/>
+					<!-- GSQ MINOCC stores production grades for each commodity in SGF_PRODUCTION_COMMODITIES.COMMODITY_GRADE and SGF_PRODUCTION_COMMODITIES.GRADE_UNIT_MEASURE_CODE  Lookup for grade unit measure codes is CPF_UNITS_OF_MEASURE -->
+					<mo:grade>
+						<!-- gsml:CGI_Numeric -->
+						<!--	<gsml:value> -->
+						<gsml:CGI_NumericValue>
+							<!-- Is % a UCUM uom? If not what does the urn point to? -->
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:%">10.53</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+						<!--	</gsml:value> -->
+						<!-- /gsml:CGI_Numeric -->
+					</mo:grade>
+					<!-- GSQ MINOCC stores production amount for each commodity in SGF_PRODUCTION_COMMODITIES.COMMODITY_AMOUNT and SGF_PRODUCTION_COMMODITIES.AMOUNT_UNIT_MEASURE_CODE  Lookup for amount unit measure codes is CPF_UNITS_OF_MEASURE  -->
+					<mo:production>
+						<!-- gsml:CGI_Numeric -->
+						<!--	<gsml:value> -->
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:t">231764</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+						<!--	</gsml:value> -->
+						<!-- /gsml:CGI_Numeric -->
+					</mo:production>
+					<!-- GSQ MiNOCC doesn't contain recovery values -->
+					<mo:sourceCommodity xlink:href="comm_Pb03"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</mo:resourceExtraction>
+	<mo:resourceExtraction>
+		<!-- GSQ MINOCC stores production figures in SGF_PRODUCTION_ORE AND SGF_PRODUCTION_COMMODITES -->
+		<mo:MiningActivity gml:id="id_ma03">
+			<mo:activityDuration>
+				<gml:TimePeriod>
+					<gml:begin>
+						<!-- GSQ MINOCC stores start date for production period in SGF_PRODUCTION_ORE.PROD_START_DATE -->
+						<gml:TimeInstant>
+							<gml:timePosition>01-Jul-2001</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:begin>
+					<gml:end>
+						<!-- GSQ MINOCC stores end date for production period in SGF_PRODUCTION_ORE.PROD_END_DATE -->
+						<gml:TimeInstant>
+							<gml:timePosition>30-Jun-2002</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:end>
+				</gml:TimePeriod>
+			</mo:activityDuration>
+			<!-- GSQ MINOCC does not store activity type as a specific field. Default to unspecified -->
+			<mo:activityType>unspecified</mo:activityType>
+			<!-- GSQ MINOCC stores ore produced in SGF_PRODUCTION_ORE.ORE_AMOUNT. Units are tonnes. Ore amount will be null where it has not been reported. How will this be handled.  -->
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:t">2200000</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine>
+				<mo:Mine gml:id="id_mine03">
+					<!-- GSQ MINOCC does not adequately store start and end dates for mine. Do not include.  -->
+					<mo:mineName>
+						<!-- GSQ MINOCC stores a list of alternative mine names in SGF_OCCUR_NAMES.OCCUR.NAMES  The preferred (main) name is flagged in SGF_OCCUR_NAMES.MAIN_NAME_FLAG -->
+						<mo:MineNamePreference>
+							<!-- isPreferred is Boolean, true=yes false=no -->
+							<mo:isPreferred>true</mo:isPreferred>
+							<mo:mineName>Cannington</mo:mineName>
+						</mo:MineNamePreference>
+					</mo:mineName>
+					<!-- the alternative names are non-preferred -->
+					<mo:mineName>
+						<mo:MineNamePreference>
+							<mo:isPreferred>false</mo:isPreferred>
+							<mo:mineName>Cannington Silver Mine</mo:mineName>
+						</mo:MineNamePreference>
+					</mo:mineName>
+					<!-- GSQ MINOCC does not store a source reference for the mine name. default to 'Unspecified' -->
+					<!-- GSQ MINOCC does not store Related Mines in any consistent fashion. -->
+					<mo:sourceReference/>
+					<!-- GSQ MINOCC stores Mine Status in SGF_SITES.MINE_STATUS_CODE  Options are OP (Operating), AB (Abandoned) and CAM (Care and Maintenance) OP will have to decode as ''operating continuously' -->
+					<mo:status>operating continuously</mo:status>
+					<mo:relatedActivity xlink:href="id_ma03"/>
+				</mo:Mine>
+			</mo:associatedMine>
+			<!-- GSQ MINOCC does not store information on the raw material processed other than attributes such as sulphide ore, tailings, alluvium, oxide ore, etc. -->
+			<mo:deposit xlink:href="id_mo01"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<!-- GSQ MINOCC stores commodities produced in SGF_PRODUCTION_COMMODITIES.COMMODITY_CODE and GF_PRODUCTION_COMMODITIES.COMMODITY_FORM_CODE   Lookups are CPF_COMMODITIES and CPF_COMMODITY_FORMS -->
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="urn:cgi:classifierScheme:GSQ:ProductionMaterials">zinc metal</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<!-- GSQ MINOCC stores source reference for each production period in SGF_PRODUCTION_ORE.REFERENCE_CODE and SGF_PRODUCTION_ORE.REFERENCE_ID  Xlink to 'urn:cgi:object:GSQ:BR:"Reference_Id"' or Xlink to 'urn:cgi:object:GSQ:ERMS:"Reference_Id"'   Use "Unspecified" if blank  -->
+					<mo:sourceReference xlink:href="urn:cgi:object:GSQ:BR:6187"/>
+					<!-- GSQ MINOCC stores production grades for each commodity in SGF_PRODUCTION_COMMODITIES.COMMODITY_GRADE and SGF_PRODUCTION_COMMODITIES.GRADE_UNIT_MEASURE_CODE  Lookup for grade unit measure codes is CPF_UNITS_OF_MEASURE -->
+					<mo:grade>
+						<!-- gsml:CGI_Numeric -->
+						<!--	<gsml:value> -->
+						<gsml:CGI_NumericValue>
+							<!-- Is % a UCUM uom? If not what does the urn point to? -->
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:%">2.67</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+						<!--	</gsml:value> -->
+						<!-- /gsml:CGI_Numeric -->
+					</mo:grade>
+					<!-- GSQ MINOCC stores production amount for each commodity in SGF_PRODUCTION_COMMODITIES.COMMODITY_AMOUNT and SGF_PRODUCTION_COMMODITIES.AMOUNT_UNIT_MEASURE_CODE  Lookup for amount unit measure codes is CPF_UNITS_OF_MEASURE  -->
+					<mo:production>
+						<!-- gsml:CGI_Numeric -->
+						<!--	<gsml:value> -->
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:t">58856</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+						<!--	</gsml:value> -->
+						<!-- /gsml:CGI_Numeric -->
+					</mo:production>
+					<!-- GSQ MiNOCC doesn't contain recovery values -->
+					<mo:sourceCommodity xlink:href="comm_Zn03"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</mo:resourceExtraction>
+	<mo:supergeneModification>
+		<mo:SupergeneProcesses>
+			<!-- GSQ MINOCC records depth of supergene processes as a depth range code in SGF_INTVL_OBSERVS.OBSERVS_TYPE_QUAL_CODE where SGF_INTERVALS.INTVL_TYPE_CODE = 'OREBOD' and SGF_INTVL_OBSERVS.OBSERV_TYPE_CODE = 'DSUP'   Codes are '1, 2, 3, 4, and 5" and decode as '<5 metres, 5-10 metres, 10-50 metres, 50-100 metres and >100 metres' in CPF_OBSERV_TYPE_QUALS   Can these be included in a numeric field? A dummy value of 50 has been used here but it may not be possible to include supergene processes if we can't use depth ranges. -->
+			<mo:depth>
+				<!-- gsml:CGI_Numeric -->
+				<!--	<gsml:value> -->
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:m">50</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+				<!--	</gsml:value> -->
+				<!-- /gsml:CGI_Numeric -->
+			</mo:depth>
+			<!-- GSQ MINOCC does not contain Supergene material -->
+			<mo:material/>
+			<!-- GSQ MINOCC stores Supergene type in SGF_INTVL_OBSERVS.OBSERV_TYPE_VALUE_CODE where SGF_INTERVALS.INTVL_TYPE_CODE = 'OREBOD' and SGF_INTVL_OBSERVS.OBSERV_TYPE_CODE = 'DSUP'   Examples include 'Depth of supergene enrichment, Depth of leaching, depth of residual enrichment and Depth of oxidation'  Codes are held in CPF_OBSERV_TYPE_VALUES  -->
+			<mo:type>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:GSQ:SupergeneType">depth of oxidation</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:type>
+		</mo:SupergeneProcesses>
+	</mo:supergeneModification>
+	<!-- Although GSQ MINOCC does include some Parent-child relationships, there is no intention to include them -->
+	<mo:oreAmount>
+		<mo:Resource>
+			<!-- GSQ MINOCC records calculation method as "JORC compliant' or 'Non-JORC compliant'. Stored as a Y/N flag in SGF_RESOURCE_ORE.JORC_FLAG  NB that only resource figures with SGF_RESOURCE_ORE.CONFIDENTIAL_FLAG = 'N' are to be supplied.   -->
+			<mo:calculationMethod>JORC compliant</mo:calculationMethod>
+			<!-- Date could come from link between SGF_RESOURCE_ORE.REFERENCE_CODEIISGF_RESOURCE_ORE.REFERENCE_ID and Bibliographic References and Exploration Report Management Systems. However, it would be simpler to extract resource date from SGF_SITES.RESOURCE_EFFECT_DATE   This puts the onus on us to ensure that this field is kept up to date. -->
+			<mo:date>
+				<gml:TimeInstant>
+					<gml:timePosition>2007-06-30</gml:timePosition>
+				</gml:TimeInstant>
+			</mo:date>
+			<!-- GSQ MINOCC records source reference for resource figures in SGF_RESOURCE_ORE.REFERENCE_CODEIISGF_RESOURCE_ORE.REFERENCE_ID.   -->
+			<mo:sourceReference xlink:href="urn:cgi:object:GSQ:BR:8371"/>
+			<mo:ore>
+				<!-- GSQ MINOCC records ore amount in SGF_RESOURCE_ORE.RESOURCE_AMOUNT  The ore amount is given in tonnes.     -->
+				<!-- gsml:CGI_Numeric -->
+				<!--	<gsml:value> -->
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:t">34000000</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+				<!--	</gsml:value> -->
+				<!-- /gsml:CGI_Numeric -->
+			</mo:ore>
+			<mo:measureDetails>
+				<mo:CommodityMeasure>
+					<mo:commodityAmount>
+						<!-- GSQ MINOCC records commodity amount in SGF_RESOURCE_COMMODITIES.COMMODITY_AMOUNTIISGF_RESOURCE_COMMODITIES.AMOUNT_UNIT_MEASURE_CODE   -->
+						<!-- gsml:CGI_Numeric -->
+						<!--	<gsml:value> -->
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:kg">14008000</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+						<!--	</gsml:value> -->
+						<!-- /gsml:CGI_Numeric -->
+					</mo:commodityAmount>
+					<!-- GSQ MINOCC only records cutoff grade in a text field -->
+					<mo:grade>
+						<!-- GSQ MINOCC records commodity grade in SGF_RESOURCE_COMMODITIES.COMMODITY_GRADEIISGF_RESOURCE_COMMODITIES.GRADE_UNIT_MEASURE_CODE   -->
+						<!-- gsml:CGI_Numeric -->
+						<!--	<gsml:value> -->
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:g/t">262</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+						<!--	</gsml:value> -->
+						<!-- /gsml:CGI_Numeric -->
+					</mo:grade>
+					<!-- GSV VicMine contains no <mo:grade/> information -->
+					<mo:commodityOfInterest xlink:href="comm_Ag03"/>
+				</mo:CommodityMeasure>
+			</mo:measureDetails>
+			<!--  GSQ MINOCC stores resource/reserve category in SGF_RESOURCE_ORE.RESOURCE_CAT_CODE Lookup for codes is CPF_RESOURCE_CATS   -->
+			<mo:category>measured mineral resource</mo:category>
+			<!--  GSQ MINOCC records info on whether resource includes reserves in a text field. We should look at enhancing the database by adding a Y/N field. For the moment  'unspecified' would be preferable to 'false'. -->
+			<mo:includesReserves>false</mo:includesReserves>
+		</mo:Resource>
+	</mo:oreAmount>
+	<mo:oreAmount>
+		<mo:Resource>
+			<!-- GSQ MINOCC records calculation method as "JORC compliant' or 'Non-JORC compliant'. Stored as a Y/N flag in SGF_RESOURCE_ORE.JORC_FLAG  NB that only resource figures with SGF_RESOURCE_ORE.CONFIDENTIAL_FLAG = 'N' are to be supplied.   -->
+			<mo:calculationMethod>JORC compliant</mo:calculationMethod>
+			<!-- Date could come from link between SGF_RESOURCE_ORE.REFERENCE_CODEIISGF_RESOURCE_ORE.REFERENCE_ID and Bibliographic References and Exploration Report Management Systems. However, it would be simpler to extract resource date from SGF_SITES.RESOURCE_EFFECT_DATE   This puts the onus on us to ensure that this field is kept up to date. -->
+			<mo:date>
+				<gml:TimeInstant>
+					<gml:timePosition>2007-06-30</gml:timePosition>
+				</gml:TimeInstant>
+			</mo:date>
+			<!-- GSQ MINOCC records source reference for resource figures in SGF_RESOURCE_ORE.REFERENCE_CODEIISGF_RESOURCE_ORE.REFERENCE_ID.   -->
+			<mo:sourceReference xlink:href="urn:cgi:object:GSQ:BR:8371"/>
+			<mo:ore>
+				<!-- GSQ MINOCC records ore amount in SGF_RESOURCE_ORE.RESOURCE_AMOUNT  The ore amount is given in tonnes.     -->
+				<!-- gsml:CGI_Numeric -->
+				<!--	<gsml:value> -->
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:t">34000000</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+				<!--	</gsml:value> -->
+				<!-- /gsml:CGI_Numeric -->
+			</mo:ore>
+			<mo:measureDetails>
+				<mo:CommodityMeasure>
+					<mo:commodityAmount>
+						<!-- GSQ MINOCC records commodity amount in SGF_RESOURCE_COMMODITIES.COMMODITY_AMOUNTIISGF_RESOURCE_COMMODITIES.AMOUNT_UNIT_MEASURE_CODE   -->
+						<!-- gsml:CGI_Numeric -->
+						<!--	<gsml:value> -->
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:t">3264000</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+						<!--	</gsml:value> -->
+						<!-- /gsml:CGI_Numeric -->
+					</mo:commodityAmount>
+					<!-- GSQ MINOCC only records cutoff grade in a text field -->
+					<mo:grade>
+						<!-- GSQ MINOCC records commodity grade in SGF_RESOURCE_COMMODITIES.COMMODITY_GRADEIISGF_RESOURCE_COMMODITIES.GRADE_UNIT_MEASURE_CODE   -->
+						<!-- gsml:CGI_Numeric -->
+						<!--	<gsml:value> -->
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:%">6.3</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+						<!--	</gsml:value> -->
+						<!-- /gsml:CGI_Numeric -->
+					</mo:grade>
+					<!-- GSV VicMine contains no <mo:grade/> information -->
+					<mo:commodityOfInterest xlink:href="comm_Pb03"/>
+				</mo:CommodityMeasure>
+			</mo:measureDetails>
+			<!--  GSQ MINOCC stores resource/reserve category in SGF_RESOURCE_ORE.RESOURCE_CAT_CODE Lookup for codes is CPF_RESOURCE_CATS   -->
+			<mo:category>measured mineral resource</mo:category>
+			<!--  GSQ MINOCC records info on whether resource includes reserves in a text field. We should look at enhancing the database by adding a Y/N field. For the moment  'unspecified' would be preferable to 'false'. -->
+			<mo:includesReserves>false</mo:includesReserves>
+		</mo:Resource>
+	</mo:oreAmount>
+	<mo:oreAmount>
+		<mo:Resource>
+			<!-- GSQ MINOCC records calculation method as "JORC compliant' or 'Non-JORC compliant'. Stored as a Y/N flag in SGF_RESOURCE_ORE.JORC_FLAG  NB that only resource figures with SGF_RESOURCE_ORE.CONFIDENTIAL_FLAG = 'N' are to be supplied.   -->
+			<mo:calculationMethod>JORC compliant</mo:calculationMethod>
+			<!-- Date could come from link between SGF_RESOURCE_ORE.REFERENCE_CODEIISGF_RESOURCE_ORE.REFERENCE_ID and Bibliographic References and Exploration Report Management Systems. However, it would be simpler to extract resource date from SGF_SITES.RESOURCE_EFFECT_DATE   This puts the onus on us to ensure that this field is kept up to date. -->
+			<mo:date>
+				<gml:TimeInstant>
+					<gml:timePosition>2007-06-30</gml:timePosition>
+				</gml:TimeInstant>
+			</mo:date>
+			<!-- GSQ MINOCC records source reference for resource figures in SGF_RESOURCE_ORE.REFERENCE_CODEIISGF_RESOURCE_ORE.REFERENCE_ID.   -->
+			<mo:sourceReference xlink:href="urn:cgi:object:GSQ:BR:8371"/>
+			<mo:ore>
+				<!-- GSQ MINOCC records ore amount in SGF_RESOURCE_ORE.RESOURCE_AMOUNT  The ore amount is given in tonnes.     -->
+				<!-- gsml:CGI_Numeric -->
+				<!--	<gsml:value> -->
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:t">34000000</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+				<!--	</gsml:value> -->
+				<!-- /gsml:CGI_Numeric -->
+			</mo:ore>
+			<mo:measureDetails>
+				<mo:CommodityMeasure>
+					<mo:commodityAmount>
+						<!-- GSQ MINOCC records commodity amount in SGF_RESOURCE_COMMODITIES.COMMODITY_AMOUNTIISGF_RESOURCE_COMMODITIES.AMOUNT_UNIT_MEASURE_CODE   -->
+						<!-- gsml:CGI_Numeric -->
+						<!--	<gsml:value> -->
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:">1462000</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+						<!--	</gsml:value> -->
+						<!-- /gsml:CGI_Numeric -->
+					</mo:commodityAmount>
+					<!-- GSQ MINOCC only records cutoff grade in a text field -->
+					<mo:grade>
+						<!-- GSQ MINOCC records commodity grade in SGF_RESOURCE_COMMODITIES.COMMODITY_GRADEIISGF_RESOURCE_COMMODITIES.GRADE_UNIT_MEASURE_CODE   -->
+						<!-- gsml:CGI_Numeric -->
+						<!--	<gsml:value> -->
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:%">3.7</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+						<!--	</gsml:value> -->
+						<!-- /gsml:CGI_Numeric -->
+					</mo:grade>
+					<!-- GSV VicMine contains no <mo:grade/> information -->
+					<mo:commodityOfInterest xlink:href="comm_Zn03"/>
+				</mo:CommodityMeasure>
+			</mo:measureDetails>
+			<!--  GSQ MINOCC stores resource/reserve category in SGF_RESOURCE_ORE.RESOURCE_CAT_CODE Lookup for codes is CPF_RESOURCE_CATS   -->
+			<mo:category>measured mineral resource</mo:category>
+			<!--  GSQ MINOCC records info on whether resource includes reserves in a text field. We should look at enhancing the database by adding a Y/N field. For the moment  'unspecified' would be preferable to 'false'. -->
+			<mo:includesReserves>false</mo:includesReserves>
+		</mo:Resource>
+	</mo:oreAmount>
+	<!-- GSQ MINOCC does not store mineral occurrence type in the same way as some other surveys. We use two fields to describe mining status and exploration status. To meet the requirements for this data structure, use 'occurrence' where SGF_SITES.MINE_STATUS_CODE - 'MO' and SGF_SITES.EXPLORE_STATUS_CODE  is null. For all other sites, use 'mineral deposit'.   -->
+	<mo:type>mineral deposit</mo:type>
+</mo:MineralOccurrence>
