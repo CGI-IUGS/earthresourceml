@@ -52,34 +52,34 @@
 			</gsml:eventProcess>
 		</gsml:GeologicEvent>
 	</gsml:preferredAge>
-<mo:expression>
-	<gsml:CGI_TermValue>
-		<gsml:value codeSpace="urn:cgi:classifierScheme:MRT:Values">nil:unspecified</gsml:value>
-	</gsml:CGI_TermValue>
-</mo:expression>
-<mo:form>
-	<gsml:CGI_TermValue>
-		<gsml:value codeSpace="urn:cgi:classifierScheme:MRT:Values">Disseminated</gsml:value>
-	</gsml:CGI_TermValue>
-</mo:form>
-		<mo:planarOrientation>
-			<gsml:CGI_PlanarOrientation>
-				<gsml:convention>strike dip right hand rule</gsml:convention>
-				<gsml:azimuth>
-					<gsml:CGI_NumericValue>
-						<gsml:principalValue uom="degree">332</gsml:principalValue>
-					</gsml:CGI_NumericValue>
-				</gsml:azimuth>
-				<gsml:polarity>not applicable</gsml:polarity>
-			</gsml:CGI_PlanarOrientation>
-		</mo:planarOrientation>
+	<mo:expression>
+		<gsml:CGI_TermValue>
+			<gsml:value codeSpace="urn:cgi:classifierScheme:MRT:Values">nil:unspecified</gsml:value>
+		</gsml:CGI_TermValue>
+	</mo:expression>
+	<mo:form>
+		<gsml:CGI_TermValue>
+			<gsml:value codeSpace="urn:cgi:classifierScheme:MRT:Values">Disseminated</gsml:value>
+		</gsml:CGI_TermValue>
+	</mo:form>
+	<mo:planarOrientation>
+		<gsml:CGI_PlanarOrientation>
+			<gsml:convention>strike dip right hand rule</gsml:convention>
+			<gsml:azimuth>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="degree">332</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</gsml:azimuth>
+			<gsml:polarity>not applicable</gsml:polarity>
+		</gsml:CGI_PlanarOrientation>
+	</mo:planarOrientation>
 	<!-- MRT has no shape data
 	<mo:shape/> -->
 	<mo:classification>
 		<mo:MineralDepositModel>
-<!-- GSV VicMine mineralDepositGroup will come from t_md_site: deposit_sub_type_cd -->
+<!-- MRT mineralDepositGroup will come from ?? -->
 			<mo:mineralDepositGroup codeSpace="urn:cgi:classifierScheme:MRT:Values">Disseminated</mo:mineralDepositGroup>
-<!-- GSV VicMine mineralDepositType will come from t_md_deposit_style: deposit_style_cd -->
+<!-- MRT mineralDepositType will come from ?? -->
 			<mo:mineralDepositType codeSpace="urn:cgi:classifierScheme:MRT:Values">Mine or Prospect</mo:mineralDepositType>
 		</mo:MineralDepositModel>
 	</mo:classification>
@@ -87,11 +87,10 @@
 		<mo:Commodity gml:id="id_CU">
 			<mo:commodityGroup/>
 			<mo:commodityName>Copper</mo:commodityName>
-			<!---->
 			<mo:commodityImportance>major</mo:commodityImportance>
 			<mo:commodityRank>1</mo:commodityRank>
 <!-- source href should point to the feature id.  This could be gml:id but is better if it is the urn -->
-			<mo:source xlink:href="urn:cgi:feature:GSV:Mine:SiteID_372429"/>
+			<mo:source xlink:href="urn:cgi:feature:MRT:Deposit:3423"/>
 		</mo:Commodity>
 	</mo:commodityDescription>
 	<mo:composition>
@@ -100,14 +99,10 @@
 			<mo:material>
 				<gsml:Rock>
 				<gsml:purpose>instance</gsml:purpose>
-									<gsml:consolidationDegree>
-						<!-- gsml:CGI_Term -->
-						<!--	<gsml:value> -->
-								<gsml:CGI_TermValue>
-									<gsml:value codeSpace="urn:cgi:classifierScheme:CGI:ConsolidationDegree:2007">consolidated</gsml:value>
-								</gsml:CGI_TermValue>
-						<!--	</gsml:value> -->
-						<!-- /gsml:CGI_Term -->
+					<gsml:consolidationDegree>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="urn:cgi:classifierScheme:CGI:ConsolidationDegree:2007">consolidated</gsml:value>
+						</gsml:CGI_TermValue>
 					</gsml:consolidationDegree>	
 				<!--  Controlled Concept Lithology using gml:name etc requires a dummy gml:id.  This prevents having the same ControlledConcept in two places
  in the same document without having different gml:ids 
@@ -122,56 +117,78 @@ The ControlledConcepts should be included by reference only -->
 					</gsml:lithology>
 				</gsml:Rock>
 			</mo:material>
-		<mo:earthResourceMaterialRole>primary</mo:earthResourceMaterialRole>
-			<mo:material><gsml:Mineral>
-				<gsml:purpose>instance</gsml:purpose>
-				<gsml:mineralName><gsml:ControlledConcept gml:id="">
-					<gml:csName></gml:csName>
-					<gsml:identifier codeSpace=""></gsml:identifier>
-					<gsml:name codeSpace="" xml:lang="">Bornite</gsml:name>
-					<gsml:vocabulary></gsml:vocabulary>
-				</gsml:ControlledConcept></gsml:mineralName>
-			</gsml:Mineral></mo:material>
-		<mo:earthResourceMaterialRole>primary</mo:earthResourceMaterialRole>
-			<mo:material><gsml:Mineral>
-				<gsml:purpose>instance</gsml:purpose>
-				<gsml:mineralName><gsml:ControlledConcept gml:id="">
-					<gml:csName></gml:csName>
-					<gsml:identifier codeSpace=""></gsml:identifier>
-					<gsml:name codeSpace="" xml:lang="">Bornite</gsml:name>
-					<gsml:vocabulary></gsml:vocabulary>
-				</gsml:ControlledConcept></gsml:mineralName>
-			</gsml:Mineral></mo:material>
+		</mo:EarthResourceMaterial>
+	</mo:composition>
+	<mo:composition>
+		<mo:EarthResourceMaterial>
 			<mo:earthResourceMaterialRole>primary</mo:earthResourceMaterialRole>
-			<mo:material><gsml:Mineral>
-				<gsml:purpose>instance</gsml:purpose>
-				<gsml:mineralName><gsml:ControlledConcept gml:id="">
-					<gml:csName></gml:csName>
-					<gsml:identifier codeSpace=""></gsml:identifier>
-					<gsml:name codeSpace="" xml:lang="">Chalcopyrite</gsml:name>
-					<gsml:vocabulary></gsml:vocabulary>
-				</gsml:ControlledConcept></gsml:mineralName>
-			</gsml:Mineral></mo:material>
+			<mo:material>
+				<gsml:Mineral>
+					<gsml:purpose>instance</gsml:purpose>
+					<gsml:mineralName>
+						<gsml:ControlledConcept gml:id="id_cc02">
+							<gml:name codeSpace="urn:ietf:rfc:2141">urn:cgi:classifier:CGI:MineralName:2007:bornite</gml:name>
+							<gsml:identifier codeSpace="urn:ietf:rfc:2141">urn:cgi:classifier:CGI:MineralName:2007:bornite</gsml:identifier>
+							<gsml:name xml:lang="en" codeSpace="urn:cgi:classifierScheme:CGI:MineralName:2007">bornite</gsml:name>
+							<gsml:vocabulary xlink:href="urn:cgi:classifierScheme:CGI:MineralName:2007"/>
+						</gsml:ControlledConcept>
+					</gsml:mineralName>
+				</gsml:Mineral>
+			</mo:material>
+		</mo:EarthResourceMaterial>
+	</mo:composition>
+	<mo:composition>
+		<mo:EarthResourceMaterial>
 			<mo:earthResourceMaterialRole>primary</mo:earthResourceMaterialRole>
-			<mo:material><gsml:Mineral>
-				<gsml:purpose>instance</gsml:purpose>
-				<gsml:mineralName><gsml:ControlledConcept gml:id="">
-					<gml:csName></gml:csName>
-					<gsml:identifier codeSpace=""></gsml:identifier>
-					<gsml:name codeSpace="" xml:lang="">Electrum</gsml:name>
-					<gsml:vocabulary></gsml:vocabulary>
-				</gsml:ControlledConcept></gsml:mineralName>
-			</gsml:Mineral></mo:material>
+			<mo:material>
+				<gsml:Mineral>
+					<gsml:purpose>instance</gsml:purpose>
+					<gsml:mineralName>
+						<gsml:ControlledConcept gml:id="id_cc03">
+							<gml:name codeSpace="urn:ietf:rfc:2141">urn:cgi:classifier:CGI:MineralName:2007:chalcopyrite</gml:name>
+							<gsml:identifier codeSpace="urn:ietf:rfc:2141">urn:cgi:classifier:CGI:MineralName:2007:chalcopyrite</gsml:identifier>
+							<gsml:name xml:lang="en" codeSpace="urn:cgi:classifierScheme:CGI:MineralName:2007">chalcopyrite</gsml:name>
+							<gsml:vocabulary xlink:href="urn:cgi:classifierScheme:CGI:MineralName:2007"/>
+						</gsml:ControlledConcept>
+					</gsml:mineralName>
+				</gsml:Mineral>
+			</mo:material>
+		</mo:EarthResourceMaterial>
+	</mo:composition>
+	<mo:composition>
+		<mo:EarthResourceMaterial>
 			<mo:earthResourceMaterialRole>primary</mo:earthResourceMaterialRole>
-			<mo:material><gsml:Mineral>
-				<gsml:purpose>instance</gsml:purpose>
-				<gsml:mineralName><gsml:ControlledConcept gml:id="">
-					<gml:csName></gml:csName>
-					<gsml:identifier codeSpace=""></gsml:identifier>
-					<gsml:name codeSpace="" xml:lang="">Galena</gsml:name>
-					<gsml:vocabulary></gsml:vocabulary>
-				</gsml:ControlledConcept></gsml:mineralName>
-			</gsml:Mineral></mo:material>
+			<mo:material>
+				<gsml:Mineral>
+					<gsml:purpose>instance</gsml:purpose>
+					<gsml:mineralName>
+						<gsml:ControlledConcept gml:id="id_cc04">
+							<gml:name codeSpace="urn:ietf:rfc:2141">urn:cgi:classifier:CGI:MineralName:2007:electrum</gml:name>
+							<gsml:identifier codeSpace="urn:ietf:rfc:2141">urn:cgi:classifier:CGI:MineralName:2007:electrum</gsml:identifier>
+							<gsml:name xml:lang="en" codeSpace="urn:cgi:classifierScheme:CGI:MineralName:2007">electrum</gsml:name>
+							<gsml:vocabulary xlink:href="urn:cgi:classifierScheme:CGI:MineralName:2007"/>
+						</gsml:ControlledConcept>
+					</gsml:mineralName>
+				</gsml:Mineral>
+			</mo:material>
+		</mo:EarthResourceMaterial>
+	</mo:composition>
+	<mo:composition>
+		<mo:EarthResourceMaterial>
+			<mo:earthResourceMaterialRole>primary</mo:earthResourceMaterialRole>
+			<mo:material>
+				<gsml:Mineral>
+					<gsml:purpose>instance</gsml:purpose>
+					<gsml:mineralName>
+						<gsml:ControlledConcept gml:id="id_cc05">
+							<gml:name codeSpace="urn:ietf:rfc:2141">urn:cgi:classifier:CGI:MineralName:2007:galena</gml:name>
+							<gsml:identifier codeSpace="urn:ietf:rfc:2141">urn:cgi:classifier:CGI:MineralName:2007:galena</gsml:identifier>
+							<gsml:name xml:lang="en" codeSpace="urn:cgi:classifierScheme:CGI:MineralName:2007">galena</gsml:name>
+							<gsml:vocabulary xlink:href="urn:cgi:classifierScheme:CGI:MineralName:2007"/>
+						</gsml:ControlledConcept>
+					</gsml:mineralName>
+				</gsml:Mineral>
+			</mo:material>
 		</mo:EarthResourceMaterial>
 	</mo:composition>
 	<mo:oreAmount>
@@ -179,28 +196,30 @@ The ControlledConcepts should be included by reference only -->
 			<mo:calculationMethod>unspecified</mo:calculationMethod>
 			<mo:date>			
 				<gml:TimeInstant>
-				<gml:timePosition>2006-31-03</gml:timePosition>
-			</gml:TimeInstant>
+					<gml:timePosition>2006-31-03</gml:timePosition>
+				</gml:TimeInstant>
 			</mo:date>
-			<mo:sourceReference>unspecified</mo:sourceReference>
+			<!-- source href should point to the reference id.  This should be a urn based on the references service -->
+			<mo:sourceReference xlink:href="urn:cgi:object:MRT:Reference:999999"/>
 			<mo:ore>
-							<!-- gsml:CGI_Numeric -->
-				<!--	<gsml:value> -->
-						<gsml:CGI_NumericValue>
-							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:t">14188897</gsml:principalValue>
-						</gsml:CGI_NumericValue>
-				<!--	</gsml:value> -->
-				<!-- /gsml:CGI_Numeric -->
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:t">14188897</gsml:principalValue>
+				</gsml:CGI_NumericValue>
 			</mo:ore>
 			<mo:measureDetails>
 				<mo:CommodityMeasure>
-					<mo:commodityOfInterest><mo:Commodity>
-						<mo:commodityName>Copper</mo:commodityName>
-						<mo:source></mo:source>
-					</mo:Commodity></mo:commodityOfInterest>
+					<mo:commodityOfInterest>
+						<mo:Commodity>
+							<mo:commodityName>Copper</mo:commodityName>
+							<mo:source></mo:source>
+						</mo:Commodity>
+					</mo:commodityOfInterest>
 				</mo:CommodityMeasure>
 			</mo:measureDetails>
-			<mo:category></mo:category>
+<!--  The category 'value' must match the enumeration list.  MRT will need to map to the enumeration   -->
+			<mo:category>probable ore reserves</mo:category>
 		</mo:Reserve>
 	</mo:oreAmount>
-	</mo:MineralOccurrence>
+<!-- A mineral deposit type is required -->
+	<mo:type>mineral deposit</mo:type>
+</mo:MineralOccurrence>
