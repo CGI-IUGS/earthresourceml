@@ -16,3 +16,5 @@ Step 2: Add the following lines of text to the "catalog.xml" file. (e.g. copy an
 Step 3: Create a new directory called <CATALOG_HOME>/ggic.gov.au/MineralOccurrence/ and paste a copy of the mineralOccurrence.xsd file there.
 
 Step 4: Use <CATALOG_HOME>/catalog.xml as the OASIS XML Catalog to validate GeoSciML and MineralOccurrence documents with.
+
+Step 5: After any schema upgrades a copy of the mineralOccurrence.xsd file will need to be remade
