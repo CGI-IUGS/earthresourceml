@@ -41,16 +41,16 @@
 					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:m">100</gsml:principalValue>
 				</gsml:CGI_NumericValue>
 			</gsml:positionalAccuracy>
+<!-- samplingFrame specifies the shape that contains the whole feature -->
+			<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<!-- gsml:specification specifies which GeologicFeature the MappedFeature refers to.-->
+			<gsml:specification xlink:href="urn:cgi:feature:GSV:Mine:SiteID_372429"/>
 			<gsml:shape>
 <!-- EPSG number for MGA94 Zone 55 is inserted here; requires coding to depend on MGA zone; in GSV VicMine this data comes from [t_site; amg_zone] -->
 				<gml:Point srsName="EPSG:28355">
 					<gml:pos>578963 5904364</gml:pos>
 				</gml:Point>
 			</gsml:shape>			
-<!-- gsml:specification specifies which GeologicFeature the MappedFeature refers to.-->
-			<gsml:specification xlink:href="urn:cgi:feature:GSV:Mine:SiteID_372429"/>
-<!-- samplingFrame specifies the shape that contains the whole feature -->
-			<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
 		</gsml:MappedFeature>
 	</gsml:occurrence> 	
 	<gsml:preferredAge>
