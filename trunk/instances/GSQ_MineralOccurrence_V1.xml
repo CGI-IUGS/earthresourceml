@@ -31,6 +31,10 @@
 					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:m">50</gsml:principalValue>
 				</gsml:CGI_NumericValue>
 			</gsml:positionalAccuracy>
+			<!-- samplingFrame specifies the shape that contains the whole feature -->
+			<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+			<!-- gsml:specification specifies which GeologicFeature the MappedFeature refers to.-->
+			<gsml:specification xlink:href="urn:cgi:feature:GSQ:Minocc:Site_No_493633"/>
 			<gsml:shape>
 				<!-- EPSG number for MGA94 Zone 54 is inserted here; requires coding to depend on MGA zone; in GSQ MINOCC this data comes from SGF_LOCATIONS.ZONE -->
 				<gml:Point srsName="EPSG:28354">
@@ -38,10 +42,6 @@
 					<gml:pos>491720 7582016</gml:pos>
 				</gml:Point>
 			</gsml:shape>
-			<!-- gsml:specification specifies which GeologicFeature the MappedFeature refers to.-->
-			<gsml:specification xlink:href="urn:cgi:feature:GSQ:Minocc:Site_No_493633"/>
-			<!-- samplingFrame specifies the shape that contains the whole feature -->
-			<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
 		</gsml:MappedFeature>
 	</gsml:occurrence>
 	<gsml:preferredAge>

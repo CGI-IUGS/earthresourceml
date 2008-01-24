@@ -29,13 +29,13 @@
 					<gsml:principalValue uom="m">100</gsml:principalValue>
 				</gsml:CGI_NumericValue>
 			</gsml:positionalAccuracy>
+		<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+		<gsml:specification xlink:href="urn:cgi:feature:MRT:Deposit:3423"/>
 		<gsml:shape>
 			<gml:Point>
 				<gml:pos srsName="EPSG:28355">382800 5342000</gml:pos>
 			</gml:Point>
 		</gsml:shape>
-		<gsml:specification xlink:href="urn:cgi:feature:MRT:Deposit:3423"/>
-		<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
 		</gsml:MappedFeature>
 	</gsml:occurrence>
 	<gsml:preferredAge>

@@ -223,7 +223,7 @@ The ControlledConcepts should be included by reference only -->
 				<gml:TimePeriod>
 					<gml:begin>
 						<gml:TimeInstant>
-							<gml:timePosition>19930101</gml:timePosition>
+							<gml:timePosition>1993</gml:timePosition>
 						</gml:TimeInstant>
 					</gml:begin>
 					<gml:end>
