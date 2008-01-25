@@ -1,20 +1,40 @@
-Step 1: Set up the xml catalog located at https://www.seegrid.csiro.au/subversion/GeoSciML/trunk/schema/ (as per instructions included in that directory).
+The GeoSciML schema and instance documents import schema which are managed by other domains.  These are located on the web. 
+To validate instance documents where web access is not possible requires local versions of these remote schema.
+These instructions describe how to establish local copies of the remote schema.
 
-Step 2: Add the following lines of text to the "catalog.xml" file. (e.g. copy and past somewhre within the <catalog> </catalog> tags) :-
+Changes to schema held in the remote locations will require updating your local versions.
+
+Instructions:
+
+Step 1: Extract contents of CGI-basic-schema_v2.zip to a directory (from here on refered to as <CATALOG_HOME>)
+
+Step 2: Copy the "catalog.xml" file from this directory to <CATALOG_HOME>
+
+Step 3: Extract contents of SCHEMAS_OPENGIS_NET.zip from http://schemas.opengis.net/ " to a new directory called <CATALOG_HOME>/SCHEMAS_OPENGIS_NET
+
+Step 4: Use <CATALOG_HOME>/catalog.xml as the OASIS XML Catalog to validate GeoSciML documents with.
 
 
 
-	<!-- ===================== GGIC MineralOccurrence Resources ===================== -->
-	<rewriteSystem systemIdStartString="https://www.seegrid.csiro.au/subversion/xmml/GGIC/trunk/schema/MineralOccurrence/1.0.0/"
-		rewritePrefix="ggic.gov.au/MineralOccurrence/"/>
-	<rewriteURI uriStartString="https://www.seegrid.csiro.au/subversion/xmml/GGIC/trunk/schema/MineralOccurrence/1.0.0/"
-		rewritePrefix="ggic.gov.au/MineralOccurrence/"/>
+
+Tool Specific intepretations of "Step 4": (Please add for your editor)
+
+Oxygen (Versions 8.x or Later)
+============================================
+Go to Options | Preferences | XML Catalog
+    (1) Set Prefer system (rather than public)
+    (2) Click "New" button and set the <CATALOG_HOME>/catalog.xml file as the catalog.
 
 
+Stylus Studio
+============================================
+(TODO)
 
+Altova XMLSpy
+============================================
 
-Step 3: Create a new directory called <CATALOG_HOME>/ggic.gov.au/MineralOccurrence/ and paste a copy of the mineralOccurrence.xsd file there.
+Untick'Read-only' permission on Altova/XMLSpy2008/RootCatalog.xml file properties
+Add the following line to RootCatalog.xml:
+<nextCatalog catalog="<CATALOG_HOME>/catalog.xml"/> before the line </catalog>
 
-Step 4: Use <CATALOG_HOME>/catalog.xml as the OASIS XML Catalog to validate GeoSciML and MineralOccurrence documents with.
-
-Step 5: After any schema upgrades a copy of the mineralOccurrence.xsd file will need to be remade
+Bruce Simons 25 January 2008
