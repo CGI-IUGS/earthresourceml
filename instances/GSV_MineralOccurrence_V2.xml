@@ -509,33 +509,25 @@ The ControlledConcepts should be included by reference only -->
 	<mo:oreAmount>
 		<mo:Resource>
 <!-- GSV VicMine doesn't contain calculationMethod, use "Unspecified" as default -->
-		<mo:calculationMethod>unspecified</mo:calculationMethod>
+			<mo:calculationMethod>unspecified</mo:calculationMethod>
 <!-- Need to add VicMine date here -->
-		<mo:date>
-			<gml:TimeInstant>
-				<gml:timePosition>2001-06-30</gml:timePosition>
-			</gml:TimeInstant>
-		</mo:date> 
+			<mo:date>
+				<gml:TimeInstant>
+					<gml:timePosition>2001-06-30</gml:timePosition>
+				</gml:TimeInstant>
+			</mo:date> 
 			<mo:sourceReference xlink:href="urn:cgi::object:GSV:Reference:GSVCat_29907"/>
 			<mo:ore>
-				<!-- gsml:CGI_Numeric -->
-				<!--	<gsml:value> -->
-						<gsml:CGI_NumericValue>
-							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:t">1585</gsml:principalValue>
-						</gsml:CGI_NumericValue>
-				<!--	</gsml:value> -->
-				<!-- /gsml:CGI_Numeric -->
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:t">1585</gsml:principalValue>
+				</gsml:CGI_NumericValue>
 			</mo:ore>
 			<mo:measureDetails>
 				<mo:CommodityMeasure>
 					<mo:commodityAmount>
-						<!-- gsml:CGI_Numeric -->
-						<!--	<gsml:value> -->
-								<gsml:CGI_NumericValue>
-									<gsml:principalValue uom="urn:ogc:def:uom:UCUM:oz">3.25</gsml:principalValue>
-								</gsml:CGI_NumericValue>
-						<!--	</gsml:value> -->
-						<!-- /gsml:CGI_Numeric -->
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:oz">3.25</gsml:principalValue>
+						</gsml:CGI_NumericValue>
 					</mo:commodityAmount>
 <!-- GSV VicMine contains no cutOffGrade information
 					<mo:cutOffGrade/> -->
