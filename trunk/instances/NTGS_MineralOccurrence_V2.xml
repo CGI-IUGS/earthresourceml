@@ -78,20 +78,23 @@
 		</gsml:GeologicEvent>
 	</gsml:preferredAge>
 	<!-- require schema to handle reference id, author, year, title in source reference -->
-	<!-- NTGS Modat has no dimensions  -->
+	<!-- NTGS Modat has no dimensions, use the default values from Orebody  -->
 	<mo:dimension>
 		<mo:EarthResourceDimension>
 			<mo:depth>
+				<!-- Using NTGS Modat [Tbl_General_Data.Depth]-->
 				<gsml:CGI_NumericValue>
 					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:m">1300</gsml:principalValue>
 				</gsml:CGI_NumericValue>
 			</mo:depth>
 			<mo:length>
+			<!-- Using NTGS Modat [Tbl_General_Data.length]-->
 				<gsml:CGI_NumericValue>
 					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:m">500</gsml:principalValue>
 				</gsml:CGI_NumericValue>
 			</mo:length>
 			<mo:width>
+			<!-- Using NTGS Modat [Tbl_General_Data.Width]-->
 				<gsml:CGI_NumericValue>
 					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:m">14732</gsml:principalValue>
 				</gsml:CGI_NumericValue>
@@ -200,6 +203,7 @@
 					<!-- Proportion terms major, minor not used -->
 					<gsml:lithology>
 						<gsml:ControlledConcept gml:id="Id_cc01">
+						<!-- NTGS Modat [Tbl_Host_Rock.Qualifier1-Tbl_Host_Rock.Lithology] -->
 							<gml:name codeSpace="urn:cgi:classifierScheme:NTGS:Lithology">meta siltstone</gml:name>
 							<gsml:identifier codeSpace="urn:cgi:classifierScheme:NTGS:Lithology">meta siltstone</gsml:identifier>
 							<gsml:name xml:lang="en" codeSpace="urn:cgi:classifierScheme:NTGS:Lithology">meta siltstone</gsml:name>
@@ -208,6 +212,7 @@
 					</gsml:lithology>
 					<gsml:lithology>
 						<gsml:ControlledConcept gml:id="Id_cc02">
+						<!-- NTGS Modat [Tbl_Host_Rock.Qualifier1-Tbl_Host_Rock.Lithology] -->
 							<gml:name codeSpace="urn:cgi:classifierScheme:NTGS:Lithology">carbonaceous schist</gml:name>
 							<gsml:identifier codeSpace="urn:cgi:classifierScheme:NTGS:Lithology">carbonaceous schist</gsml:identifier>
 							<gsml:name xml:lang="en" codeSpace="urn:cgi:classifierScheme:NTGS:Lithology">carbonaceous schist</gsml:name>
@@ -216,6 +221,7 @@
 					</gsml:lithology>
 					<gsml:lithology>
 						<gsml:ControlledConcept gml:id="Id_cc03">
+						<!-- NTGS Modat [Tbl_Host_Rock.Qualifier1-Tbl_Host_Rock.Lithology] -->
 							<gml:name codeSpace="urn:cgi:classifierScheme:NTGS:Lithology">quartz sericite chlorite schist</gml:name>
 							<gsml:identifier codeSpace="urn:cgi:classifierScheme:NTGS:Lithology">quartz sericite chlorite schist</gsml:identifier>
 							<gsml:name xml:lang="en" codeSpace="urn:cgi:classifierScheme:NTGS:Lithology">quartz sericite chlorite schist</gsml:name>
@@ -234,6 +240,7 @@
 					<gsml:purpose>instance</gsml:purpose>
 					<gsml:mineralName>
 						<gsml:ControlledConcept gml:id="Id_cc04">
+						<!-- NTGS Modat [Tbl_Ore_Minerals.Ore_Mineral] -->
 							<gml:name codeSpace="urn:ietf:rfc:2141">urn:cgi:classifierScheme:CGI:Minerals:arsenopyrite</gml:name>
 							<gsml:identifier codeSpace="urn:ietf:rfc:2141">urn:cgi:classifierScheme:CGI:Minerals:arsenopyrite</gsml:identifier>
 							<gsml:name codeSpace="urn:cgi:classifierScheme:CGI:Minerals" xml:lang="en">arsenopyrite</gsml:name>
@@ -263,23 +270,22 @@
 				<gml:TimePeriod>
 					<gml:begin>
 						<gml:TimeInstant>
-							<gml:timePosition>19930101</gml:timePosition>
+							<gml:timePosition>1992</gml:timePosition>
 						</gml:TimeInstant>
 					</gml:begin>
 					<gml:end>
 						<gml:TimeInstant>
-							<gml:timePosition>19931231</gml:timePosition>
+							<gml:timePosition>2002</gml:timePosition>
 						</gml:TimeInstant>
 					</gml:end>
 				</gml:TimePeriod>
 			</mo:activityDuration>
 			<!-- NTGS Modat stores miningActivity in [Tbl_General_Data.Mining_Method] -->
-			<!-- NTGS has "Surface to Opencut" which will need to be mapped to one of the GGIC enumerations or be added to the schema -->
 			<mo:activityType>open cut mining</mo:activityType>
 			<!-- NTGS Modat stores oreProcessed in [Tbl_Data_Production.Ore_Amount] -->
 			<mo:oreProcessed>
 				<gsml:CGI_NumericValue>
-					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:t">146727</gsml:principalValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:Mt">12.8</gsml:principalValue>
 				</gsml:CGI_NumericValue>
 			</mo:oreProcessed>
 			<mo:associatedMine>
@@ -294,300 +300,181 @@
 							<gml:timePosition>unknown</gml:timePosition>
 						</gml:TimeInstant>
 					</mo:endDate>
-					<!-- In GSV VicMine is in t_md_name: mine_name; mine_name_type_cd ; primary_flg. If primary_flg = yes, Boolean=1. Be aware both company names and mine names are captured here - only want mine names not equal to company -->
+					<!-- In NTGS use deposit name as mine name [Tbl_General_Data.Common_Name]-->
 					<mo:mineName>
 						<mo:MineNamePreference>
 							<!-- isPreferred is Boolean, true=yes false=no -->
 							<mo:isPreferred>true</mo:isPreferred>
-							<mo:mineName>Wilga</mo:mineName>
+							<mo:mineName>Callie</mo:mineName>
 						</mo:MineNamePreference>
 					</mo:mineName>
-					<!-- the alternative names are non-preferred -->
+					<!-- the alternative names are non-preferred [Tbl_Other_Name.Other_Name]-->
 					<mo:mineName>
 						<mo:MineNamePreference>
 							<mo:isPreferred>false</mo:isPreferred>
-							<mo:mineName>Lyrebird</mo:mineName>
+							<mo:mineName>Dead Bullock Soak</mo:mineName>
 						</mo:MineNamePreference>
 					</mo:mineName>
-					<mo:sourceReference xlink:href="urn:cgi:document:GSV:GSVCat_9121"/>
-					<mo:status>unknown</mo:status>
+					<mo:sourceReference xlink:href="unspecified"/>
+					<!--NTGS Modat contains status in [Tbl_General_Description.Status] it is mixed up with the Mineral Occurrence type-->
+					<mo:status>operating continuously</mo:status>
 					<mo:relatedActivity xlink:href="id_ma01"/>
-					<mo:relatedMine>
-						<mo:Mine gml:id="id_mine02">
-							<mo:mineName>
-								<mo:MineNamePreference>
-									<mo:isPreferred>false</mo:isPreferred>
-									<mo:mineName>Benambra</mo:mineName>
-								</mo:MineNamePreference>
-							</mo:mineName>
-							<mo:sourceReference xlink:href="urn:cgi:classifier:GSV:NullValues:2007:Unknown"/>
-							<mo:status>unknown</mo:status>
-							<mo:relatedActivity xlink:href="id_ma01"/>
-							<mo:relatedMine xlink:href="id_mine02"/>
-						</mo:Mine>
-					</mo:relatedMine>
 				</mo:Mine>
 			</mo:associatedMine>
-			<mo:composition>
-				<mo:RawMaterial>
-					<!-- In GSV VicMine is in t_md_ore: ore_signif_cd -->
-					<mo:material>
-						<gsml:Mineral>
-							<gsml:purpose>instance</gsml:purpose>
-							<gsml:mineralName xlink:href="urn:cgi:classifier:CGI:Mineral:2007:pyrite"> 
-							</gsml:mineralName>
-						</gsml:Mineral>
-					</mo:material>
-					<mo:rawMaterialRole>gangue</mo:rawMaterialRole>
-				</mo:RawMaterial>
-			</mo:composition>
+			<!-- NTGS Modat does not store composition: RawMaterial or RawMaterialRole-->
 			<mo:deposit xlink:href="id_mo01"/>
 			<mo:producedMaterial>
 				<mo:Product>
-					<!-- In GSV VicMine product is in t_md_production: commodity_cd -->
+					<!-- In NTGS Modat productName is in [Tbl_Commodity_Summary.Commodity] -->
 					<mo:productName>
 						<gsml:CGI_TermValue>
-							<gsml:value codeSpace="urn:cgi:classifierScheme:GSV:ProductionMaterials:2007">silver</gsml:value>
+							<gsml:value codeSpace="urn:cgi:classifierScheme:NTGS:ProductionMaterials:2007">gold</gsml:value>
 						</gsml:CGI_TermValue>
 					</mo:productName>
-					<mo:sourceReference xlink:href="urn:cgi:document:GSV:GSVCat_28198"/>
-					<!-- In GSV VicMine grade is in t_md_production: grade_ave -->
+					<mo:sourceReference xlink:href="unspecified"/>
+					<!-- In NTGS Modat grade is in [Tbl_Data_Production_Commodity.Average_Grade] -->
 					<mo:grade>
-						<!-- gsml:CGI_Numeric -->
-						<!--	<gsml:value> -->
 						<gsml:CGI_NumericValue>
-							<!-- Is g/T a UCUM uom? If not what does the urn point to? -->
-							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:g/t">21.073</gsml:principalValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:g/t">5.1</gsml:principalValue>
 						</gsml:CGI_NumericValue>
-						<!--	</gsml:value> -->
-						<!-- /gsml:CGI_Numeric -->
 					</mo:grade>
-					<!-- In GSV VicMine production is in t_md_production: recorded_product_amount; product_units  -->
+					<!-- In NTGS Modat production is in [Tbl_Data_Production_Commodity.Contained_Metal]  -->
 					<mo:production>
-						<!-- gsml:CGI_Numeric -->
-						<!--	<gsml:value> -->
 						<gsml:CGI_NumericValue>
-							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:oz">99409</gsml:principalValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:oz">2031403</gsml:principalValue>
 						</gsml:CGI_NumericValue>
-						<!--	</gsml:value> -->
-						<!-- /gsml:CGI_Numeric -->
 					</mo:production>
-					<!-- GSV VicMine doesn't contain recovery values -->
-					<mo:sourceCommodity xlink:href="comm_Ag03"/>
-				</mo:Product>
-			</mo:producedMaterial>
-		</mo:MiningActivity>
-	</mo:resourceExtraction>
-	<mo:resourceExtraction>
-		<mo:MiningActivity gml:id="id_ma02">
-			<mo:activityDuration>
-				<gml:TimePeriod>
-					<gml:beginPosition>19940101</gml:beginPosition>
-					<gml:endPosition>19941231</gml:endPosition>
-				</gml:TimePeriod>
-			</mo:activityDuration>
-			<mo:activityType>decline</mo:activityType>
-			<mo:oreProcessed>
-				<!-- gsml:CGI_Numeric -->
-				<!--	<gsml:value> -->
-				<gsml:CGI_NumericValue>
-					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:t">270900</gsml:principalValue>
-				</gsml:CGI_NumericValue>
-				<!--	</gsml:value> -->
-				<!-- /gsml:CGI_Numeric -->
-			</mo:oreProcessed>
-			<mo:associatedMine>
-				<mo:Mine>
-					<mo:mineName>
-						<mo:MineNamePreference>
-							<mo:isPreferred>true</mo:isPreferred>
-							<mo:mineName>Wilga</mo:mineName>
-						</mo:MineNamePreference>
-					</mo:mineName>
-					<mo:sourceReference xlink:href="urn:cgi:document:GSV:GSVCat_9121"/>
-					<mo:status>unknown</mo:status>
-					<mo:relatedActivity xlink:href="id_ma02"/>
-				</mo:Mine>
-			</mo:associatedMine>
-			<mo:composition>
-				<mo:RawMaterial>
-					<mo:material>
-						<gsml:Mineral>
-							<gsml:purpose>instance</gsml:purpose>
-							<gsml:mineralName xlink:href="urn:cgi:classifier:CGI:Mineral:2007:pyrite"/>
-						</gsml:Mineral>
-					</mo:material>
-					<mo:rawMaterialRole>gangue</mo:rawMaterialRole>
-				</mo:RawMaterial>
-			</mo:composition>
-			<mo:deposit xlink:href="id_mo01"/>
-			<mo:producedMaterial>
-				<mo:Product>
-					<mo:productName>
-						<gsml:CGI_TermValue>
-							<gsml:value codeSpace="urn:cgi:classifierScheme:GSV:ProductionMaterials:2007">silver</gsml:value>
-						</gsml:CGI_TermValue>
-					</mo:productName>
-					<mo:sourceReference xlink:href="urn:cgi:document:GSV:GSVCat_28198"/>
-					<mo:grade>
-						<!-- gsml:CGI_Numeric -->
-						<!--	<gsml:value> -->
-						<gsml:CGI_NumericValue>
-							<!-- Is g/T a UCUM uom? If not what does the urn point to? -->
-							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:g/t">17.837</gsml:principalValue>
-						</gsml:CGI_NumericValue>
-						<!--	</gsml:value> -->
-						<!-- /gsml:CGI_Numeric -->
-					</mo:grade>
-					<mo:production>
-						<!-- gsml:CGI_Numeric -->
-						<!--	<gsml:value> -->
-						<gsml:CGI_NumericValue>
-							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:oz">155351</gsml:principalValue>
-						</gsml:CGI_NumericValue>
-						<!--	</gsml:value> -->
-						<!-- /gsml:CGI_Numeric -->
-					</mo:production>
-					<mo:sourceCommodity xlink:href="comm_Ag03"/>
-				</mo:Product>
-			</mo:producedMaterial>
-		</mo:MiningActivity>
-	</mo:resourceExtraction>
-	<mo:resourceExtraction>
-		<mo:MiningActivity gml:id="id_ma03">
-			<mo:activityDuration>
-				<gml:TimePeriod>
-					<gml:beginPosition>19950101</gml:beginPosition>
-					<gml:endPosition>19951231</gml:endPosition>
-				</gml:TimePeriod>
-			</mo:activityDuration>
-			<mo:activityType>decline</mo:activityType>
-			<mo:oreProcessed>
-				<!-- gsml:CGI_Numeric -->
-				<!--	<gsml:value> -->
-				<gsml:CGI_NumericValue>
-					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:t">264300</gsml:principalValue>
-				</gsml:CGI_NumericValue>
-				<!--	</gsml:value> -->
-				<!-- /gsml:CGI_Numeric -->
-			</mo:oreProcessed>
-			<mo:associatedMine xlink:href="id_mine01"/>
-			<mo:composition>
-				<mo:RawMaterial>
-					<mo:material>
-						<gsml:Mineral>
-							<gsml:purpose>instance</gsml:purpose>
-							<gsml:mineralName xlink:href="urn:cgi:classifier:CGI:Mineral:2007:pyrite"/>
-						</gsml:Mineral>
-					</mo:material>
-					<mo:rawMaterialRole>gangue</mo:rawMaterialRole>
-				</mo:RawMaterial>
-			</mo:composition>
-			<mo:deposit xlink:href="urn:cgi:feature:GSV:Mine:SiteID_372429"/>
-			<mo:producedMaterial>
-				<mo:Product>
-					<mo:productName>
-						<gsml:CGI_TermValue>
-							<gsml:value codeSpace="urn:cgi:classifierScheme:GSV:ProductionMaterials:2007">silver</gsml:value>
-						</gsml:CGI_TermValue>
-					</mo:productName>
-					<mo:sourceReference xlink:href="urn:cgi:document:GSV:GSVCat_28198"/>
-					<mo:grade>
-						<!-- gsml:CGI_Numeric -->
-						<!--	<gsml:value> -->
-						<gsml:CGI_NumericValue>
-							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:g/t">14.063</gsml:principalValue>
-						</gsml:CGI_NumericValue>
-						<!--	</gsml:value> -->
-						<!-- /gsml:CGI_Numeric -->
-					</mo:grade>
-					<mo:production>
-						<!-- gsml:CGI_Numeric -->
-						<!--	<gsml:value> -->
-						<gsml:CGI_NumericValue>
-							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:oz">119503</gsml:principalValue>
-						</gsml:CGI_NumericValue>
-						<!--	</gsml:value> -->
-						<!-- /gsml:CGI_Numeric -->
-					</mo:production>
-					<mo:sourceCommodity xlink:href="comm_Ag03"/>
+					<!-- NTGS Modat doesn't contain recovery values -->
+					<mo:sourceCommodity xlink:href="unspecified"/>
 				</mo:Product>
 			</mo:producedMaterial>
 		</mo:MiningActivity>
 	</mo:resourceExtraction>
 	<mo:supergeneModification>
 		<mo:SupergeneProcesses>
-			<!-- GSV VicMine depth of Supergene to be taken from t_md_site: overburden_depth -->
+			<!-- NTGS Modat depth of Supergene to be taken from [Tbl_General_Data.Weathering_Depth] -->
 			<mo:depth>
-				<!-- gsml:CGI_Numeric -->
-				<!--	<gsml:value> -->
 				<gsml:CGI_NumericValue>
-					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:m">0</gsml:principalValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:m">100</gsml:principalValue>
 				</gsml:CGI_NumericValue>
-				<!--	</gsml:value> -->
-				<!-- /gsml:CGI_Numeric -->
 			</mo:depth>
-			<!-- GSV VicMine does not contain Supergene material -->
+			<!-- NTGS Modat does not contain Supergene material -->
 			<mo:material/>
-			<!-- GSV VicMine does not contain Supergene type -->
+			<!-- NTGS Modat stores Supergene type in [Tbl_General_Data.Weathering_Effect]-->
 			<mo:type>
 				<gsml:CGI_TermValue>
-					<gsml:qualifier>nil:unknown</gsml:qualifier>
-					<gsml:value codeSpace="urn:cgi:classifierScheme:GSV:NullValues:2007">null [unknown]</gsml:value>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:NTGS:SupergeneType:2007">oxidation</gsml:value>
 				</gsml:CGI_TermValue>
 			</mo:type>
 		</mo:SupergeneProcesses>
 	</mo:supergeneModification>
 	<!-- MineralOccurrence parent can go here 
-	<mo:parent xlink:href="urn:cgi:feature:GSV:SiteID_372428"></mo:parent>
-	Child can go here
-	<mo:child xlink:href="urn:cgi:feature:GSV:SiteID_372429"/> -->
+	Child can go here -->
 	<mo:oreAmount>
 		<mo:Resource>
-			<!-- GSV VicMine doesn't contain calculationMethod, use "Unspecified" as default -->
+			<!-- NTGS Modat doesn't contain calculationMethod, use "Unspecified" as default -->
 			<mo:calculationMethod>unspecified</mo:calculationMethod>
-			<!-- Need to add VicMine date here -->
+			<!-- NTGS Modat doesn't contain oreAmount date assign "Unknown"-->
 			<mo:date>
 				<gml:TimeInstant>
-					<gml:timePosition>2001-06-30</gml:timePosition>
+					<gml:timePosition>unknown</gml:timePosition>
 				</gml:TimeInstant>
 			</mo:date>
-			<mo:sourceReference xlink:href="urn:cgi:document:GSV:GSVCat_29907"/>
+			<!--NTGS Modat doesn't contain oreAmount sourceReference, use "Unspecified"-->
+			<mo:sourceReference xlink:href="unspecified"/>
 			<mo:ore>
-				<!-- gsml:CGI_Numeric -->
-				<!--	<gsml:value> -->
+				<!--NTGS Modat contains ore in [Tbl_Data_Resource.Ore_Amount]-->
 				<gsml:CGI_NumericValue>
-					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:t">1585</gsml:principalValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:Mt">11.8</gsml:principalValue>
 				</gsml:CGI_NumericValue>
-				<!--	</gsml:value> -->
-				<!-- /gsml:CGI_Numeric -->
 			</mo:ore>
 			<mo:measureDetails>
+				<!--NTGS Modat contains commodityAmount in  [Tbl_Resource_Commodity.Contained_Metal]-->
 				<mo:CommodityMeasure>
 					<mo:commodityAmount>
-						<!-- gsml:CGI_Numeric -->
-						<!--	<gsml:value> -->
 						<gsml:CGI_NumericValue>
-							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:oz">3.25</gsml:principalValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:t">73.3</gsml:principalValue>
 						</gsml:CGI_NumericValue>
-						<!--	</gsml:value> -->
-						<!-- /gsml:CGI_Numeric -->
 					</mo:commodityAmount>
-					<!-- GSV VicMine contains no cutOffGrade information
-					<mo:cutOffGrade/> -->
-					<!-- GSV VicMine contains no <mo:grade/> information -->
-					<mo:commodityOfInterest xlink:href="comm_Ag03"/>
+					<!-- NTGS Modat contains cutOffGrade information in [Tbl_Resource_Commodity.Cut_Off_Grade]  however there is no data for this particular instance-->
+					<mo:cutOffGrade/>
+					<!-- NTGS Modat contains  measureDetail grade in [Tbl_Resorce_Commodity.Average_Grade] -->
+					<mo:grade>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:g/t">6.3</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:grade>
+					<mo:commodityOfInterest xlink:href="comm_Au01"/>
 				</mo:CommodityMeasure>
 			</mo:measureDetails>
 			<mo:category>measured mineral resource</mo:category>
-			<!--  VicMine DOES NOT know whether it includes Reserves or not - could need unknown/unspecified in this field -->
+			<!--  NTGS Modat DOES NOT know whether it includes Reserves or not - could need unknown/unspecified in this field -->
 			<mo:includesReserves>false</mo:includesReserves>
 		</mo:Resource>
 	</mo:oreAmount>
-	<!-- For GSV VicMine MineralOccurrenceType is to come from Site Type. 
-	For Site Type = Production Centre, use MineralOccurrenceType = "mineral deposit"; 
-	for Extractive Ind. Interest Area, use MineralOccurrenceType = "district";  
-	for Occurrence, use "occurrence"; for a Resource Area, use "field". 
-	For Site Type = Production Centre and there is a Mine Size, use "ore deposit".  -->
+	<mo:oreAmount>
+		<mo:Reserve>
+			<!-- NTGS Modat doesn't contain calculationMethod, use "Unspecified" as default -->
+			<mo:calculationMethod>unspecified</mo:calculationMethod>
+			<!-- NTGS Modat doesn't contain oreAmount date assign "Unknown"-->
+			<mo:date>
+				<gml:TimeInstant>
+					<gml:timePosition>unknown</gml:timePosition>
+				</gml:TimeInstant>
+			</mo:date>
+			<!--NTGS Modat doesn't contain oreAmount sourceReference, use "Unspecified"-->
+			<mo:sourceReference xlink:href="unspecified"/>
+			<mo:ore>
+				<!--NTGS Modat contains commodityAmount in  [Tbl_Reserve_Commodity.Contained_Metal]-->
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:Mt">4.861</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:ore>
+			<mo:measureDetails>
+				<mo:CommodityMeasure>
+					<mo:grade>
+					<!-- NTGS Modat contains  measureDetail grade in [Tbl_Reserve_Commodity.Average_Grade] -->
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:g/T">5.67</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:grade>
+					<mo:commodityOfInterest xlink:href="comm_Au01"/>
+				</mo:CommodityMeasure>
+			</mo:measureDetails>
+			<mo:category>proved ore reserves</mo:category>
+		</mo:Reserve>
+	</mo:oreAmount>
+	<mo:oreAmount>
+		<mo:Reserve>
+			<!-- NTGS Modat doesn't contain calculationMethod, use "Unspecified" as default -->
+			<mo:calculationMethod>unspecified</mo:calculationMethod>
+			<!-- NTGS Modat doesn't contain oreAmount date assign "Unknown"-->
+			<mo:date>
+				<gml:TimeInstant>
+					<gml:timePosition>unknown</gml:timePosition>
+				</gml:TimeInstant>
+			</mo:date>
+			<!--NTGS Modat doesn't contain oreAmount sourceReference, use "Unspecified"-->
+			<mo:sourceReference xlink:href="unspecified"/>
+			<mo:ore>
+			<!--NTGS Modat contains commodityAmount in  [Tbl_Reserve_Commodity.Contained_Metal]-->
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:Mt">5.072</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:ore>
+			<mo:measureDetails>
+				<mo:CommodityMeasure>
+					<mo:grade>
+					<!-- NTGS Modat contains  measureDetail grade in [Tbl_Reserve_Commodity.Average_Grade] -->
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:g/T">6.76</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:grade>
+					<mo:commodityOfInterest xlink:href="comm_Au01"/>
+				</mo:CommodityMeasure>
+			</mo:measureDetails>
+			<mo:category>probable ore reserves</mo:category>
+		</mo:Reserve>
+	</mo:oreAmount>
 	<mo:type>mineral deposit</mo:type>
 </mo:MineralOccurrence>
