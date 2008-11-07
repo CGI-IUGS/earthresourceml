@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wfs:FeatureCollection xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                       xmlns:mo="urn:cgi:xmlns:GGIC:MineralOccurrence:1.0"
+                       xmlns:wfs="http://www.opengis.net/wfs"
+                       xmlns:xlink="http://www.w3.org/1999/xlink"
+                       xmlns:gml="http://www.opengis.net/gml"
+                       numberOfFeatures="1"
+                       xsi:schemaLocation="http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd urn:cgi:xmlns:GGIC:MineralOccurrence:1.0 http://mydpi/doco/xml-schema/mineralOccurrence.xsd">
+   <gml:boundedBy>
+      <gml:Envelope srsName="EPSG:4283">
+         <gml:pos srsDimension="2">-37.04981 142.78134</gml:pos>
+         <gml:pos srsDimension="2">-37.04981 142.78134</gml:pos>
+      </gml:Envelope>
+   </gml:boundedBy>
+   <gml:featureMember>
+      <mo:Mine gml:id="mo.mine.431751">
+         <gml:description>Magdala Mine originally opened by Magdala Co. in 1868. Purchased by Moonlight Co. in 1885 to form Magdala-cum-moonlight. Magdala Co. taken over by Moonlight Co. in 1885 owing to encroachment on lease after 130,000 pounds had been expended. Since the start of underground mining in 1980 to 1984, 6km of decline and 43km of level development has been completed. 3 types of Au bearing lodes are mined - laminated &amp; massive qtz vein lodes, qtz-sulphide lodes &amp; sulphide lodes. Reef located in a 150m wide shear zone between mine schist &amp; Magdala basalt within the Magdala volcanogenics. Reef system consists of steep sub-parallel lodes with branching flat lodes. Stopes at junction of these lodes attain widths of 15m.</gml:description>
+         <gml:name codeSpace="http://www.cgi-iugs.org/CGIIdentifierScheme">urn:cgi:feature:GSV:TestBedSiteID:431751</gml:name>
+         <gml:boundedBy>
+            <gml:Envelope srsName="EPSG:4283">
+               <gml:pos srsDimension="2">-37.04981 142.78134</gml:pos>
+               <gml:pos srsDimension="2">-37.04981 142.78134</gml:pos>
+            </gml:Envelope>
+         </gml:boundedBy>
+         <gml:location>
+            <gml:Point srsName="EPSG:4283">
+               <gml:pos srsDimension="2">-37.04981 142.78134</gml:pos>
+            </gml:Point>
+         </gml:location>
+         <mo:endDate>
+            <gml:TimeInstant>
+               <gml:timePosition>1917-12-31T00:00:00</gml:timePosition>
+            </gml:TimeInstant>
+         </mo:endDate>
+         <mo:mineName>
+            <mo:MineNamePreference>
+               <mo:isPreferred>true</mo:isPreferred>
+               <mo:mineName>Magdala</mo:mineName>
+            </mo:MineNamePreference>
+         </mo:mineName>
+         <mo:mineName>
+            <mo:MineNamePreference>
+               <mo:isPreferred>false</mo:isPreferred>
+               <mo:mineName>Magdala Cum Moonlight Co.</mo:mineName>
+            </mo:MineNamePreference>
+         </mo:mineName>
+         <mo:mineName>
+            <mo:MineNamePreference>
+               <mo:isPreferred>false</mo:isPreferred>
+               <mo:mineName>Stawell Joint Venture</mo:mineName>
+            </mo:MineNamePreference>
+         </mo:mineName>
+         <mo:mineName>
+            <mo:MineNamePreference>
+               <mo:isPreferred>false</mo:isPreferred>
+               <mo:mineName>Stawell Gold Mines Pty Ltd</mo:mineName>
+            </mo:MineNamePreference>
+         </mo:mineName>
+         <mo:mineName>
+            <mo:MineNamePreference>
+               <mo:isPreferred>false</mo:isPreferred>
+               <mo:mineName>Stawell Gold Mine</mo:mineName>
+            </mo:MineNamePreference>
+         </mo:mineName>
+         <mo:mineName>
+            <mo:MineNamePreference>
+               <mo:isPreferred>false</mo:isPreferred>
+               <mo:mineName>Magdala</mo:mineName>
+            </mo:MineNamePreference>
+         </mo:mineName>
+         <mo:mineName>
+            <mo:MineNamePreference>
+               <mo:isPreferred>false</mo:isPreferred>
+               <mo:mineName>Magdala Lode</mo:mineName>
+            </mo:MineNamePreference>
+         </mo:mineName>
+         <mo:mineName>
+            <mo:MineNamePreference>
+               <mo:isPreferred>false</mo:isPreferred>
+               <mo:mineName>Moonlight Reef</mo:mineName>
+            </mo:MineNamePreference>
+         </mo:mineName>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:100"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:10418"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:1452"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:1463"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:1466"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:14829"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:14841"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:14842"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:14844"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:14845"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:14848"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:14849"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:14850"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:14851"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:14852"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:14853"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:1524"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:1685"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:26724"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:29109"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:29165"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:33053"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:33055"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:33056"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:33057"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:33186"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:33187"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:33188"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:33189"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:33191"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:33192"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:33194"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:33195"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:33196"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:33197"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:33198"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:33199"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:33200"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:33213"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:33216"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:33218"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:33228"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:33229"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:33230"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:33231"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:33233"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:33878"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:34961"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:382"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:58"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:59"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:6267"/>
+         <mo:status>unknown</mo:status>
+         <mo:relatedActivity xlink:href="To be implemented"/>
+         <mo:relatedMine xlink:href="urn:cgi:feature:GSV:TestBedSiteID:431729"/>
+         <mo:relatedMine xlink:href="urn:cgi:feature:GSV:TestBedSiteID:431747"/>
+      </mo:Mine>
+   </gml:featureMember>
+</wfs:FeatureCollection>
