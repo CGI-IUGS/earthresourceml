@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wfs:FeatureCollection xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                       xmlns:mo="urn:cgi:xmlns:GGIC:MineralOccurrence:1.0"
+                       xmlns:wfs="http://www.opengis.net/wfs"
+                       xmlns:xlink="http://www.w3.org/1999/xlink"
+                       xmlns:gml="http://www.opengis.net/gml"
+                       numberOfFeatures="1"
+                       xsi:schemaLocation="http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd urn:cgi:xmlns:GGIC:MineralOccurrence:1.0 http://mydpi/doco/xml-schema/mineralOccurrence.xsd">
+<!-- hgfgfkfkfdktd -->   
+   <gml:boundedBy>
+      <gml:Envelope srsName="EPSG:4283">
+         <gml:pos srsDimension="2">-36.59874 143.25181</gml:pos>
+         <gml:pos srsDimension="2">-36.59874 143.25181</gml:pos>
+      </gml:Envelope>
+   </gml:boundedBy>
+   <gml:featureMember>
+      <mo:Mine gml:id="mo.mine.363340">
+         <gml:description>Shoot 100 ft long.</gml:description>
+         <gml:name codeSpace="http://www.cgi-iugs.org/CGIIdentifierScheme">urn:cgi:feature:GSV:TestBedSiteID:363340</gml:name>
+         <gml:boundedBy>
+            <gml:Envelope srsName="EPSG:4283">
+               <gml:pos srsDimension="2">-36.59874 143.25181</gml:pos>
+               <gml:pos srsDimension="2">-36.59874 143.25181</gml:pos>
+            </gml:Envelope>
+         </gml:boundedBy>
+         <gml:location>
+            <gml:Point srsName="EPSG:4283">
+               <gml:pos srsDimension="2">-36.59874 143.25181</gml:pos>
+            </gml:Point>
+         </gml:location>
+         <mo:startDate>
+            <gml:TimeInstant>
+               <gml:timePosition>1868-01-01T00:00:00</gml:timePosition>
+            </gml:TimeInstant>
+         </mo:startDate>
+         <mo:endDate>
+            <gml:TimeInstant>
+               <gml:timePosition>1891-12-31T00:00:00</gml:timePosition>
+            </gml:TimeInstant>
+         </mo:endDate>
+         <mo:mineName>
+            <mo:MineNamePreference>
+               <mo:isPreferred>true</mo:isPreferred>
+               <mo:mineName>Armenian</mo:mineName>
+            </mo:MineNamePreference>
+         </mo:mineName>
+         <mo:mineName>
+            <mo:MineNamePreference>
+               <mo:isPreferred>false</mo:isPreferred>
+               <mo:mineName>Last Chance</mo:mineName>
+            </mo:MineNamePreference>
+         </mo:mineName>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:14688"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:14691"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:14692"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:14696"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:21430"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:25085"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:26207"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:26463"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:4"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:57"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:58"/>
+         <mo:sourceReference xlink:href="urn:cgi:object:GSV:Reference:TestBedRefID:59"/>
+         <mo:status>unknown</mo:status>
+         <mo:relatedActivity xlink:href="To be implemented"/>
+         <mo:relatedMine xlink:href="urn:cgi:feature:GSV:TestBedSiteID:363731"/>
+      </mo:Mine>
+   </gml:featureMember>
+</wfs:FeatureCollection>

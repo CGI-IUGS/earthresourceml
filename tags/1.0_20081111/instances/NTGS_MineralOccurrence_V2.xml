@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mo:MineralOccurrence gml:id="id_mo01" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:mo="urn:cgi:xmlns:GGIC:MineralOccurrence:1.0" xmlns:om="http://www.opengis.net/om" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cgu="urn:cgi:xmlns:CGI:Utilities:1.0" xsi:schemaLocation="urn:cgi:xmlns:GGIC:MineralOccurrence:1.0 https://www.seegrid.csiro.au/subversion/xmml/GGIC/trunk/schema/MineralOccurrence/1.0.0/mineralOccurrence.xsd">
+	<!-- Prepared by Ross Ocampo, Andrew Wrygralak, Lisa Heard NTGSNovember 2007 -->
+	<!-- NTGS Modat "Mine Name - Primary" from [Tbl_General_Data.Common_Name] should be used here -->
+	<gml:name>Callie</gml:name>
+	<!-- NTGS Modat "Other Names - Primary" from [Tbl_Other_Name.Other_Name] should be used here -->
+	<gml:name>Dead Bullock Soak</gml:name>
+	<!-- NTGS Modat Site ID from [Tbl_General_Data.Deposit_Id] along with the NTGS feature urn should be used for GML:name to identify the feature-->
+	<gml:name codeSpace="urn:ietf:rfc:2141">urn:cgi:feature:NTGS:MinOcc:Deposit_Id_911</gml:name>
+	<!-- NTGS Modat observation method comes from [Tbl_Exploration_Method.exploration_method] -->
+	<gsml:observationMethod>
+		<gsml:CGI_TermValue>
+			<gsml:value codeSpace="urn:cgi:classifierScheme:NTGS:ExplorationMethods">Drilling</gsml:value>
+		</gsml:CGI_TermValue>
+	</gsml:observationMethod>
+	<gsml:observationMethod>
+		<gsml:CGI_TermValue>
+			<gsml:value codeSpace="urn:cgi:classifierScheme:NTGS:ExplorationMethods">Geochemistry</gsml:value>
+		</gsml:CGI_TermValue>
+	</gsml:observationMethod>
+	<!-- NTGS Modat doesn't specify purpose. Assign all occurences with purpose"Instance" -->
+	<gsml:observationMethod>
+		<gsml:CGI_TermValue>
+			<gsml:value codeSpace="urn:cgi:classifierScheme:NTGS:ExplorationMethods">Geological Mapping</gsml:value>
+		</gsml:CGI_TermValue>
+	</gsml:observationMethod>
+	<gsml:observationMethod>
+		<gsml:CGI_TermValue>
+			<gsml:value codeSpace="urn:cgi:classifierScheme:NTGS:ExplorationMethods">Geophysics</gsml:value>
+		</gsml:CGI_TermValue>
+	</gsml:observationMethod>
+	<gsml:purpose>instance</gsml:purpose>
+	<gsml:occurrence>
+		<gsml:MappedFeature gml:id="id_mf01">
+			<!-- NTGS Modat Site Feature, [Tbl_Site.Ref_Description] = gml:description.  -->
+			<!-- Example from Site_Id 41 -->
+			<gml:description>Location provided by Newmont and entered by AW</gml:description>
+			<gml:name>Approximate centre of resource</gml:name>
+			<!-- NTGS Modat observation method from [Tbl_Site.Accuracy_Method]	-->
+			<gsml:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:NTGS:CaptureMethod">1:100 000 topographic map (AMG66)</gsml:value>
+				</gsml:CGI_TermValue>
+			</gsml:observationMethod>
+			<!-- NTGS Modat stores positional accuracy in [Tbl_Site.Accuracy] -->
+			<gsml:positionalAccuracy>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:m">100</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</gsml:positionalAccuracy>
+			<!-- samplingFrame specifies the shape that contains the whole feature -->
+			<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+			<!-- gsml:specification specifies which GeologicFeature the MappedFeature refers to.-->
+			<gsml:specification xlink:href="urn:cgi:feature:NTGS:MinOcc:Deposit_Id_911"/>
+			<gsml:shape>
+				<!-- EPSG number for MGA94 Zone 52 is inserted here; requires coding to depend on MGA zone; in NTGS Modat this data comes from [Tbl_Site.MGA_E and MGA_N] -->
+				<gml:Point srsName="EPSG:28352">
+					<gml:pos>596431 7729965</gml:pos>
+				</gml:Point>
+			</gsml:shape>
+		</gsml:MappedFeature>
+	</gsml:occurrence>
+	<gsml:preferredAge>
+		<gsml:GeologicEvent>
+			<!-- NTGS Modat stores eventAge in [Tbl_General_Data.Name_Of_Age -->
+			<gsml:eventAge>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:ICS:StratChart2008">Palaeoproterozoic</gsml:value>
+				</gsml:CGI_TermValue>
+			</gsml:eventAge>
+			<!-- NTGS Modat does not have eventEnvironment -->
+			<!-- NTGS Modat is defaulting to "Mineralisation" -->
+			<gsml:eventProcess>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:NTGS:EventProcess">Mineralisation</gsml:value>
+				</gsml:CGI_TermValue>
+			</gsml:eventProcess>
+		</gsml:GeologicEvent>
+	</gsml:preferredAge>
+	<!-- require schema to handle reference id, author, year, title in source reference -->
+	<!-- NTGS Modat has no dimensions, use the default values from Orebody  -->
+	<mo:dimension>
+		<mo:EarthResourceDimension>
+			<mo:depth>
+				<!-- Using NTGS Modat [Tbl_General_Data.Depth]-->
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:m">1300</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:depth>
+			<mo:length>
+			<!-- Using NTGS Modat [Tbl_General_Data.length]-->
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:m">500</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:length>
+			<mo:width>
+			<!-- Using NTGS Modat [Tbl_General_Data.Width]-->
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:m">14732</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:width>
+		</mo:EarthResourceDimension>
+	</mo:dimension>
+	<!-- NTGS Modat has no expression -->
+	<!-- form comes from NTGS MOdat [Tbl_General_Data.Overall_Style1 and Style2] -->
+	<mo:form>
+		<gsml:CGI_TermValue>
+			<gsml:value codeSpace="urn:cgi:classifierScheme:NTGS:Overall_Style">sheeted vein</gsml:value>
+		</gsml:CGI_TermValue>
+	</mo:form>
+	<mo:form>
+		<gsml:CGI_TermValue>
+			<gsml:value codeSpace="urn:cgi:classifierScheme:NTGS:Overall_Style">disseminated</gsml:value>
+		</gsml:CGI_TermValue>
+	</mo:form>
+	<!-- NTGS Modat get linear orientation from [Tbl_General_Data.Plunge]-->
+	<mo:linearOrientation>
+		<gsml:CGI_LinearOrientation>
+			<gsml:plunge>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:degree">45</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</gsml:plunge>
+			<gsml:trend>
+				<gsml:CGI_TermValue>
+					<!-- need standard code space for gml compass points -->
+					<gsml:value codeSpace="">E</gsml:value>
+				</gsml:CGI_TermValue>
+			</gsml:trend>
+		</gsml:CGI_LinearOrientation>
+	</mo:linearOrientation>
+	<!-- Planar Orientation measurement required from NTGS Modat [Tbl_General_Data.Dip_Direction]  -->
+	<mo:planarOrientation>
+		<gsml:CGI_PlanarOrientation>
+			<gsml:convention>dip dip direction</gsml:convention>
+			<gsml:azimuth>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:degree">170</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</gsml:azimuth>
+			<gsml:dip>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:degree">75</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</gsml:dip>
+			<gsml:polarity>unknown</gsml:polarity>
+		</gsml:CGI_PlanarOrientation>
+	</mo:planarOrientation>
+	<!-- Planar Orientation measurement required from NTGS Modat [Tbl_General_Data.Ore_Strike]  -->
+	<mo:planarOrientation>
+		<gsml:CGI_PlanarOrientation>
+			<gsml:convention>strike dip right hand rule</gsml:convention>
+			<gsml:azimuth>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:degree">080</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</gsml:azimuth>
+			<gsml:dip>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:degree">75</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</gsml:dip>
+			<gsml:polarity>not applicable</gsml:polarity>
+		</gsml:CGI_PlanarOrientation>
+	</mo:planarOrientation>
+	<!-- NTGS Modat has no shape data
+	<mo:shape/> -->
+	<mo:classification>
+		<mo:MineralDepositModel>
+			<!-- NTGS Modat mineralDepositGroup will come from [Tbl_General_Data.Cox_Classification] -->
+			<mo:mineralDepositGroup codeSpace="urn:cgi:classifierScheme:NTGS:DepositGroup">Low-sulphide Au-quartz veins</mo:mineralDepositGroup>
+			<!-- NTGS Modat mineralDepositType will come from [Tbl_General_Data.Model] -->
+			<mo:mineralDepositType codeSpace="urn:cgi:classifierScheme:NTGS:DepositType">vein</mo:mineralDepositType>
+		</mo:MineralDepositModel>
+	</mo:classification>
+	<mo:commodityDescription>
+		<mo:Commodity gml:id="comm_Au01">
+			<!-- NTGS Modat commodityGroup will come from [Tbl_Commodity_Summary.Mineral_Catagories] -->
+			<mo:commodityGroup>Precious Metals</mo:commodityGroup>
+			<!-- NTGS Modat commodityName comes from [Tbl_Commodity_Summary.Commodity] -->
+			<mo:commodityName>Gold</mo:commodityName>
+			<!-- For commodityImportance NTGS Modat comes from [Tbl_Commodity_Summary.Major_Minor] -->
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<!-- NTGS Modat does not have commodityRank -->
+			<!-- source href should point to the feature id.  This could be gml:id but is better if it is the urn -->
+			<mo:source xlink:href="urn:cgi:feature:NTGS:MinOcc:Deposit_Id_911"/>
+		</mo:Commodity>
+	</mo:commodityDescription>
+	<!-- NTGS Modat values that come from [Tbl_Host_Rock] - will have ER_MaterialRoleCode = "host rock"; values that come from [Tbl_Ore_Minerals.Primary_Secondary] - will have ER_MaterialRoleCode = "primary" or "secondary" -->
+	<mo:composition>
+		<mo:EarthResourceMaterial>
+			<mo:earthResourceMaterialRole>host rock</mo:earthResourceMaterialRole>
+			<mo:material>
+				<gsml:Rock>
+					<gsml:purpose>instance</gsml:purpose>
+					<!-- NTGS Modat consolidationDegree = "consolidated" -->
+					<gsml:consolidationDegree>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="urn:cgi:classifierScheme:CGI:ConsolidationDegree:2007">consolidated</gsml:value>
+						</gsml:CGI_TermValue>
+					</gsml:consolidationDegree>
+					<!-- Lithology terms from qualifier 1 to 3 and lithology -->
+					<!-- Proportion terms major, minor not used -->
+					<gsml:lithology>
+						<gsml:ControlledConcept gml:id="Id_cc01">
+						<!-- NTGS Modat [Tbl_Host_Rock.Qualifier1-Tbl_Host_Rock.Lithology] -->
+							<gml:name codeSpace="urn:cgi:classifierScheme:NTGS:Lithology">meta siltstone</gml:name>
+							<gsml:identifier codeSpace="urn:cgi:classifierScheme:NTGS:Lithology">meta siltstone</gsml:identifier>
+							<gsml:name xml:lang="en" codeSpace="urn:cgi:classifierScheme:NTGS:Lithology">meta siltstone</gsml:name>
+							<gsml:vocabulary xlink:href="urn:cgi:classifierScheme:NTGS:Lithology"/>
+						</gsml:ControlledConcept>
+					</gsml:lithology>
+					<gsml:lithology>
+						<gsml:ControlledConcept gml:id="Id_cc02">
+						<!-- NTGS Modat [Tbl_Host_Rock.Qualifier1-Tbl_Host_Rock.Lithology] -->
+							<gml:name codeSpace="urn:cgi:classifierScheme:NTGS:Lithology">carbonaceous schist</gml:name>
+							<gsml:identifier codeSpace="urn:cgi:classifierScheme:NTGS:Lithology">carbonaceous schist</gsml:identifier>
+							<gsml:name xml:lang="en" codeSpace="urn:cgi:classifierScheme:NTGS:Lithology">carbonaceous schist</gsml:name>
+							<gsml:vocabulary xlink:href="urn:cgi:classifierScheme:NTGS:Lithology"/>
+						</gsml:ControlledConcept>
+					</gsml:lithology>
+					<gsml:lithology>
+						<gsml:ControlledConcept gml:id="Id_cc03">
+						<!-- NTGS Modat [Tbl_Host_Rock.Qualifier1-Tbl_Host_Rock.Lithology] -->
+							<gml:name codeSpace="urn:cgi:classifierScheme:NTGS:Lithology">quartz sericite chlorite schist</gml:name>
+							<gsml:identifier codeSpace="urn:cgi:classifierScheme:NTGS:Lithology">quartz sericite chlorite schist</gsml:identifier>
+							<gsml:name xml:lang="en" codeSpace="urn:cgi:classifierScheme:NTGS:Lithology">quartz sericite chlorite schist</gsml:name>
+							<gsml:vocabulary xlink:href="urn:cgi:classifierScheme:NTGS:Lithology"/>
+						</gsml:ControlledConcept>
+					</gsml:lithology>
+				</gsml:Rock>
+			</mo:material>
+		</mo:EarthResourceMaterial>
+	</mo:composition>
+	<mo:composition>
+		<mo:EarthResourceMaterial>
+			<mo:earthResourceMaterialRole>primary</mo:earthResourceMaterialRole>
+			<mo:material>
+				<gsml:Mineral>
+					<gsml:purpose>instance</gsml:purpose>
+					<gsml:mineralName>
+						<gsml:ControlledConcept gml:id="Id_cc04">
+						<!-- NTGS Modat [Tbl_Ore_Minerals.Ore_Mineral] -->
+							<gml:name codeSpace="urn:ietf:rfc:2141">urn:cgi:classifierScheme:CGI:Minerals:arsenopyrite</gml:name>
+							<gsml:identifier codeSpace="urn:ietf:rfc:2141">urn:cgi:classifierScheme:CGI:Minerals:arsenopyrite</gsml:identifier>
+							<gsml:name codeSpace="urn:cgi:classifierScheme:CGI:Minerals" xml:lang="en">arsenopyrite</gsml:name>
+							<gsml:vocabulary xlink:href="urn:cgi:classifierScheme:CGI:Minerals"/>
+						</gsml:ControlledConcept>
+					</gsml:mineralName>
+				</gsml:Mineral>
+				<!-- repeat for another 5 minerals -->
+			</mo:material>
+		</mo:EarthResourceMaterial>
+	</mo:composition>
+	<!-- EarthResources can have a geneticDescription - created an empty dummy for validation purposes -->
+	<mo:geneticDescription>
+		<mo:MineralSystem>
+			<mo:associationType>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace=""/>
+				</gsml:CGI_TermValue>
+			</mo:associationType>
+			<mo:fluidDescription/>
+		</mo:MineralSystem>
+	</mo:geneticDescription>
+	<mo:resourceExtraction>
+		<!-- NTGS Modat stores activityDuration in [Tbl_Data_Production.Period] -->
+		<mo:MiningActivity gml:id="id_ma01">
+			<mo:activityDuration>
+				<gml:TimePeriod>
+					<gml:begin>
+						<gml:TimeInstant>
+							<gml:timePosition>1992</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:begin>
+					<gml:end>
+						<gml:TimeInstant>
+							<gml:timePosition>2002</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:end>
+				</gml:TimePeriod>
+			</mo:activityDuration>
+			<!-- NTGS Modat stores miningActivity in [Tbl_General_Data.Mining_Method] -->
+			<mo:activityType>open cut mining</mo:activityType>
+			<!-- NTGS Modat stores oreProcessed in [Tbl_Data_Production.Ore_Amount] -->
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:Mt">12.8</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine>
+				<mo:Mine gml:id="id_mine01">
+					<mo:startDate>
+						<gml:TimeInstant>
+							<gml:timePosition>unknown</gml:timePosition>
+						</gml:TimeInstant>
+					</mo:startDate>
+					<mo:endDate>
+						<gml:TimeInstant>
+							<gml:timePosition>unknown</gml:timePosition>
+						</gml:TimeInstant>
+					</mo:endDate>
+					<!-- In NTGS use deposit name as mine name [Tbl_General_Data.Common_Name]-->
+					<mo:mineName>
+						<mo:MineNamePreference>
+							<!-- isPreferred is Boolean, true=yes false=no -->
+							<mo:isPreferred>true</mo:isPreferred>
+							<mo:mineName>Callie</mo:mineName>
+						</mo:MineNamePreference>
+					</mo:mineName>
+					<!-- the alternative names are non-preferred [Tbl_Other_Name.Other_Name]-->
+					<mo:mineName>
+						<mo:MineNamePreference>
+							<mo:isPreferred>false</mo:isPreferred>
+							<mo:mineName>Dead Bullock Soak</mo:mineName>
+						</mo:MineNamePreference>
+					</mo:mineName>
+					<mo:sourceReference xlink:href="unspecified"/>
+					<!--NTGS Modat contains status in [Tbl_General_Description.Status] it is mixed up with the Mineral Occurrence type-->
+					<mo:status>operating continuously</mo:status>
+					<mo:relatedActivity xlink:href="id_ma01"/>
+				</mo:Mine>
+			</mo:associatedMine>
+			<!-- NTGS Modat does not store composition: RawMaterial or RawMaterialRole-->
+			<mo:deposit xlink:href="id_mo01"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<!-- In NTGS Modat productName is in [Tbl_Commodity_Summary.Commodity] -->
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="urn:cgi:classifierScheme:NTGS:ProductionMaterials:2007">gold</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="unspecified"/>
+					<!-- In NTGS Modat grade is in [Tbl_Data_Production_Commodity.Average_Grade] -->
+					<mo:grade>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:g/t">5.1</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:grade>
+					<!-- In NTGS Modat production is in [Tbl_Data_Production_Commodity.Contained_Metal]  -->
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:oz">2031403</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<!-- NTGS Modat doesn't contain recovery values -->
+					<mo:sourceCommodity xlink:href="unspecified"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</mo:resourceExtraction>
+	<mo:supergeneModification>
+		<mo:SupergeneProcesses>
+			<!-- NTGS Modat depth of Supergene to be taken from [Tbl_General_Data.Weathering_Depth] -->
+			<mo:depth>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:m">100</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:depth>
+			<!-- NTGS Modat does not contain Supergene material -->
+			<mo:material/>
+			<!-- NTGS Modat stores Supergene type in [Tbl_General_Data.Weathering_Effect]-->
+			<mo:type>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:NTGS:SupergeneType:2007">oxidation</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:type>
+		</mo:SupergeneProcesses>
+	</mo:supergeneModification>
+	<!-- MineralOccurrence parent can go here 
+	Child can go here -->
+	<mo:oreAmount>
+		<mo:Resource>
+			<!-- NTGS Modat doesn't contain calculationMethod, use "Unspecified" as default -->
+			<mo:calculationMethod>unspecified</mo:calculationMethod>
+			<!-- NTGS Modat doesn't contain oreAmount date assign "Unknown"-->
+			<mo:date>
+				<gml:TimeInstant>
+					<gml:timePosition>unknown</gml:timePosition>
+				</gml:TimeInstant>
+			</mo:date>
+			<!--NTGS Modat doesn't contain oreAmount sourceReference, use "Unspecified"-->
+			<mo:sourceReference xlink:href="unspecified"/>
+			<mo:ore>
+				<!--NTGS Modat contains ore in [Tbl_Data_Resource.Ore_Amount]-->
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:Mt">11.8</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:ore>
+			<mo:measureDetails>
+				<!--NTGS Modat contains commodityAmount in  [Tbl_Resource_Commodity.Contained_Metal]-->
+				<mo:CommodityMeasure>
+					<mo:commodityAmount>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:t">73.3</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:commodityAmount>
+					<!-- NTGS Modat contains cutOffGrade information in [Tbl_Resource_Commodity.Cut_Off_Grade]  however there is no data for this particular instance-->
+					<mo:cutOffGrade/>
+					<!-- NTGS Modat contains  measureDetail grade in [Tbl_Resorce_Commodity.Average_Grade] -->
+					<mo:grade>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:g/t">6.3</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:grade>
+					<mo:commodityOfInterest xlink:href="comm_Au01"/>
+				</mo:CommodityMeasure>
+			</mo:measureDetails>
+			<mo:category>measured mineral resource</mo:category>
+			<!--  NTGS Modat DOES NOT know whether it includes Reserves or not - could need unknown/unspecified in this field -->
+			<mo:includesReserves>false</mo:includesReserves>
+		</mo:Resource>
+	</mo:oreAmount>
+	<mo:oreAmount>
+		<mo:Reserve>
+			<!-- NTGS Modat doesn't contain calculationMethod, use "Unspecified" as default -->
+			<mo:calculationMethod>unspecified</mo:calculationMethod>
+			<!-- NTGS Modat doesn't contain oreAmount date assign "Unknown"-->
+			<mo:date>
+				<gml:TimeInstant>
+					<gml:timePosition>unknown</gml:timePosition>
+				</gml:TimeInstant>
+			</mo:date>
+			<!--NTGS Modat doesn't contain oreAmount sourceReference, use "Unspecified"-->
+			<mo:sourceReference xlink:href="unspecified"/>
+			<mo:ore>
+				<!--NTGS Modat contains commodityAmount in  [Tbl_Reserve_Commodity.Contained_Metal]-->
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:Mt">4.861</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:ore>
+			<mo:measureDetails>
+				<mo:CommodityMeasure>
+					<mo:grade>
+					<!-- NTGS Modat contains  measureDetail grade in [Tbl_Reserve_Commodity.Average_Grade] -->
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:g/T">5.67</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:grade>
+					<mo:commodityOfInterest xlink:href="comm_Au01"/>
+				</mo:CommodityMeasure>
+			</mo:measureDetails>
+			<mo:category>proved ore reserves</mo:category>
+		</mo:Reserve>
+	</mo:oreAmount>
+	<mo:oreAmount>
+		<mo:Reserve>
+			<!-- NTGS Modat doesn't contain calculationMethod, use "Unspecified" as default -->
+			<mo:calculationMethod>unspecified</mo:calculationMethod>
+			<!-- NTGS Modat doesn't contain oreAmount date assign "Unknown"-->
+			<mo:date>
+				<gml:TimeInstant>
+					<gml:timePosition>unknown</gml:timePosition>
+				</gml:TimeInstant>
+			</mo:date>
+			<!--NTGS Modat doesn't contain oreAmount sourceReference, use "Unspecified"-->
+			<mo:sourceReference xlink:href="unspecified"/>
+			<mo:ore>
+			<!--NTGS Modat contains commodityAmount in  [Tbl_Reserve_Commodity.Contained_Metal]-->
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:Mt">5.072</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:ore>
+			<mo:measureDetails>
+				<mo:CommodityMeasure>
+					<mo:grade>
+					<!-- NTGS Modat contains  measureDetail grade in [Tbl_Reserve_Commodity.Average_Grade] -->
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:g/T">6.76</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:grade>
+					<mo:commodityOfInterest xlink:href="comm_Au01"/>
+				</mo:CommodityMeasure>
+			</mo:measureDetails>
+			<mo:category>probable ore reserves</mo:category>
+		</mo:Reserve>
+	</mo:oreAmount>
+	<mo:type>mineral deposit</mo:type>
+</mo:MineralOccurrence>
