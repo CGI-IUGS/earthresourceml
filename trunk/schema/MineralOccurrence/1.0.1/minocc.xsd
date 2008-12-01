@@ -823,11 +823,6 @@ Included here in order to be able to identify that component of the EarthResourc
                     <documentation>a spiral ramp which allows access to the deposit.</documentation>
                 </annotation>
             </enumeration>
-            <enumeration value="open cut and underground mining">
-                <annotation>
-                    <documentation>Operation to commercially extract any mineral from the ground from an excavation open at surface and underground. </documentation>
-                </annotation>
-            </enumeration>
             <enumeration value="unspecified">
                 <annotation>
                     <documentation>Information not available. </documentation>
@@ -861,6 +856,11 @@ Included here in order to be able to identify that component of the EarthResourc
             <enumeration value="open cut mining">
                 <annotation>
                     <documentation>Operation to commercially extract any mineral from the ground from an excavation open at surface. Synonyms: pit, quarry</documentation>
+                </annotation>
+            </enumeration>
+            <enumeration value="open cut and underground mining">
+                <annotation>
+                    <documentation>Operation to commercially extract any mineral from the ground from an excavation open at surface and underground. </documentation>
                 </annotation>
             </enumeration>
             <enumeration value="multiple">
