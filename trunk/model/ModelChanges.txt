@@ -1,0 +1,26 @@
+MineralOccurrence 1.0.0 changes to 1.0.1
+
+Cleaning up Names:
+Changed 'RawMaterial' <<Data Type>> to 'MinedMaterial'
+Changed role of 'MinedMaterial' from 'composition' to 'rawMaterial'
+Changed 'MineNamePreference' to 'MineName'
+ 
+Cardinality issues:
+Cardinality of 'MiningActivity' to 'MinedMaterial' changed from 0..* to 1..1 (Each MinedMaterial may only be associated with one MiningActivity)
+Changed cardinality on 'relatedMine' association to allow multiple 'relatedMines' for each 'Mine' 
+
+Model Restructure:
+Changed 'Product' from <<FeatureType>> to <<DataType>> 
+Changed 'relatedMine' aggregation to a directed association (Mines need not aggregate to form other mines, they may just be associated in some way or another)
+Created a new 'MiningFeature' as abstract parent feature for Mine and MiningActivity to allow specifying occurrences.
+Created a 'MiningFeatureOccurrence' to allow specifying the 'location' of the 'MiningFeature'. gml:location is deprecated and so need some way to link to GM_Object.  Therefore used GeoSciML pattern.
+Created 'MiningFeatureOccurrence:observationMethod' and 'MiningFeatureOccurrence:positionAccuracy' attributes as per the GeoSciML pattern. These may eventually be replaced with ISO19115 equivalents
+Added association between 'MiningFeatureOccurrence' and GM_Object with role 'location'
+
+BS 1/12/08
+Moved Mine and MiningActivity to Mine <<Leaf>>
+Created Mine diagram
+Renamed MineralOccurrences <<Application Schema>> to EarthResource <<Application Schema>>
+Created Package Dependencies between Mine <<Leaf>> and other packages
+
+
