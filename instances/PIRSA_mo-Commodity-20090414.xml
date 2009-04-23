@@ -1,0 +1,1794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wfs:FeatureCollection xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:mo="urn:cgi:xmlns:GGIC:MineralOccurrence:1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:wfs="http://www.opengis.net/wfs" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" numberOfFeatures="200" xsi:schemaLocation="urn:cgi:xmlns:GGIC:MineralOccurrence:1.0 https://www.seegrid.csiro.au/subversion/xmml/GGIC/trunk/schema/MineralOccurrence/1.0.1/mineralOccurrence.xsd http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd">
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.17deposit.Cu">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:17deposit:Cu</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Copper</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:17deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.21deposit.BAR">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:21deposit:BAR</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Industrial Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Barite</mo:commodityName>
+			<mo:commodityImportance>minor</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:21deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.21deposit.Cu">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:21deposit:Cu</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Copper</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:21deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.33deposit.Fe">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:33deposit:Fe</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Iron</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:33deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.34deposit.REE">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:34deposit:REE</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Rare Earths</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:34deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.35deposit.Cu">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:35deposit:Cu</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Copper</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:35deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.36deposit.Cu">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:36deposit:Cu</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Copper</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:36deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.37deposit.Cu">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:37deposit:Cu</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Copper</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:37deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.38deposit.Au">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:38deposit:Au</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Gold</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:38deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.39deposit.Cu">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:39deposit:Cu</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Copper</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:39deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.40deposit.CYP">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:40deposit:CYP</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Chrysoprase</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:40deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.41deposit.Cu">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:41deposit:Cu</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Copper</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:41deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.42deposit.Cu">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:42deposit:Cu</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Copper</mo:commodityName>
+			<mo:commodityImportance>minor</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:42deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.42deposit.Ni">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:42deposit:Ni</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Nickel</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:42deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.43deposit.Cu">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:43deposit:Cu</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Copper</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:43deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.44deposit.Cu">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:44deposit:Cu</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Copper</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:44deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.45deposit.Cu">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:45deposit:Cu</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Copper</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:45deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.46deposit.Cu">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:46deposit:Cu</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Copper</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:46deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.47deposit.Ni">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:47deposit:Ni</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Nickel</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:47deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.48deposit.Ni">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:48deposit:Ni</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Nickel</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:48deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.49deposit.Ni">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:49deposit:Ni</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Nickel</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:49deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.50deposit.Ni">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:50deposit:Ni</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Nickel</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:50deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.51deposit.Ni">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:51deposit:Ni</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Nickel</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:51deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.52deposit.Ni">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:52deposit:Ni</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Nickel</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:52deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.53deposit.Ni">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:53deposit:Ni</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Nickel</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:53deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.54deposit.CYP">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:54deposit:CYP</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Chrysoprase</mo:commodityName>
+			<mo:commodityImportance>minor</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:54deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.54deposit.Cu">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:54deposit:Cu</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Copper</mo:commodityName>
+			<mo:commodityImportance>minor</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:54deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.54deposit.Ni">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:54deposit:Ni</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Nickel</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:54deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.55deposit.CYP">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:55deposit:CYP</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Chrysoprase</mo:commodityName>
+			<mo:commodityImportance>minor</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:55deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.55deposit.Cu">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:55deposit:Cu</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Copper</mo:commodityName>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:55deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.55deposit.Ni">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:55deposit:Ni</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Nickel</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:55deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.56deposit.Cu">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:56deposit:Cu</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Copper</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:56deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.57deposit.Cu">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:57deposit:Cu</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Copper</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:57deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.57deposit.Ni">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:57deposit:Ni</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Nickel</mo:commodityName>
+			<mo:commodityImportance>minor</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:57deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.58deposit.Ni">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:58deposit:Ni</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Nickel</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:58deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.59deposit.Ni">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:59deposit:Ni</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Nickel</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:59deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.60deposit.Cu">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:60deposit:Cu</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Copper</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:60deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.61deposit.Ni">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:61deposit:Ni</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Nickel</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:61deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.62deposit.Ni">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:62deposit:Ni</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Nickel</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:62deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.63deposit.Ni">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:63deposit:Ni</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Nickel</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:63deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.64deposit.Ni">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:64deposit:Ni</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Nickel</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:64deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.65deposit.Ni">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:65deposit:Ni</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Nickel</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:65deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.66deposit.Cu">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:66deposit:Cu</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Copper</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:66deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.67deposit.Ni">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:67deposit:Ni</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Nickel</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:67deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.68deposit.Cu">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:68deposit:Cu</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Copper</mo:commodityName>
+			<mo:commodityImportance>minor</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:68deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.68deposit.V">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:68deposit:V</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Vanadium</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:68deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.69deposit.FEST">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:69deposit:FEST</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Industrial Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Ironstone</mo:commodityName>
+			<mo:commodityImportance>minor</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:69deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.69deposit.ILM">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:69deposit:ILM</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Industrial Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Ilmenite</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:69deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.69deposit.V">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:69deposit:V</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Vanadium</mo:commodityName>
+			<mo:commodityImportance>minor</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:69deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.71deposit.CYP">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:71deposit:CYP</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Chrysoprase</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:71deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.71deposit.Cr">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:71deposit:Cr</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Chromium</mo:commodityName>
+			<mo:commodityImportance>minor</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:71deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.72deposit.CYP">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:72deposit:CYP</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Chrysoprase</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:72deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.73deposit.AGA">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:73deposit:AGA</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Agate</mo:commodityName>
+			<mo:commodityImportance>minor</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:73deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.73deposit.CYP">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:73deposit:CYP</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Chrysoprase</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:73deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.74deposit.AGA">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:74deposit:AGA</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Agate</mo:commodityName>
+			<mo:commodityImportance>minor</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:74deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.74deposit.CYP">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:74deposit:CYP</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Chrysoprase</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:74deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.75deposit.AGA">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:75deposit:AGA</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Agate</mo:commodityName>
+			<mo:commodityImportance>minor</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:75deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.75deposit.CYP">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:75deposit:CYP</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Chrysoprase</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:75deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.76deposit.AGA">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:76deposit:AGA</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Agate</mo:commodityName>
+			<mo:commodityImportance>minor</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:76deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.76deposit.CYP">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:76deposit:CYP</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Chrysoprase</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:76deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.77deposit.AGA">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:77deposit:AGA</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Agate</mo:commodityName>
+			<mo:commodityImportance>minor</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:77deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.77deposit.CYP">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:77deposit:CYP</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Chrysoprase</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:77deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.78deposit.AGA">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:78deposit:AGA</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Agate</mo:commodityName>
+			<mo:commodityImportance>minor</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:78deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.78deposit.CYP">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:78deposit:CYP</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Chrysoprase</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:78deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.80deposit.CELES">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:80deposit:CELES</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Industrial Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Celestite</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:80deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.81deposit.CELES">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:81deposit:CELES</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Industrial Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Celestite</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:81deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.82deposit.CELES">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:82deposit:CELES</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Industrial Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Celestite</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:82deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.83deposit.CELES">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:83deposit:CELES</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Industrial Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Celestite</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:83deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.84deposit.CELES">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:84deposit:CELES</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Industrial Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Celestite</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:84deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.85deposit.CELES">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:85deposit:CELES</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Industrial Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Celestite</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:85deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.86deposit.CELES">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:86deposit:CELES</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Industrial Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Celestite</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:86deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.87deposit.CELES">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:87deposit:CELES</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Industrial Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Celestite</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:87deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.88deposit.CELES">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:88deposit:CELES</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Industrial Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Celestite</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:88deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.89deposit.CELES">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:89deposit:CELES</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Industrial Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Celestite</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:89deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.90deposit.CELES">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:90deposit:CELES</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Industrial Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Celestite</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:90deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.91deposit.CELES">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:91deposit:CELES</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Industrial Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Celestite</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:91deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.92deposit.CELES">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:92deposit:CELES</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Industrial Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Celestite</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:92deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.93deposit.CELES">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:93deposit:CELES</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Industrial Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Celestite</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:93deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.94deposit.CELES">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:94deposit:CELES</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Industrial Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Celestite</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:94deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.95deposit.CELES">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:95deposit:CELES</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Industrial Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Celestite</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:95deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.96deposit.SHA">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:96deposit:SHA</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Construction Materials</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Shale</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:96deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.97deposit.GRNBL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:97deposit:GRNBL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Construction Materials</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Granite - ballast</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:97deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.97deposit.GRNCA">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:97deposit:GRNCA</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Construction Materials</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Granite - concrete aggregate</mo:commodityName>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:97deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.97deposit.GRNRB">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:97deposit:GRNRB</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Construction Materials</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Granite - road base</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:97deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.97deposit.GRNRS">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:97deposit:GRNRS</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Construction Materials</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Granite - road seal aggregate</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:97deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.98deposit.GRNRS">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:98deposit:GRNRS</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Construction Materials</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Granite - road seal aggregate</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:98deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.98deposit.GRNTD">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:98deposit:GRNTD</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Construction Materials</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Granite - dimension stone</mo:commodityName>
+			<mo:commodityImportance>minor</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:98deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.99deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:99deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:99deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.100deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:100deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:100deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.101deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:101deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:101deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.102deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:102deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:102deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.103deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:103deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:103deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.104deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:104deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:104deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.105deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:105deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:105deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.106deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:106deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:106deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.107deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:107deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:107deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.108deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:108deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:108deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.109deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:109deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:109deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.110deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:110deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:110deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.111deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:111deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:111deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.112deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:112deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:112deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.113deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:113deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:113deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.114deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:114deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:114deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.115deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:115deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:115deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.116deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:116deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:116deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.117deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:117deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:117deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.118deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:118deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:118deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.119deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:119deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:119deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.120deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:120deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:120deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.121deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:121deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:121deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.122deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:122deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:122deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.123deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:123deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:123deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.124deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:124deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:124deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.125deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:125deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:125deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.126deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:126deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:126deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.127deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:127deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:127deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.128deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:128deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:128deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.129deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:129deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:129deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.130deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:130deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:130deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.131deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:131deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:131deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.132deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:132deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:132deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.133deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:133deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:133deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.134deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:134deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:134deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.135deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:135deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:135deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.136deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:136deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:136deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.137deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:137deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:137deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.138deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:138deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:138deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.139deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:139deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:139deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.140deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:140deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:140deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.141deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:141deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:141deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.142deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:142deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:142deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.143deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:143deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:143deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.144deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:144deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:144deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.145deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:145deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:145deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.146deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:146deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:146deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.147deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:147deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:147deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.148deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:148deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:148deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.149deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:149deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:149deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.150deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:150deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:150deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.151deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:151deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:151deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.152deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:152deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:152deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.153deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:153deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:153deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.154deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:154deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:154deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.155deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:155deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:155deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.156deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:156deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:156deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.157deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:157deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:157deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.158deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:158deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:158deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.159deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:159deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:159deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.160deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:160deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:160deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.161deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:161deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:161deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.162deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:162deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:162deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.163deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:163deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:163deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.164deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:164deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:164deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.165deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:165deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:165deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.166deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:166deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:166deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.167deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:167deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:167deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.168deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:168deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:168deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.169deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:169deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:169deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.170deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:170deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:170deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.171deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:171deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:171deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.172deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:172deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:172deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.173deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:173deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:173deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.174deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:174deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:174deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.175deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:175deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:175deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.176deposit.Fe">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:176deposit:Fe</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Iron</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:176deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.177deposit.FEST">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:177deposit:FEST</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Industrial Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Ironstone</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:177deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.178deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:178deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:178deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.179deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:179deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:179deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.180deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:180deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:180deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.181deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:181deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:181deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.182deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:182deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:182deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.183deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:183deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:183deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.184deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:184deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:184deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.185deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:185deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:185deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.186deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:186deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:186deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.187deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:187deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:187deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.188deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:188deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:188deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.189deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:189deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:189deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.190deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:190deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:190deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.191deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:191deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:191deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.192deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:192deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:192deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.193deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:193deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:193deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.194deposit.OPAL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:194deposit:OPAL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Gemstones, Semi-precious Stones and Mineral Specimens</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Opal</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:194deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.195deposit.Cu">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:195deposit:Cu</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Metalliferous Minerals</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Copper</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:195deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.196deposit.CLYWP">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:196deposit:CLYWP</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Construction Materials</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Clay (white plastic) - fired</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:196deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.197deposit.DOLRS">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:197deposit:DOLRS</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Construction Materials</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Dolomite - road seal aggregate</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:197deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.197zone.DOLRS">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:197zone:DOLRS</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Construction Materials</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Dolomite - road seal aggregate</mo:commodityName>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:197zone"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.198deposit.LMST">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:198deposit:LMST</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Construction Materials</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Limestone</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:198deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.198zone.LMST">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:198zone:LMST</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Construction Materials</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Limestone</mo:commodityName>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:198zone"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.199deposit.GRVCA">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:199deposit:GRVCA</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Construction Materials</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Gravel - concrete aggregate</mo:commodityName>
+			<mo:commodityImportance>minor</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:199deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.199deposit.GRVFL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:199deposit:GRVFL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Construction Materials</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Gravel - filling</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:199deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.199zone.GRVL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:199zone:GRVL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Construction Materials</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Gravel</mo:commodityName>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:199zone"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.200deposit.LMST">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:200deposit:LMST</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Construction Materials</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Limestone</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:200deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.200zone.LMST">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:200zone:LMST</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Construction Materials</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Limestone</mo:commodityName>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:200zone"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.201deposit.QTZE">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:201deposit:QTZE</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Construction Materials</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Quartzite</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:201deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.201zone.QTZE">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:201zone:QTZE</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Construction Materials</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Quartzite</mo:commodityName>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:201zone"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.202deposit.DLT">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:202deposit:DLT</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Construction Materials</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Dolerite - ballast</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:202deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.202zone.DLT">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:202zone:DLT</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Construction Materials</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Dolerite - ballast</mo:commodityName>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:202zone"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.203deposit.RHYBL">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:203deposit:RHYBL</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Construction Materials</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Rhyolite - ballast</mo:commodityName>
+			<mo:commodityImportance>major</mo:commodityImportance>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:203deposit"/>
+		</mo:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:Commodity gml:id="mo.commodity.203zone.RHYO">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MineralCommodity:203zone:RHYO</gml:name>
+			<mo:commodityGroup codeSpace="urn:cgi:classifierScheme:PIRSA:CommodityGroup">Construction Materials</mo:commodityGroup>
+			<mo:commodityName codeSpace="urn:cgi:classifierScheme:PIRSA:OreType">Rhyolite</mo:commodityName>
+			<mo:source xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:203zone"/>
+		</mo:Commodity>
+	</gml:featureMember>
+</wfs:FeatureCollection>

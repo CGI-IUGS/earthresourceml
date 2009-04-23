@@ -1,0 +1,1559 @@
+<wfs:FeatureCollection xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml" xmlns:mo="urn:cgi:xmlns:GGIC:MineralOccurrence:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wfs="http://www.opengis.net/wfs" numberOfFeatures="50" xsi:schemaLocation="urn:cgi:xmlns:GGIC:MineralOccurrence:1.0 https://www.seegrid.csiro.au/subversion/xmml/GGIC/trunk/schema/MineralOccurrence/1.0.1/mineralOccurrence.xsd http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd">
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.950">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:950</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209543"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">145</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:1049"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:1049"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Copper</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:grade>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:%">7</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:grade>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">145</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.289">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:289</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209554"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:KG">136</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:1037"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:1037"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Uranium Oxide</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:KG">136</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.948">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:948</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209560"/>
+			<mo:activityDuration>
+				<gml:TimePeriod>
+					<gml:begin>
+						<gml:TimeInstant>
+							<gml:timePosition>01/01/1903</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:begin>
+					<gml:end>
+						<gml:TimeInstant>
+							<gml:timePosition>30/06/1904</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:end>
+				</gml:TimePeriod>
+			</mo:activityDuration>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">4.39</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:1024"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:1024"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Cobalt</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:grade>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:%">12</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:grade>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">4.39</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.949">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:949</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209560"/>
+			<mo:activityDuration>
+				<gml:TimePeriod>
+					<gml:begin>
+						<gml:TimeInstant>
+							<gml:timePosition>01/01/1900</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:begin>
+					<gml:end>
+						<gml:TimeInstant>
+							<gml:timePosition>31/12/1902</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:end>
+				</gml:TimePeriod>
+			</mo:activityDuration>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">2.59</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:1024"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:1024"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Nickel</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:grade>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:%">0.3</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:grade>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">2.59</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.939">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:939</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209565"/>
+			<mo:activityDuration>
+				<gml:TimePeriod>
+					<gml:begin>
+						<gml:TimeInstant>
+							<gml:timePosition>01/01/1904</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:begin>
+					<gml:end>
+						<gml:TimeInstant>
+							<gml:timePosition>30/06/1907</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:end>
+				</gml:TimePeriod>
+			</mo:activityDuration>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">20</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:1036"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:1027"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Copper</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:grade>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:%">12</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:grade>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">20</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.4">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:4</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209637"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">103</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:95"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:95"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Celestite</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">103</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.290">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:290</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209645"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">25.86</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:1103"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:1103"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Gold</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:grade>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:GM/TONNE">51.9</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:grade>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">25.86</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.291">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:291</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209646"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">83.62</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:1104"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:1104"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Gold</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:grade>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:GM/TONNE">10.7</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:grade>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">83.62</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.294">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:294</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209647"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:GM">32827.35</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:1105"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:1105"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Gold</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:GM">32827.35</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.295">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:295</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209648"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">1617.73</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:1106"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:1106"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Gold</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:grade>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:GM/TONNE">37.3</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:grade>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">1617.73</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.297">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:297</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209649"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">83.34</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:1107"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:1107"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Gold</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:grade>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:GM/TONNE">20.82</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:grade>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">83.34</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.301">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:301</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209650"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">4.57</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:1108"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:1108"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Gold</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:grade>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:GM/TONNE">30.6</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:grade>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">4.57</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.303">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:303</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209651"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">4.67</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:1110"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:1110"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Gold</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:grade>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:GM/TONNE">5.5</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:grade>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">4.67</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.304">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:304</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209652"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">4.06</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:1111"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:1111"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Gold</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:grade>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:GM/TONNE">5.4</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:grade>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">4.06</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.7">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:7</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209776"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:CUB M">405000</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:197"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:197"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Dolomite</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:CUB M">405000</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.5">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:5</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209777"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">11805</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:196"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:196"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Clay</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">11805</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.8">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:8</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209794"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:CUB M">300000</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:201"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:201"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Quartzite - general purpose aggregate</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:CUB M">300000</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.10">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:10</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209794"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:CUB M">170000</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:201"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:201"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Quartzite - filling</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:CUB M">170000</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.13">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:13</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209797"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">279.413</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:217"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:217"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Magnesite</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">279.413</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.12">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:12</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209802"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">196.097</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:212"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:212"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Magnesite</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">196.097</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.11">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:11</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209803"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">117.861</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:209"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:209"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Magnesite</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">117.861</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.14">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:14</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209844"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">12146</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:252"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:252"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Talc</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">12146</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.15">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:15</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209856"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">71.123</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:277"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:277"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Limestone - chemical</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">71.123</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.16">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:16</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209885"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">98.557</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:312"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:312"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Graphite</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">98.557</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.951">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:951</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:1131126"/>
+			<mo:activityDuration>
+				<gml:TimePeriod>
+					<gml:begin>
+						<gml:TimeInstant>
+							<gml:timePosition>01/01/1902</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:begin>
+					<gml:end>
+						<gml:TimeInstant>
+							<gml:timePosition>01/01/1916</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:end>
+				</gml:TimePeriod>
+			</mo:activityDuration>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">17</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:973"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:973"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Copper</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">17</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.283">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:283</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209909"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">969308.838</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:962"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:962"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Uranium Oxide</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:grade>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:KG/TONNE">1.2</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:grade>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">969308.838</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.285">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:285</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209918"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">0.762</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:971"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:971"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Copper</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:grade>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:%">30</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:grade>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">0.762</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.277">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:277</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209923"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:951"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:951"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Beryllium</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.278">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:278</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209924"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:954"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:954"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Beryllium</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.279">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:279</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:1132471"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:955"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:955"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Beryllium</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.280">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:280</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:1132471"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">1836</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:955"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:955"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Feldspar</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">1836</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.281">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:281</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209932"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">700</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:961"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:961"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Fluorite</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">700</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.275">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:275</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209933"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:947"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:947"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Beryllium</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.276">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:276</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209933"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">20</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:947"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:947"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Feldspar</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">20</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.274">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:274</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209942"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:944"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:944"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Beryllium</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.251">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:251</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209945"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:915"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:915"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Beryllium</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.249">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:249</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209946"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">225.562</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:911"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:911"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Andalusite</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">225.562</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.252">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:252</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209948"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">452</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:917"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:917"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Feldspar</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">452</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.254">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:254</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:1132972"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">219</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:918"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:918"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Feldspar</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">219</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.255">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:255</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209951"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">645</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:920"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:920"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Feldspar</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">645</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.256">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:256</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209952"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">5592</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:921"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:921"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Feldspar</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">5592</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.257">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:257</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209953"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">2721</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:922"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:922"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Feldspar</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">2721</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.258">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:258</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:1133073"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">8.1</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:923"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:923"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Beryllium</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">8.1</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.259">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:259</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:1133073"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">1056</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:923"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:923"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Feldspar</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">1056</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.243">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:243</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209959"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:904"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:904"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Beryllium</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.244">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:244</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209959"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">1235</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:oreProcessed>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:904"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:904"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Feldspar</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="urn:ogc:def:uom:UCUM:TONNE">1235</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</mo:production>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.245">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:245</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209960"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:905"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:905"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Beryllium</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.250">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:250</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209963"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:914"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:914"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Beryllium</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.247">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:247</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209964"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:908"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:908"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Beryllium</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningActivity gml:id="mo.mining.activity.272">
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningActivity:272</gml:name>
+			<mo:occurrence xlink:href="urn:cgi:feature:PIRSA:MiningFeatureOccurrence:209965"/>
+			<mo:activityDuration xlink:href="urn:ogc:def:nil:OGC:missing"/>
+			<mo:activityType>unspecified</mo:activityType>
+			<mo:associatedMine xlink:href="urn:cgi:feature:PIRSA:Mine:932"/>
+			<mo:deposit xlink:href="urn:cgi:feature:PIRSA:MineralOccurrence:932"/>
+			<mo:producedMaterial>
+				<mo:Product>
+					<mo:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://localhost:8080/deegree-wfs/services">Beryllium</gsml:value>
+						</gsml:CGI_TermValue>
+					</mo:productName>
+					<mo:sourceReference xlink:href="urn:ogc:def:nil:OGC:missing"/>
+					<mo:sourceCommodity xlink:href="urn:ogc:def:nil:OGC:missing"/>
+				</mo:Product>
+			</mo:producedMaterial>
+		</mo:MiningActivity>
+	</gml:featureMember>
+</wfs:FeatureCollection>
