@@ -1,0 +1,568 @@
+<wfs:FeatureCollection xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml" xmlns:mo="urn:cgi:xmlns:GGIC:MineralOccurrence:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wfs="http://www.opengis.net/wfs" numberOfFeatures="20" xsi:schemaLocation="urn:cgi:xmlns:GGIC:MineralOccurrence:1.0 https://www.seegrid.csiro.au/subversion/xmml/GGIC/trunk/schema/MineralOccurrence/1.0.1/mineralOccurrence.xsd http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd">
+	<gml:boundedBy>
+		<gml:Envelope srsName="EPSG:4283">
+			<gml:pos srsDimension="2">129.1185719 -27.1111661</gml:pos>
+			<gml:pos srsDimension="2">133.4987618 -26.059841</gml:pos>
+		</gml:Envelope>
+	</gml:boundedBy>
+	<gml:featureMember>
+		<mo:MiningFeatureOccurrence gml:id="mo.mfo.209588">
+			<gml:description>SEE PLAN 68-611</gml:description>
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningFeatureOccurrence:SA_GEODATA:209588</gml:name>
+			<gml:boundedBy>
+				<gml:Envelope srsName="EPSG:4283">
+					<gml:pos srsDimension="2">132.9988866 -26.8737716</gml:pos>
+					<gml:pos srsDimension="2">132.9988866 -26.8737716</gml:pos>
+				</gml:Envelope>
+			</gml:boundedBy>
+			<mo:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:PIRSA:ObservationMethod">(DISUSED) Map Plot</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:observationMethod>
+			<mo:positionalAccuracy>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC:missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:positionalAccuracy>
+			<mo:specification xlink:href="urn:cgi:feature:PIRSA:Mine:SA_GEODATA:44"/>
+			<mo:location>
+				<gml:Point srsName="EPSG:4283">
+					<gml:pos srsDimension="2">132.9988866 -26.8737716</gml:pos>
+				</gml:Point>
+			</mo:location>
+		</mo:MiningFeatureOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningFeatureOccurrence gml:id="mo.mfo.209589">
+			<gml:description>SEE PLAN 68-611</gml:description>
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningFeatureOccurrence:SA_GEODATA:209589</gml:name>
+			<gml:boundedBy>
+				<gml:Envelope srsName="EPSG:4283">
+					<gml:pos srsDimension="2">133.0181594 -26.8760644</gml:pos>
+					<gml:pos srsDimension="2">133.0181594 -26.8760644</gml:pos>
+				</gml:Envelope>
+			</gml:boundedBy>
+			<mo:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:PIRSA:ObservationMethod">(DISUSED) Map Plot</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:observationMethod>
+			<mo:positionalAccuracy>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC:missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:positionalAccuracy>
+			<mo:specification xlink:href="urn:cgi:feature:PIRSA:Mine:SA_GEODATA:43"/>
+			<mo:location>
+				<gml:Point srsName="EPSG:4283">
+					<gml:pos srsDimension="2">133.0181594 -26.8760644</gml:pos>
+				</gml:Point>
+			</mo:location>
+		</mo:MiningFeatureOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningFeatureOccurrence gml:id="mo.mfo.209590">
+			<gml:description>SEE MEIS SHEET IN RB 91/103</gml:description>
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningFeatureOccurrence:SA_GEODATA:209590</gml:name>
+			<gml:boundedBy>
+				<gml:Envelope srsName="EPSG:4283">
+					<gml:pos srsDimension="2">132.723284 -26.7049805</gml:pos>
+					<gml:pos srsDimension="2">132.723284 -26.7049805</gml:pos>
+				</gml:Envelope>
+			</gml:boundedBy>
+			<mo:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:PIRSA:ObservationMethod">(DISUSED) Map Plot</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:observationMethod>
+			<mo:positionalAccuracy>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC:missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:positionalAccuracy>
+			<mo:specification xlink:href="urn:cgi:feature:PIRSA:Mine:SA_GEODATA:42"/>
+			<mo:location>
+				<gml:Point srsName="EPSG:4283">
+					<gml:pos srsDimension="2">132.723284 -26.7049805</gml:pos>
+				</gml:Point>
+			</mo:location>
+		</mo:MiningFeatureOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningFeatureOccurrence gml:id="mo.mfo.209591">
+			<gml:description>SEE MEIS SHEET IN RB 91/103</gml:description>
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningFeatureOccurrence:SA_GEODATA:209591</gml:name>
+			<gml:boundedBy>
+				<gml:Envelope srsName="EPSG:4283">
+					<gml:pos srsDimension="2">132.5705496 -26.984112</gml:pos>
+					<gml:pos srsDimension="2">132.5705496 -26.984112</gml:pos>
+				</gml:Envelope>
+			</gml:boundedBy>
+			<mo:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:PIRSA:ObservationMethod">(DISUSED) Map Plot</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:observationMethod>
+			<mo:positionalAccuracy>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC:missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:positionalAccuracy>
+			<mo:specification xlink:href="urn:cgi:feature:PIRSA:Mine:SA_GEODATA:41"/>
+			<mo:location>
+				<gml:Point srsName="EPSG:4283">
+					<gml:pos srsDimension="2">132.5705496 -26.984112</gml:pos>
+				</gml:Point>
+			</mo:location>
+		</mo:MiningFeatureOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningFeatureOccurrence gml:id="mo.mfo.209592">
+			<gml:description>SEE MEIS SHEET IN RB 91/103</gml:description>
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningFeatureOccurrence:SA_GEODATA:209592</gml:name>
+			<gml:boundedBy>
+				<gml:Envelope srsName="EPSG:4283">
+					<gml:pos srsDimension="2">132.6100372 -26.9825046</gml:pos>
+					<gml:pos srsDimension="2">132.6100372 -26.9825046</gml:pos>
+				</gml:Envelope>
+			</gml:boundedBy>
+			<mo:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:PIRSA:ObservationMethod">(DISUSED) Map Plot</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:observationMethod>
+			<mo:positionalAccuracy>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC:missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:positionalAccuracy>
+			<mo:specification xlink:href="urn:cgi:feature:PIRSA:Mine:SA_GEODATA:40"/>
+			<mo:location>
+				<gml:Point srsName="EPSG:4283">
+					<gml:pos srsDimension="2">132.6100372 -26.9825046</gml:pos>
+				</gml:Point>
+			</mo:location>
+		</mo:MiningFeatureOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningFeatureOccurrence gml:id="mo.mfo.209593">
+			<gml:description>SEE MEIS SHEET IN RB 91/103</gml:description>
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningFeatureOccurrence:SA_GEODATA:209593</gml:name>
+			<gml:boundedBy>
+				<gml:Envelope srsName="EPSG:4283">
+					<gml:pos srsDimension="2">133.4758011 -27.1111661</gml:pos>
+					<gml:pos srsDimension="2">133.4758011 -27.1111661</gml:pos>
+				</gml:Envelope>
+			</gml:boundedBy>
+			<mo:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:PIRSA:ObservationMethod">(DISUSED) Map Plot</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:observationMethod>
+			<mo:positionalAccuracy>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC:missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:positionalAccuracy>
+			<mo:specification xlink:href="urn:cgi:feature:PIRSA:Mine:SA_GEODATA:39"/>
+			<mo:location>
+				<gml:Point srsName="EPSG:4283">
+					<gml:pos srsDimension="2">133.4758011 -27.1111661</gml:pos>
+				</gml:Point>
+			</mo:location>
+		</mo:MiningFeatureOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningFeatureOccurrence gml:id="mo.mfo.209594">
+			<gml:description>GRANITE DOWNS WELL - VEIN SAID TO BE A FEW CHAINS AWAY</gml:description>
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningFeatureOccurrence:SA_GEODATA:209594</gml:name>
+			<gml:boundedBy>
+				<gml:Envelope srsName="EPSG:4283">
+					<gml:pos srsDimension="2">133.4987618 -26.9274572</gml:pos>
+					<gml:pos srsDimension="2">133.4987618 -26.9274572</gml:pos>
+				</gml:Envelope>
+			</gml:boundedBy>
+			<mo:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:PIRSA:ObservationMethod">(DISUSED) Map Plot</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:observationMethod>
+			<mo:positionalAccuracy>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC:missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:positionalAccuracy>
+			<mo:specification xlink:href="urn:cgi:feature:PIRSA:Mine:SA_GEODATA:38"/>
+			<mo:location>
+				<gml:Point srsName="EPSG:4283">
+					<gml:pos srsDimension="2">133.4987618 -26.9274572</gml:pos>
+				</gml:Point>
+			</mo:location>
+		</mo:MiningFeatureOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningFeatureOccurrence gml:id="mo.mfo.209595">
+			<gml:description>PROSPECT MARKED ON 50K GEOL</gml:description>
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningFeatureOccurrence:SA_GEODATA:209595</gml:name>
+			<gml:boundedBy>
+				<gml:Envelope srsName="EPSG:4283">
+					<gml:pos srsDimension="2">132.7406373 -26.2995407</gml:pos>
+					<gml:pos srsDimension="2">132.7406373 -26.2995407</gml:pos>
+				</gml:Envelope>
+			</gml:boundedBy>
+			<mo:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:PIRSA:ObservationMethod">(DISUSED) Map Plot</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:observationMethod>
+			<mo:positionalAccuracy>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC:missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:positionalAccuracy>
+			<mo:specification xlink:href="urn:cgi:feature:PIRSA:Mine:SA_GEODATA:60"/>
+			<mo:location>
+				<gml:Point srsName="EPSG:4283">
+					<gml:pos srsDimension="2">132.7406373 -26.2995407</gml:pos>
+				</gml:Point>
+			</mo:location>
+		</mo:MiningFeatureOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningFeatureOccurrence gml:id="mo.mfo.209597">
+			<gml:description>PROSPECT MARKED ON 50K GEOL</gml:description>
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningFeatureOccurrence:SA_GEODATA:209597</gml:name>
+			<gml:boundedBy>
+				<gml:Envelope srsName="EPSG:4283">
+					<gml:pos srsDimension="2">132.624783 -26.1866633</gml:pos>
+					<gml:pos srsDimension="2">132.624783 -26.1866633</gml:pos>
+				</gml:Envelope>
+			</gml:boundedBy>
+			<mo:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:PIRSA:ObservationMethod">(DISUSED) Map Plot</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:observationMethod>
+			<mo:positionalAccuracy>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC:missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:positionalAccuracy>
+			<mo:specification xlink:href="urn:cgi:feature:PIRSA:Mine:SA_GEODATA:58"/>
+			<mo:location>
+				<gml:Point srsName="EPSG:4283">
+					<gml:pos srsDimension="2">132.624783 -26.1866633</gml:pos>
+				</gml:Point>
+			</mo:location>
+		</mo:MiningFeatureOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningFeatureOccurrence gml:id="mo.mfo.209598">
+			<gml:description>PROSPECT MARKED ON 50K GEOL</gml:description>
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningFeatureOccurrence:SA_GEODATA:209598</gml:name>
+			<gml:boundedBy>
+				<gml:Envelope srsName="EPSG:4283">
+					<gml:pos srsDimension="2">132.5495068 -26.1989371</gml:pos>
+					<gml:pos srsDimension="2">132.5495068 -26.1989371</gml:pos>
+				</gml:Envelope>
+			</gml:boundedBy>
+			<mo:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:PIRSA:ObservationMethod">(DISUSED) Map Plot</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:observationMethod>
+			<mo:positionalAccuracy>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC:missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:positionalAccuracy>
+			<mo:specification xlink:href="urn:cgi:feature:PIRSA:Mine:SA_GEODATA:57"/>
+			<mo:location>
+				<gml:Point srsName="EPSG:4283">
+					<gml:pos srsDimension="2">132.5495068 -26.1989371</gml:pos>
+				</gml:Point>
+			</mo:location>
+		</mo:MiningFeatureOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningFeatureOccurrence gml:id="mo.mfo.209599">
+			<gml:description>PROSPECT MARKED ON 50K GEOL</gml:description>
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningFeatureOccurrence:SA_GEODATA:209599</gml:name>
+			<gml:boundedBy>
+				<gml:Envelope srsName="EPSG:4283">
+					<gml:pos srsDimension="2">132.7683842 -26.1312008</gml:pos>
+					<gml:pos srsDimension="2">132.7683842 -26.1312008</gml:pos>
+				</gml:Envelope>
+			</gml:boundedBy>
+			<mo:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:PIRSA:ObservationMethod">(DISUSED) Map Plot</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:observationMethod>
+			<mo:positionalAccuracy>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC:missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:positionalAccuracy>
+			<mo:specification xlink:href="urn:cgi:feature:PIRSA:Mine:SA_GEODATA:56"/>
+			<mo:location>
+				<gml:Point srsName="EPSG:4283">
+					<gml:pos srsDimension="2">132.7683842 -26.1312008</gml:pos>
+				</gml:Point>
+			</mo:location>
+		</mo:MiningFeatureOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningFeatureOccurrence gml:id="mo.mfo.209600">
+			<gml:description>PROSPECT MARKED ON 50K GEOL</gml:description>
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningFeatureOccurrence:SA_GEODATA:209600</gml:name>
+			<gml:boundedBy>
+				<gml:Envelope srsName="EPSG:4283">
+					<gml:pos srsDimension="2">132.810673 -26.1422285</gml:pos>
+					<gml:pos srsDimension="2">132.810673 -26.1422285</gml:pos>
+				</gml:Envelope>
+			</gml:boundedBy>
+			<mo:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:PIRSA:ObservationMethod">(DISUSED) Map Plot</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:observationMethod>
+			<mo:positionalAccuracy>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC:missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:positionalAccuracy>
+			<mo:specification xlink:href="urn:cgi:feature:PIRSA:Mine:SA_GEODATA:54"/>
+			<mo:location>
+				<gml:Point srsName="EPSG:4283">
+					<gml:pos srsDimension="2">132.810673 -26.1422285</gml:pos>
+				</gml:Point>
+			</mo:location>
+		</mo:MiningFeatureOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningFeatureOccurrence gml:id="mo.mfo.209601">
+			<gml:description>PROSPECT MARKED ON 50K GEOL</gml:description>
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningFeatureOccurrence:SA_GEODATA:209601</gml:name>
+			<gml:boundedBy>
+				<gml:Envelope srsName="EPSG:4283">
+					<gml:pos srsDimension="2">132.8236989 -26.059841</gml:pos>
+					<gml:pos srsDimension="2">132.8236989 -26.059841</gml:pos>
+				</gml:Envelope>
+			</gml:boundedBy>
+			<mo:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:PIRSA:ObservationMethod">(DISUSED) Map Plot</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:observationMethod>
+			<mo:positionalAccuracy>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC:missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:positionalAccuracy>
+			<mo:specification xlink:href="urn:cgi:feature:PIRSA:Mine:SA_GEODATA:53"/>
+			<mo:location>
+				<gml:Point srsName="EPSG:4283">
+					<gml:pos srsDimension="2">132.8236989 -26.059841</gml:pos>
+				</gml:Point>
+			</mo:location>
+		</mo:MiningFeatureOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningFeatureOccurrence gml:id="mo.mfo.209602">
+			<gml:description>PROSPECT MARKED ON 50K GEOL</gml:description>
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningFeatureOccurrence:SA_GEODATA:209602</gml:name>
+			<gml:boundedBy>
+				<gml:Envelope srsName="EPSG:4283">
+					<gml:pos srsDimension="2">132.875304 -26.1073188</gml:pos>
+					<gml:pos srsDimension="2">132.875304 -26.1073188</gml:pos>
+				</gml:Envelope>
+			</gml:boundedBy>
+			<mo:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:PIRSA:ObservationMethod">(DISUSED) Map Plot</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:observationMethod>
+			<mo:positionalAccuracy>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC:missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:positionalAccuracy>
+			<mo:specification xlink:href="urn:cgi:feature:PIRSA:Mine:SA_GEODATA:52"/>
+			<mo:location>
+				<gml:Point srsName="EPSG:4283">
+					<gml:pos srsDimension="2">132.875304 -26.1073188</gml:pos>
+				</gml:Point>
+			</mo:location>
+		</mo:MiningFeatureOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningFeatureOccurrence gml:id="mo.mfo.209604">
+			<gml:description>PROSPECT MARKED ON 50K GEOL</gml:description>
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningFeatureOccurrence:SA_GEODATA:209604</gml:name>
+			<gml:boundedBy>
+				<gml:Envelope srsName="EPSG:4283">
+					<gml:pos srsDimension="2">132.8051536 -26.2871851</gml:pos>
+					<gml:pos srsDimension="2">132.8051536 -26.2871851</gml:pos>
+				</gml:Envelope>
+			</gml:boundedBy>
+			<mo:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:PIRSA:ObservationMethod">(DISUSED) Map Plot</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:observationMethod>
+			<mo:positionalAccuracy>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC:missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:positionalAccuracy>
+			<mo:specification xlink:href="urn:cgi:feature:PIRSA:Mine:SA_GEODATA:50"/>
+			<mo:location>
+				<gml:Point srsName="EPSG:4283">
+					<gml:pos srsDimension="2">132.8051536 -26.2871851</gml:pos>
+				</gml:Point>
+			</mo:location>
+		</mo:MiningFeatureOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningFeatureOccurrence gml:id="mo.mfo.209606">
+			<gml:description/>
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningFeatureOccurrence:SA_GEODATA:209606</gml:name>
+			<gml:boundedBy>
+				<gml:Envelope srsName="EPSG:4283">
+					<gml:pos srsDimension="2">129.234471 -26.1773896</gml:pos>
+					<gml:pos srsDimension="2">129.234471 -26.1773896</gml:pos>
+				</gml:Envelope>
+			</gml:boundedBy>
+			<mo:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:PIRSA:ObservationMethod">Digital Image</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:observationMethod>
+			<mo:positionalAccuracy>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="urn:ogc:def:uom:UCUM:metre">5</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</mo:positionalAccuracy>
+			<mo:specification xlink:href="urn:cgi:feature:PIRSA:Mine:SA_GEODATA:73"/>
+			<mo:location>
+				<gml:Point srsName="EPSG:4283">
+					<gml:pos srsDimension="2">129.234471 -26.1773896</gml:pos>
+				</gml:Point>
+			</mo:location>
+		</mo:MiningFeatureOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningFeatureOccurrence gml:id="mo.mfo.209607">
+			<gml:description>DDH A 14</gml:description>
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningFeatureOccurrence:SA_GEODATA:209607</gml:name>
+			<gml:boundedBy>
+				<gml:Envelope srsName="EPSG:4283">
+					<gml:pos srsDimension="2">129.2401875 -26.1700675</gml:pos>
+					<gml:pos srsDimension="2">129.2401875 -26.1700675</gml:pos>
+				</gml:Envelope>
+			</gml:boundedBy>
+			<mo:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:PIRSA:ObservationMethod">(DISUSED) Map Plot</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:observationMethod>
+			<mo:positionalAccuracy>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC:missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:positionalAccuracy>
+			<mo:specification xlink:href="urn:cgi:feature:PIRSA:Mine:SA_GEODATA:72"/>
+			<mo:location>
+				<gml:Point srsName="EPSG:4283">
+					<gml:pos srsDimension="2">129.2401875 -26.1700675</gml:pos>
+				</gml:Point>
+			</mo:location>
+		</mo:MiningFeatureOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningFeatureOccurrence gml:id="mo.mfo.209608">
+			<gml:description/>
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningFeatureOccurrence:SA_GEODATA:209608</gml:name>
+			<gml:boundedBy>
+				<gml:Envelope srsName="EPSG:4283">
+					<gml:pos srsDimension="2">129.2518418 -26.2007385</gml:pos>
+					<gml:pos srsDimension="2">129.2518418 -26.2007385</gml:pos>
+				</gml:Envelope>
+			</gml:boundedBy>
+			<mo:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:PIRSA:ObservationMethod">(DISUSED) Map Plot</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:observationMethod>
+			<mo:positionalAccuracy>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC:missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:positionalAccuracy>
+			<mo:specification xlink:href="urn:cgi:feature:PIRSA:Mine:SA_GEODATA:71"/>
+			<mo:location>
+				<gml:Point srsName="EPSG:4283">
+					<gml:pos srsDimension="2">129.2518418 -26.2007385</gml:pos>
+				</gml:Point>
+			</mo:location>
+		</mo:MiningFeatureOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningFeatureOccurrence gml:id="mo.mfo.209610">
+			<gml:description/>
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningFeatureOccurrence:SA_GEODATA:209610</gml:name>
+			<gml:boundedBy>
+				<gml:Envelope srsName="EPSG:4283">
+					<gml:pos srsDimension="2">129.1185719 -26.1255854</gml:pos>
+					<gml:pos srsDimension="2">129.1185719 -26.1255854</gml:pos>
+				</gml:Envelope>
+			</gml:boundedBy>
+			<mo:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:PIRSA:ObservationMethod">(DISUSED) Map Plot</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:observationMethod>
+			<mo:positionalAccuracy>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC:missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:positionalAccuracy>
+			<mo:specification xlink:href="urn:cgi:feature:PIRSA:Mine:SA_GEODATA:69"/>
+			<mo:location>
+				<gml:Point srsName="EPSG:4283">
+					<gml:pos srsDimension="2">129.1185719 -26.1255854</gml:pos>
+				</gml:Point>
+			</mo:location>
+		</mo:MiningFeatureOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<mo:MiningFeatureOccurrence gml:id="mo.mfo.209611">
+			<gml:description>DRILL HOLE LOCATION TRANSPOSED FROM RB68/92</gml:description>
+			<gml:name codeSpace="http://localhost:8080/deegree-wfs/services">urn:cgi:feature:PIRSA:MiningFeatureOccurrence:SA_GEODATA:209611</gml:name>
+			<gml:boundedBy>
+				<gml:Envelope srsName="EPSG:4283">
+					<gml:pos srsDimension="2">130.6725091 -26.3773131</gml:pos>
+					<gml:pos srsDimension="2">130.6725091 -26.3773131</gml:pos>
+				</gml:Envelope>
+			</gml:boundedBy>
+			<mo:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="urn:cgi:classifierScheme:PIRSA:ObservationMethod">(DISUSED) Map Plot</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:observationMethod>
+			<mo:positionalAccuracy>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC:missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</mo:positionalAccuracy>
+			<mo:specification xlink:href="urn:cgi:feature:PIRSA:Mine:SA_GEODATA:68"/>
+			<mo:location>
+				<gml:Point srsName="EPSG:4283">
+					<gml:pos srsDimension="2">130.6725091 -26.3773131</gml:pos>
+				</gml:Point>
+			</mo:location>
+		</mo:MiningFeatureOccurrence>
+	</gml:featureMember>
+</wfs:FeatureCollection>
