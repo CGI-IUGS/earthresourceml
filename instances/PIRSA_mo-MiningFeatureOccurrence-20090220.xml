@@ -1,4 +1,5 @@
 <wfs:FeatureCollection xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml" xmlns:mo="urn:cgi:xmlns:GGIC:MineralOccurrence:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wfs="http://www.opengis.net/wfs" numberOfFeatures="20" xsi:schemaLocation="urn:cgi:xmlns:GGIC:MineralOccurrence:1.0 https://www.seegrid.csiro.au/subversion/xmml/GGIC/trunk/schema/MineralOccurrence/1.0.1/mineralOccurrence.xsd http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd">
+<!-- Comment -->
 	<gml:boundedBy>
 		<gml:Envelope srsName="EPSG:4283">
 			<gml:pos srsDimension="2">129.1185719 -27.1111661</gml:pos>
