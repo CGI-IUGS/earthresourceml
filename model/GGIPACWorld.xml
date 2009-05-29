@@ -246,7 +246,7 @@
 						</UML:Dependency>
 						<UML:Package name="EarthResource" xmi.id="EAPK_B9F999B6_F89B_4f86_9899_4F9203002153" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_93BB6400_57DC_4f7c_8071_B348D220F246"/>
+								<UML:Stereotype xmi.idref="EAID_9BEC2B98_9A75_4ee7_9F0F_49B82D326464"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="created" value="2007-05-17 16:18:11"/>
@@ -595,7 +595,7 @@
 								</UML:Dependency>
 								<UML:Package name="Mine" xmi.id="EAPK_91AEEF78_5280_440c_8309_B4EE0F7EC0A9" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6505BF5B_E388_480e_91A9_22885C2D76B4"/>
+										<UML:Stereotype xmi.idref="EAID_8621EC9F_54DF_479f_8F4B_8EDAEF450DD8"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="created" value="2008-12-01 00:00:00"/>
@@ -1776,11 +1776,11 @@
 														<UML:Expression/>
 													</UML:Attribute.initialValue>
 													<UML:StructuralFeature.type>
-														<UML:Classifier xmi.idref="EAID_373DE7CC_902C_468a_8537_AD800BC7D4C3"/>
+														<UML:Classifier xmi.idref="EAID_0E71F4A0_4C7A_4f51_8B03_61FC2B0EFB9C"/>
 													</UML:StructuralFeature.type>
 													<UML:ModelElement.taggedValue>
 														<UML:TaggedValue tag="description" value="Allows citing mine plans etc"/>
-														<UML:TaggedValue tag="type" value="Reference"/>
+														<UML:TaggedValue tag="type" value="CI_Citation"/>
 														<UML:TaggedValue tag="derived" value="0"/>
 														<UML:TaggedValue tag="containment" value="Not Specified"/>
 														<UML:TaggedValue tag="length" value="0"/>
@@ -1823,6 +1823,7 @@
 														<UML:TaggedValue tag="ea_localid" value="1556486307"/>
 														<UML:TaggedValue tag="styleex" value="volatile=0;"/>
 														<UML:TaggedValue tag="sequenceNumber" value="2" xmi.id="EAID_4EDF7FC0_8722_4b23_A26E_9CF510C31BF2"/>
+														<UML:TaggedValue tag="inlineOrByReference" value="byReference" xmi.id="EAID_E7124E4D_C9CA_40b2_8116_EB169D971528"/>
 													</UML:ModelElement.taggedValue>
 												</UML:Attribute>
 												<UML:Attribute name="status" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -2056,11 +2057,11 @@
 														<UML:Expression/>
 													</UML:Attribute.initialValue>
 													<UML:StructuralFeature.type>
-														<UML:Classifier xmi.idref="EAID_373DE7CC_902C_468a_8537_AD800BC7D4C3"/>
+														<UML:Classifier xmi.idref="EAID_0E71F4A0_4C7A_4f51_8B03_61FC2B0EFB9C"/>
 													</UML:StructuralFeature.type>
 													<UML:ModelElement.taggedValue>
 														<UML:TaggedValue tag="description" value="The reference(s) for the product information.  CI_Citation data type cannot be serialised in GML 3.1, only as an xlink reference."/>
-														<UML:TaggedValue tag="type" value="Reference"/>
+														<UML:TaggedValue tag="type" value="CI_Citation"/>
 														<UML:TaggedValue tag="derived" value="0"/>
 														<UML:TaggedValue tag="containment" value="Not Specified"/>
 														<UML:TaggedValue tag="length" value="0"/>
@@ -2076,6 +2077,7 @@
 														<UML:TaggedValue tag="ea_localid" value="-358402932"/>
 														<UML:TaggedValue tag="styleex" value="volatile=0;IsLiteral=0;"/>
 														<UML:TaggedValue tag="sequenceNumber" value="3" xmi.id="EAID_2030E50B_EA8C_4964_8A4D_657398D718F7"/>
+														<UML:TaggedValue tag="inlineOrByReference" value="byReference" xmi.id="EAID_7C94BD03_5147_4f06_9F1D_4A324114C7AB"/>
 													</UML:ModelElement.taggedValue>
 												</UML:Attribute>
 											</UML:Classifier.feature>
@@ -2534,7 +2536,7 @@
 								</UML:Package>
 								<UML:Package name="MineralOccurrence" xmi.id="EAPK_1744A5E8_D58F_47f3_AE66_186DA6870534" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_6505BF5B_E388_480e_91A9_22885C2D76B4"/>
+										<UML:Stereotype xmi.idref="EAID_8621EC9F_54DF_479f_8F4B_8EDAEF450DD8"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="created" value="2007-10-22 00:00:00"/>
@@ -3741,11 +3743,11 @@
 														<UML:Expression/>
 													</UML:Attribute.initialValue>
 													<UML:StructuralFeature.type>
-														<UML:Classifier xmi.idref="EAID_373DE7CC_902C_468a_8537_AD800BC7D4C3"/>
+														<UML:Classifier xmi.idref="EAID_0E71F4A0_4C7A_4f51_8B03_61FC2B0EFB9C"/>
 													</UML:StructuralFeature.type>
 													<UML:ModelElement.taggedValue>
 														<UML:TaggedValue tag="description" value="The source or reference for the Earth Resource. CI_Citation can not be serialised in-line for GML3.1 but as an xlink reference."/>
-														<UML:TaggedValue tag="type" value="Reference"/>
+														<UML:TaggedValue tag="type" value="CI_Citation"/>
 														<UML:TaggedValue tag="derived" value="0"/>
 														<UML:TaggedValue tag="containment" value="Not Specified"/>
 														<UML:TaggedValue tag="length" value="0"/>
@@ -3760,6 +3762,7 @@
 														<UML:TaggedValue tag="ea_guid" value="{4C78A3FA-3A1B-4eb0-A989-BB257DAD2F5B}"/>
 														<UML:TaggedValue tag="ea_localid" value="-1220175848"/>
 														<UML:TaggedValue tag="styleex" value="volatile=0;IsLiteral=0;"/>
+														<UML:TaggedValue tag="inlineOrByReference" value="byReference" xmi.id="EAID_A1489E13_E790_48f9_8D7C_5AD8C7A9B55A"/>
 														<UML:TaggedValue tag="sequenceNumber" value="2" xmi.id="EAID_E6A5AC51_9FCC_4435_B364_6FBF51FFDE07"/>
 													</UML:ModelElement.taggedValue>
 												</UML:Attribute>
@@ -5404,11 +5407,11 @@
 														<UML:Expression/>
 													</UML:Attribute.initialValue>
 													<UML:StructuralFeature.type>
-														<UML:Classifier xmi.idref="EAID_373DE7CC_902C_468a_8537_AD800BC7D4C3"/>
+														<UML:Classifier xmi.idref="EAID_0E71F4A0_4C7A_4f51_8B03_61FC2B0EFB9C"/>
 													</UML:StructuralFeature.type>
 													<UML:ModelElement.taggedValue>
 														<UML:TaggedValue tag="description" value="reference for the values"/>
-														<UML:TaggedValue tag="type" value="Reference"/>
+														<UML:TaggedValue tag="type" value="CI_Citation"/>
 														<UML:TaggedValue tag="derived" value="0"/>
 														<UML:TaggedValue tag="containment" value="Not Specified"/>
 														<UML:TaggedValue tag="length" value="0"/>
@@ -5423,6 +5426,7 @@
 														<UML:TaggedValue tag="ea_guid" value="{9EF36E9E-D313-416a-9F4D-22C507C48519}"/>
 														<UML:TaggedValue tag="ea_localid" value="-781644602"/>
 														<UML:TaggedValue tag="styleex" value="volatile=0;IsLiteral=0;"/>
+														<UML:TaggedValue tag="inlineOrByReference" value="byReference" xmi.id="EAID_38114043_BC24_4879_B751_68819B831747"/>
 														<UML:TaggedValue tag="sequenceNumber" value="6" xmi.id="EAID_95D315FC_61CA_42aa_86F2_045885AE3FF9"/>
 													</UML:ModelElement.taggedValue>
 												</UML:Attribute>
@@ -5591,10 +5595,10 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_93BB6400_57DC_4f7c_8071_B348D220F246" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_9BEC2B98_9A75_4ee7_9F0F_49B82D326464" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
-				<UML:Stereotype xmi.id="EAID_6505BF5B_E388_480e_91A9_22885C2D76B4" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_8621EC9F_54DF_479f_8F4B_8EDAEF450DD8" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 				<UML:DataType xmi.id="eaxmiid0" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
@@ -6059,7 +6063,7 @@
 		<EAStub xmi.id="EAID_C93EE86F_3E1E_4185_8857_FAA22CDCE0F8" name="Boolean" UMLType="Class"/>
 		<EAStub xmi.id="EAID_3132CDE2_49DD_4247_9694_4C8FD079CA29" name="CharacterString" UMLType="Class"/>
 		<EAStub xmi.id="EAID_E66950D2_540F_4d71_A46D_F1D31D915F3D" name="TM_Instant" UMLType="Class"/>
-		<EAStub xmi.id="EAID_373DE7CC_902C_468a_8537_AD800BC7D4C3" name="Reference" UMLType="Class"/>
+		<EAStub xmi.id="EAID_0E71F4A0_4C7A_4f51_8B03_61FC2B0EFB9C" name="CI_Citation" UMLType="Class"/>
 		<EAStub xmi.id="EAID_7725A247_48D1_48df_AFA2_873DE1FA3087" name="CGI_TermValue" UMLType="Class"/>
 		<EAStub xmi.id="EAID_AD0DBA54_D72A_4b00_AA3A_364D903033E2" name="ScopedName" UMLType="Class"/>
 		<EAStub xmi.id="EAID_923DFBB7_D1CF_4908_B00D_D6B6A1126EBB" name="CGI_LinearOrientation" UMLType="Class"/>
