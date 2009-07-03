@@ -249,7 +249,7 @@
 						</UML:Dependency>
 						<UML:Package name="EarthResource" xmi.id="EAPK_B9F999B6_F89B_4f86_9899_4F9203002153" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_8C09A5CC_1C84_4705_A2EC_67AEADE8B55C"/>
+								<UML:Stereotype xmi.idref="EAID_28128B9E_A5D3_4619_A041_A807001168E0"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="parent" value="EAPK_716A3F26_3509_4187_8A8E_6F4378EAAB1F"/>
@@ -425,7 +425,7 @@
 								</UML:Dependency>
 								<UML:Package name="Mine" xmi.id="EAPK_91AEEF78_5280_440c_8309_B4EE0F7EC0A9" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_9FD0FA97_021C_483d_9429_A6EDEACF47DE"/>
+										<UML:Stereotype xmi.idref="EAID_87F0B3B2_AF55_40f0_B74A_A9A26FC27C62"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="parent" value="EAPK_B9F999B6_F89B_4f86_9899_4F9203002153"/>
@@ -2366,7 +2366,7 @@
 								</UML:Package>
 								<UML:Package name="MineralOccurrence" xmi.id="EAPK_1744A5E8_D58F_47f3_AE66_186DA6870534" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_9FD0FA97_021C_483d_9429_A6EDEACF47DE"/>
+										<UML:Stereotype xmi.idref="EAID_87F0B3B2_AF55_40f0_B74A_A9A26FC27C62"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="parent" value="EAPK_B9F999B6_F89B_4f86_9899_4F9203002153"/>
@@ -5421,10 +5421,10 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_8C09A5CC_1C84_4705_A2EC_67AEADE8B55C" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_28128B9E_A5D3_4619_A041_A807001168E0" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
-				<UML:Stereotype xmi.id="EAID_9FD0FA97_021C_483d_9429_A6EDEACF47DE" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_87F0B3B2_AF55_40f0_B74A_A9A26FC27C62" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 				<UML:DataType xmi.id="eaxmiid0" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
@@ -5434,9 +5434,9 @@
 		<UML:TaggedValue tag="documentation" xmi.id="EAID_265BF9E0_A46B_4bac_ACE6_A8EFFDC57310" value="#NOTES#Description: Normative documentation association with this element&#xA;" modelElement="EAID_B9F999B6_F89B_4f86_9899_4F9203002153"/>
 		<UML:TaggedValue tag="gmlProfileSchema" xmi.id="EAID_48460EC2_111D_0911_A0EC_D839CA35B3E3" value="#NOTES#Description: an element  gml:gmlProfileSchema  with the content&#xA;" modelElement="EAID_B9F999B6_F89B_4f86_9899_4F9203002153"/>
 		<UML:TaggedValue tag="owner" xmi.id="EAID_081BC26B_CBE6_0ecb_9A90_1F67BE769161" value="GGIC - (Australasian) Government Geologists Information Committee#NOTES#Description: Party responsible for maintenance of this package&#xA;" modelElement="EAID_B9F999B6_F89B_4f86_9899_4F9203002153"/>
-		<UML:TaggedValue tag="targetNamespace" xmi.id="EAID_393CD814_172F_4c17_9984_B4948B40AB0C" value="urn:cgi:xmlns:GGIC:MineralOccurrence:1.0#NOTES#Description: URI to unique target namespace&#xA;" modelElement="EAID_B9F999B6_F89B_4f86_9899_4F9203002153"/>
-		<UML:TaggedValue tag="version" xmi.id="EAID_6F40CEE6_2321_1c23_948D_075106510B0D" value="1.0.0#NOTES#Description: Schema version&#xA;" modelElement="EAID_B9F999B6_F89B_4f86_9899_4F9203002153"/>
-		<UML:TaggedValue tag="xmlns" xmi.id="EAID_08B91BD2_254D_ac25_9E54_B12A17DAE2E1" value="mo#NOTES#Description: Prefix associated with namespace&#xA;" modelElement="EAID_B9F999B6_F89B_4f86_9899_4F9203002153"/>
+		<UML:TaggedValue tag="targetNamespace" xmi.id="EAID_393CD814_172F_4c17_9984_B4948B40AB0C" value="urn:cgi:xmlns:GGIC:EarthResource:1.1#NOTES#Description: URI to unique target namespace&#xA;" modelElement="EAID_B9F999B6_F89B_4f86_9899_4F9203002153"/>
+		<UML:TaggedValue tag="version" xmi.id="EAID_6F40CEE6_2321_1c23_948D_075106510B0D" value="1.1.0#NOTES#Description: Schema version&#xA;" modelElement="EAID_B9F999B6_F89B_4f86_9899_4F9203002153"/>
+		<UML:TaggedValue tag="xmlns" xmi.id="EAID_08B91BD2_254D_ac25_9E54_B12A17DAE2E1" value="er#NOTES#Description: Prefix associated with namespace&#xA;" modelElement="EAID_B9F999B6_F89B_4f86_9899_4F9203002153"/>
 		<UML:TaggedValue tag="xsdDocument" xmi.id="EAID_6E79370E_94A9_cf94_98FD_48ACFB379B02" value="earthResource.xsd#NOTES#Description: Relative path to XML Schema document representing this schema&#xA;" modelElement="EAID_B9F999B6_F89B_4f86_9899_4F9203002153"/>
 		<UML:TaggedValue tag="xsdDocument" xmi.id="EAID_4DF5C54D_3416_492f_AEE7_03B92CDD2127" value="mineralOccurrence.xsd#NOTES#Description: Relative path to XML Schema document corresponding to this package.&#xA;" modelElement="EAID_1744A5E8_D58F_47f3_AE66_186DA6870534"/>
 		<UML:TaggedValue tag="xsdDocument" xmi.id="EAID_538B3F0A_17D6_41c1_92A3_4A887474C879" value="mine.xsd" modelElement="EAID_91AEEF78_5280_440c_8309_B4EE0F7EC0A9"/>
