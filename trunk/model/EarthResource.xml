@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2009-07-03 12:13:26">
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2009-07-06 11:31:23">
 	<XMI.header>
 		<XMI.documentation>
 			<XMI.exporter>Enterprise Architect</XMI.exporter>
@@ -12,7 +12,7 @@
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
 				<UML:Package name="EarthResource" xmi.id="EAPK_B9F999B6_F89B_4f86_9899_4F9203002153" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.stereotype>
-						<UML:Stereotype xmi.idref="EAID_984FE267_A1C8_4a29_8934_8398756BC126"/>
+						<UML:Stereotype xmi.idref="EAID_975559B7_BF29_4846_9E63_0030CE131FDB"/>
 					</UML:ModelElement.stereotype>
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="parent" value="EAPK_716A3F26_3509_4187_8A8E_6F4378EAAB1F"/>
@@ -367,7 +367,7 @@
 						</UML:Dependency>
 						<UML:Package name="Mine" xmi.id="EAPK_91AEEF78_5280_440c_8309_B4EE0F7EC0A9" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_7319DE81_7B0C_4649_B02B_EAD448E8141B"/>
+								<UML:Stereotype xmi.idref="EAID_E01FAC1D_4C50_4260_8732_0A2B7E5D737E"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="parent" value="EAPK_B9F999B6_F89B_4f86_9899_4F9203002153"/>
@@ -1595,7 +1595,6 @@
 												<UML:TaggedValue tag="ea_localid" value="4824"/>
 												<UML:TaggedValue tag="styleex" value="volatile=0;IsLiteral=0;"/>
 												<UML:TaggedValue tag="sequenceNumber" value="2" xmi.id="EAID_4EDF7FC0_8722_4b23_A26E_9CF510C31BF2"/>
-												<UML:TaggedValue tag="inlineOrByReference" value="byReference" xmi.id="EAID_E7124E4D_C9CA_40b2_8116_EB169D971528"/>
 											</UML:ModelElement.taggedValue>
 										</UML:Attribute>
 										<UML:Attribute name="status" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -2308,7 +2307,7 @@
 						</UML:Package>
 						<UML:Package name="MineralOccurrence" xmi.id="EAPK_1744A5E8_D58F_47f3_AE66_186DA6870534" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_7319DE81_7B0C_4649_B02B_EAD448E8141B"/>
+								<UML:Stereotype xmi.idref="EAID_E01FAC1D_4C50_4260_8732_0A2B7E5D737E"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="parent" value="EAPK_B9F999B6_F89B_4f86_9899_4F9203002153"/>
@@ -5361,10 +5360,10 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_984FE267_A1C8_4a29_8934_8398756BC126" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_975559B7_BF29_4846_9E63_0030CE131FDB" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
-				<UML:Stereotype xmi.id="EAID_7319DE81_7B0C_4649_B02B_EAD448E8141B" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_E01FAC1D_4C50_4260_8732_0A2B7E5D737E" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 				<UML:DataType xmi.id="eaxmiid0" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
