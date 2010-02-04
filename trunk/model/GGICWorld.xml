@@ -12,6 +12,7 @@
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
 				<UML:Package name="GGICWorld" xmi.id="EAPK_716A3F26_3509_4187_8A8E_6F4378EAAB1F" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="documentation" value="The Earth Resource model is a high-level data exchange standard for information on mineral occurrences, commodities, historical production, reserves and resources, deposit classification etc.&#xA;&#xA;The model has been developed under the leadership of the Australian Government Geoscience Information Committee (GGIC) to enable sharing.&#xA;&#xA;The model is compatible with GeoSciML, the IUGS developed language for exchange of geological map features, and uses patterns and features common to GeoSciML. GeoSciML is based on ISO and Open Geospatial Consortium (OGC) standards using Geographic Mark-up Language (GML) as an encoding for geographic information.&#xA;&#xA;The EarthResourceML Model key points are:&#xA;1) Describes Earth Resources independent of associated human activities (i.e. mining); &#xA;2) Caters for description of Earth Resource using mineral deposit models that describe the actual deposit type; mineral systems that describe the processes associated with deposit formation; and supergene processes; &#xA;3) Utilises GeoSciML Mapped Feature to describe spatial representation and Earth Material to describe host, raw and associated materials; &#xA;4) Describes a mine as made up of a number of Mining Activities, each producing some commodity; &#xA;5) Provides the ability to describe commodity resources formally or informally.&#xA;&#xA;For the latest release, please see http://www.earthresourceml.org/&#xA;"/>
 						<UML:TaggedValue tag="parent" value="EAPK_1E5ED0C7_1665_4fda_9B8E_5E8B42FE0F48"/>
 						<UML:TaggedValue tag="ea_package_id" value="405"/>
 						<UML:TaggedValue tag="created" value="2007-05-08 00:00:00"/>
@@ -20,7 +21,7 @@
 						<UML:TaggedValue tag="xmlpath" value="GGICWorld.xml"/>
 						<UML:TaggedValue tag="lastloaddate" value="2010-02-04 11:02:26"/>
 						<UML:TaggedValue tag="lastsavedate" value="2007-05-17 16:18:11"/>
-						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="version" value="2.0"/>
 						<UML:TaggedValue tag="isprotected" value="FALSE"/>
 						<UML:TaggedValue tag="usedtd" value="FALSE"/>
 						<UML:TaggedValue tag="logxml" value="FALSE"/>
@@ -30,7 +31,7 @@
 						<UML:TaggedValue tag="batchload" value="0"/>
 						<UML:TaggedValue tag="phase" value="1.0"/>
 						<UML:TaggedValue tag="status" value="Proposed"/>
-						<UML:TaggedValue tag="author" value="Simon Cox"/>
+						<UML:TaggedValue tag="author" value="Bruce Simons"/>
 						<UML:TaggedValue tag="complexity" value="1"/>
 						<UML:TaggedValue tag="ea_stype" value="Public"/>
 						<UML:TaggedValue tag="tpos" value="0"/>
@@ -48,10 +49,10 @@
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Package"/>
 										<UML:TaggedValue tag="ea_ntype" value="0"/>
-										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="version" value="2.0"/>
 										<UML:TaggedValue tag="package" value="EAPK_716A3F26_3509_4187_8A8E_6F4378EAAB1F"/>
 										<UML:TaggedValue tag="date_created" value="2007-02-06 08:12:14"/>
-										<UML:TaggedValue tag="date_modified" value="2008-11-21 13:44:04"/>
+										<UML:TaggedValue tag="date_modified" value="2010-02-04 13:09:07"/>
 										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_B9F999B6_F89B_4f86_9899_4F9203002153"/>
@@ -249,7 +250,7 @@
 						</UML:Dependency>
 						<UML:Package name="EarthResource" xmi.id="EAPK_B9F999B6_F89B_4f86_9899_4F9203002153" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_7422ED4E_91EB_4ec5_9FDD_3E4A83F770E4"/>
+								<UML:Stereotype xmi.idref="EAID_E53CF8FE_CB65_4278_9FE9_0E364BAF8EE7"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="parent" value="EAPK_716A3F26_3509_4187_8A8E_6F4378EAAB1F"/>
@@ -258,7 +259,7 @@
 								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
 								<UML:TaggedValue tag="lastloaddate" value="2007-05-17 16:18:11"/>
 								<UML:TaggedValue tag="lastsavedate" value="2007-05-17 16:18:11"/>
-								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="version" value="2.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
 								<UML:TaggedValue tag="usedtd" value="FALSE"/>
 								<UML:TaggedValue tag="logxml" value="FALSE"/>
@@ -283,10 +284,10 @@
 												<UML:TaggedValue tag="isSpecification" value="false"/>
 												<UML:TaggedValue tag="ea_stype" value="Package"/>
 												<UML:TaggedValue tag="ea_ntype" value="0"/>
-												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="version" value="2.0"/>
 												<UML:TaggedValue tag="package" value="EAPK_B9F999B6_F89B_4f86_9899_4F9203002153"/>
 												<UML:TaggedValue tag="date_created" value="2007-10-22 17:37:42"/>
-												<UML:TaggedValue tag="date_modified" value="2007-10-22 17:37:42"/>
+												<UML:TaggedValue tag="date_modified" value="2010-02-04 13:09:35"/>
 												<UML:TaggedValue tag="gentype" value="Java"/>
 												<UML:TaggedValue tag="tagged" value="0"/>
 												<UML:TaggedValue tag="package2" value="EAID_1744A5E8_D58F_47f3_AE66_186DA6870534"/>
@@ -312,10 +313,10 @@
 												<UML:TaggedValue tag="isSpecification" value="false"/>
 												<UML:TaggedValue tag="ea_stype" value="Package"/>
 												<UML:TaggedValue tag="ea_ntype" value="0"/>
-												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="version" value="2.0"/>
 												<UML:TaggedValue tag="package" value="EAPK_B9F999B6_F89B_4f86_9899_4F9203002153"/>
 												<UML:TaggedValue tag="date_created" value="2008-12-01 13:53:14"/>
-												<UML:TaggedValue tag="date_modified" value="2008-12-01 13:53:28"/>
+												<UML:TaggedValue tag="date_modified" value="2010-02-04 13:09:22"/>
 												<UML:TaggedValue tag="gentype" value="Java"/>
 												<UML:TaggedValue tag="tagged" value="0"/>
 												<UML:TaggedValue tag="package2" value="EAID_91AEEF78_5280_440c_8309_B4EE0F7EC0A9"/>
@@ -337,7 +338,7 @@
 								</UML:Collaboration>
 								<UML:Package name="Mine" xmi.id="EAPK_91AEEF78_5280_440c_8309_B4EE0F7EC0A9" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_1038A11B_46D3_4973_8F40_38D0790497FA"/>
+										<UML:Stereotype xmi.idref="EAID_9D243001_5B08_419e_A67B_42D900A8BD18"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="parent" value="EAPK_B9F999B6_F89B_4f86_9899_4F9203002153"/>
@@ -346,7 +347,7 @@
 										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
 										<UML:TaggedValue tag="lastloaddate" value="2008-12-16 10:16:56"/>
 										<UML:TaggedValue tag="lastsavedate" value="2008-12-16 10:16:56"/>
-										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="version" value="2.0"/>
 										<UML:TaggedValue tag="isprotected" value="FALSE"/>
 										<UML:TaggedValue tag="usedtd" value="FALSE"/>
 										<UML:TaggedValue tag="logxml" value="FALSE"/>
@@ -2549,7 +2550,7 @@
 								</UML:Package>
 								<UML:Package name="MineralOccurrence" xmi.id="EAPK_1744A5E8_D58F_47f3_AE66_186DA6870534" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_1038A11B_46D3_4973_8F40_38D0790497FA"/>
+										<UML:Stereotype xmi.idref="EAID_9D243001_5B08_419e_A67B_42D900A8BD18"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="parent" value="EAPK_B9F999B6_F89B_4f86_9899_4F9203002153"/>
@@ -2558,7 +2559,7 @@
 										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
 										<UML:TaggedValue tag="lastloaddate" value="2007-10-23 13:08:29"/>
 										<UML:TaggedValue tag="lastsavedate" value="2007-10-23 13:08:29"/>
-										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="version" value="2.0"/>
 										<UML:TaggedValue tag="isprotected" value="FALSE"/>
 										<UML:TaggedValue tag="usedtd" value="FALSE"/>
 										<UML:TaggedValue tag="logxml" value="FALSE"/>
@@ -5719,10 +5720,10 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_7422ED4E_91EB_4ec5_9FDD_3E4A83F770E4" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_E53CF8FE_CB65_4278_9FE9_0E364BAF8EE7" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
-				<UML:Stereotype xmi.id="EAID_1038A11B_46D3_4973_8F40_38D0790497FA" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_9D243001_5B08_419e_A67B_42D900A8BD18" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 				<UML:DataType xmi.id="eaxmiid0" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
