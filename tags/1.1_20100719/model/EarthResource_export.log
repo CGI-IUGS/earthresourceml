@@ -1,0 +1,51 @@
+Exporting package to 'U:\CSIROSubversion2\GGIC\trunk\model\EarthResource.xml'
+Retrieving data for export: packages
+Retrieving data for export: diagram elements
+Retrieving data for export: links
+Retrieving data for export: constraints
+Retrieving data for export: attribute tagged values
+Retrieving data for export: operation tagged values
+Retrieving data for export: operation parameter tagged values
+Retrieving data for export: connector tagged values
+Completed data retrieval
+Pre-processing export tree...
+Completed pre-processing
+***** Processing package: EarthResource *****
+Element:0: MineralOccurrence
+Element:1: Mine
+Diagram: Package dependencies
+***** Processing package: Mine *****
+Element:2: RawMaterialRoleCode
+Element:3: MiningActivity
+Element:4: MiningActivityTypeCode
+Element:5: MinedMaterial
+Element:6: MineName
+Element:7: MiningFeature
+Element:8: Mine
+Element:9: Product
+Element:10: MiningFeatureOccurrence
+Element:11: MineStatusCode
+Diagram: Mine
+***** Processing package: MineralOccurrence *****
+Element:12: ImportanceCode
+Element:13: MineralDepositModel
+Element:14: ResourceCategoryCode
+Element:15: MineralOccurrenceTypeCode
+Element:16: CommodityMeasure
+Element:17: Endowment
+Element:18: EarthResource
+Element:19: ERMaterialRoleCode
+Element:20: SupergeneProcesses
+Element:21: Reserve
+Element:22: Resource
+Element:23: EarthResourceDimension
+Element:24: Commodity
+Element:25: EarthResourceMaterial
+Element:26: MineralOccurrence
+Element:27: MineralSystem
+Element:28: OreMeasure
+Element:29: NonMetallicOccurrence
+Element:30: ReserveCategoryCode
+Diagram: MineralOccurrence
+Formatting output XML...please wait
+XMI Document Export Complete!

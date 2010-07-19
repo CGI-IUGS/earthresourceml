@@ -1,0 +1,66 @@
+
+Importing Model from XMI
+Root Package: GGICWorld
+Unknown Version Control configuration: GGICWorld
+Add Classifier Role: EarthResource
+Append Package: EarthResource
+Add Classifier Role: MineralOccurrence
+Add Classifier Role: Mine
+Append Package: Mine
+Add Classifier: RawMaterialRoleCode
+Add Classifier: MiningActivity
+Add Classifier: MiningActivityTypeCode
+Add Classifier: MinedMaterial
+Add Classifier: MineName
+Add Classifier: MiningFeature
+Add Classifier: Mine
+Add Classifier: Product
+Add Classifier: MiningFeatureOccurrence
+Add Classifier: MineStatusCode
+Append Package: MineralOccurrence
+Add Classifier: ImportanceCode
+Add Classifier: MineralDepositModel
+Add Classifier: ResourceCategoryCode
+Add Classifier: MineralOccurrenceTypeCode
+Add Classifier: CommodityMeasure
+Add Classifier: Endowment
+Add Classifier: EarthResource
+Add Classifier: ERMaterialRoleCode
+Add Classifier: SupergeneProcesses
+Add Classifier: Reserve
+Add Classifier: Resource
+Add Classifier: EarthResourceDimension
+Add Classifier: Commodity
+Add Classifier: EarthResourceMaterial
+Add Classifier: MineralOccurrence
+Add Classifier: MineralSystem
+Add Classifier: OreMeasure
+Add Classifier: NonMetallicOccurrence
+Add Classifier: ReserveCategoryCode
+Resolving Classifiers
+Resolving Owners
+Resolve Package Links
+Add Extensions
+Add Diagrams
+Adding Diagram : Package dependencies
+Adding Diagram : Mine
+Adding Diagram : MineralOccurrence
+Adding Diagram : Context: MineralSystem
+Adding Diagram : Context: EarthResource
+Adding Elements to Diagram : Package dependencies
+Adding Elements to Diagram : Mine
+Adding Elements to Diagram : MineralOccurrence
+Adding Elements to Diagram : Context: MineralSystem
+Adding Elements to Diagram : Context: EarthResource
+Resolving DiagramIDs
+Adding Links to Diagram : Package dependencies
+Adding Links to Diagram : Mine
+Adding Links to Diagram : MineralOccurrence
+Adding Links to Diagram : Context: MineralSystem
+Adding Links to Diagram : Context: EarthResource
+Resolving Association Classes
+Resolving Parameter Types
+Resolving Attribute Types
+Resolving Note links
+Fixup external references
+Import Complete!
