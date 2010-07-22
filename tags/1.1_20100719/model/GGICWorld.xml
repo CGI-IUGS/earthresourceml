@@ -253,7 +253,7 @@
 						</UML:Dependency>
 						<UML:Package name="EarthResource" xmi.id="EAPK_B9F999B6_F89B_4f86_9899_4F9203002153" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_FE41B45F_D63D_4510_ABB3_72F7A2813216"/>
+								<UML:Stereotype xmi.idref="EAID_5F6CA91A_ABAE_4d59_A85F_34B3E86C5A2B"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="parent" value="EAPK_716A3F26_3509_4187_8A8E_6F4378EAAB1F"/>
@@ -341,7 +341,7 @@
 								</UML:Collaboration>
 								<UML:Package name="Mine" xmi.id="EAPK_91AEEF78_5280_440c_8309_B4EE0F7EC0A9" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_C580699B_EA11_47da_9C0D_E2975CE8789C"/>
+										<UML:Stereotype xmi.idref="EAID_712F10E3_EF73_44ce_A8BA_B322B2A97824"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="parent" value="EAPK_B9F999B6_F89B_4f86_9899_4F9203002153"/>
@@ -2400,7 +2400,7 @@
 								</UML:Package>
 								<UML:Package name="MineralOccurrence" xmi.id="EAPK_1744A5E8_D58F_47f3_AE66_186DA6870534" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_C580699B_EA11_47da_9C0D_E2975CE8789C"/>
+										<UML:Stereotype xmi.idref="EAID_712F10E3_EF73_44ce_A8BA_B322B2A97824"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="parent" value="EAPK_B9F999B6_F89B_4f86_9899_4F9203002153"/>
@@ -5062,6 +5062,46 @@
 												</UML:Attribute>
 											</UML:Classifier.feature>
 										</UML:Class>
+										<UML:Association xmi.id="EAID_CD8B7D7B_414F_4f8d_99DA_E226D09E48F1" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="3"/>
+												<UML:TaggedValue tag="ea_type" value="Association"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="3"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="0"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="-1575685539"/>
+												<UML:TaggedValue tag="ea_sourceName" value="MineralSystem"/>
+												<UML:TaggedValue tag="ea_targetName" value="InorganicFluid"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+												<UML:TaggedValue tag="ea_targetType" value="Class"/>
+												<UML:TaggedValue tag="ea_sourceID" value="-187695682"/>
+												<UML:TaggedValue tag="ea_targetID" value="-2044375944"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+												<UML:TaggedValue tag="rb" value="0..*"/>
+												<UML:TaggedValue tag="rt" value="+fluidDescription"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Association.connection>
+												<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_DEC59503_8C7E_4d8e_9161_5FA7D8C6CACE">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="containment" value="Unspecified"/>
+														<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+														<UML:TaggedValue tag="ea_end" value="source"/>
+													</UML:ModelElement.taggedValue>
+												</UML:AssociationEnd>
+												<UML:AssociationEnd visibility="public" multiplicity="0..*" name="fluidDescription" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_E9FA33DB_9763_4914_9238_E95C36AAE8C4">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="containment" value="Unspecified"/>
+														<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+														<UML:TaggedValue tag="ea_end" value="target"/>
+														<UML:TaggedValue tag="sequenceNumber" value="3" xmi.id="EAID_9890EB8F_9261_4872_9EAC_60EF9542473A"/>
+													</UML:ModelElement.taggedValue>
+												</UML:AssociationEnd>
+											</UML:Association.connection>
+										</UML:Association>
 										<UML:Class name="OreMeasure" xmi.id="EAID_EFD2FD1B_16C7_4fc6_9D60_80D8A48F8CD0" visibility="public" namespace="EAPK_1744A5E8_D58F_47f3_AE66_186DA6870534" isRoot="false" isLeaf="false" isAbstract="true" isActive="false">
 											<UML:ModelElement.stereotype>
 												<UML:Stereotype name="DataType"/>
@@ -5423,10 +5463,10 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_FE41B45F_D63D_4510_ABB3_72F7A2813216" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_5F6CA91A_ABAE_4d59_A85F_34B3E86C5A2B" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
-				<UML:Stereotype xmi.id="EAID_C580699B_EA11_47da_9C0D_E2975CE8789C" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_712F10E3_EF73_44ce_A8BA_B322B2A97824" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 				<UML:DataType xmi.id="eaxmiid0" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
@@ -5787,6 +5827,7 @@
 				<UML:DiagramElement geometry="Left=842;Top=505;Right=1068;Bottom=581;" subject="EAID_C7016AF3_48EF_461c_92DA_89DAF0A472C7" seqno="30" style="DUID=2EBC4C10;ImageID=0;LCol=-1;BFol=-1;LWth=1;BCol=16764057;"/>
 				<UML:DiagramElement geometry="Left=1335;Top=153;Right=1530;Bottom=238;" subject="EAID_8D363B34_54F5_47c2_9BD7_D9820365D758" seqno="31" style="DUID=5FFEEFD2;ImageID=0;LCol=-1;BFol=-1;LWth=1;BCol=16764057;"/>
 				<UML:DiagramElement geometry="Left=794;Top=248;Right=1106;Bottom=402;" subject="EAID_8105A2B0_F446_4037_8661_FD8F6E81E532" seqno="32" style="DUID=D5238BFB;ImageID=0;LCol=-1;BFol=-1;LWth=1;BCol=16764057;"/>
+				<UML:DiagramElement geometry="Left=136;Top=251;Right=244;Bottom=321;" subject="EAID_E9FA33DB_9763_4914_9238_E95C36AAE8C4" seqno="33" style="LCol=-1;BCol=10092287;BFol=-1;LWth=1;NSL=0;DUID=899C6646;"/>
 				<UML:DiagramElement geometry="SX=-24;SY=0;EX=-24;EY=0;EDGE=1;$LLB=CX=6:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=;LMT=;LMB=;LRT=CX=61:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=16:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_A44BF4C4_36BF_4a18_BE8A_BE6697414372" style="Mode=3;EOID=C4CBB719;SOID=4A397046;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=31;SY=2;EX=31;EY=2;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_6DCB0088_2A71_4511_95AD_27BE8B4889B9" style="Mode=3;EOID=D5238BFB;SOID=F4A4511B;Color=-1;LWidth=1;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=-121;EY=-16;EDGE=2;$LLB=CX=16:CY=13:OX=3:OY=9:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=;LMT=;LMB=;LRT=CX=103:CY=13:OX=-3:OY=36:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=16:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_B249E81E_31F3_4050_BADC_E3F41987A67D" style="Mode=3;EOID=6AC3B760;SOID=44A66DC8;Color=-1;LWidth=1;Hidden=0;"/>
@@ -5805,6 +5846,7 @@
 				<UML:DiagramElement geometry="SX=0;SY=-4;EX=95;EY=23;EDGE=4;$LLB=CX=6:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=;LMT=;LMB=;LRT=CX=89:CY=13:OX=2:OY=-9:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=16:CY=13:OX=8:OY=4:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_D2CDFDE7_C472_4ada_9738_3DFD4FFDC093" style="Mode=3;EOID=F4AA7F14;SOID=4A397046;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="EDGE=3;$LLB=CX=16:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=73:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=79:CY=13:OX=-5:OY=-1:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=18:CY=13:OX=-3:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_8FF8BF7B_77DB_4e05_A730_29BCFD5B96B0" style="Mode=3;EOID=2354FAA8;SOID=4A397046;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=-100;SY=40;EX=66;EY=1;EDGE=4;$LLB=CX=16:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=92:CY=13:OX=83:OY=-13:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=40:CY=13:OX=75:OY=10:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=6:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=1166:-531$;" subject="EAID_F8C7369B_581B_4e67_8B92_8C18879DA0D8" style="Mode=3;EOID=D5238BFB;SOID=4A397046;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;Path=;" subject="EAID_CD8B7D7B_414F_4f8d_99DA_E226D09E48F1" style=";Hidden=0;"/>
 				<UML:DiagramElement geometry="EDGE=1;SX=-4;SY=37;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_E23D814B_7AE1_4ca5_BBCD_0147F48ABA39" style="Mode=3;EOID=D5238BFB;SOID=2EBC4C10;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=-48;SY=13;EX=-48;EY=13;EDGE=4;$LLB=CX=6:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=;LMT=;LMB=;LRT=CX=58:CY=13:OX=44:OY=-18:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=16:CY=13:OX=29:OY=3:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_C74D0FA4_010D_41b2_ADD6_DE00B6A2AE5F" style="Mode=3;EOID=B6061243;SOID=D5238BFB;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=-41;SY=76;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_CA5A0467_F842_44a5_91B3_8A97F4B8D5C2" style="Mode=3;EOID=BA6F8BB1;SOID=D5238BFB;Color=-1;LWidth=0;Hidden=0;"/>
@@ -5878,6 +5920,7 @@
 	<XMI.difference/>
 	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
 		<EAStub xmi.id="EAID_01F26908_42C5_414c_8147_8353C048F4D8" name="GeologicFeature" UMLType="Class"/>
+		<EAStub xmi.id="EAID_E9FA33DB_9763_4914_9238_E95C36AAE8C4" name="InorganicFluid" UMLType="Class"/>
 		<EAStub xmi.id="EAID_4FEAFA49_AC15_4c42_BEEF_797435CCD4E0" name="Boolean" UMLType="Class"/>
 	</XMI.extensions>
 </XMI>
