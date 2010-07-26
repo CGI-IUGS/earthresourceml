@@ -1,0 +1,55 @@
+
+Gather external references for later resolution
+Deleting existing packages from model
+Importing Model from XMI
+Root Package: GGIPACWorld
+Unknown Version Control configuration: GGIPACWorld
+Add Classifier Role: MineralOccurrence
+Append Package: MineralOccurrence
+Add Classifier Role: MineralOccurrence
+Append Package: MineralOccurrence
+Add Classifier: RawMaterialRoleCode
+Add Classifier: ImportanceCode
+Add Classifier: MiningActivity
+Add Classifier: MineralDepositModel
+Add Classifier: ResourceCategoryCode
+Add Classifier: MineralOccurrenceTypeCode
+Add Classifier: CommodityMeasure
+Add Classifier: Endowment
+Add Classifier: EarthResource
+Add Classifier: ERMaterialRoleCode
+Add Classifier: SupergeneProcesses
+Add Classifier: Reserve
+Add Classifier: MiningActivityTypeCode
+Add Classifier: Resource
+Add Classifier: RawMaterial
+Add Classifier: MineNamePreference
+Add Classifier: EarthResourceDimension
+Add Classifier: Commodity
+Add Classifier: EarthResourceMaterial
+Add Classifier: Mine
+Add Classifier: Product
+Add Classifier: MineralOccurrence
+Add Classifier: MineralSystem
+Add Classifier: MineStatusCode
+Add Classifier: OreMeasure
+Add Classifier: NonMetallicOccurrence
+Add Classifier: ReserveCategoryCode
+Resolving Classifiers
+Resolving Owners
+Resolve Package Links
+Add Extensions
+Add Diagrams
+Adding Diagram : Package dependencies
+Adding Diagram : MineralOccurrence
+Adding Elements to Diagram : Package dependencies
+Adding Elements to Diagram : MineralOccurrence
+Resolving DiagramIDs
+Adding Links to Diagram : Package dependencies
+Adding Links to Diagram : MineralOccurrence
+Resolving Association Classes
+Resolving Parameter Types
+Resolving Attribute Types
+Resolving Note links
+Fixup external references
+Import Complete!

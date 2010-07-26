@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wfs:FeatureCollection xmlns:wfs="http://www.opengis.net/wfs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:gml="http://www.opengis.net/gml" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:er="urn:cgi:xmlns:GGIC:EarthResource:1.1" xsi:schemaLocation="urn:cgi:xmlns:GGIC:EarthResource:1.1 http://www.earthresourceml.org/earthresourceml/1.1/xsd/earthResource.xsd http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd" numberOfFeatures="10">
+	<gml:featureMember>
+		<er:Commodity gml:id="er.commodity.361023.au">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:Commodity:361023:au</gml:name>
+			<er:commodityName codeSpace="urn:cgi:classifierScheme:GA:commodity">urn:cgi:classifier:GA:commodity:Au</er:commodityName>
+			<er:commodityImportance>major</er:commodityImportance>
+			<er:source xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:361023"/>
+		</er:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:Commodity gml:id="er.commodity.361024.au">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:Commodity:361024:au</gml:name>
+			<er:commodityName codeSpace="urn:cgi:classifierScheme:GA:commodity">urn:cgi:classifier:GA:commodity:Au</er:commodityName>
+			<er:commodityImportance>major</er:commodityImportance>
+			<er:source xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:361024"/>
+		</er:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:Commodity gml:id="er.commodity.361025.au">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:Commodity:361025:au</gml:name>
+			<er:commodityName codeSpace="urn:cgi:classifierScheme:GA:commodity">urn:cgi:classifier:GA:commodity:Au</er:commodityName>
+			<er:commodityImportance>major</er:commodityImportance>
+			<er:source xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:361025"/>
+		</er:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:Commodity gml:id="er.commodity.361026.au">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:Commodity:361026:au</gml:name>
+			<er:commodityName codeSpace="urn:cgi:classifierScheme:GA:commodity">urn:cgi:classifier:GA:commodity:Au</er:commodityName>
+			<er:commodityImportance>major</er:commodityImportance>
+			<er:source xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:361026"/>
+		</er:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:Commodity gml:id="er.commodity.361027.au">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:Commodity:361027:au</gml:name>
+			<er:commodityName codeSpace="urn:cgi:classifierScheme:GA:commodity">urn:cgi:classifier:GA:commodity:Au</er:commodityName>
+			<er:commodityImportance>major</er:commodityImportance>
+			<er:source xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:361027"/>
+		</er:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:Commodity gml:id="er.commodity.361028.au">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:Commodity:361028:au</gml:name>
+			<er:commodityName codeSpace="urn:cgi:classifierScheme:GA:commodity">urn:cgi:classifier:GA:commodity:Au</er:commodityName>
+			<er:commodityImportance>major</er:commodityImportance>
+			<er:source xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:361028"/>
+		</er:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:Commodity gml:id="er.commodity.361029.au">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:Commodity:361029:au</gml:name>
+			<er:commodityName codeSpace="urn:cgi:classifierScheme:GA:commodity">urn:cgi:classifier:GA:commodity:Au</er:commodityName>
+			<er:commodityImportance>major</er:commodityImportance>
+			<er:source xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:361029"/>
+		</er:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:Commodity gml:id="er.commodity.361030.au">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:Commodity:361030:au</gml:name>
+			<er:commodityName codeSpace="urn:cgi:classifierScheme:GA:commodity">urn:cgi:classifier:GA:commodity:Au</er:commodityName>
+			<er:commodityImportance>major</er:commodityImportance>
+			<er:source xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:361030"/>
+		</er:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:Commodity gml:id="er.commodity.361031.au">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:Commodity:361031:au</gml:name>
+			<er:commodityName codeSpace="urn:cgi:classifierScheme:GA:commodity">urn:cgi:classifier:GA:commodity:Au</er:commodityName>
+			<er:commodityImportance>major</er:commodityImportance>
+			<er:source xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:361031"/>
+		</er:Commodity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:Commodity gml:id="er.commodity.361032.au">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:Commodity:361032:au</gml:name>
+			<er:commodityName codeSpace="urn:cgi:classifierScheme:GA:commodity">urn:cgi:classifier:GA:commodity:Au</er:commodityName>
+			<er:commodityImportance>major</er:commodityImportance>
+			<er:source xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:361032"/>
+		</er:Commodity>
+	</gml:featureMember>
+</wfs:FeatureCollection>
