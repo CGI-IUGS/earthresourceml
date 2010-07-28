@@ -1,635 +1,517 @@
-<?xml version="1.0" encoding="UTF-8"?><wfs:FeatureCollection xmlns:wfs="http://www.opengis.net/wfs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:gml="http://www.opengis.net/gml" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:er="urn:cgi:xmlns:GGIC:EarthResource:1.1" xsi:schemaLocation="urn:cgi:xmlns:GGIC:EarthResource:1.1 http://www.earthresourceml.org/earthresourceml/1.1/xsd/earthResource.xsd http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd" numberOfFeatures="10">
-<gml:boundedBy>
-<gml:Envelope srsName="EPSG:4283">
-<gml:lowerCorner>143.59003 -37.62047</gml:lowerCorner>
-<gml:upperCorner>143.59003 -37.62047</gml:upperCorner>
-</gml:Envelope>
-</gml:boundedBy>
-<gml:featureMember>
-<er:MiningActivity gml:id="er.miningactivity.378079.23418">
-<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningActivity:378079:23418</gml:name>
-<er:occurrence>
-<er:MiningFeatureOccurrence gml:id="er.miningfeatureoccurrence.miningactivity.378079.23418">
-<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningFeatureOccurrence:MiningActivity:378079:23418</gml:name>
-<er:observationMethod>
-<gsml:CGI_TermValue>
-<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC::missing</gsml:value>
-</gsml:CGI_TermValue>
-</er:observationMethod>
-<er:positionalAccuracy>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">5</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:positionalAccuracy>
-<er:specification xlink:href="#er.miningactivity.378079.23418"/>
-<er:location>
-<gml:Point srsName="EPSG:4283">
-<gml:pos>143.59003 -37.62047</gml:pos>
-</gml:Point>
-</er:location>
-</er:MiningFeatureOccurrence>
-</er:occurrence>
-<er:activityDuration xlink:href="urn:ogc:def:nil:OGC::missing"/>
-<er:activityType>unspecified</er:activityType>
-<er:oreProcessed>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="">0</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:oreProcessed>
-<er:associatedMine xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Mine:378079"/>
-<er:deposit xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:378079"/>
-<er:producedMaterial>
-<er:Product gml:id="er.product.378079.23418">
-<er:productName>
-<gsml:CGI_TermValue>
-<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Gold</gsml:value>
-</gsml:CGI_TermValue>
-</er:productName>
-<er:sourceReference xlink:href="urn:ogc:def:nil:OGC::missing"/>
-<er:production>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="urn:ogc:def:uom:UCUM::%5Boz_tr%5D">6639</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:production>
-<er:sourceCommodity xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Commodity:378079:au"/>
-</er:Product>
-</er:producedMaterial>
-</er:MiningActivity>
-</gml:featureMember>
-<gml:featureMember>
-<er:MiningActivity gml:id="er.miningactivity.378079.21381">
-<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningActivity:378079:21381</gml:name>
-<er:occurrence>
-<er:MiningFeatureOccurrence gml:id="er.miningfeatureoccurrence.miningactivity.378079.21381">
-<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningFeatureOccurrence:MiningActivity:378079:21381</gml:name>
-<er:observationMethod>
-<gsml:CGI_TermValue>
-<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC::missing</gsml:value>
-</gsml:CGI_TermValue>
-</er:observationMethod>
-<er:positionalAccuracy>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">5</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:positionalAccuracy>
-<er:specification xlink:href="#er.miningactivity.378079.21381"/>
-<er:location>
-<gml:Point srsName="EPSG:4283">
-<gml:pos>143.59003 -37.62047</gml:pos>
-</gml:Point>
-</er:location>
-</er:MiningFeatureOccurrence>
-</er:occurrence>
-<er:activityDuration>
-<gml:TimePeriod>
-<gml:begin>
-<gml:TimeInstant>
-<gml:timePosition>1871-01-01</gml:timePosition>
-</gml:TimeInstant>
-</gml:begin>
-<gml:end>
-<gml:TimeInstant>
-<gml:timePosition>1871-03-31</gml:timePosition>
-</gml:TimeInstant>
-</gml:end>
-</gml:TimePeriod>
-</er:activityDuration>
-<er:activityType>unspecified</er:activityType>
-<er:oreProcessed>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="">0</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:oreProcessed>
-<er:associatedMine xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Mine:378079"/>
-<er:deposit xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:378079"/>
-<er:producedMaterial>
-<er:Product gml:id="er.product.378079.21381">
-<er:productName>
-<gsml:CGI_TermValue>
-<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Gold</gsml:value>
-</gsml:CGI_TermValue>
-</er:productName>
-<er:sourceReference xlink:href="urn:ogc:def:nil:OGC::missing"/>
-<er:production>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="urn:ogc:def:uom:UCUM::%5Boz_tr%5D">0</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:production>
-<er:sourceCommodity xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Commodity:378079:au"/>
-</er:Product>
-</er:producedMaterial>
-</er:MiningActivity>
-</gml:featureMember>
-<gml:featureMember>
-<er:MiningActivity gml:id="er.miningactivity.378079.21380">
-<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningActivity:378079:21380</gml:name>
-<er:occurrence>
-<er:MiningFeatureOccurrence gml:id="er.miningfeatureoccurrence.miningactivity.378079.21380">
-<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningFeatureOccurrence:MiningActivity:378079:21380</gml:name>
-<er:observationMethod>
-<gsml:CGI_TermValue>
-<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC::missing</gsml:value>
-</gsml:CGI_TermValue>
-</er:observationMethod>
-<er:positionalAccuracy>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">5</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:positionalAccuracy>
-<er:specification xlink:href="#er.miningactivity.378079.21380"/>
-<er:location>
-<gml:Point srsName="EPSG:4283">
-<gml:pos>143.59003 -37.62047</gml:pos>
-</gml:Point>
-</er:location>
-</er:MiningFeatureOccurrence>
-</er:occurrence>
-<er:activityDuration>
-<gml:TimePeriod>
-<gml:begin>
-<gml:TimeInstant>
-<gml:timePosition>1869-05-16</gml:timePosition>
-</gml:TimeInstant>
-</gml:begin>
-<gml:end>
-<gml:TimeInstant>
-<gml:timePosition>1869-06-12</gml:timePosition>
-</gml:TimeInstant>
-</gml:end>
-</gml:TimePeriod>
-</er:activityDuration>
-<er:activityType>unspecified</er:activityType>
-<er:oreProcessed>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="">0</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:oreProcessed>
-<er:associatedMine xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Mine:378079"/>
-<er:deposit xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:378079"/>
-<er:producedMaterial>
-<er:Product gml:id="er.product.378079.21380">
-<er:productName>
-<gsml:CGI_TermValue>
-<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Gold</gsml:value>
-</gsml:CGI_TermValue>
-</er:productName>
-<er:sourceReference xlink:href="urn:ogc:def:nil:OGC::missing"/>
-<er:production>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="urn:ogc:def:uom:UCUM::%5Boz_tr%5D">555</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:production>
-<er:sourceCommodity xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Commodity:378079:au"/>
-</er:Product>
-</er:producedMaterial>
-</er:MiningActivity>
-</gml:featureMember>
-<gml:featureMember>
-<er:MiningActivity gml:id="er.miningactivity.378079.21379">
-<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningActivity:378079:21379</gml:name>
-<er:occurrence>
-<er:MiningFeatureOccurrence gml:id="er.miningfeatureoccurrence.miningactivity.378079.21379">
-<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningFeatureOccurrence:MiningActivity:378079:21379</gml:name>
-<er:observationMethod>
-<gsml:CGI_TermValue>
-<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC::missing</gsml:value>
-</gsml:CGI_TermValue>
-</er:observationMethod>
-<er:positionalAccuracy>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">5</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:positionalAccuracy>
-<er:specification xlink:href="#er.miningactivity.378079.21379"/>
-<er:location>
-<gml:Point srsName="EPSG:4283">
-<gml:pos>143.59003 -37.62047</gml:pos>
-</gml:Point>
-</er:location>
-</er:MiningFeatureOccurrence>
-</er:occurrence>
-<er:activityDuration>
-<gml:TimePeriod>
-<gml:begin>
-<gml:TimeInstant>
-<gml:timePosition>1869-04-24</gml:timePosition>
-</gml:TimeInstant>
-</gml:begin>
-<gml:end>
-<gml:TimeInstant>
-<gml:timePosition>1869-05-15</gml:timePosition>
-</gml:TimeInstant>
-</gml:end>
-</gml:TimePeriod>
-</er:activityDuration>
-<er:activityType>unspecified</er:activityType>
-<er:oreProcessed>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="">0</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:oreProcessed>
-<er:associatedMine xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Mine:378079"/>
-<er:deposit xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:378079"/>
-<er:producedMaterial>
-<er:Product gml:id="er.product.378079.21379">
-<er:productName>
-<gsml:CGI_TermValue>
-<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Gold</gsml:value>
-</gsml:CGI_TermValue>
-</er:productName>
-<er:sourceReference xlink:href="urn:ogc:def:nil:OGC::missing"/>
-<er:production>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="urn:ogc:def:uom:UCUM::%5Boz_tr%5D">273</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:production>
-<er:sourceCommodity xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Commodity:378079:au"/>
-</er:Product>
-</er:producedMaterial>
-</er:MiningActivity>
-</gml:featureMember>
-<gml:featureMember>
-<er:MiningActivity gml:id="er.miningactivity.378079.21378">
-<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningActivity:378079:21378</gml:name>
-<er:occurrence>
-<er:MiningFeatureOccurrence gml:id="er.miningfeatureoccurrence.miningactivity.378079.21378">
-<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningFeatureOccurrence:MiningActivity:378079:21378</gml:name>
-<er:observationMethod>
-<gsml:CGI_TermValue>
-<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC::missing</gsml:value>
-</gsml:CGI_TermValue>
-</er:observationMethod>
-<er:positionalAccuracy>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">5</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:positionalAccuracy>
-<er:specification xlink:href="#er.miningactivity.378079.21378"/>
-<er:location>
-<gml:Point srsName="EPSG:4283">
-<gml:pos>143.59003 -37.62047</gml:pos>
-</gml:Point>
-</er:location>
-</er:MiningFeatureOccurrence>
-</er:occurrence>
-<er:activityDuration>
-<gml:TimePeriod>
-<gml:begin>
-<gml:TimeInstant>
-<gml:timePosition>1869-04-12</gml:timePosition>
-</gml:TimeInstant>
-</gml:begin>
-<gml:end>
-<gml:TimeInstant>
-<gml:timePosition>1869-04-17</gml:timePosition>
-</gml:TimeInstant>
-</gml:end>
-</gml:TimePeriod>
-</er:activityDuration>
-<er:activityType>unspecified</er:activityType>
-<er:oreProcessed>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="">0</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:oreProcessed>
-<er:associatedMine xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Mine:378079"/>
-<er:deposit xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:378079"/>
-<er:producedMaterial>
-<er:Product gml:id="er.product.378079.21378">
-<er:productName>
-<gsml:CGI_TermValue>
-<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Gold</gsml:value>
-</gsml:CGI_TermValue>
-</er:productName>
-<er:sourceReference xlink:href="urn:ogc:def:nil:OGC::missing"/>
-<er:production>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="urn:ogc:def:uom:UCUM::%5Boz_tr%5D">54</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:production>
-<er:sourceCommodity xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Commodity:378079:au"/>
-</er:Product>
-</er:producedMaterial>
-</er:MiningActivity>
-</gml:featureMember>
-<gml:featureMember>
-<er:MiningActivity gml:id="er.miningactivity.378079.21377">
-<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningActivity:378079:21377</gml:name>
-<er:occurrence>
-<er:MiningFeatureOccurrence gml:id="er.miningfeatureoccurrence.miningactivity.378079.21377">
-<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningFeatureOccurrence:MiningActivity:378079:21377</gml:name>
-<er:observationMethod>
-<gsml:CGI_TermValue>
-<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC::missing</gsml:value>
-</gsml:CGI_TermValue>
-</er:observationMethod>
-<er:positionalAccuracy>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">5</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:positionalAccuracy>
-<er:specification xlink:href="#er.miningactivity.378079.21377"/>
-<er:location>
-<gml:Point srsName="EPSG:4283">
-<gml:pos>143.59003 -37.62047</gml:pos>
-</gml:Point>
-</er:location>
-</er:MiningFeatureOccurrence>
-</er:occurrence>
-<er:activityDuration>
-<gml:TimePeriod>
-<gml:begin>
-<gml:TimeInstant>
-<gml:timePosition>1869-02-21</gml:timePosition>
-</gml:TimeInstant>
-</gml:begin>
-<gml:end>
-<gml:TimeInstant>
-<gml:timePosition>1869-03-20</gml:timePosition>
-</gml:TimeInstant>
-</gml:end>
-</gml:TimePeriod>
-</er:activityDuration>
-<er:activityType>unspecified</er:activityType>
-<er:oreProcessed>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="">0</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:oreProcessed>
-<er:associatedMine xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Mine:378079"/>
-<er:deposit xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:378079"/>
-<er:producedMaterial>
-<er:Product gml:id="er.product.378079.21377">
-<er:productName>
-<gsml:CGI_TermValue>
-<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Gold</gsml:value>
-</gsml:CGI_TermValue>
-</er:productName>
-<er:sourceReference xlink:href="urn:ogc:def:nil:OGC::missing"/>
-<er:production>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="urn:ogc:def:uom:UCUM::%5Boz_tr%5D">725</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:production>
-<er:sourceCommodity xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Commodity:378079:au"/>
-</er:Product>
-</er:producedMaterial>
-</er:MiningActivity>
-</gml:featureMember>
-<gml:featureMember>
-<er:MiningActivity gml:id="er.miningactivity.378079.21376">
-<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningActivity:378079:21376</gml:name>
-<er:occurrence>
-<er:MiningFeatureOccurrence gml:id="er.miningfeatureoccurrence.miningactivity.378079.21376">
-<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningFeatureOccurrence:MiningActivity:378079:21376</gml:name>
-<er:observationMethod>
-<gsml:CGI_TermValue>
-<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC::missing</gsml:value>
-</gsml:CGI_TermValue>
-</er:observationMethod>
-<er:positionalAccuracy>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">5</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:positionalAccuracy>
-<er:specification xlink:href="#er.miningactivity.378079.21376"/>
-<er:location>
-<gml:Point srsName="EPSG:4283">
-<gml:pos>143.59003 -37.62047</gml:pos>
-</gml:Point>
-</er:location>
-</er:MiningFeatureOccurrence>
-</er:occurrence>
-<er:activityDuration>
-<gml:TimePeriod>
-<gml:begin>
-<gml:TimeInstant>
-<gml:timePosition>1869-01-24</gml:timePosition>
-</gml:TimeInstant>
-</gml:begin>
-<gml:end>
-<gml:TimeInstant>
-<gml:timePosition>1869-02-20</gml:timePosition>
-</gml:TimeInstant>
-</gml:end>
-</gml:TimePeriod>
-</er:activityDuration>
-<er:activityType>unspecified</er:activityType>
-<er:oreProcessed>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="">0</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:oreProcessed>
-<er:associatedMine xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Mine:378079"/>
-<er:deposit xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:378079"/>
-<er:producedMaterial>
-<er:Product gml:id="er.product.378079.21376">
-<er:productName>
-<gsml:CGI_TermValue>
-<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Gold</gsml:value>
-</gsml:CGI_TermValue>
-</er:productName>
-<er:sourceReference xlink:href="urn:ogc:def:nil:OGC::missing"/>
-<er:production>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="urn:ogc:def:uom:UCUM::%5Boz_tr%5D">603</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:production>
-<er:sourceCommodity xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Commodity:378079:au"/>
-</er:Product>
-</er:producedMaterial>
-</er:MiningActivity>
-</gml:featureMember>
-<gml:featureMember>
-<er:MiningActivity gml:id="er.miningactivity.378079.21375">
-<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningActivity:378079:21375</gml:name>
-<er:occurrence>
-<er:MiningFeatureOccurrence gml:id="er.miningfeatureoccurrence.miningactivity.378079.21375">
-<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningFeatureOccurrence:MiningActivity:378079:21375</gml:name>
-<er:observationMethod>
-<gsml:CGI_TermValue>
-<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC::missing</gsml:value>
-</gsml:CGI_TermValue>
-</er:observationMethod>
-<er:positionalAccuracy>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">5</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:positionalAccuracy>
-<er:specification xlink:href="#er.miningactivity.378079.21375"/>
-<er:location>
-<gml:Point srsName="EPSG:4283">
-<gml:pos>143.59003 -37.62047</gml:pos>
-</gml:Point>
-</er:location>
-</er:MiningFeatureOccurrence>
-</er:occurrence>
-<er:activityDuration>
-<gml:TimePeriod>
-<gml:begin>
-<gml:TimeInstant>
-<gml:timePosition>1868-12-20</gml:timePosition>
-</gml:TimeInstant>
-</gml:begin>
-<gml:end>
-<gml:TimeInstant>
-<gml:timePosition>1869-01-23</gml:timePosition>
-</gml:TimeInstant>
-</gml:end>
-</gml:TimePeriod>
-</er:activityDuration>
-<er:activityType>unspecified</er:activityType>
-<er:oreProcessed>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="">0</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:oreProcessed>
-<er:associatedMine xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Mine:378079"/>
-<er:deposit xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:378079"/>
-<er:producedMaterial>
-<er:Product gml:id="er.product.378079.21375">
-<er:productName>
-<gsml:CGI_TermValue>
-<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Gold</gsml:value>
-</gsml:CGI_TermValue>
-</er:productName>
-<er:sourceReference xlink:href="urn:ogc:def:nil:OGC::missing"/>
-<er:production>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="urn:ogc:def:uom:UCUM::%5Boz_tr%5D">253</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:production>
-<er:sourceCommodity xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Commodity:378079:au"/>
-</er:Product>
-</er:producedMaterial>
-</er:MiningActivity>
-</gml:featureMember>
-<gml:featureMember>
-<er:MiningActivity gml:id="er.miningactivity.378079.21374">
-<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningActivity:378079:21374</gml:name>
-<er:occurrence>
-<er:MiningFeatureOccurrence gml:id="er.miningfeatureoccurrence.miningactivity.378079.21374">
-<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningFeatureOccurrence:MiningActivity:378079:21374</gml:name>
-<er:observationMethod>
-<gsml:CGI_TermValue>
-<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC::missing</gsml:value>
-</gsml:CGI_TermValue>
-</er:observationMethod>
-<er:positionalAccuracy>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">5</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:positionalAccuracy>
-<er:specification xlink:href="#er.miningactivity.378079.21374"/>
-<er:location>
-<gml:Point srsName="EPSG:4283">
-<gml:pos>143.59003 -37.62047</gml:pos>
-</gml:Point>
-</er:location>
-</er:MiningFeatureOccurrence>
-</er:occurrence>
-<er:activityDuration>
-<gml:TimePeriod>
-<gml:begin>
-<gml:TimeInstant>
-<gml:timePosition>1868-07-01</gml:timePosition>
-</gml:TimeInstant>
-</gml:begin>
-<gml:end>
-<gml:TimeInstant>
-<gml:timePosition>1868-07-17</gml:timePosition>
-</gml:TimeInstant>
-</gml:end>
-</gml:TimePeriod>
-</er:activityDuration>
-<er:activityType>unspecified</er:activityType>
-<er:oreProcessed>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="">0</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:oreProcessed>
-<er:associatedMine xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Mine:378079"/>
-<er:deposit xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:378079"/>
-<er:producedMaterial>
-<er:Product gml:id="er.product.378079.21374">
-<er:productName>
-<gsml:CGI_TermValue>
-<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Gold</gsml:value>
-</gsml:CGI_TermValue>
-</er:productName>
-<er:sourceReference xlink:href="urn:ogc:def:nil:OGC::missing"/>
-<er:production>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="urn:ogc:def:uom:UCUM::%5Boz_tr%5D">42</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:production>
-<er:sourceCommodity xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Commodity:378079:au"/>
-</er:Product>
-</er:producedMaterial>
-</er:MiningActivity>
-</gml:featureMember>
-<gml:featureMember>
-<er:MiningActivity gml:id="er.miningactivity.378079.21373">
-<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningActivity:378079:21373</gml:name>
-<er:occurrence>
-<er:MiningFeatureOccurrence gml:id="er.miningfeatureoccurrence.miningactivity.378079.21373">
-<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningFeatureOccurrence:MiningActivity:378079:21373</gml:name>
-<er:observationMethod>
-<gsml:CGI_TermValue>
-<gsml:value codeSpace="http://urn.opengis.net/">urn:ogc:def:nil:OGC::missing</gsml:value>
-</gsml:CGI_TermValue>
-</er:observationMethod>
-<er:positionalAccuracy>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">5</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:positionalAccuracy>
-<er:specification xlink:href="#er.miningactivity.378079.21373"/>
-<er:location>
-<gml:Point srsName="EPSG:4283">
-<gml:pos>143.59003 -37.62047</gml:pos>
-</gml:Point>
-</er:location>
-</er:MiningFeatureOccurrence>
-</er:occurrence>
-<er:activityDuration>
-<gml:TimePeriod>
-<gml:begin>
-<gml:TimeInstant>
-<gml:timePosition>1868-04-01</gml:timePosition>
-</gml:TimeInstant>
-</gml:begin>
-<gml:end>
-<gml:TimeInstant>
-<gml:timePosition>1868-06-30</gml:timePosition>
-</gml:TimeInstant>
-</gml:end>
-</gml:TimePeriod>
-</er:activityDuration>
-<er:activityType>unspecified</er:activityType>
-<er:oreProcessed>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="">0</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:oreProcessed>
-<er:associatedMine xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Mine:378079"/>
-<er:deposit xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:378079"/>
-<er:producedMaterial>
-<er:Product gml:id="er.product.378079.21373">
-<er:productName>
-<gsml:CGI_TermValue>
-<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Gold</gsml:value>
-</gsml:CGI_TermValue>
-</er:productName>
-<er:sourceReference xlink:href="urn:ogc:def:nil:OGC::missing"/>
-<er:production>
-<gsml:CGI_NumericValue>
-<gsml:principalValue uom="urn:ogc:def:uom:UCUM::%5Boz_tr%5D">0</gsml:principalValue>
-</gsml:CGI_NumericValue>
-</er:production>
-<er:sourceCommodity xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Commodity:378079:au"/>
-</er:Product>
-</er:producedMaterial>
-</er:MiningActivity>
-</gml:featureMember>
+<?xml version="1.0" encoding="UTF-8"?>
+<wfs:FeatureCollection xmlns:wfs="http://www.opengis.net/wfs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:gml="http://www.opengis.net/gml" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:er="urn:cgi:xmlns:GGIC:EarthResource:1.1" xsi:schemaLocation="urn:cgi:xmlns:GGIC:EarthResource:1.1 http://www.earthresourceml.org/earthresourceml/1.1/xsd/earthResource.xsd http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd" numberOfFeatures="10">
+	<gml:boundedBy>
+		<gml:Envelope srsName="EPSG:4283">
+			<gml:lowerCorner>143.59003 -37.62047</gml:lowerCorner>
+			<gml:upperCorner>143.59003 -37.62047</gml:upperCorner>
+		</gml:Envelope>
+	</gml:boundedBy>
+	<gml:featureMember>
+		<er:MiningActivity gml:id="er.miningactivity.378079.23418">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/23418</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningActivity:378079:23418</gml:name>
+			<er:occurrence xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningfeatureoccurrence/miningactivity/378079/23418">
+				
+			</er:occurrence>
+			<er:activityDuration xlink:href="http://www.opengis.net/def/nil/OGC/0/missing"/>
+			<er:activityType>unspecified</er:activityType>
+			<er:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="http://www.opengis.net/def/uom/ucum/0/Mt">0</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</er:oreProcessed>
+			<er:associatedMine xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Mine:378079"/>
+			<er:deposit xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:378079"/>
+			<er:producedMaterial>
+				<er:Product gml:id="er.product.378079.23418">
+					<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/product/378079/23418</gml:name>
+					<er:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Gold</gsml:value>
+						</gsml:CGI_TermValue>
+					</er:productName>
+					<er:sourceReference xlink:href="http://www.opengis.net/def/nil/OGC/0/missing"/>
+					<er:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/ucum/0/oz_tr">6639</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:production>
+					
+				<er:sourceCommodity>
+			<er:Commodity gml:id="er.commodity.378079.au">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/commodity/378079/au</gml:name>
+			
+			
+			<er:commodityName codeSpace="urn:cgi:classifierScheme:GA:commodity">urn:cgi:classifier:GA:commodity:Au</er:commodityName>
+			<er:commodityImportance>major</er:commodityImportance>
+			<er:source xlink:href="#er.mineraloccurrence.378079"/>
+		</er:Commodity>
+		</er:sourceCommodity></er:Product>
+			</er:producedMaterial>
+		</er:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:MiningActivity gml:id="er.miningactivity.378079.21381">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/21381</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningActivity:378079:21381</gml:name>
+			<er:occurrence xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningfeatureoccurrence/miningactivity/378079/21381">
+			
+			</er:occurrence>
+			<er:activityDuration>
+				<gml:TimePeriod>
+					<gml:begin>
+						<gml:TimeInstant>
+							<gml:timePosition>1871-01-01</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:begin>
+					<gml:end>
+						<gml:TimeInstant>
+							<gml:timePosition>1871-03-31</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:end>
+				</gml:TimePeriod>
+			</er:activityDuration>
+			<er:activityType>unspecified</er:activityType>
+			<er:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="http://www.opengis.net/def/uom/ucum/0/Mt">0</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</er:oreProcessed>
+			<er:associatedMine xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Mine:378079"/>
+			<er:deposit xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:378079"/>
+			<er:producedMaterial>
+				<er:Product gml:id="er.product.378079.21381">
+					<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/product/378079/21381</gml:name>
+					<er:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Silver</gsml:value>
+						</gsml:CGI_TermValue>
+					</er:productName>
+					<er:sourceReference xlink:href="http://www.opengis.net/def/nil/OGC/0/missing"/>
+					<er:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/ucum/0/oz_tr">0</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:production>
+					
+				<er:sourceCommodity>
+			<er:Commodity gml:id="er.commodity.378079.ag">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/commodity/378079/ag</gml:name>
+			
+			
+			<er:commodityName codeSpace="urn:cgi:classifierScheme:GA:commodity">urn:cgi:classifier:GA:commodity:Ag</er:commodityName>
+			<er:commodityImportance>major</er:commodityImportance>
+			<er:source xlink:href="#er.mineraloccurrence.378079"/>
+		</er:Commodity>
+		</er:sourceCommodity></er:Product>
+			</er:producedMaterial>
+		</er:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:MiningActivity gml:id="er.miningactivity.378079.21380">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/21380</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningActivity:378079:21380</gml:name>
+			<er:occurrence xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningfeatureoccurrence/miningactivity/378079/21380">
+				
+			</er:occurrence>
+			<er:activityDuration>
+				<gml:TimePeriod>
+					<gml:begin>
+						<gml:TimeInstant>
+							<gml:timePosition>1869-05-16</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:begin>
+					<gml:end>
+						<gml:TimeInstant>
+							<gml:timePosition>1869-06-12</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:end>
+				</gml:TimePeriod>
+			</er:activityDuration>
+			<er:activityType>unspecified</er:activityType>
+			<er:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="http://www.opengis.net/def/uom/ucum/0/Mt">0</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</er:oreProcessed>
+			<er:associatedMine xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Mine:378079"/>
+			<er:deposit xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:378079"/>
+			<er:producedMaterial>
+				<er:Product gml:id="er.product.378079.21380">
+					<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/product/378079/21380</gml:name>
+					<er:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Copper</gsml:value>
+						</gsml:CGI_TermValue>
+					</er:productName>
+					<er:sourceReference xlink:href="http://www.opengis.net/def/nil/OGC/0/missing"/>
+					<er:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/ucum/0/oz_tr">555</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:production>
+					
+				<er:sourceCommodity>
+			<er:Commodity gml:id="er.commodity.378079.cu">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/commodity/378079/cu</gml:name>
+			
+			
+			<er:commodityName codeSpace="urn:cgi:classifierScheme:GA:commodity">urn:cgi:classifier:GA:commodity:Cu</er:commodityName>
+			<er:commodityImportance>major</er:commodityImportance>
+			<er:source xlink:href="#er.mineraloccurrence.378079"/>
+		</er:Commodity>
+		</er:sourceCommodity></er:Product>
+			</er:producedMaterial>
+		</er:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:MiningActivity gml:id="er.miningactivity.378079.21379">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/21379</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningActivity:378079:21379</gml:name>
+			<er:occurrence xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningfeatureoccurrence/miningactivity/378079/21379">
+			</er:occurrence>
+			<er:activityDuration>
+				<gml:TimePeriod>
+					<gml:begin>
+						<gml:TimeInstant>
+							<gml:timePosition>1869-04-24</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:begin>
+					<gml:end>
+						<gml:TimeInstant>
+							<gml:timePosition>1869-05-15</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:end>
+				</gml:TimePeriod>
+			</er:activityDuration>
+			<er:activityType>unspecified</er:activityType>
+			<er:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="http://www.opengis.net/def/uom/ucum/0/Mt">0</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</er:oreProcessed>
+			<er:associatedMine xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Mine:378079"/>
+			<er:deposit xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:378079"/>
+			<er:producedMaterial>
+				<er:Product gml:id="er.product.378079.21379">
+					<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/product/378079/21379</gml:name>
+					<er:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Zinc</gsml:value>
+						</gsml:CGI_TermValue>
+					</er:productName>
+					<er:sourceReference xlink:href="http://www.opengis.net/def/nil/OGC/0/missing"/>
+					<er:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/ucum/0/oz_tr">273</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:production>
+					
+				<er:sourceCommodity>
+			<er:Commodity gml:id="er.commodity.378079.zn">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/commodity/378079/zn</gml:name>
+			
+			
+			<er:commodityName codeSpace="urn:cgi:classifierScheme:GA:commodity">urn:cgi:classifier:GA:commodity:Zn</er:commodityName>
+			<er:commodityImportance>major</er:commodityImportance>
+			<er:source xlink:href="#er.mineraloccurrence.378079"/>
+		</er:Commodity>
+		</er:sourceCommodity></er:Product>
+			</er:producedMaterial>
+		</er:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:MiningActivity gml:id="er.miningactivity.378079.21378">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/21378</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningActivity:378079:21378</gml:name>
+			<er:occurrence xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningfeatureoccurrence/miningactivity/378079/231378">
+			</er:occurrence>
+			<er:activityDuration>
+				<gml:TimePeriod>
+					<gml:begin>
+						<gml:TimeInstant>
+							<gml:timePosition>1869-04-12</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:begin>
+					<gml:end>
+						<gml:TimeInstant>
+							<gml:timePosition>1869-04-17</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:end>
+				</gml:TimePeriod>
+			</er:activityDuration>
+			<er:activityType>unspecified</er:activityType>
+			<er:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="http://www.opengis.net/def/uom/ucum/0/Mt">0</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</er:oreProcessed>
+			<er:associatedMine xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Mine:378079"/>
+			<er:deposit xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:378079"/>
+			<er:producedMaterial>
+				<er:Product gml:id="er.product.378079.21378">
+					<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/product/378079/21378</gml:name>
+					<er:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Lead</gsml:value>
+						</gsml:CGI_TermValue>
+					</er:productName>
+					<er:sourceReference xlink:href="http://www.opengis.net/def/nil/OGC/0/missingg"/>
+					<er:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/ucum/0/oz_tr">54</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:production>
+				
+				<er:sourceCommodity>
+			<er:Commodity gml:id="er.commodity.378079.Pb">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/commodity/378079/pb</gml:name>
+			
+			
+			<er:commodityName codeSpace="urn:cgi:classifierScheme:GA:commodity">urn:cgi:classifier:GA:commodity:Pb</er:commodityName>
+			<er:commodityImportance>major</er:commodityImportance>
+			<er:source xlink:href="#er.mineraloccurrence.378079"/>
+		</er:Commodity>
+		</er:sourceCommodity></er:Product>
+			</er:producedMaterial>
+		</er:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:MiningActivity gml:id="er.miningactivity.378079.21377">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/21377</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningActivity:378079:21377</gml:name>
+			<er:occurrence xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningfeatureoccurrence/miningactivity/378079/21377">
+			</er:occurrence>
+			<er:activityDuration>
+				<gml:TimePeriod>
+					<gml:begin>
+						<gml:TimeInstant>
+							<gml:timePosition>1869-02-21</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:begin>
+					<gml:end>
+						<gml:TimeInstant>
+							<gml:timePosition>1869-03-20</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:end>
+				</gml:TimePeriod>
+			</er:activityDuration>
+			<er:activityType>unspecified</er:activityType>
+			<er:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="http://www.opengis.net/def/uom/ucum/0/Mt">0</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</er:oreProcessed>
+			<er:associatedMine xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Mine:378079"/>
+			<er:deposit xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:378079"/>
+			<er:producedMaterial>
+				<er:Product gml:id="er.product.378079.21377">
+					<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/product/378079/21377</gml:name>
+					<er:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Gold</gsml:value>
+						</gsml:CGI_TermValue>
+					</er:productName>
+					<er:sourceReference xlink:href="http://www.opengis.net/def/nil/OGC/0/missing"/>
+					<er:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/ucum/0/oz_tr">725</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:production>				
+				<er:sourceCommodity xlink:href="#er.commodity.378079.au"/>
+			</er:Product>
+			</er:producedMaterial>
+		</er:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:MiningActivity gml:id="er.miningactivity.378079.21376">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/21376</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningActivity:378079:21376</gml:name>
+			<er:occurrence xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningfeatureoccurrence/miningactivity/378079/21376">
+			</er:occurrence>
+			<er:activityDuration>
+				<gml:TimePeriod>
+					<gml:begin>
+						<gml:TimeInstant>
+							<gml:timePosition>1869-01-24</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:begin>
+					<gml:end>
+						<gml:TimeInstant>
+							<gml:timePosition>1869-02-20</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:end>
+				</gml:TimePeriod>
+			</er:activityDuration>
+			<er:activityType>unspecified</er:activityType>
+			<er:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="http://www.opengis.net/def/uom/ucum/0/Mt">0</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</er:oreProcessed>
+			<er:associatedMine xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Mine:378079"/>
+			<er:deposit xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:378079"/>
+			<er:producedMaterial>
+				<er:Product gml:id="er.product.378079.21376">
+					<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/product/378079/21376</gml:name>
+					<er:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Gold</gsml:value>
+						</gsml:CGI_TermValue>
+					</er:productName>
+					<er:sourceReference xlink:href="http://www.opengis.net/def/nil/OGC/0/missing"/>
+					<er:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/ucum/0/oz_tr">603</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:production>
+							<er:sourceCommodity xlink:href="er.commodity.378079.au"/>
+			</er:Product>
+			</er:producedMaterial>
+		</er:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:MiningActivity gml:id="er.miningactivity.378079.21375">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/21375</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningActivity:378079:21375</gml:name>
+			<er:occurrence xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningfeatureoccurrence/miningactivity/378079/21375">
+			</er:occurrence>
+			<er:activityDuration>
+				<gml:TimePeriod>
+					<gml:begin>
+						<gml:TimeInstant>
+							<gml:timePosition>1868-12-20</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:begin>
+					<gml:end>
+						<gml:TimeInstant>
+							<gml:timePosition>1869-01-23</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:end>
+				</gml:TimePeriod>
+			</er:activityDuration>
+			<er:activityType>unspecified</er:activityType>
+			<er:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="http://www.opengis.net/def/uom/ucum/0/Mt">0</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</er:oreProcessed>
+			<er:associatedMine xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Mine:378079"/>
+			<er:deposit xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:378079"/>
+			<er:producedMaterial>
+				<er:Product gml:id="er.product.378079.21375">
+					<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/product/378079/21375</gml:name>
+					<er:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Silver</gsml:value>
+						</gsml:CGI_TermValue>
+					</er:productName>
+					<er:sourceReference xlink:href="http://www.opengis.net/def/nil/OGC/0/missing"/>
+					<er:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/ucum/0/oz_tr">253</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:production>
+					<er:sourceCommodity xlink:href="#er.commodity.378079.ag"/>
+			</er:Product>
+			</er:producedMaterial>
+		</er:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:MiningActivity gml:id="er.miningactivity.378079.21374">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/21374</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningActivity:378079:21374</gml:name>
+			<er:occurrence xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningfeatureoccurrence/miningactivity/378079/21374">
+			</er:occurrence>
+			<er:activityDuration>
+				<gml:TimePeriod>
+					<gml:begin>
+						<gml:TimeInstant>
+							<gml:timePosition>1868-07-01</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:begin>
+					<gml:end>
+						<gml:TimeInstant>
+							<gml:timePosition>1868-07-17</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:end>
+				</gml:TimePeriod>
+			</er:activityDuration>
+			<er:activityType>unspecified</er:activityType>
+			<er:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="http://www.opengis.net/def/uom/ucum/0/Mt">0</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</er:oreProcessed>
+			<er:associatedMine xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Mine:378079"/>
+			<er:deposit xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:378079"/>
+			<er:producedMaterial>
+				<er:Product gml:id="er.product.378079.21374">
+					<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/product/378079/21374</gml:name>
+					<er:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Gold</gsml:value>
+						</gsml:CGI_TermValue>
+					</er:productName>
+					<er:sourceReference xlink:href="http://www.opengis.net/def/nil/OGC/0/missing"/>
+					<er:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/ucum/0/oz_tr">42</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:production>
+					<er:sourceCommodity xlink:href="er.commodity.378079.au"/>
+			
+				</er:Product>
+			</er:producedMaterial>
+		</er:MiningActivity>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:MiningActivity gml:id="er.miningactivity.378079.21373">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/21373</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningActivity:378079:21373</gml:name>
+			<er:occurrence xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningfeatureoccurrence/miningactivity/378079/21373">
+				
+			</er:occurrence>
+			<er:activityDuration>
+				<gml:TimePeriod>
+					<gml:begin>
+						<gml:TimeInstant>
+							<gml:timePosition>1868-04-01</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:begin>
+					<gml:end>
+						<gml:TimeInstant>
+							<gml:timePosition>1868-06-30</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:end>
+				</gml:TimePeriod>
+			</er:activityDuration>
+			<er:activityType>unspecified</er:activityType>
+			<er:oreProcessed>
+				<gsml:CGI_NumericValue>
+					<gsml:principalValue uom="http://www.opengis.net/def/uom/ucum/0/Mt">0</gsml:principalValue>
+				</gsml:CGI_NumericValue>
+			</er:oreProcessed>
+			<er:associatedMine xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:Mine:378079"/>
+			<er:deposit xlink:href="http://gsv-ws.dpi.vic.gov.au/EarthResourceML/1.1/urn/?uri=urn:cgi:feature:GSV:MineralOccurrence:378079"/>
+			<er:producedMaterial>
+				<er:Product gml:id="er.product.378079.21373">
+					<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/product/378079/21373</gml:name>
+					<er:productName>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Gold</gsml:value>
+						</gsml:CGI_TermValue>
+					</er:productName>
+					<er:sourceReference xlink:href="http://www.opengis.net/def/nil/OGC/0/missing"/>
+					<er:production>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/ucum/0/oz_tr">0</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:production>
+					<er:sourceCommodity xlink:href="#er.commodity.378079.au"/>
+			
+				</er:Product>
+			</er:producedMaterial>
+		</er:MiningActivity>
+	</gml:featureMember>
 </wfs:FeatureCollection>
