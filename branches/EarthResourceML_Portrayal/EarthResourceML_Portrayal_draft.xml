@@ -1,0 +1,1471 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2011-10-04 10:56:21">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_D9C5D539_51AC_4546_9945_3F946503685F">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="EarthResourcePortrayal" xmi.id="EAPK_D9C5D539_51AC_4546_9945_3F946503685F" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="documentation" value="A package to allow delivering EarthResourceML in a Simple Feature Level 0 format.  All cardinalities are 0 to 1, all data types are strings, integers, numbers or anyURI.&#xA;&#xA;Little attempt is made to enforce content standards and relational information is kept to a minimum. This package is designed to allow ready import into simple clients such as GIS and spreadsheet tools.&#xA;&#xA;The package also provides a format for delivering responses to WMS queries."/>
+						<UML:TaggedValue tag="parent" value="EAPK_B9F999B6_F89B_4f86_9899_4F9203002153"/>
+						<UML:TaggedValue tag="created" value="2010-05-25 09:40:48"/>
+						<UML:TaggedValue tag="modified" value="2010-05-25 09:40:48"/>
+						<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+						<UML:TaggedValue tag="lastloaddate" value="2010-07-20 09:17:27"/>
+						<UML:TaggedValue tag="lastsavedate" value="2010-07-20 09:17:27"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="packageFlags" value="CRC=0;"/>
+						<UML:TaggedValue tag="batchsave" value="0"/>
+						<UML:TaggedValue tag="batchload" value="0"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="bs14"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Class name="EarthResourcePortrayal" xmi.id="EAID_823E1817_7B10_4eb7_B8C4_7FB0DB213ABC" visibility="public" namespace="EAPK_D9C5D539_51AC_4546_9945_3F946503685F" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Class to specify a simple view of an EarthResource feature for use in Web Mapping Service GetFeatureRequest responses or GML3.1 Simple Feature Level 0 Web Feature Services"/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Class"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_D9C5D539_51AC_4546_9945_3F946503685F"/>
+								<UML:TaggedValue tag="date_created" value="2010-05-25 09:43:59"/>
+								<UML:TaggedValue tag="date_modified" value="2010-05-25 16:04:15"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="EarthResourcePortrayal"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="bs14"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="13917"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Classifier.feature>
+								<UML:Attribute name="commodityClassifier" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="A URI to identify the major commodity found at the EarthResource to allow thematic mapping of commodities"/>
+										<UML:TaggedValue tag="type" value="anyURI"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="0"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{0D1B2054-D2C0-44f7-9A5E-C2BE61E03CD7}"/>
+										<UML:TaggedValue tag="ea_localid" value="17112"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+										<UML:TaggedValue tag="sequenceNumber" value="2" xmi.id="EAID_050EE495_4797_4607_9855_932922469919"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="commodityLabel" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid1"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="The major commodity found at the EarthResource. String values allows concatanation of multiple commodities if required (Cu, Au, Pb)."/>
+										<UML:TaggedValue tag="type" value="CharacterString"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="1"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{7F3FBD4B-F7E8-4596-864C-8EE030DC2BC3}"/>
+										<UML:TaggedValue tag="ea_localid" value="17113"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+										<UML:TaggedValue tag="sequenceNumber" value="3" xmi.id="EAID_AC97FC6E_30EE_4fbb_A20A_C02D463118CD"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="earthResourceSpecification" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="A URI to identify the EarthResource to allow obtaining more complete information about the EarthResource"/>
+										<UML:TaggedValue tag="type" value="anyURI"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="2"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{4C38B004-82E7-4a1f-B2C3-7C025C859B21}"/>
+										<UML:TaggedValue tag="ea_localid" value="17114"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+										<UML:TaggedValue tag="sequenceNumber" value="12" xmi.id="EAID_050EE495_4797_4607_866E_2F41DE366637"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="maximumAge" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid1"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="The major commodity found at the EarthResource. String values allows concatanation of multiple commodities if required (Cu, Au, Pb)."/>
+										<UML:TaggedValue tag="type" value="CharacterString"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="3"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{7106FDED-D560-4704-BB82-9B46F92FBCA9}"/>
+										<UML:TaggedValue tag="ea_localid" value="17115"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+										<UML:TaggedValue tag="sequenceNumber" value="3" xmi.id="EAID_AC97FC6E_30EE_4fbb_AFFB_1B53C4552DD0"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="mineNameLabel" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid1"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="type" value="CharacterString"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="4"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{2D0217A9-C451-4e79-A16B-A8D0620075C2}"/>
+										<UML:TaggedValue tag="ea_localid" value="17116"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+										<UML:TaggedValue tag="sequenceNumber" value="1" xmi.id="EAID_EE692195_13E2_41f8_87B1_C672431D25A3"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="mineralDepositModeClassifier" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="Identifier to allow creating thematic maps based on the MineralDepositModelLabel property. "/>
+										<UML:TaggedValue tag="type" value="anyURI"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="5"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{0BB69B2B-6134-442c-AE8F-5EB72D68C68E}"/>
+										<UML:TaggedValue tag="ea_localid" value="17117"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+										<UML:TaggedValue tag="sequenceNumber" value="4" xmi.id="EAID_BE180A92_26F5_4bc4_813A_59CB687C1776"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="mineralDepositModelLabel" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid1"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="Simple label to classify the EarthResource&#xA;Systematically arranged information describing the essential attributes of a class of mineral deposits. May be empirical (descriptive) or theoretical (genetic)."/>
+										<UML:TaggedValue tag="type" value="CharacterString"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="6"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{0DBF1CD9-4ED5-4338-9EDE-AB53A33AC00F}"/>
+										<UML:TaggedValue tag="ea_localid" value="17118"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+										<UML:TaggedValue tag="sequenceNumber" value="5" xmi.id="EAID_A815BED0_33CA_4917_9B25_3958F5925CB4"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="minimumAge" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid1"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="The major commodity found at the EarthResource. String values allows concatanation of multiple commodities if required (Cu, Au, Pb)."/>
+										<UML:TaggedValue tag="type" value="CharacterString"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="7"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{4C2946D5-EB23-42ce-B258-B6C940E123D5}"/>
+										<UML:TaggedValue tag="ea_localid" value="17119"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+										<UML:TaggedValue tag="sequenceNumber" value="3" xmi.id="EAID_AC97FC6E_30EE_4fbb_82E7_A656226D8F9A"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="shapeLabel" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid1"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="The typical geometrical shape of the Earth Resource (e.g. lenticular, pipelike, irregular etc)"/>
+										<UML:TaggedValue tag="type" value="CharacterString"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="8"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{A3A0056A-D39A-4a48-9CB8-8E6CFCEDE4DE}"/>
+										<UML:TaggedValue tag="ea_localid" value="17120"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+										<UML:TaggedValue tag="sequenceNumber" value="6" xmi.id="EAID_F9AB6A35_93A4_4935_8DB6_193F5612F670"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="totalEndowment" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid1"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="Endowment refers to that quantity of a mineral in accumulations (deposits) meeting specified physical characteristics such as quality, size and depth.&#xA;Usually includes Resources, as unlike the latter, it does not have to have prospects for &quot;eventual economic extraction&quot;. It often includes the total amount of a commodity originally introduced to a particular location during the deposit forming processes - and thus can include resources, reserves, past production and mining and metallurgical losses.&#xA;String datatype so units of measure can be included in value"/>
+										<UML:TaggedValue tag="type" value="CharacterString"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="9"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{5FDAB5A1-803D-45eb-84D0-092E51EEFA8E}"/>
+										<UML:TaggedValue tag="ea_localid" value="17121"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+										<UML:TaggedValue tag="sequenceNumber" value="7" xmi.id="EAID_DE70D20C_D6B0_46b3_8629_AFF30CA89749"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="totalOreAmount" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid1"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="Amount of ore. &#xA;String datatype so units of measure can be included in value"/>
+										<UML:TaggedValue tag="type" value="CharacterString"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="10"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{72C2BC66-CA14-47ef-B116-1AD61B390AD1}"/>
+										<UML:TaggedValue tag="ea_localid" value="17122"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+										<UML:TaggedValue tag="sequenceNumber" value="8" xmi.id="EAID_C433E573_AF12_4736_9A67_754428BD3305"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="totalReserves" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid1"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="The economically mineable part of a Measured and/or Indicated Mineral Resource. It includes diluting materials and allowances for losses, which may occur when the material is mined. &amp;lsquo;Marketable Coal Reserves&amp;rsquo; maybe reported in conjunction with, but not instead of, reports of Ore (Coal) Reserves. &amp;lsquo;Saleable product&amp;rsquo; (e.g. for industrial minerals) can be reported in conjunction with ore reserve.&#xA;Synonyms: Ore Reserve; Coal Reserve (s); Diamond (or gemstone) Ore Reserve; Mineral Reserves (not preferred, should be stated that used to mean the same as JORC&amp;rsquo;s Ore Reserve); Mineable production estimates.&#xA;String datatype so units of measure can be included in value"/>
+										<UML:TaggedValue tag="type" value="CharacterString"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="11"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{759EE6C5-BEE1-4fbc-A8FB-23AB103092FB}"/>
+										<UML:TaggedValue tag="ea_localid" value="17123"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+										<UML:TaggedValue tag="sequenceNumber" value="9" xmi.id="EAID_D35064F4_5B31_404a_98DB_4FC72AADA215"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="totalResources" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid1"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="A concentration or occurrence of material of intrinsic economic interest in or on the Earth&amp;rsquo;s crust in such form, quality and quantity that there are reasonable prospects for eventual economic extraction.&#xA;String datatype so units of measure can be included in value&#xA;Synonyms: Mineral Resource; Coal Resource (s); Diamond (Gemstone) Resource; Potentially Mineable Mineralisation"/>
+										<UML:TaggedValue tag="type" value="CharacterString"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="12"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{1186C773-08BA-4a0d-A266-C50F474B4A63}"/>
+										<UML:TaggedValue tag="ea_localid" value="17124"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+										<UML:TaggedValue tag="sequenceNumber" value="10" xmi.id="EAID_FAB4D42D_7069_44c5_A684_7CEA43668E56"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="type" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid2"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="Captures the type of mineral occurrence. Examples are prospect, occurrence, mineral deposit, ore deposit, field, district, lode."/>
+										<UML:TaggedValue tag="type" value="MineralOccurrenceTypeCode"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="13"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{2F26EB8B-7FAD-44fe-9A98-EF6BFB25B4D1}"/>
+										<UML:TaggedValue tag="ea_localid" value="17125"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+										<UML:TaggedValue tag="sequenceNumber" value="11" xmi.id="EAID_0E6B3C44_EDED_4f88_8FBE_C4806EF7B129"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+							</UML:Classifier.feature>
+							<UML:ModelElement.constraint>
+								<UML:Constraint name="earthResourceSpecification.URI=(EarthResource)">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="type" value="Invariant"/>
+										<UML:TaggedValue tag="weight" value="0.00"/>
+										<UML:TaggedValue tag="status" value="Approved"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Constraint>
+							</UML:ModelElement.constraint>
+						</UML:Class>
+						<UML:Dependency client="EAID_823E1817_7B10_4eb7_B8C4_7FB0DB213ABC" supplier="EAID_8105A2B0_F446_4037_8661_FD8F6E81E532" xmi.id="EAID_AF04950E_CC17_4422_BA7A_693B176DAB42" visibility="public">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="access"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="access"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="«access»"/>
+								<UML:TaggedValue tag="ea_localid" value="18997"/>
+								<UML:TaggedValue tag="ea_sourceName" value="EarthResourcePortrayal"/>
+								<UML:TaggedValue tag="ea_targetName" value="EarthResource"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+								<UML:TaggedValue tag="ea_targetType" value="Class"/>
+								<UML:TaggedValue tag="ea_sourceID" value="13917"/>
+								<UML:TaggedValue tag="ea_targetID" value="13898"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={A9558E04-6F31-4e46-A0D2-4C44626DF39A}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=access;GUID={1D32E531-9C84-49e5-881A-7B9DFFF1D08F};@ENDSTEREO;$DES;$CLT={AF04950E-CC17-4422-BA7A-693B176DAB42}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«access»"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Generalization subtype="EAID_823E1817_7B10_4eb7_B8C4_7FB0DB213ABC" supertype="EAID_AA0E4F60_1A63_454e_B322_3AA849A3CC8C" xmi.id="EAID_C5329D6B_6550_425c_99EC_165C5B526FD5" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Generalization"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="18991"/>
+								<UML:TaggedValue tag="ea_sourceName" value="EarthResourcePortrayal"/>
+								<UML:TaggedValue tag="ea_targetName" value="EarthResourcePortrayal"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+								<UML:TaggedValue tag="ea_targetType" value="Class"/>
+								<UML:TaggedValue tag="ea_sourceID" value="13917"/>
+								<UML:TaggedValue tag="ea_targetID" value="13919"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Generalization>
+						<UML:Class name="MiningActivityPortrayal" xmi.id="EAID_94BA5ECA_0A2F_4050_9474_90EF56FC8D74" visibility="public" namespace="EAPK_D9C5D539_51AC_4546_9945_3F946503685F" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Class to specify a simple view of a MiningActivity feature for use in Web Mapping Service GetFeatureRequest responses or GML3.1 Simple Feature Level 0 Web Feature Services"/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Class"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_D9C5D539_51AC_4546_9945_3F946503685F"/>
+								<UML:TaggedValue tag="date_created" value="2010-05-25 11:12:39"/>
+								<UML:TaggedValue tag="date_modified" value="2010-05-25 16:17:31"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="EarthResourcePortrayal"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="bs14"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="13918"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Classifier.feature>
+								<UML:Attribute name="activityEndDate" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid1"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="The end date of the MiningActivity "/>
+										<UML:TaggedValue tag="type" value="CharacterString"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="0"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{6E1F35BC-74D6-4cdf-921C-011CD31924FE}"/>
+										<UML:TaggedValue tag="ea_localid" value="17126"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="activityStartDate" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid1"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="The start time of the MiningActivity "/>
+										<UML:TaggedValue tag="type" value="CharacterString"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="1"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{F0DA5ABA-3C77-45f6-A91F-E300EB1C016A}"/>
+										<UML:TaggedValue tag="ea_localid" value="17127"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="activityType" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid3"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="The type of mining activity (eg Open Cut, Underground Mine, multiple, unspecified) or processing activity (eg Ore Processing) or production.  "/>
+										<UML:TaggedValue tag="type" value="MiningActivityTypeCode"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="2"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{0A58DB1D-640F-40a4-AFE8-99F6A7E93C46}"/>
+										<UML:TaggedValue tag="ea_localid" value="17128"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="associatedDepositSpecification" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="A URI to identify the Mine associated with the MiningActivity to obtain the complete Mine data"/>
+										<UML:TaggedValue tag="type" value="anyURI"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="3"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{8AC4E667-A0A9-40c8-8CAA-2A33D0BD70A1}"/>
+										<UML:TaggedValue tag="ea_localid" value="17129"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="associatedMineName" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid1"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="Preferred name of the Mine associated with the MiningActivity"/>
+										<UML:TaggedValue tag="type" value="CharacterString"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="4"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{8D2FCFE3-4336-4bcc-BC72-8B032B0AD028}"/>
+										<UML:TaggedValue tag="ea_localid" value="17130"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="associatedMineSpecification" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="A URI to identify the Mine associated with the MiningActivity to obtain the complete Mine data"/>
+										<UML:TaggedValue tag="type" value="anyURI"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="5"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{00D3AF5B-2012-42cd-815F-00E159E085F3}"/>
+										<UML:TaggedValue tag="ea_localid" value="17131"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="commodityClassifier" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="A URI to identify the major commodity associated with the MiningActivity to allow thematic mapping of commodities"/>
+										<UML:TaggedValue tag="type" value="anyURI"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="6"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{D490979F-8FA5-4f89-983A-74B701D1C01F}"/>
+										<UML:TaggedValue tag="ea_localid" value="17132"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="commodityLabel" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid1"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="The major commodity found at the MiningActivity"/>
+										<UML:TaggedValue tag="type" value="CharacterString"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="7"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{DAFA59F4-AF59-42f3-83A0-812BF4EC70BA}"/>
+										<UML:TaggedValue tag="ea_localid" value="17133"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="miningActivitySpecification" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="A URI to identify the Mine associated with the MiningActivity to obtain the complete Mine data"/>
+										<UML:TaggedValue tag="type" value="anyURI"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="8"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{8D975D64-E07A-4f11-81B8-92FAEF905350}"/>
+										<UML:TaggedValue tag="ea_localid" value="17134"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="oreProcessedAmount" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid1"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="The amount of ore processed by the MiningActivity&#xA;String datatype so units of measure can be included in value"/>
+										<UML:TaggedValue tag="type" value="CharacterString"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="9"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{D2C5A2D2-1A83-4b19-A918-0D291FEE0CCC}"/>
+										<UML:TaggedValue tag="ea_localid" value="17135"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="producedMaterialLabel" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid1"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="Name of the product."/>
+										<UML:TaggedValue tag="type" value="CharacterString"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="10"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{990E8297-27A6-4a69-980B-E0B260056F95}"/>
+										<UML:TaggedValue tag="ea_localid" value="17136"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="productionAmount" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid1"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="Quantity of product produced during the MiningActivity&#xA;String datatype so units of measure can be included in value"/>
+										<UML:TaggedValue tag="type" value="CharacterString"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="11"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{824194A9-8952-4132-B631-459EBE06CFDE}"/>
+										<UML:TaggedValue tag="ea_localid" value="17137"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="productionGrade" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid1"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="The relative quantity or percentage of ore mineral content in an orebody. (Could be Feed Grade, ore grade)&#xA;String datatype so units of measure can be included in value"/>
+										<UML:TaggedValue tag="type" value="CharacterString"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="12"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{FB7BE301-8956-4d80-A10E-3A92AC64D3DC}"/>
+										<UML:TaggedValue tag="ea_localid" value="17138"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="productionRecovery" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid1"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="The percentage of valuable constituent derived from an ore, or of coal from a coal seam; a measure of mining or extraction efficency. (Recovery rate is usually expressed as a percent).&#xA;String datatype so units of measure can be included in value"/>
+										<UML:TaggedValue tag="type" value="CharacterString"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="13"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{F098E517-34C2-4883-8DA6-DC043F2FCF61}"/>
+										<UML:TaggedValue tag="ea_localid" value="17139"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+							</UML:Classifier.feature>
+							<UML:ModelElement.constraint>
+								<UML:Constraint name="associatedDepositSpecification=(EarthResource feature)">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="type" value="Invariant"/>
+										<UML:TaggedValue tag="weight" value="2.00"/>
+										<UML:TaggedValue tag="status" value="Approved"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Constraint>
+								<UML:Constraint name="associatedMineSpecification.URI=(Mine feature)">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="type" value="Invariant"/>
+										<UML:TaggedValue tag="weight" value="0.00"/>
+										<UML:TaggedValue tag="status" value="Approved"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Constraint>
+								<UML:Constraint name="miningActivitySpecification.URI=(MiningActivity feature)">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="type" value="Invariant"/>
+										<UML:TaggedValue tag="weight" value="1.00"/>
+										<UML:TaggedValue tag="status" value="Approved"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Constraint>
+							</UML:ModelElement.constraint>
+						</UML:Class>
+						<UML:Generalization subtype="EAID_94BA5ECA_0A2F_4050_9474_90EF56FC8D74" supertype="EAID_AA0E4F60_1A63_454e_B322_3AA849A3CC8C" xmi.id="EAID_2C1D4FCF_E264_4c60_8EF5_AFAF8D41BC42" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Generalization"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="18990"/>
+								<UML:TaggedValue tag="ea_sourceName" value="MiningActivityPortrayal"/>
+								<UML:TaggedValue tag="ea_targetName" value="EarthResourcePortrayal"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+								<UML:TaggedValue tag="ea_targetType" value="Class"/>
+								<UML:TaggedValue tag="ea_sourceID" value="13918"/>
+								<UML:TaggedValue tag="ea_targetID" value="13919"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Generalization>
+						<UML:Dependency client="EAID_94BA5ECA_0A2F_4050_9474_90EF56FC8D74" supplier="EAID_8105A2B0_F446_4037_8661_FD8F6E81E532" xmi.id="EAID_3DCB08ED_574E_491a_A607_1B7C160D4D7E" visibility="public">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="access"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="access"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="«access»"/>
+								<UML:TaggedValue tag="ea_localid" value="19003"/>
+								<UML:TaggedValue tag="ea_sourceName" value="MiningActivityPortrayal"/>
+								<UML:TaggedValue tag="ea_targetName" value="EarthResource"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+								<UML:TaggedValue tag="ea_targetType" value="Class"/>
+								<UML:TaggedValue tag="ea_sourceID" value="13918"/>
+								<UML:TaggedValue tag="ea_targetID" value="13898"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={58FA10BA-65E6-4ec6-A502-B65DD39071BD}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=access;GUID={1D32E531-9C84-49e5-881A-7B9DFFF1D08F};@ENDSTEREO;$DES;$CLT={3DCB08ED-574E-491a-A607-1B7C160D4D7E}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«access»"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency client="EAID_94BA5ECA_0A2F_4050_9474_90EF56FC8D74" supplier="EAID_AD8A2696_3619_46f3_91AF_C0FA8559F66C" xmi.id="EAID_6A9F34A5_3DCA_47ca_A5D7_08C90AF4AC3B" visibility="public">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="access"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="access"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="«access»"/>
+								<UML:TaggedValue tag="ea_localid" value="19010"/>
+								<UML:TaggedValue tag="ea_sourceName" value="MiningActivityPortrayal"/>
+								<UML:TaggedValue tag="ea_targetName" value="Mine"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+								<UML:TaggedValue tag="ea_targetType" value="Class"/>
+								<UML:TaggedValue tag="ea_sourceID" value="13918"/>
+								<UML:TaggedValue tag="ea_targetID" value="13885"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={9265F9CC-AE88-490e-B767-1CDBF42E256B}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=access;GUID={1D32E531-9C84-49e5-881A-7B9DFFF1D08F};@ENDSTEREO;$DES;$CLT={6A9F34A5-3DCA-47ca-A5D7-08C90AF4AC3B}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«access»"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency client="EAID_94BA5ECA_0A2F_4050_9474_90EF56FC8D74" supplier="EAID_3087E3F7_9471_4c24_BA80_F8DF76FB0D44" xmi.id="EAID_83517C00_6298_4656_92A6_E8001FB797B5" visibility="public">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="access"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="access"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="«access»"/>
+								<UML:TaggedValue tag="ea_localid" value="19018"/>
+								<UML:TaggedValue tag="ea_sourceName" value="MiningActivityPortrayal"/>
+								<UML:TaggedValue tag="ea_targetName" value="MiningActivity"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+								<UML:TaggedValue tag="ea_targetType" value="Class"/>
+								<UML:TaggedValue tag="ea_sourceID" value="13918"/>
+								<UML:TaggedValue tag="ea_targetID" value="13878"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={63EBE50F-5234-43e9-AB7D-437ED4BE4D79}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=access;GUID={1D32E531-9C84-49e5-881A-7B9DFFF1D08F};@ENDSTEREO;$DES;$CLT={83517C00-6298-4656-92A6-E8001FB797B5}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«access»"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Class name="EarthResourcePortrayal" xmi.id="EAID_AA0E4F60_1A63_454e_B322_3AA849A3CC8C" visibility="public" namespace="EAPK_D9C5D539_51AC_4546_9945_3F946503685F" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="abstract"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Abstract class to contain package that specify a simple view of EarthResourceML packages for use in Web Mapping Service GetFeatureRequest responses"/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Class"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_D9C5D539_51AC_4546_9945_3F946503685F"/>
+								<UML:TaggedValue tag="date_created" value="2010-05-25 09:41:03"/>
+								<UML:TaggedValue tag="date_modified" value="2010-05-25 09:43:55"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="EarthResourcePortrayal"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="bs14"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="abstract"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="13919"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={CC5AD719-CCA9-4449-9148-D24246F12342}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=abstract;FQName=EPProfile::abstract;@ENDSTEREO;$DES;$CLT={AA0E4F60-1A63-454e-B322-3AA849A3CC8C}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Classifier.feature>
+								<UML:Attribute name="observationMethod" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid1"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="Simple label for the method that was used to identify the location of the feature. Examples: digitised,  Global Positioning System, published map, field Observation, downhole survey, aerial photography, field survey. This corresponds (loosely) to ISO19115 Lineage.Statement"/>
+										<UML:TaggedValue tag="type" value="CharacterString"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="0"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{9BE6B43E-7061-4cfa-80AC-EA3005B8FA55}"/>
+										<UML:TaggedValue tag="ea_localid" value="17140"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="positionalAccuracy" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid1"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="Simple label for the accuracy of the feature location. Examples: accurate, approximate, diagramatic, indefinite, unknown, 5 m. Corresponds to ISO19115 DQ_ThematicAccuracy (either quantitative or non quantitative).result .value."/>
+										<UML:TaggedValue tag="type" value="CharacterString"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="1"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{A3368D29-7702-43bd-938B-4BCC852B39DB}"/>
+										<UML:TaggedValue tag="ea_localid" value="17141"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+							</UML:Classifier.feature>
+						</UML:Class>
+						<UML:Generalization subtype="EAID_C96889C4_1EC5_42f6_B173_B25A4DB9A469" supertype="EAID_AA0E4F60_1A63_454e_B322_3AA849A3CC8C" xmi.id="EAID_761A329B_5213_4bd1_844B_752B80CFD13C" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Generalization"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="18989"/>
+								<UML:TaggedValue tag="ea_sourceName" value="MinePortrayal"/>
+								<UML:TaggedValue tag="ea_targetName" value="EarthResourcePortrayal"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+								<UML:TaggedValue tag="ea_targetType" value="Class"/>
+								<UML:TaggedValue tag="ea_sourceID" value="13920"/>
+								<UML:TaggedValue tag="ea_targetID" value="13919"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Generalization>
+						<UML:Class name="MinePortrayal" xmi.id="EAID_C96889C4_1EC5_42f6_B173_B25A4DB9A469" visibility="public" namespace="EAPK_D9C5D539_51AC_4546_9945_3F946503685F" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Class to specify a simple view of a Mine feature for use in Web Mapping Service GetFeatureRequest responses or GML3.1 Simple Feature Level 0 Web Feature Services"/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Class"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_D9C5D539_51AC_4546_9945_3F946503685F"/>
+								<UML:TaggedValue tag="date_created" value="2010-05-25 10:21:38"/>
+								<UML:TaggedValue tag="date_modified" value="2010-05-25 16:07:53"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="EarthResourcePortrayal"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="bs14"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="13920"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Classifier.feature>
+								<UML:Attribute name="endDate" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid1"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="Date the mine finished."/>
+										<UML:TaggedValue tag="type" value="CharacterString"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="0"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{EA1388CE-0AA8-4ab2-BDC0-491B6BBB70C7}"/>
+										<UML:TaggedValue tag="ea_localid" value="17142"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+										<UML:TaggedValue tag="sequenceNumber" value="3" xmi.id="EAID_F3CD227C_E22D_46a5_B7F3_6B2C630C3BD3"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="mineSpecification" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="type" value="anyURI"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="1"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{BC1135C6-6B6E-4b84-8D4D-08F8EBA87543}"/>
+										<UML:TaggedValue tag="ea_localid" value="17143"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+										<UML:TaggedValue tag="sequenceNumber" value="1" xmi.id="EAID_76325134_C51B_49d8_983A_E68BAA92DAC3"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="startDate" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid1"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="Date the mine commenced."/>
+										<UML:TaggedValue tag="type" value="CharacterString"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="2"/>
+										<UML:TaggedValue tag="lowerBound" value="0"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{417CC775-770B-4701-8080-CA4758812AD6}"/>
+										<UML:TaggedValue tag="ea_localid" value="17144"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+										<UML:TaggedValue tag="sequenceNumber" value="2" xmi.id="EAID_E29CD4CB_B869_4238_B635_329FFE92F0C2"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="status" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid4"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="Operational status (eg Care &amp;amp; Maintenance, Pending Approval, operating continually)"/>
+										<UML:TaggedValue tag="type" value="MineStatusCode"/>
+										<UML:TaggedValue tag="derived" value="0"/>
+										<UML:TaggedValue tag="containment" value="Not Specified"/>
+										<UML:TaggedValue tag="length" value="0"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="3"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{7F1D9AAB-E798-401d-BD1B-247F283A163B}"/>
+										<UML:TaggedValue tag="ea_localid" value="17145"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+										<UML:TaggedValue tag="sequenceNumber" value="4" xmi.id="EAID_EEA2D2CC_F68C_4179_B89F_B54E2D57A9F9"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+							</UML:Classifier.feature>
+							<UML:ModelElement.constraint>
+								<UML:Constraint name="mineSpecification.URI=(Mine feature)">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="type" value="Invariant"/>
+										<UML:TaggedValue tag="weight" value="0.00"/>
+										<UML:TaggedValue tag="status" value="Approved"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Constraint>
+							</UML:ModelElement.constraint>
+						</UML:Class>
+						<UML:Dependency client="EAID_C96889C4_1EC5_42f6_B173_B25A4DB9A469" supplier="EAID_AD8A2696_3619_46f3_91AF_C0FA8559F66C" xmi.id="EAID_64B91701_9AE5_4d7a_BB07_AFBB39F75D59" visibility="public">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="access"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="access"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="«access»"/>
+								<UML:TaggedValue tag="ea_localid" value="19011"/>
+								<UML:TaggedValue tag="ea_sourceName" value="MinePortrayal"/>
+								<UML:TaggedValue tag="ea_targetName" value="Mine"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+								<UML:TaggedValue tag="ea_targetType" value="Class"/>
+								<UML:TaggedValue tag="ea_sourceID" value="13920"/>
+								<UML:TaggedValue tag="ea_targetID" value="13885"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={1B0058A1-8DFD-4fc4-B6F6-3CD974F6B058}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=access;GUID={1D32E531-9C84-49e5-881A-7B9DFFF1D08F};@ENDSTEREO;$DES;$CLT={64B91701-9AE5-4d7a-BB07-AFBB39F75D59}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«access»"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+				<UML:DataType xmi.id="eaxmiid3" name="MiningActivityTypeCode" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid2" name="MineralOccurrenceTypeCode" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid4" name="MineStatusCode" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid1" name="CharacterString" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid0" name="anyURI" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:Diagram name="EarthResourcePortrayal" xmi.id="EAID_E669BDA6_B43F_4202_8106_0EECE4905EF5" diagramType="ClassDiagram" owner="EAPK_D9C5D539_51AC_4546_9945_3F946503685F" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="bs14"/>
+				<UML:TaggedValue tag="created_date" value="2010-05-25 09:40:50"/>
+				<UML:TaggedValue tag="modified_date" value="2010-05-25 16:27:33"/>
+				<UML:TaggedValue tag="package" value="EAPK_D9C5D539_51AC_4546_9945_3F946503685F"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
+				<UML:TaggedValue tag="ea_localid" value="8483"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=1134;DocSize.cy=795;ShowDetails=0;Orientation=L;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=681;Top=557;Right=869;Bottom=772;" subject="EAID_91C3B0FF_62D7_41b5_8B2E_98464B611747" seqno="1" style="LCol=-1;BFol=-1;NSL=0;DUID=62CCF2DA;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;BCol=16764057;"/>
+				<UML:DiagramElement geometry="Left=681;Top=43;Right=814;Bottom=219;" subject="EAID_E45CB1CC_EE1E_40f0_83C4_3EEA5E912C19" seqno="2" style="LCol=-1;BFol=-1;NSL=0;DUID=DE8F05C6;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;BCol=16764057;"/>
+				<UML:DiagramElement geometry="Left=445;Top=708;Right=549;Bottom=776;" subject="EAID_3087E3F7_9471_4c24_BA80_F8DF76FB0D44" seqno="3" style="ImageID=0;LCol=-1;BFol=-1;NSL=0;DUID=2AD328E1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;AttPro=0;AttPri=0;AttPub=0;AttPkg=0;AttCustom=0;OpCustom=0;RzO=1;BCol=16764057;"/>
+				<UML:DiagramElement geometry="Left=753;Top=454;Right=856;Bottom=524;" subject="EAID_AD8A2696_3619_46f3_91AF_C0FA8559F66C" seqno="4" style="ImageID=0;LCol=-1;BFol=-1;NSL=0;DUID=BE252424;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;OpCustom=0;RzO=1;AttPro=0;AttPri=0;AttPub=0;AttPkg=0;AttCustom=0;BCol=16764057;"/>
+				<UML:DiagramElement geometry="Left=696;Top=259;Right=890;Bottom=387;" subject="EAID_C96889C4_1EC5_42f6_B173_B25A4DB9A469" seqno="5" style="DUID=B8406035;NSL=0;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;BCol=16764057;Constraint=1;AttCustom=0;OpCustom=0;RzO=1;"/>
+				<UML:DiagramElement geometry="Left=393;Top=267;Right=673;Bottom=551;" subject="EAID_94BA5ECA_0A2F_4050_9474_90EF56FC8D74" seqno="6" style="DUID=AD8214CE;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;BCol=16764057;Constraint=1;AttCustom=0;OpCustom=0;RzO=1;"/>
+				<UML:DiagramElement geometry="Left=7;Top=80;Right=157;Bottom=243;" subject="EAID_62C9FD2E_F0C3_4083_88A2_7D7E40B17926" seqno="7" style="LCol=-1;BFol=-1;DUID=01E1AACA;NSL=0;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;BCol=16764057;"/>
+				<UML:DiagramElement geometry="Left=205;Top=665;Right=330;Bottom=749;" subject="EAID_8105A2B0_F446_4037_8661_FD8F6E81E532" seqno="8" style="ImageID=0;LCol=-1;BFol=-1;DUID=71B0F0A5;NSL=0;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;AttPro=0;AttPri=0;AttPub=0;AttPkg=0;AttCustom=0;OpCustom=0;RzO=1;BCol=16764057;"/>
+				<UML:DiagramElement geometry="Left=10;Top=274;Right=300;Bottom=532;" subject="EAID_823E1817_7B10_4eb7_B8C4_7FB0DB213ABC" seqno="9" style="DUID=5CEA9160;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;BCol=16764057;Constraint=1;AttCustom=0;OpCustom=0;RzO=1;"/>
+				<UML:DiagramElement geometry="Left=425;Top=109;Right=576;Bottom=179;" subject="EAID_AA0E4F60_1A63_454e_B322_3AA849A3CC8C" seqno="10" style="DUID=04E9730A;BCol=16764057;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_C5329D6B_6550_425c_99EC_165C5B526FD5" style="Mode=3;EOID=04E9730A;SOID=5CEA9160;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=CX=42:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_AF04950E_CC17_4422_BA7A_693B176DAB42" style="Mode=3;EOID=71B0F0A5;SOID=5CEA9160;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SCTR=1;SCME=1;SX=0;SY=0;EX=0;EY=0;EDGE=2;SCTR.LEFT=329;SCTR.TOP=-693;SCTR.RIGHT=360;SCTR.BOTTOM=-678;$LLB=;LLT=CX=48:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=57:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=330:-693$360:-693$360:-678$330:-678$;" subject="EAID_9E2AF370_6E97_457e_8E9E_2E409FB0E621" style="Mode=3;EOID=71B0F0A5;SOID=71B0F0A5;Color=-1;LWidth=0;Hidden=1;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=-24;EY=-34;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_2C1D4FCF_E264_4c60_8EF5_AFAF8D41BC42" style="Mode=3;EOID=04E9730A;SOID=AD8214CE;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=CX=42:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_3DCB08ED_574E_491a_A607_1B7C160D4D7E" style="Mode=3;EOID=71B0F0A5;SOID=AD8214CE;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=42:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_6A9F34A5_3DCA_47ca_A5D7_08C90AF4AC3B" style="Mode=3;EOID=BE252424;SOID=AD8214CE;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=CX=42:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_83517C00_6298_4656_92A6_E8001FB797B5" style="Mode=3;EOID=2AD328E1;SOID=AD8214CE;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=55;EY=-34;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_761A329B_5213_4bd1_844B_752B80CFD13C" style="Mode=3;EOID=04E9730A;SOID=B8406035;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=CX=42:CY=13:OX=1:OY=-5:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_64B91701_9AE5_4d7a_BB07_AFBB39F75D59" style="Mode=3;EOID=BE252424;SOID=B8406035;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SCTR=1;SCME=1;SX=0;SY=0;EX=0;EY=0;EDGE=2;SCTR.LEFT=855;SCTR.TOP=-494;SCTR.RIGHT=886;SCTR.BOTTOM=-479;$LLB=;LLT=CX=18:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=CX=65:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=CX=82:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=856:-494$886:-494$886:-479$856:-479$;" subject="EAID_BA072F9B_3D3D_429f_9576_7A7F3F133542" style="Mode=3;EOID=BE252424;SOID=BE252424;Color=-1;LWidth=0;Hidden=1;"/>
+				<UML:DiagramElement geometry="EDGE=4;$LLB=CX=16:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=92:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=40:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=6:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_F8C7369B_581B_4e67_8B92_8C18879DA0D8" style="Mode=3;EOID=71B0F0A5;SOID=2AD328E1;Color=-1;LWidth=0;Hidden=1;"/>
+				<UML:DiagramElement geometry="EDGE=1;$LLB=CX=16:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=73:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=79:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=18:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_8FF8BF7B_77DB_4e05_A730_29BCFD5B96B0" style="Mode=3;EOID=BE252424;SOID=2AD328E1;Color=-1;LWidth=0;Hidden=1;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
+		<EAStub xmi.id="EAID_8105A2B0_F446_4037_8661_FD8F6E81E532" name="EarthResource" UMLType="Class"/>
+		<EAStub xmi.id="EAID_AD8A2696_3619_46f3_91AF_C0FA8559F66C" name="Mine" UMLType="Class"/>
+		<EAStub xmi.id="EAID_3087E3F7_9471_4c24_BA80_F8DF76FB0D44" name="MiningActivity" UMLType="Class"/>
+	</XMI.extensions>
+</XMI>
