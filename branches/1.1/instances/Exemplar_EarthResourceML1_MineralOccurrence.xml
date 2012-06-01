@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wfs:FeatureCollection xmlns:wfs="http://www.opengis.net/wfs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:gml="http://www.opengis.net/gml" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:er="urn:cgi:xmlns:GGIC:EarthResource:1.1" xsi:schemaLocation="urn:cgi:xmlns:GGIC:EarthResource:1.1 http://www.earthresourceml.org/earthresourceml/1.1/xsd/earthResource.xsd http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd" numberOfFeatures="10">
+	<gml:boundedBy>
+		<gml:Envelope srsName="EPSG:4283">
+			<gml:lowerCorner>143.59003 -37.62047</gml:lowerCorner>
+			<gml:upperCorner>148.58729 -36.33607</gml:upperCorner>
+		</gml:Envelope>
+	</gml:boundedBy>
+	<gml:featureMember>
+		<er:MineralOccurrence gml:id="er.mineraloccurrence.372122">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MineralOccurrence:372122</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mineraloccurrence/372122</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Whroo</gml:name>
+			<gsml:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://www.ietf.org/rfc/rfc2616/">http://www.opengis.net/def/nil/OGC/0/missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</gsml:observationMethod>
+			<gsml:purpose>typicalNorm</gsml:purpose>
+			<gsml:occurrence xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mappedfeature/mineraloccurrence/366770">
+				
+			</gsml:occurrence>
+			<gsml:geologicHistory></gsml:geologicHistory>
+			<gsml:metadata></gsml:metadata>
+			<er:dimension>
+				<er:EarthResourceDimension>
+					<er:area>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/har">0</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:area>
+					<er:width>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/har">10</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:width>
+				</er:EarthResourceDimension>
+			</er:dimension>
+			<er:form>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Unknown</gsml:value>
+				</gsml:CGI_TermValue>
+			</er:form>
+			<er:classification>
+				<er:MineralDepositModel>
+					<er:mineralDepositGroup codeSpace="http://www.dpi.vic.gov.au/earth-resources">Unknown</er:mineralDepositGroup>
+				</er:MineralDepositModel>
+			</er:classification>
+			<er:commodityDescription>
+			<er:Commodity gml:id="er.commodity.372122.au">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/commodity/372122/au</gml:name>
+			<er:commodityName codeSpace="urn:cgi:classifierScheme:GA:commodity">urn:cgi:classifier:GA:commodity:Au</er:commodityName>
+			<er:commodityImportance>major</er:commodityImportance>
+			<er:source xlink:href="#er.mineraloccurrence.372122"/>
+		</er:Commodity>
+			</er:commodityDescription>
+			<er:type>mineral deposit</er:type>
+		</er:MineralOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:MineralOccurrence gml:id="er.mineraloccurrence.366920">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MineralOccurrence:366920</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mineraloccurrence/366920</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Dart River</gml:name>
+			<gsml:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://www.ietf.org/rfc/rfc2616/">http://www.opengis.net/def/nil/OGC/0/missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</gsml:observationMethod>
+			<gsml:purpose>typicalNorm</gsml:purpose>
+			<gsml:occurrence xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mappedfeature/mineraloccurrence/366920">
+				
+			</gsml:occurrence>
+			<er:dimension>
+				<er:EarthResourceDimension>
+					<er:area>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/har">10</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:area>
+					<er:width>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/m">10</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:width>
+				</er:EarthResourceDimension>
+			</er:dimension>
+			<er:form>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Placer - modern</gsml:value>
+				</gsml:CGI_TermValue>
+			</er:form>
+			<er:commodityDescription>
+			<er:Commodity gml:id="er.commodity.366920.au">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/commodity/366920/au</gml:name>
+			<er:commodityName codeSpace="urn:cgi:classifierScheme:GA:commodity">urn:cgi:classifier:GA:commodity:Au</er:commodityName>
+			<er:commodityImportance>major</er:commodityImportance>
+			<er:source xlink:href="#er.mineraloccurrence.366920"/>
+		</er:Commodity>
+		</er:commodityDescription>
+			<er:type>mineral deposit</er:type>
+		</er:MineralOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:MineralOccurrence gml:id="er.mineraloccurrence.367108">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MineralOccurrence:367108</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mineraloccurrence/367108</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Lower Dart River</gml:name>
+			<gsml:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://www.ietf.org/rfc/rfc2616/">http://www.opengis.net/def/nil/OGC/0/missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</gsml:observationMethod>
+			<gsml:purpose>typicalNorm</gsml:purpose>
+			<gsml:occurrence xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mappedfeature/mineraloccurrence/367108">
+				
+			</gsml:occurrence>
+			<er:dimension>
+				<er:EarthResourceDimension>
+					<er:area>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/har">0</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:area>
+					<er:width>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/m">0</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:width>
+				</er:EarthResourceDimension>
+			</er:dimension>
+			<er:form>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Vein hosted - general</gsml:value>
+				</gsml:CGI_TermValue>
+			</er:form>
+			<er:classification>
+				<er:MineralDepositModel>
+					<er:mineralDepositGroup codeSpace="http://www.dpi.vic.gov.au/earth-resources">Unknown</er:mineralDepositGroup>
+				</er:MineralDepositModel>
+			</er:classification>
+			
+			<er:commodityDescription>
+			<er:Commodity gml:id="er.commodity.367108.au">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/commodity/367108/au</gml:name>
+			<er:commodityName codeSpace="urn:cgi:classifierScheme:GA:commodity">urn:cgi:classifier:GA:commodity:Au</er:commodityName>
+			<er:commodityImportance>major</er:commodityImportance>
+			<er:source xlink:href="#er.mineraloccurrence.367108"/>
+		</er:Commodity>
+		</er:commodityDescription>
+		<er:type>mineral deposit</er:type>
+		</er:MineralOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:MineralOccurrence gml:id="er.mineraloccurrence.366991">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MineralOccurrence:366991</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mineraloccurrence/366991</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Dart River</gml:name>
+			<gsml:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://www.ietf.org/rfc/rfc2616/">http://www.opengis.net/def/nil/OGC/0/missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</gsml:observationMethod>
+			<gsml:purpose>typicalNorm</gsml:purpose>
+			<gsml:occurrence xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mappedfeature/mineraloccurrence/366991">
+				
+			</gsml:occurrence>
+			<er:dimension>
+				<er:EarthResourceDimension>
+					<er:area>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/har">0</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:area>
+					<er:width>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/m">0</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:width>
+				</er:EarthResourceDimension>
+			</er:dimension>
+			<er:form>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Vein hosted - general</gsml:value>
+				</gsml:CGI_TermValue>
+			</er:form>
+			<er:classification>
+				<er:MineralDepositModel>
+					<er:mineralDepositGroup codeSpace="http://www.dpi.vic.gov.au/earth-resources">Unknown</er:mineralDepositGroup>
+				</er:MineralDepositModel>
+			</er:classification>
+			
+			<er:commodityDescription>
+			<er:Commodity gml:id="er.commodity.366991.au">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/commodity/366991/au</gml:name>
+			<er:commodityName codeSpace="urn:cgi:classifierScheme:GA:commodity">urn:cgi:classifier:GA:commodity:Au</er:commodityName>
+			<er:commodityImportance>major</er:commodityImportance>
+			<er:source xlink:href="#er.mineraloccurrence.366991"/>
+		</er:Commodity>
+		</er:commodityDescription>
+		<er:type>mineral deposit</er:type>
+		</er:MineralOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:MineralOccurrence gml:id="er.mineraloccurrence.368989">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MineralOccurrence:368989</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mineraloccurrence/368989</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Maldon-Muckleford Goldfield</gml:name>
+			<gsml:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://www.ietf.org/rfc/rfc2616/">http://www.opengis.net/def/nil/OGC/0/missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</gsml:observationMethod>
+			<gsml:purpose>typicalNorm</gsml:purpose>
+			<gsml:occurrence xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mappedfeature/mineraloccurrence/368989">
+				
+			</gsml:occurrence>
+			<er:dimension>
+				<er:EarthResourceDimension>
+					<er:area>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/har">0</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:area>
+					<er:width>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/m">0</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:width>
+				</er:EarthResourceDimension>
+			</er:dimension>
+			<er:form>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Unknown</gsml:value>
+				</gsml:CGI_TermValue>
+			</er:form>
+			<er:classification>
+				<er:MineralDepositModel>
+					<er:mineralDepositGroup codeSpace="http://www.dpi.vic.gov.au/earth-resources">Unknown</er:mineralDepositGroup>
+				</er:MineralDepositModel>
+			</er:classification>
+			
+			<er:commodityDescription>
+			<er:Commodity gml:id="er.commodity.368989.au">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/commodity/368989/au</gml:name>
+			<er:commodityName codeSpace="urn:cgi:classifierScheme:GA:commodity">urn:cgi:classifier:GA:commodity:Au</er:commodityName>
+			<er:commodityImportance>major</er:commodityImportance>
+			<er:source xlink:href="#er.mineraloccurrence.3689898"/>
+		</er:Commodity>
+		</er:commodityDescription>
+		<er:type>mineral deposit</er:type>
+		</er:MineralOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:MineralOccurrence gml:id="er.mineraloccurrence.372258">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MineralOccurrence:372258</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mineraloccurrence/372258</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Heathcote</gml:name>
+			<gsml:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://www.ietf.org/rfc/rfc2616/">http://www.opengis.net/def/nil/OGC/0/missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</gsml:observationMethod>
+			<gsml:purpose>typicalNorm</gsml:purpose>
+			<gsml:occurrence xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mappedfeature/mineraloccurrence/372258">
+				
+			</gsml:occurrence>
+			<er:dimension>
+				<er:EarthResourceDimension>
+					<er:area>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/har">0</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:area>
+					<er:width>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/m">0</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:width>
+				</er:EarthResourceDimension>
+			</er:dimension>
+			<er:form>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Placer - modern</gsml:value>
+				</gsml:CGI_TermValue>
+			</er:form>
+			<er:classification>
+				<er:MineralDepositModel>
+					<er:mineralDepositGroup codeSpace="http://www.dpi.vic.gov.au/earth-resources">Alluvial Au</er:mineralDepositGroup>
+				</er:MineralDepositModel>
+			</er:classification>
+			
+			<er:commodityDescription>
+			<er:Commodity gml:id="er.commodity.372258.au">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/commodity/372258/au</gml:name>
+			<er:commodityName codeSpace="urn:cgi:classifierScheme:GA:commodity">urn:cgi:classifier:GA:commodity:Au</er:commodityName>
+			<er:commodityImportance>major</er:commodityImportance>
+			<er:source xlink:href="#er.mineraloccurrence.372258"/>
+		</er:Commodity>
+		</er:commodityDescription>
+		<er:type>mineral deposit</er:type>
+		</er:MineralOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:MineralOccurrence gml:id="er.mineraloccurrence.875599">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MineralOccurrence:875599</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mineraloccurrence/875599</gml:name>
+			<gsml:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://www.ietf.org/rfc/rfc2616/">http://www.opengis.net/def/nil/OGC/0/missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</gsml:observationMethod>
+			<gsml:purpose>typicalNorm</gsml:purpose>
+			<gsml:occurrence xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mappedfeature/mineraloccurrence/875599">
+				
+			</gsml:occurrence>
+			<er:dimension>
+				<er:EarthResourceDimension>
+					<er:area>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/har">0</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:area>
+					<er:depth>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/m">0</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:depth>
+					<er:length>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/m">0</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:length>
+					<er:width>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/m">0</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:width>
+				</er:EarthResourceDimension>
+			</er:dimension>
+			<er:form>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Primary</gsml:value>
+				</gsml:CGI_TermValue>
+			</er:form>
+			<er:linearOrientation>
+				<gsml:CGI_LinearOrientation>
+					<gsml:plunge>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/deg">0</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</gsml:plunge>
+					<gsml:trend>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/deg">0</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</gsml:trend>
+				</gsml:CGI_LinearOrientation>
+			</er:linearOrientation>
+			<er:planarOrientation>
+				<gsml:CGI_PlanarOrientation>
+					<gsml:convention>dip dip direction</gsml:convention>
+					<gsml:azimuth>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/deg">0</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</gsml:azimuth>
+					<gsml:dip>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/deg">0</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</gsml:dip>
+					<gsml:polarity>not applicable</gsml:polarity>
+				</gsml:CGI_PlanarOrientation>
+			</er:planarOrientation>
+			<er:classification>
+				<er:MineralDepositModel>
+					<er:mineralDepositGroup codeSpace="http://www.dpi.vic.gov.au/earth-resources">Mesozonal orogenic Au</er:mineralDepositGroup>
+				</er:MineralDepositModel>
+			</er:classification>
+			
+			<er:commodityDescription>
+			<er:Commodity gml:id="er.commodity.875599.au">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/commodity/875599/au</gml:name>
+			<er:commodityName codeSpace="urn:cgi:classifierScheme:GA:commodity">urn:cgi:classifier:GA:commodity:Au</er:commodityName>
+			<er:commodityImportance>major</er:commodityImportance>
+			<er:source xlink:href="#er.mineraloccurrence.875599"/>
+		</er:Commodity>
+		</er:commodityDescription>
+		<er:type>mineral deposit</er:type>
+		</er:MineralOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:MineralOccurrence gml:id="er.mineraloccurrence.378079">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MineralOccurrence:378079</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mineraloccurrence/378079</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Burrumbeet</gml:name>
+			<gsml:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://www.ietf.org/rfc/rfc2616/">http://www.opengis.net/def/nil/OGC/0/missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</gsml:observationMethod>
+			<gsml:purpose>typicalNorm</gsml:purpose>
+			<gsml:occurrence xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mappedfeature/mineraloccurrence/378079">
+				
+			</gsml:occurrence>
+			<er:dimension>
+				<er:EarthResourceDimension>
+					<er:area>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/har">0</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:area>
+					<er:depth>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/m">32.9</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:depth>
+					<er:width>
+						<gsml:CGI_NumericRange>
+							<gsml:lower>
+								<gsml:CGI_NumericValue>
+									<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/m">24.4</gsml:principalValue>
+								</gsml:CGI_NumericValue>
+							</gsml:lower>
+							<gsml:upper>
+								<gsml:CGI_NumericValue>
+									<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/m">45.7</gsml:principalValue>
+								</gsml:CGI_NumericValue>
+							</gsml:upper>
+						</gsml:CGI_NumericRange>
+					</er:width>
+				</er:EarthResourceDimension>
+			</er:dimension>
+			<er:form>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Placer - ancient &amp; buried</gsml:value>
+				</gsml:CGI_TermValue>
+			</er:form>
+			<er:classification>
+				<er:MineralDepositModel>
+					<er:mineralDepositGroup codeSpace="http://www.dpi.vic.gov.au/earth-resources">Alluvial Au</er:mineralDepositGroup>
+				</er:MineralDepositModel>
+			</er:classification>
+			
+			<er:commodityDescription>
+			<er:Commodity gml:id="er.commodity.378079.au">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/commodity/378079/au</gml:name>
+			<er:commodityName codeSpace="urn:cgi:classifierScheme:GA:commodity">urn:cgi:classifier:GA:commodity:Au</er:commodityName>
+			<er:commodityImportance>major</er:commodityImportance>
+			<er:source xlink:href="#er.mineraloccurrence.378079"/>
+		</er:Commodity>
+		</er:commodityDescription>
+		<er:composition>
+				<er:EarthResourceMaterial>
+					<er:earthResourceMaterialRole>unspecified</er:earthResourceMaterialRole>
+					<er:material>
+						<gsml:RockMaterial>
+							<gsml:purpose>typicalNorm</gsml:purpose>
+							<gsml:consolidationDegree>
+								<gsml:CGI_TermValue>
+									<gsml:value codeSpace="http://www.ietf.org/rfc/rfc2616/">http://www.opengis.net/def/nil/OGC/0/missing</gsml:value>
+								</gsml:CGI_TermValue>
+							</gsml:consolidationDegree>
+							<gsml:lithology xlink:href="uhttp://resource.geosciml.org/uri-cgi/classifier/cgi/simplelithology/200811/gravel" xlink:title="gravel"/>
+						</gsml:RockMaterial>
+					</er:material>
+					<er:proportion>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://www.ietf.org/rfc/rfc2616/">http://www.opengis.net/def/nil/OGC/0/missing</gsml:value>
+						</gsml:CGI_TermValue>
+					</er:proportion>
+				</er:EarthResourceMaterial>
+			</er:composition>
+			
+			<er:resourceExtraction xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/23418"/>
+			<er:resourceExtraction xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/21381"/>
+			<er:resourceExtraction xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/21380"/>
+			<er:resourceExtraction xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/21379"/>
+			<er:resourceExtraction xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/221378"/>
+			<er:resourceExtraction xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/221377"/>
+			<er:resourceExtraction xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/221376"/>
+			<er:resourceExtraction xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/221375"/>
+			<er:resourceExtraction xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/221374"/>
+			<er:resourceExtraction xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/221373"/>
+			<er:resourceExtraction xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/221372"/>
+			<er:resourceExtraction xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/221371"/>
+			<er:resourceExtraction xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/221370"/>
+			<er:resourceExtraction xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/221369"/>
+			<er:resourceExtraction xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/221368"/>
+			<er:resourceExtraction xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/221367"/>
+			<er:resourceExtraction xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/221366"/>
+			<er:resourceExtraction xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/221365"/>
+			<er:resourceExtraction xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/221364"/>
+			<er:resourceExtraction xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/221363"/>
+			<er:resourceExtraction xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/221362"/>
+			<er:resourceExtraction xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/221361"/>
+			<er:resourceExtraction xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/221360"/>
+			<er:resourceExtraction xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/221359"/>
+			<er:resourceExtraction xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/221358"/>
+			<er:resourceExtraction xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/221357"/>
+			<er:resourceExtraction xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/221356"/>
+			<er:child xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mineraloccurrence/376747"/>
+			<er:child xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mineraloccurrence/377559"/>
+			<er:child xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mineraloccurrence/377987"/>
+			<er:type>mineral deposit</er:type>
+		</er:MineralOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:MineralOccurrence gml:id="er.mineraloccurrence.365344">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MineralOccurrence:365344</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mineraloccurrence/365344</gml:name>
+			<gsml:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://www.ietf.org/rfc/rfc2616/">http://www.opengis.net/def/nil/OGC/0/missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</gsml:observationMethod>
+			<gsml:purpose>typicalNorm</gsml:purpose>
+			<gsml:occurrence xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mappedfeature/mineraloccurrence/365344">
+				
+			</gsml:occurrence>
+			<er:dimension>
+				<er:EarthResourceDimension>
+					<er:area>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/har">0</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:area>
+					<er:length>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/m">400</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:length>
+					<er:width>
+						<gsml:CGI_NumericRange>
+							<gsml:lower>
+								<gsml:CGI_NumericValue>
+									<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/m">0</gsml:principalValue>
+								</gsml:CGI_NumericValue>
+							</gsml:lower>
+							<gsml:upper>
+								<gsml:CGI_NumericValue>
+									<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/m">1.6</gsml:principalValue>
+								</gsml:CGI_NumericValue>
+							</gsml:upper>
+						</gsml:CGI_NumericRange>
+					</er:width>
+				</er:EarthResourceDimension>
+			</er:dimension>
+			<er:form>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Vein hosted - general</gsml:value>
+				</gsml:CGI_TermValue>
+			</er:form>
+			<er:planarOrientation>
+				<gsml:CGI_PlanarOrientation>
+					<gsml:convention>dip dip direction</gsml:convention>
+					<gsml:azimuth>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/deg">215</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</gsml:azimuth>
+					<gsml:polarity>not applicable</gsml:polarity>
+				</gsml:CGI_PlanarOrientation>
+			</er:planarOrientation>
+			<er:classification>
+				<er:MineralDepositModel>
+					<er:mineralDepositGroup codeSpace="http://www.dpi.vic.gov.au/earth-resources">Unknown</er:mineralDepositGroup>
+				</er:MineralDepositModel>
+			</er:classification>
+			
+			<er:commodityDescription>
+			<er:Commodity gml:id="er.commodity.365344.cu">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/commodity/365344/cu</gml:name>
+			<er:commodityName codeSpace="urn:cgi:classifierScheme:GA:commodity">urn:cgi:classifier:GA:commodity:Cu</er:commodityName>
+			<er:commodityImportance>major</er:commodityImportance>
+			<er:source xlink:href="#er.mineraloccurrence.365344"/>
+		</er:Commodity>
+		</er:commodityDescription><er:composition>
+				<er:EarthResourceMaterial>
+					<er:earthResourceMaterialRole>unspecified</er:earthResourceMaterialRole>
+					<er:material>
+						<gsml:RockMaterial>
+							<gsml:purpose>typicalNorm</gsml:purpose>
+							<gsml:consolidationDegree>
+								<gsml:CGI_TermValue>
+									<gsml:value codeSpace="http://www.ietf.org/rfc/rfc2616/">http://www.opengis.net/def/nil/OGC/0/missing</gsml:value>
+								</gsml:CGI_TermValue>
+							</gsml:consolidationDegree>
+							<gsml:lithology xlink:href="http://resource.geosciml.org/uri-cgi/classifier/cgi/simplelithology/200811/granodiorite"/>
+						</gsml:RockMaterial>
+					</er:material>
+					<er:proportion>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://www.ietf.org/rfc/rfc2616/">http://www.opengis.net/def/nil/OGC/0/missing</gsml:value>
+						</gsml:CGI_TermValue>
+					</er:proportion>
+				</er:EarthResourceMaterial>
+			</er:composition>
+			<er:type>occurrence</er:type>
+		</er:MineralOccurrence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:MineralOccurrence gml:id="er.mineraloccurrence.365023">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MineralOccurrence:365023</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mineraloccurrence/365023</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Mt Cudgewa</gml:name>
+			<gsml:observationMethod>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://www.ietf.org/rfc/rfc2616/">http://www.opengis.net/def/nil/OGC/0/missing</gsml:value>
+				</gsml:CGI_TermValue>
+			</gsml:observationMethod>
+			<gsml:purpose>typicalNorm</gsml:purpose>
+			<gsml:occurrence xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mappedfeature/mineraloccurrence/365023">
+				
+			</gsml:occurrence>
+			<er:dimension>
+				<er:EarthResourceDimension>
+					<er:area>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/har">0</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:area>
+					<er:width>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/m">0</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:width>
+				</er:EarthResourceDimension>
+			</er:dimension>
+			<er:form>
+				<gsml:CGI_TermValue>
+					<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Vein hosted - general</gsml:value>
+				</gsml:CGI_TermValue>
+			</er:form>
+			<er:planarOrientation>
+				<gsml:CGI_PlanarOrientation>
+					<gsml:convention>dip dip direction</gsml:convention>
+					<gsml:azimuth>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/deg">22</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</gsml:azimuth>
+					<gsml:dip>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="http://www.opengis.net/def/uom/UCUM/0/deg">75</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</gsml:dip>
+					<gsml:polarity>not applicable</gsml:polarity>
+				</gsml:CGI_PlanarOrientation>
+			</er:planarOrientation>
+			
+			<er:commodityDescription xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/commodity/365023/tin" xlink:title="tin">
+			<er:Commodity gml:id="er.commodity.365023.tin">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/commodity/365023.tin</gml:name>
+			<er:commodityName codeSpace="urn:cgi:classifierScheme:GA:commodity">urn:cgi:classifier:GA:commodity:Sn</er:commodityName>
+			<er:commodityImportance>major</er:commodityImportance>
+			<er:source xlink:href="#er.mineraloccurrence.365023"/>
+		</er:Commodity>
+		</er:commodityDescription>
+		<er:commodityDescription>
+			<er:Commodity gml:id="er.commodity.365023.tunx">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/commodity/365023.tunx</gml:name>
+			
+			
+			<er:commodityName codeSpace="urn:cgi:classifierScheme:GA:commodity">urn:cgi:classifier:GA:commodity:TUNX</er:commodityName>
+			<er:commodityImportance>major</er:commodityImportance>
+			<er:source xlink:href="#er.mineraloccurrence.365023"/>
+		</er:Commodity>
+		</er:commodityDescription>
+		<er:composition>
+				<er:EarthResourceMaterial>
+					<er:earthResourceMaterialRole>unspecified</er:earthResourceMaterialRole>
+					<er:material>
+						<gsml:RockMaterial>
+							<gsml:purpose>typicalNorm</gsml:purpose>
+							<gsml:consolidationDegree>
+								<gsml:CGI_TermValue>
+									<gsml:value codeSpace="http://www.ietf.org/rfc/rfc2616/">http://www.opengis.net/def/nil/OGC/0/missing</gsml:value>
+								</gsml:CGI_TermValue>
+							</gsml:consolidationDegree>
+							<gsml:lithology xlink:href="http://resource.geosciml.org/uri-cgi/classifier/cgi/simplelithology/200811/granodiorite" xlink:title="granodiorite"/>
+						</gsml:RockMaterial>
+					</er:material>
+					<er:proportion>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://www.ietf.org/rfc/rfc2616/">http://www.opengis.net/def/nil/OGC/0/missing</gsml:value>
+						</gsml:CGI_TermValue>
+					</er:proportion>
+				</er:EarthResourceMaterial>
+			</er:composition>
+			<er:composition>
+				<er:EarthResourceMaterial>
+					<er:earthResourceMaterialRole>unspecified</er:earthResourceMaterialRole>
+					<er:material>
+						<gsml:RockMaterial>
+							<gsml:purpose>typicalNorm</gsml:purpose>
+							<gsml:consolidationDegree>
+								<gsml:CGI_TermValue>
+									<gsml:value codeSpace="http://www.ietf.org/rfc/rfc2616/">http://www.opengis.net/def/nil/OGC/0/missing</gsml:value>
+								</gsml:CGI_TermValue>
+							</gsml:consolidationDegree>
+							<gsml:lithology xlink:href="http://resource.geosciml.org/uri-cgi/classifier/cgi/simplelithology/200811/schist" xlink:title="schist"/>
+						</gsml:RockMaterial>
+					</er:material>
+					<er:proportion>
+						<gsml:CGI_TermValue>
+							<gsml:value codeSpace="http://www.ietf.org/rfc/rfc2616/">http://www.opengis.net/def/nil/OGC/0/missing</gsml:value>
+						</gsml:CGI_TermValue>
+					</er:proportion>
+				</er:EarthResourceMaterial>
+			</er:composition>
+			<er:type>mineral deposit</er:type>
+		</er:MineralOccurrence>
+	</gml:featureMember>
+</wfs:FeatureCollection>

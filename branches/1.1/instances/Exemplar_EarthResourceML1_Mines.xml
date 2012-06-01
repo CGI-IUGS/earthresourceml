@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wfs:FeatureCollection xmlns:wfs="http://www.opengis.net/wfs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:gml="http://www.opengis.net/gml" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:er="urn:cgi:xmlns:GGIC:EarthResource:1.1" xsi:schemaLocation="urn:cgi:xmlns:GGIC:EarthResource:1.1 http://www.earthresourceml.org/earthresourceml/1.1/xsd/earthResource.xsd http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd" numberOfFeatures="10">
+	<gml:boundedBy>
+		<gml:Envelope srsName="EPSG:4283">
+			<gml:lowerCorner>144.62764 -36.95722</gml:lowerCorner>
+			<gml:upperCorner>147.55643 -36.05615</gml:upperCorner>
+		</gml:Envelope>
+	</gml:boundedBy>
+	<gml:featureMember>
+		<er:Mine gml:id="er.mine.372261">
+		
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mine/372261</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:Mine:372261</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Golden Gully [Lead]</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Golden Gully [Workings]</gml:name>
+			<er:occurrence   xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningfeatureoccurrence/mine/366770">
+			</er:occurrence>
+			<er:startDate>
+				<gml:TimeInstant>
+					<gml:timePosition>1864-04-01</gml:timePosition>
+				</gml:TimeInstant>
+			</er:startDate>
+			<er:endDate>
+				<gml:TimeInstant>
+					<gml:timePosition>1864-06-30</gml:timePosition>
+				</gml:TimeInstant>
+			</er:endDate>
+			<er:mineName>
+				<er:MineName>
+					<er:isPreferred>false</er:isPreferred>
+					<er:mineName>Golden Gully [Lead]</er:mineName>
+				</er:MineName>
+			</er:mineName>
+			<er:mineName>
+				<er:MineName>
+					<er:isPreferred>true</er:isPreferred>
+					<er:mineName>Golden Gully [Workings]</er:mineName>
+				</er:MineName>
+			</er:mineName>
+			<er:status>unknown</er:status>
+			<er:relatedActivity>
+				<er:MiningActivity gml:id="er.miningactivity.378079.23418">
+					 <gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningactivity/378079/23418</gml:name>
+					 <gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:MiningActivity:378079:23418</gml:name>
+					<er:occurrence xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningfeatureoccurrence/miningactivity/378079/23418"/>
+					<er:activityDuration>
+					<gml:TimePeriod>
+						<gml:beginPosition></gml:beginPosition>
+						<gml:endPosition></gml:endPosition>
+					</gml:TimePeriod>
+					
+					</er:activityDuration>
+					<er:activityType>unspecified</er:activityType>
+					<er:oreProcessed>
+						<gsml:CGI_NumericValue>
+							<gsml:principalValue uom="">10</gsml:principalValue>
+						</gsml:CGI_NumericValue>
+					</er:oreProcessed>
+					<er:associatedMine xlink:href="#er.mine.372261"/>
+					<er:rawMaterial>
+						<er:MinedMaterial>
+							<er:material>
+							<gsml:RockMaterial>
+								<gsml:purpose>instance</gsml:purpose>
+								<gsml:consolidationDegree>
+									<gsml:CGI_TermValue>
+										<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">unconsolidated</gsml:value>
+									</gsml:CGI_TermValue>
+								</gsml:consolidationDegree>
+								<gsml:lithology xlink:title="basalt" xlink:href="uhttp://resource.geosciml.org/uri-cgi/classifier/cgi/simplelithology/200811/basalt"></gsml:lithology>
+							</gsml:RockMaterial>
+							</er:material>
+							<er:rawMaterialRole>ore</er:rawMaterialRole>
+						</er:MinedMaterial>
+					</er:rawMaterial>
+					<er:deposit xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mineraloccurrence/366770"/>
+					<er:producedMaterial>
+						<er:Product gml:id="er.product.378079.23418">
+							<er:productName>
+								<gsml:CGI_TermValue>
+									<gsml:value codeSpace="http://www.dpi.vic.gov.au/earth-resources">Gold</gsml:value>
+								</gsml:CGI_TermValue>
+							</er:productName>
+							<er:sourceReference xlink:href="http://www.opengis.net/def/nil/OGC/0/missing"/>
+							<er:production>
+								<gsml:CGI_NumericValue>
+									<gsml:principalValue uom="http://www.opengis.net/def/uom/ucum/0/oz_tr">6639</gsml:principalValue>
+								</gsml:CGI_NumericValue>
+							</er:production>
+							
+						<er:sourceCommodity>
+			<er:Commodity gml:id="er.commodity.378079.au">
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/commodity/378079/au</gml:name>
+			
+			
+			<er:commodityName codeSpace="urn:cgi:classifierScheme:GA:commodity">urn:cgi:classifier:GA:commodity:Au</er:commodityName>
+			<er:commodityImportance>major</er:commodityImportance>
+			<er:source xlink:href="#er.mineraloccurrence.378079"/>
+		</er:Commodity>
+		</er:sourceCommodity>
+		</er:Product>
+					</er:producedMaterial>
+				</er:MiningActivity>
+			</er:relatedActivity>
+		<er:relatedMine></er:relatedMine>
+		</er:Mine>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:Mine gml:id="er.mine.372262">
+		<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mine/372262</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:Mine:372262</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Commissioners Flat [Area]</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Commissioners Flat [Workings]</gml:name>
+			<er:occurrence  xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningfeatureoccurrence/mine/372262">
+				
+			</er:occurrence>
+			<er:mineName>
+				<er:MineName>
+					<er:isPreferred>false</er:isPreferred>
+					<er:mineName>Commissioners Flat [Area]</er:mineName>
+				</er:MineName>
+			</er:mineName>
+			<er:mineName>
+				<er:MineName>
+					<er:isPreferred>true</er:isPreferred>
+					<er:mineName>Commissioners Flat [Workings]</er:mineName>
+				</er:MineName>
+			</er:mineName>
+			<er:status>unknown</er:status>
+			<er:relatedActivity xlink:href="http://www.opengis.net/def/nil/OGC/0/missing"/>
+		</er:Mine>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:Mine gml:id="er.mine.372265">
+		<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mine/372265</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:Mine:372265</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Sawpit Gully [Lead]</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Sawpit Gully [Workings]</gml:name>
+			<er:occurrence xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningfeatureoccurrence/mine/372265">
+				
+			</er:occurrence>
+			<er:mineName>
+				<er:MineName>
+					<er:isPreferred>false</er:isPreferred>
+					<er:mineName>Sawpit Gully [Lead]</er:mineName>
+				</er:MineName>
+			</er:mineName>
+			<er:mineName>
+				<er:MineName>
+					<er:isPreferred>true</er:isPreferred>
+					<er:mineName>Sawpit Gully [Workings]</er:mineName>
+				</er:MineName>
+			</er:mineName>
+			<er:status>unknown</er:status>
+			<er:relatedActivity xlink:href="http://www.opengis.net/def/nil/OGC/0/missing"/>
+		</er:Mine>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:Mine gml:id="er.mine.372267">
+		<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mine/372267</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:Mine:372267</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Steatite Location [Occurrence]</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Steatite Location [Workings]</gml:name>
+			<er:occurrence  xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningfeatureoccurrence/mine/372267">
+				
+			</er:occurrence>
+			<er:mineName>
+				<er:MineName>
+					<er:isPreferred>false</er:isPreferred>
+					<er:mineName>Steatite Location [Occurrence]</er:mineName>
+				</er:MineName>
+			</er:mineName>
+			<er:mineName>
+				<er:MineName>
+					<er:isPreferred>true</er:isPreferred>
+					<er:mineName>Steatite Location [Workings]</er:mineName>
+				</er:MineName>
+			</er:mineName>
+			<er:status>unknown</er:status>
+			<er:relatedActivity xlink:href="http://www.opengis.net/def/nil/OGC/0/missin"/>
+			
+		</er:Mine>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:Mine gml:id="er.mine.372268">
+		<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mine/372268</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:Mine:372268</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Old Gold Workings [Area]</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Unnamed Workings [Workings]</gml:name>
+			<er:occurrence  xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningfeatureoccurrence/mine/372268">
+				
+			</er:occurrence>
+			<er:mineName>
+				<er:MineName>
+					<er:isPreferred>false</er:isPreferred>
+					<er:mineName>Old Gold Workings [Area]</er:mineName>
+				</er:MineName>
+			</er:mineName>
+			<er:mineName>
+				<er:MineName>
+					<er:isPreferred>true</er:isPreferred>
+					<er:mineName>Unnamed Workings [Workings]</er:mineName>
+				</er:MineName>
+			</er:mineName>
+			<er:status>unknown</er:status>
+			<er:relatedActivity xlink:href="http://www.opengis.net/def/nil/OGC/0/missing"/>
+		</er:Mine>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:Mine gml:id="er.mine.372269">
+		<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mine/372269</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:Mine:372269</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Old Gold Workings [Area]</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Unnamed Workings [Workings]</gml:name>
+			<er:occurrence  xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningfeatureoccurrence/mine/372269">
+				
+			</er:occurrence>
+			<er:mineName>
+				<er:MineName>
+					<er:isPreferred>false</er:isPreferred>
+					<er:mineName>Old Gold Workings [Area]</er:mineName>
+				</er:MineName>
+			</er:mineName>
+			<er:mineName>
+				<er:MineName>
+					<er:isPreferred>true</er:isPreferred>
+					<er:mineName>Unnamed Workings [Workings]</er:mineName>
+				</er:MineName>
+			</er:mineName>
+			<er:status>unknown</er:status>
+			<er:relatedActivity xlink:href="http://www.opengis.net/def/nil/OGC/0/missing"/>
+		</er:Mine>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:Mine gml:id="er.mine.372270">
+		<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mine/372270</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:Mine:372270</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Butlers Extended Reef [Reef]</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Butlers Extended Reef [Workings]</gml:name>
+			<er:occurrence   xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningfeatureoccurrence/mine/372270">
+				
+			</er:occurrence>
+			<er:mineName>
+				<er:MineName>
+					<er:isPreferred>false</er:isPreferred>
+					<er:mineName>Butlers Extended Reef [Reef]</er:mineName>
+				</er:MineName>
+			</er:mineName>
+			<er:mineName>
+				<er:MineName>
+					<er:isPreferred>true</er:isPreferred>
+					<er:mineName>Butlers Extended Reef [Workings]</er:mineName>
+				</er:MineName>
+			</er:mineName>
+			<er:status>unknown</er:status>
+			<er:relatedActivity xlink:href="http://www.opengis.net/def/nil/OGC/0/missing"/>
+		</er:Mine>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:Mine gml:id="er.mine.372271">
+		<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mine/372271</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:Mine:372271</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Hard Up Reef [Reef]</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Hard Up Reef [Workings]</gml:name>
+			<er:occurrence   xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningfeatureoccurrence/mine/372271">
+				
+			</er:occurrence>
+			<er:mineName>
+				<er:MineName>
+					<er:isPreferred>false</er:isPreferred>
+					<er:mineName>Hard Up Reef [Reef]</er:mineName>
+				</er:MineName>
+			</er:mineName>
+			<er:mineName>
+				<er:MineName>
+					<er:isPreferred>true</er:isPreferred>
+					<er:mineName>Hard Up Reef [Workings]</er:mineName>
+				</er:MineName>
+			</er:mineName>
+			<er:status>unknown</er:status>
+			<er:relatedActivity xlink:href="http://www.opengis.net/def/nil/OGC/0/missing"/>
+		</er:Mine>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:Mine gml:id="er.mine.364949">
+		<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mine/364949</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:Mine:364949</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Unnamed Reef [Workings]</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Unnamed Reef [Reef]</gml:name>
+			<er:occurrence   xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningfeatureoccurrence/mine/364949">
+				
+			</er:occurrence>
+			<er:mineName>
+				<er:MineName>
+					<er:isPreferred>true</er:isPreferred>
+					<er:mineName>Unnamed Reef [Workings]</er:mineName>
+				</er:MineName>
+			</er:mineName>
+			<er:mineName>
+				<er:MineName>
+					<er:isPreferred>false</er:isPreferred>
+					<er:mineName>Unnamed Reef [Reef]</er:mineName>
+				</er:MineName>
+			</er:mineName>
+			<er:status>unknown</er:status>
+			<er:relatedActivity xlink:href="http://www.opengis.net/def/nil/OGC/0/missing"/>
+		</er:Mine>
+	</gml:featureMember>
+	<gml:featureMember>
+		<er:Mine gml:id="er.mine.364954">
+		<gml:name codeSpace="http://www.ietf.org/rfc/rfc2616">http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/mine/364954</gml:name>
+			<gml:name codeSpace="http://www.ietf.org/rfc/rfc2141">urn:cgi:feature:GSV:Mine:364954</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Unnamed Reef [Workings]</gml:name>
+			<gml:name codeSpace="http://www.dpi.vic.gov.au/earth-resources">Unnamed Reef [Reef]</gml:name>
+			<er:occurrence  xlink:href="http://gsv-ws.dpi.vic.gov.au/resource/uri-cgi/feature/gsv/miningfeatureoccurrence/mine/364954">
+				
+			</er:occurrence>
+			<er:mineName>
+				<er:MineName>
+					<er:isPreferred>true</er:isPreferred>
+					<er:mineName>Unnamed Reef [Workings]</er:mineName>
+				</er:MineName>
+			</er:mineName>
+			<er:mineName>
+				<er:MineName>
+					<er:isPreferred>false</er:isPreferred>
+					<er:mineName>Unnamed Reef [Reef]</er:mineName>
+				</er:MineName>
+			</er:mineName>
+			<er:status>unknown</er:status>
+			<er:relatedActivity xlink:href="http://www.opengis.net/def/nil/OGC/0/missing"/>
+		</er:Mine>
+	</gml:featureMember>
+</wfs:FeatureCollection>
