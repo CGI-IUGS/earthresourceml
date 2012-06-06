@@ -12,7 +12,7 @@
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
 				<UML:Package name="EarthResource" xmi.id="EAPK_B9F999B6_F89B_4f86_9899_4F9203002153" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.stereotype>
-						<UML:Stereotype xmi.idref="EAID_DA4B23D4_8F47_40cc_8633_7A8FEE0C143A"/>
+						<UML:Stereotype xmi.idref="EAID_EA355AD7_B25D_48d9_8F70_42C13C47D8A7"/>
 					</UML:ModelElement.stereotype>
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="documentation" value="The Earth Resource model is a high-level data exchange standard for information on mineral occurrences, commodities, historical production, reserves and resources, deposit classification etc.&#xA;&#xA;Mineral Occurrence features are explicitly modelled, although the model could be extended to cover other Earth Resources. &#xA;&#xA;The model is compatible with GeoSciML, the IUGS developed language for exchange of geological map features, and uses patterns and features common to GeoSciML. GeoSciML is based on ISO and Open Geospatial Consortium (OGC) standards using Geographic Mark-up Language (GML) as an encoding for geographic information.&#xA;&#xA;The EarthResourceML Model key points are:&#xA;1) Describes Earth Resources independent of associated human activities (i.e. mining); &#xA;2) Caters for description of Earth Resource using mineral deposit models that describe the actual deposit type; mineral systems that describe the processes associated with deposit formation; and supergene processes; &#xA;3) Utilises GeoSciML Mapped Feature to describe spatial representation and Earth Material to describe host, raw and associated materials; &#xA;4) Describes a mine as made up of a number of Mining Activities, each producing some commodity; &#xA;5) Provides the ability to describe commodity resources formally or informally.&#xA;&#xA;For the latest release, please see http://www.earthresourceml.org/"/>
@@ -285,7 +285,7 @@
 						</UML:Dependency>
 						<UML:Package name="Mine" xmi.id="EAPK_91AEEF78_5280_440c_8309_B4EE0F7EC0A9" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_DD1E8273_A012_4e75_A3B0_8D2F877CF2B5"/>
+								<UML:Stereotype xmi.idref="EAID_B395156A_FD91_410b_A57D_76ECB04AFF52"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="The Mine package describes a Mine as made up of a number of MiningActivities, which take RawMaterial to produce Products from some Commodity.  The Commodity is associated with a MineralOccurrence, the geological description of the economic resource."/>
@@ -1390,7 +1390,7 @@
 												<UML:TaggedValue tag="stereotype" value="voidable"/>
 												<UML:TaggedValue tag="collection" value="false"/>
 												<UML:TaggedValue tag="position" value="2"/>
-												<UML:TaggedValue tag="lowerBound" value="1"/>
+												<UML:TaggedValue tag="lowerBound" value="0"/>
 												<UML:TaggedValue tag="upperBound" value="*"/>
 												<UML:TaggedValue tag="duplicates" value="0"/>
 												<UML:TaggedValue tag="ea_guid" value="{6B295ECE-F2E6-4247-94E5-F54B6CCCBD26}"/>
@@ -2261,7 +2261,7 @@
 						</UML:Package>
 						<UML:Package name="MineralOccurrence" xmi.id="EAPK_1744A5E8_D58F_47f3_AE66_186DA6870534" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_DD1E8273_A012_4e75_A3B0_8D2F877CF2B5"/>
+								<UML:Stereotype xmi.idref="EAID_B395156A_FD91_410b_A57D_76ECB04AFF52"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="The MineralOccurrence package explicitly models the properties of those features commonly stored in mineral resource databases.  These are economic or sub-economic concentrations of commodities that may, but need not, have had mining activity associated with them. &#xA;&#xA;The MineralOccurrence package key points are:&#xA;1) Describes Earth Resources independent of associated human activities (i.e. mining); &#xA;2) Caters for description of Earth Resource using mineral deposit models that describe the actual deposit type; mineral systems that describe the processes associated with deposit formation; and supergene processes; &#xA;3) Utilises GeoSciML Mapped Feature to describe spatial representation and Earth Material to describe host, raw and associated materials; &#xA;4) Provides the ability to describe commodity resources formally or informally."/>
@@ -4961,10 +4961,10 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_DA4B23D4_8F47_40cc_8633_7A8FEE0C143A" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_EA355AD7_B25D_48d9_8F70_42C13C47D8A7" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
-				<UML:Stereotype xmi.id="EAID_DD1E8273_A012_4e75_A3B0_8D2F877CF2B5" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_B395156A_FD91_410b_A57D_76ECB04AFF52" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 				<UML:DataType xmi.id="eaxmiid7" name="ExplorationResultCode" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
