@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_326F57F8_58A5_4fbf_A9D1_AAE7AD284CBF">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="ER" xmi.id="EAPK_326F57F8_58A5_4fbf_A9D1_AAE7AD284CBF" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype xmi.idref="EAID_A5E13234_7190_4d37_A75D_2C597DC63BE0"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_267EEF68_1F38_4375_A018_4F7301D0715E"/>
+						<UML:TaggedValue tag="created" value="2012-09-21 00:00:00"/>
+						<UML:TaggedValue tag="modified" value="2012-09-21 00:00:00"/>
+						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
+						<UML:TaggedValue tag="xmlpath" value="eaA\AAE7AD284CBF.xml"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="packageFlags" value="VCCFG=EarthResource;CRC=0;"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="jll"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="stereotype" value="Application Schema"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_326F57F8_58A5_4fbf_A9D1_AAE7AD284CBF_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="MineralOccurrence" xmi.id="EAID_1744A5E8_D58F_47f3_AE66_186DA6870534" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Leaf"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="The MineralOccurrence package explicitly models the properties of those features commonly stored in mineral resource databases.  These are economic or sub-economic concentrations of commodities that may, but need not, have had mining activity associated with them. &#xA;&#xA;The MineralOccurrence package key points are:&#xA;1) Describes Earth Resources independent of associated human activities (i.e. mining); &#xA;2) Caters for description of Earth Resource using mineral deposit models that describe the actual deposit type; mineral systems that describe the processes associated with deposit formation; and supergene processes; &#xA;3) Utilises GeoSciML Mapped Feature to describe spatial representation and Earth Material to describe host, raw and associated materials; &#xA;4) Provides the ability to describe commodity resources formally or informally."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="2.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_326F57F8_58A5_4fbf_A9D1_AAE7AD284CBF"/>
+										<UML:TaggedValue tag="date_created" value="2007-10-22 17:37:42"/>
+										<UML:TaggedValue tag="date_modified" value="2012-09-21 16:01:15"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_1744A5E8_D58F_47f3_AE66_186DA6870534"/>
+										<UML:TaggedValue tag="package_name" value="ER"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="u05876"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Leaf"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="712"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={4BA5CC0F-780D-43da-9617-7266F598535B}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@STEREO;Name=Leaf;GUID={BCE01396-84D0-4562-9101-797C5DBE49B8};@ENDSTEREO;$DES;$CLT={1744A5E8-D58F-47f3-AE66-186DA6870534}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Mine" xmi.id="EAID_91AEEF78_5280_440c_8309_B4EE0F7EC0A9" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Leaf"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="The Mine package describes a Mine as made up of a number of MiningActivities, which take RawMaterial to produce Products from some Commodity.  The Commodity is associated with a MineralOccurrence, the geological description of the economic resource."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="2.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_326F57F8_58A5_4fbf_A9D1_AAE7AD284CBF"/>
+										<UML:TaggedValue tag="date_created" value="2008-12-01 13:53:14"/>
+										<UML:TaggedValue tag="date_modified" value="2012-09-21 16:01:10"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_91AEEF78_5280_440c_8309_B4EE0F7EC0A9"/>
+										<UML:TaggedValue tag="package_name" value="ER"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="bs14"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Leaf"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="711"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={E9259439-697D-4509-8131-196110BFCD98}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@STEREO;Name=Leaf;GUID={E8949DC0-9E73-4ea0-BED5-D815F25D8898};@ENDSTEREO;$DES;$CLT={91AEEF78-5280-440c-8309-B4EE0F7EC0A9}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+						<UML:Dependency client="EAPK_1744A5E8_D58F_47f3_AE66_186DA6870534" supplier="EAPK_B9F999B6_F89B_4f86_9899_4F9203002153" xmi.id="EAID_814A9A6B_60A8_4207_A2DF_44AFA39A7F81" visibility="public">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="import"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="1"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="import"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="«import»"/>
+								<UML:TaggedValue tag="ea_localid" value="7662"/>
+								<UML:TaggedValue tag="ea_sourceName" value="MineralOccurrence"/>
+								<UML:TaggedValue tag="ea_targetName" value="EarthResource"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Package"/>
+								<UML:TaggedValue tag="ea_targetType" value="Package"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5794"/>
+								<UML:TaggedValue tag="ea_targetID" value="5793"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={CA801705-77E6-44ca-8F54-63FAD217D459}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$DES=@STEREO;Name=import;GUID={97F9432A-3A6B-4c1d-92C5-CBCB8923CF0F};@ENDSTEREO;$DES;$CLT={814A9A6B-60A8-4207-A2DF-44AFA39A7F81}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«import»"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency client="EAPK_B9F999B6_F89B_4f86_9899_4F9203002153" supplier="EAPK_1744A5E8_D58F_47f3_AE66_186DA6870534" xmi.id="EAID_0A94C4C0_DB28_4101_B148_F1CC8B5F28FA" visibility="public">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="import"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Package"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="import"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«import»"/>
+								<UML:TaggedValue tag="ea_localid" value="7661"/>
+								<UML:TaggedValue tag="ea_sourceName" value="EarthResource"/>
+								<UML:TaggedValue tag="ea_targetName" value="MineralOccurrence"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Package"/>
+								<UML:TaggedValue tag="ea_targetType" value="Package"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5793"/>
+								<UML:TaggedValue tag="ea_targetID" value="5794"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={7FF11355-380A-419f-B50A-461F488F2EE8}$XID;$NAM=CustomProperties$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=visibility@ENDNAME;@TYPE=VisibilityKind@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=isDerived@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=false@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={0A94C4C0-DB28-4101-B148-F1CC8B5F28FA}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={784B8DDE-30E1-430e-86C1-D52EA254B5B2}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$DES=@STEREO;Name=import;GUID={70F78084-C730-4921-8C9C-CDC0230562D9};@ENDSTEREO;$DES;$CLT={0A94C4C0-DB28-4101-B148-F1CC8B5F28FA}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«import»"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency client="EAPK_91AEEF78_5280_440c_8309_B4EE0F7EC0A9" supplier="EAPK_B9F999B6_F89B_4f86_9899_4F9203002153" xmi.id="EAID_80DAFB39_31D6_481e_8BF0_1C500EE6B7EB" visibility="public">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="import"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="1"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="import"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="«import»"/>
+								<UML:TaggedValue tag="ea_localid" value="7660"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Mine"/>
+								<UML:TaggedValue tag="ea_targetName" value="EarthResource"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Package"/>
+								<UML:TaggedValue tag="ea_targetType" value="Package"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5795"/>
+								<UML:TaggedValue tag="ea_targetID" value="5793"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={C5035E09-7A72-4c0f-999E-E7226F164F1B}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$DES=@STEREO;Name=import;GUID={97F9432A-3A6B-4c1d-92C5-CBCB8923CF0F};@ENDSTEREO;$DES;$CLT={80DAFB39-31D6-481e-8BF0-1C500EE6B7EB}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«import»"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency client="EAPK_B9F999B6_F89B_4f86_9899_4F9203002153" supplier="EAPK_91AEEF78_5280_440c_8309_B4EE0F7EC0A9" xmi.id="EAID_2065E0D6_5D5F_49d8_B1A2_92CD6F63E606" visibility="public">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="import"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="1"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="import"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="«import»"/>
+								<UML:TaggedValue tag="ea_localid" value="7659"/>
+								<UML:TaggedValue tag="ea_sourceName" value="EarthResource"/>
+								<UML:TaggedValue tag="ea_targetName" value="Mine"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Package"/>
+								<UML:TaggedValue tag="ea_targetType" value="Package"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5793"/>
+								<UML:TaggedValue tag="ea_targetID" value="5795"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={7D9CE2EC-DAF5-4d55-BE2B-40C4160185DC}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$DES=@STEREO;Name=import;GUID={97F9432A-3A6B-4c1d-92C5-CBCB8923CF0F};@ENDSTEREO;$DES;$CLT={2065E0D6-5D5F-49d8-B1A2-92CD6F63E606}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«import»"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Package name="Mine" xmi.id="EAPK_91AEEF78_5280_440c_8309_B4EE0F7EC0A9" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype xmi.idref="EAID_D05C3E23_F679_4db1_BDF4_95AECF78FF27"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="The Mine package describes a Mine as made up of a number of MiningActivities, which take RawMaterial to produce Products from some Commodity.  The Commodity is associated with a MineralOccurrence, the geological description of the economic resource."/>
+								<UML:TaggedValue tag="parent" value="EAPK_326F57F8_58A5_4fbf_A9D1_AAE7AD284CBF"/>
+								<UML:TaggedValue tag="created" value="2008-12-01 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2008-12-01 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
+								<UML:TaggedValue tag="xmlpath" value="eaB\B4EE0F7EC0A9.xml"/>
+								<UML:TaggedValue tag="lastloaddate" value="2008-12-16 10:16:56"/>
+								<UML:TaggedValue tag="lastsavedate" value="2008-12-16 10:16:56"/>
+								<UML:TaggedValue tag="version" value="2.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="packageFlags" value="VCCFG=EarthResource;"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="bs14"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="stereotype" value="Leaf"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Package>
+						<UML:Package name="MineralOccurrence" xmi.id="EAPK_1744A5E8_D58F_47f3_AE66_186DA6870534" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype xmi.idref="EAID_D05C3E23_F679_4db1_BDF4_95AECF78FF27"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="The MineralOccurrence package explicitly models the properties of those features commonly stored in mineral resource databases.  These are economic or sub-economic concentrations of commodities that may, but need not, have had mining activity associated with them. &#xA;&#xA;The MineralOccurrence package key points are:&#xA;1) Describes Earth Resources independent of associated human activities (i.e. mining); &#xA;2) Caters for description of Earth Resource using mineral deposit models that describe the actual deposit type; mineral systems that describe the processes associated with deposit formation; and supergene processes; &#xA;3) Utilises GeoSciML Mapped Feature to describe spatial representation and Earth Material to describe host, raw and associated materials; &#xA;4) Provides the ability to describe commodity resources formally or informally."/>
+								<UML:TaggedValue tag="parent" value="EAPK_326F57F8_58A5_4fbf_A9D1_AAE7AD284CBF"/>
+								<UML:TaggedValue tag="created" value="2007-10-22 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2007-10-22 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
+								<UML:TaggedValue tag="xmlpath" value="ea1\186DA6870534.xml"/>
+								<UML:TaggedValue tag="lastloaddate" value="2007-10-23 13:08:29"/>
+								<UML:TaggedValue tag="lastsavedate" value="2007-10-23 13:08:29"/>
+								<UML:TaggedValue tag="version" value="2.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="packageFlags" value="VCCFG=EarthResource;"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="u05876"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="stereotype" value="Leaf"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Package>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+				<UML:Stereotype xmi.id="EAID_A5E13234_7190_4d37_A75D_2C597DC63BE0" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
+					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
+				</UML:Stereotype>
+				<UML:Stereotype xmi.id="EAID_D05C3E23_F679_4db1_BDF4_95AECF78FF27" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
+					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
+				</UML:Stereotype>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:TaggedValue tag="xsdDocument" xmi.id="EAID_4DF5C54D_3416_492f_AEE7_03B92CDD2127" value="mineralOccurrence.xsd#NOTES#Description: Relative path to XML Schema document corresponding to this package.&#xA;" modelElement="EAID_1744A5E8_D58F_47f3_AE66_186DA6870534"/>
+		<UML:TaggedValue tag="xsdDocument" xmi.id="EAID_538B3F0A_17D6_41c1_92A3_4A887474C879" value="mine.xsd" modelElement="EAID_91AEEF78_5280_440c_8309_B4EE0F7EC0A9"/>
+		<UML:Diagram name="Package dependencies" xmi.id="EAID_A67FBDF4_D82B_4253_968E_EC547D3CBB4A" diagramType="PackageDiagram" owner="EAPK_326F57F8_58A5_4fbf_A9D1_AAE7AD284CBF" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="u05876"/>
+				<UML:TaggedValue tag="created_date" value="2007-10-22 17:36:55"/>
+				<UML:TaggedValue tag="modified_date" value="2009-06-11 12:46:01"/>
+				<UML:TaggedValue tag="package" value="EAPK_326F57F8_58A5_4fbf_A9D1_AAE7AD284CBF"/>
+				<UML:TaggedValue tag="type" value="Package"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
+				<UML:TaggedValue tag="ea_localid" value="3133"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=0;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=481;Top=180;Right=611;Bottom=260;" subject="EAID_91AEEF78_5280_440c_8309_B4EE0F7EC0A9" seqno="1" style="DUID=73B4885A;"/>
+				<UML:DiagramElement geometry="Left=309;Top=29;Right=447;Bottom=109;" subject="EAID_B9F999B6_F89B_4f86_9899_4F9203002153" seqno="2" style="DUID=CEE74D93;"/>
+				<UML:DiagramElement geometry="Left=168;Top=178;Right=306;Bottom=251;" subject="EAID_1744A5E8_D58F_47f3_AE66_186DA6870534" seqno="3" style="DUID=515D029B;NSL=0;"/>
+				<UML:DiagramElement geometry="SX=6;SY=0;EX=6;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=CX=41:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_0A94C4C0_DB28_4101_B148_F1CC8B5F28FA" style="Mode=3;EOID=515D029B;SOID=CEE74D93;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=39;SY=0;EX=39;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=41:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_80DAFB39_31D6_481e_8BF0_1C500EE6B7EB" style="Mode=3;EOID=CEE74D93;SOID=73B4885A;Color=-1;LWidth=1;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=-33;SY=0;EX=-33;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=41:CY=14:OX=-19:OY=-9:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_814A9A6B_60A8_4207_A2DF_44AFA39A7F81" style="Mode=3;EOID=CEE74D93;SOID=515D029B;Color=-1;LWidth=1;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=CX=41:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_2065E0D6_5D5F_49d8_B1A2_92CD6F63E606" style="Mode=3;EOID=73B4885A;SOID=CEE74D93;Color=-1;LWidth=1;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
+		<EAStub xmi.id="EAPK_B9F999B6_F89B_4f86_9899_4F9203002153" name="EarthResource" UMLType="Package"/>
+	</XMI.extensions>
+</XMI>
