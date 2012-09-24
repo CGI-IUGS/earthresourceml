@@ -12,7 +12,7 @@
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
 				<UML:Package name="EarthResource" xmi.id="EAPK_326F57F8_58A5_4fbf_A9D1_AAE7AD284CBF" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.stereotype>
-						<UML:Stereotype xmi.idref="EAID_6D09216A_2A7F_4976_B6A7_F7B0F28C72AC"/>
+						<UML:Stereotype xmi.idref="EAID_2575E052_1975_48a3_9E8A_F7997D84F2B8"/>
 					</UML:ModelElement.stereotype>
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="parent" value="EAPK_267EEF68_1F38_4375_A018_4F7301D0715E"/>
@@ -29,7 +29,7 @@
 						<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
 						<UML:TaggedValue tag="logxml" value="FALSE"/>
 						<UML:TaggedValue tag="tpos" value="0"/>
-						<UML:TaggedValue tag="packageFlags" value="VCCFG=EarthResource;CheckedOutTo=jll;CRC=0;"/>
+						<UML:TaggedValue tag="packageFlags" value="VCCFG=EarthResource;CheckedOutOffline=0;CRC=0;"/>
 						<UML:TaggedValue tag="batchsave" value="0"/>
 						<UML:TaggedValue tag="batchload" value="0"/>
 						<UML:TaggedValue tag="phase" value="1.0"/>
@@ -109,7 +109,7 @@
 						</UML:Collaboration>
 						<UML:Package name="Mine" xmi.id="EAPK_91AEEF78_5280_440c_8309_B4EE0F7EC0A9" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_120D9FA7_3847_4b88_878D_FCEEF28E6F3D"/>
+								<UML:Stereotype xmi.idref="EAID_B1A3BFE1_9758_40d3_9D95_85A8F0A3A3BE"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="The Mine package describes a Mine as made up of a number of MiningActivities, which take RawMaterial to produce Products from some Commodity.  The Commodity is associated with a MineralOccurrence, the geological description of the economic resource."/>
@@ -2117,7 +2117,7 @@
 						</UML:Package>
 						<UML:Package name="MineralOccurrence" xmi.id="EAPK_1744A5E8_D58F_47f3_AE66_186DA6870534" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_120D9FA7_3847_4b88_878D_FCEEF28E6F3D"/>
+								<UML:Stereotype xmi.idref="EAID_B1A3BFE1_9758_40d3_9D95_85A8F0A3A3BE"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="The MineralOccurrence package explicitly models the properties of those features commonly stored in mineral resource databases.  These are economic or sub-economic concentrations of commodities that may, but need not, have had mining activity associated with them. &#xA;&#xA;The MineralOccurrence package key points are:&#xA;1) Describes Earth Resources independent of associated human activities (i.e. mining); &#xA;2) Caters for description of Earth Resource using mineral deposit models that describe the actual deposit type; mineral systems that describe the processes associated with deposit formation; and supergene processes; &#xA;3) Utilises GeoSciML Mapped Feature to describe spatial representation and Earth Material to describe host, raw and associated materials; &#xA;4) Provides the ability to describe commodity resources formally or informally."/>
@@ -4865,10 +4865,10 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_6D09216A_2A7F_4976_B6A7_F7B0F28C72AC" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_2575E052_1975_48a3_9E8A_F7997D84F2B8" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
-				<UML:Stereotype xmi.id="EAID_120D9FA7_3847_4b88_878D_FCEEF28E6F3D" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_B1A3BFE1_9758_40d3_9D95_85A8F0A3A3BE" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 				<UML:DataType xmi.id="eaxmiid3" name="Integer" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
