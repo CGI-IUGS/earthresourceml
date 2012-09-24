@@ -12,11 +12,11 @@
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
 				<UML:Package name="Mine" xmi.id="EAPK_91AEEF78_5280_440c_8309_B4EE0F7EC0A9" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.stereotype>
-						<UML:Stereotype xmi.idref="EAID_CFC88DF8_F64E_401e_B262_06C99EA16AB5"/>
+						<UML:Stereotype xmi.idref="EAID_1744BFBE_DD4B_4f27_AEAE_0FAF5231CD2D"/>
 					</UML:ModelElement.stereotype>
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="documentation" value="The Mine package describes a Mine as made up of a number of MiningActivities, which take RawMaterial to produce Products from some Commodity.  The Commodity is associated with a MineralOccurrence, the geological description of the economic resource."/>
-						<UML:TaggedValue tag="parent" value="EAPK_267EEF68_1F38_4375_A018_4F7301D0715E"/>
+						<UML:TaggedValue tag="parent" value="EAPK_326F57F8_58A5_4fbf_A9D1_AAE7AD284CBF"/>
 						<UML:TaggedValue tag="created" value="2008-12-01 00:00:00"/>
 						<UML:TaggedValue tag="modified" value="2008-12-01 00:00:00"/>
 						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
@@ -2020,7 +2020,7 @@
 						</UML:Class>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_CFC88DF8_F64E_401e_B262_06C99EA16AB5" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_1744BFBE_DD4B_4f27_AEAE_0FAF5231CD2D" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 				<UML:DataType xmi.id="eaxmiid1" name="EarthMaterial" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
