@@ -12,7 +12,7 @@
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
 				<UML:Package name="EarthResource" xmi.id="EAPK_326F57F8_58A5_4fbf_A9D1_AAE7AD284CBF" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.stereotype>
-						<UML:Stereotype xmi.idref="EAID_70F718E1_E823_4ca0_A881_29271C4AC6F9"/>
+						<UML:Stereotype xmi.idref="EAID_90807059_E18B_4960_9E12_926CEC3B4E96"/>
 					</UML:ModelElement.stereotype>
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="parent" value="EAPK_267EEF68_1F38_4375_A018_4F7301D0715E"/>
@@ -55,7 +55,7 @@
 										<UML:TaggedValue tag="version" value="2.0"/>
 										<UML:TaggedValue tag="package" value="EAPK_326F57F8_58A5_4fbf_A9D1_AAE7AD284CBF"/>
 										<UML:TaggedValue tag="date_created" value="2007-10-22 17:37:42"/>
-										<UML:TaggedValue tag="date_modified" value="2012-09-21 16:01:15"/>
+										<UML:TaggedValue tag="date_modified" value="2012-09-24 13:53:46"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_1744A5E8_D58F_47f3_AE66_186DA6870534"/>
@@ -85,7 +85,7 @@
 										<UML:TaggedValue tag="version" value="2.0"/>
 										<UML:TaggedValue tag="package" value="EAPK_326F57F8_58A5_4fbf_A9D1_AAE7AD284CBF"/>
 										<UML:TaggedValue tag="date_created" value="2008-12-01 13:53:14"/>
-										<UML:TaggedValue tag="date_modified" value="2012-09-21 16:01:10"/>
+										<UML:TaggedValue tag="date_modified" value="2012-09-24 13:54:30"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_91AEEF78_5280_440c_8309_B4EE0F7EC0A9"/>
@@ -107,7 +107,7 @@
 						</UML:Collaboration>
 						<UML:Package name="Mine" xmi.id="EAPK_91AEEF78_5280_440c_8309_B4EE0F7EC0A9" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_3C0151D8_9C6A_449c_A0B1_6A5D951BBB03"/>
+								<UML:Stereotype xmi.idref="EAID_14778336_10C4_44f5_9176_6F8420A79805"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="The Mine package describes a Mine as made up of a number of MiningActivities, which take RawMaterial to produce Products from some Commodity.  The Commodity is associated with a MineralOccurrence, the geological description of the economic resource."/>
@@ -124,7 +124,7 @@
 								<UML:TaggedValue tag="logxml" value="FALSE"/>
 								<UML:TaggedValue tag="batchsave" value="0"/>
 								<UML:TaggedValue tag="batchload" value="0"/>
-								<UML:TaggedValue tag="packageFlags" value="VCCFG=EarthResource;"/>
+								<UML:TaggedValue tag="packageFlags" value="VCCFG=EarthResource;CheckedOutOffline=0;"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="author" value="bs14"/>
@@ -135,7 +135,7 @@
 						</UML:Package>
 						<UML:Package name="MineralOccurrence" xmi.id="EAPK_1744A5E8_D58F_47f3_AE66_186DA6870534" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_3C0151D8_9C6A_449c_A0B1_6A5D951BBB03"/>
+								<UML:Stereotype xmi.idref="EAID_14778336_10C4_44f5_9176_6F8420A79805"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="The MineralOccurrence package explicitly models the properties of those features commonly stored in mineral resource databases.  These are economic or sub-economic concentrations of commodities that may, but need not, have had mining activity associated with them. &#xA;&#xA;The MineralOccurrence package key points are:&#xA;1) Describes Earth Resources independent of associated human activities (i.e. mining); &#xA;2) Caters for description of Earth Resource using mineral deposit models that describe the actual deposit type; mineral systems that describe the processes associated with deposit formation; and supergene processes; &#xA;3) Utilises GeoSciML Mapped Feature to describe spatial representation and Earth Material to describe host, raw and associated materials; &#xA;4) Provides the ability to describe commodity resources formally or informally."/>
@@ -152,7 +152,7 @@
 								<UML:TaggedValue tag="logxml" value="FALSE"/>
 								<UML:TaggedValue tag="batchsave" value="0"/>
 								<UML:TaggedValue tag="batchload" value="0"/>
-								<UML:TaggedValue tag="packageFlags" value="VCCFG=EarthResource;"/>
+								<UML:TaggedValue tag="packageFlags" value="VCCFG=EarthResource;CheckedOutOffline=0;"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="author" value="u05876"/>
@@ -163,35 +163,26 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_70F718E1_E823_4ca0_A881_29271C4AC6F9" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_90807059_E18B_4960_9E12_926CEC3B4E96" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
-				<UML:Stereotype xmi.id="EAID_3C0151D8_9C6A_449c_A0B1_6A5D951BBB03" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_14778336_10C4_44f5_9176_6F8420A79805" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 			</UML:Namespace.ownedElement>
 		</UML:Model>
 		<UML:TaggedValue tag="xsdDocument" xmi.id="EAID_4DF5C54D_3416_492f_AEE7_03B92CDD2127" value="mineralOccurrence.xsd#NOTES#Description: Relative path to XML Schema document corresponding to this package.&#xA;" modelElement="EAID_1744A5E8_D58F_47f3_AE66_186DA6870534"/>
 		<UML:TaggedValue tag="xsdDocument" xmi.id="EAID_538B3F0A_17D6_41c1_92A3_4A887474C879" value="mine.xsd" modelElement="EAID_91AEEF78_5280_440c_8309_B4EE0F7EC0A9"/>
-		<UML:Diagram name="Package dependencies" xmi.id="EAID_A67FBDF4_D82B_4253_968E_EC547D3CBB4A" diagramType="PackageDiagram" owner="EAPK_326F57F8_58A5_4fbf_A9D1_AAE7AD284CBF" toolName="Enterprise Architect 2.5">
+		<UML:DiagramElement geometry="Left=168;Top=178;Right=306;Bottom=251;" subject="EAID_1744A5E8_D58F_47f3_AE66_186DA6870534" seqno="3" style="DUID=515D029B;NSL=0;">
 			<UML:ModelElement.taggedValue>
-				<UML:TaggedValue tag="version" value="1.0"/>
-				<UML:TaggedValue tag="author" value="u05876"/>
-				<UML:TaggedValue tag="created_date" value="2007-10-22 17:36:55"/>
-				<UML:TaggedValue tag="modified_date" value="2009-06-11 12:46:01"/>
-				<UML:TaggedValue tag="package" value="EAPK_326F57F8_58A5_4fbf_A9D1_AAE7AD284CBF"/>
-				<UML:TaggedValue tag="type" value="Package"/>
-				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
-				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
-				<UML:TaggedValue tag="ea_localid" value="3139"/>
-				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=0;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<UML:TaggedValue tag="styleex" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="diagram_guid" value="EAID_A67FBDF4_D82B_4253_968E_EC547D3CBB4A"/>
 			</UML:ModelElement.taggedValue>
-			<UML:Diagram.element>
-				<UML:DiagramElement geometry="Left=481;Top=180;Right=611;Bottom=260;" subject="EAID_91AEEF78_5280_440c_8309_B4EE0F7EC0A9" seqno="1" style="DUID=73B4885A;"/>
-				<UML:DiagramElement geometry="Left=168;Top=178;Right=306;Bottom=251;" subject="EAID_1744A5E8_D58F_47f3_AE66_186DA6870534" seqno="2" style="DUID=515D029B;NSL=0;"/>
-			</UML:Diagram.element>
-		</UML:Diagram>
+		</UML:DiagramElement>
+		<UML:DiagramElement geometry="Left=481;Top=180;Right=611;Bottom=260;" subject="EAID_91AEEF78_5280_440c_8309_B4EE0F7EC0A9" seqno="1" style="DUID=73B4885A;">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="diagram_guid" value="EAID_A67FBDF4_D82B_4253_968E_EC547D3CBB4A"/>
+			</UML:ModelElement.taggedValue>
+		</UML:DiagramElement>
 	</XMI.content>
 	<XMI.difference/>
 	<XMI.extensions xmi.extender="Enterprise Architect 2.5"/>
