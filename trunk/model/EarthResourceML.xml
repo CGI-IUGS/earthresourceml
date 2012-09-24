@@ -24,7 +24,7 @@
 						<UML:TaggedValue tag="owner" value="jll"/>
 						<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
 						<UML:TaggedValue tag="logxml" value="FALSE"/>
-						<UML:TaggedValue tag="packageFlags" value="isModel=1;VICON=3;VCCFG=EarthResource;CheckedOutTo=jll;CRC=0;"/>
+						<UML:TaggedValue tag="packageFlags" value="isModel=1;VICON=3;VCCFG=EarthResource;CheckedOutOffline=0;CRC=0;"/>
 						<UML:TaggedValue tag="batchsave" value="0"/>
 						<UML:TaggedValue tag="batchload" value="0"/>
 						<UML:TaggedValue tag="phase" value="1.0"/>
@@ -72,7 +72,7 @@
 						</UML:Collaboration>
 						<UML:Package name="EarthResource" xmi.id="EAPK_326F57F8_58A5_4fbf_A9D1_AAE7AD284CBF" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_97391E0B_D238_4b8a_AE7E_C13225339F36"/>
+								<UML:Stereotype xmi.idref="EAID_9599990A_2336_4a06_AA85_722C39292B51"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="parent" value="EAPK_267EEF68_1F38_4375_A018_4F7301D0715E"/>
@@ -101,7 +101,7 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_97391E0B_D238_4b8a_AE7E_C13225339F36" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_9599990A_2336_4a06_AA85_722C39292B51" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 			</UML:Namespace.ownedElement>
