@@ -22,7 +22,7 @@
 						<UML:TaggedValue tag="isprotected" value="FALSE"/>
 						<UML:TaggedValue tag="usedtd" value="FALSE"/>
 						<UML:TaggedValue tag="logxml" value="FALSE"/>
-						<UML:TaggedValue tag="packageFlags" value="isModel=1;VICON=3;VCCFG=EarthResource;CRC=0;"/>
+						<UML:TaggedValue tag="packageFlags" value="isModel=1;VICON=3;VCCFG=EarthResource;CheckedOutOffline=0;CRC=0;"/>
 						<UML:TaggedValue tag="phase" value="1.0"/>
 						<UML:TaggedValue tag="status" value="Proposed"/>
 						<UML:TaggedValue tag="author" value="jll"/>
@@ -34,7 +34,7 @@
 					<UML:Namespace.ownedElement>
 						<UML:Collaboration xmi.id="EAID_267EEF68_1F38_4375_A018_4F7301D0715E_Collaboration" name="Collaborations">
 							<UML:Namespace.ownedElement>
-								<UML:ClassifierRole name="ER" xmi.id="EAID_326F57F8_58A5_4fbf_A9D1_AAE7AD284CBF" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+								<UML:ClassifierRole name="EarthResource" xmi.id="EAID_326F57F8_58A5_4fbf_A9D1_AAE7AD284CBF" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
 									<UML:ModelElement.stereotype>
 										<UML:Stereotype name="Application Schema"/>
 									</UML:ModelElement.stereotype>
@@ -45,8 +45,8 @@
 										<UML:TaggedValue tag="ea_ntype" value="0"/>
 										<UML:TaggedValue tag="version" value="1.0"/>
 										<UML:TaggedValue tag="package" value="EAPK_267EEF68_1F38_4375_A018_4F7301D0715E"/>
-										<UML:TaggedValue tag="date_created" value="2012-09-21 16:00:22"/>
-										<UML:TaggedValue tag="date_modified" value="2012-09-21 16:01:01"/>
+										<UML:TaggedValue tag="date_created" value="2012-09-21 16:22:53"/>
+										<UML:TaggedValue tag="date_modified" value="2012-09-21 16:24:39"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_326F57F8_58A5_4fbf_A9D1_AAE7AD284CBF"/>
@@ -57,18 +57,18 @@
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="stereotype" value="Application Schema"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="715"/>
+										<UML:TaggedValue tag="ea_localid" value="716"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={5CF51A33-DE11-4072-9029-DA10C5F9881E}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Application Schema;GUID={18D89941-D263-4fb8-A2B5-7663C9E4B30D};@ENDSTEREO;$DES;$CLT={326F57F8-58A5-4fbf-A9D1-AAE7AD284CBF}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={2826FEE9-A922-49cd-9C74-A49A751AA7BD}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Application Schema;GUID={18D89941-D263-4fb8-A2B5-7663C9E4B30D};@ENDSTEREO;$DES;$CLT={326F57F8-58A5-4fbf-A9D1-AAE7AD284CBF}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:ClassifierRole>
 							</UML:Namespace.ownedElement>
 							<UML:Collaboration.interaction/>
 						</UML:Collaboration>
-						<UML:Package name="ER" xmi.id="EAPK_326F57F8_58A5_4fbf_A9D1_AAE7AD284CBF" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+						<UML:Package name="EarthResource" xmi.id="EAPK_326F57F8_58A5_4fbf_A9D1_AAE7AD284CBF" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_25239056_F077_4ff7_A0F6_F9C3FDA5108D"/>
+								<UML:Stereotype xmi.idref="EAID_B162B139_0FCF_44fb_92E9_3B1A838160DA"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="parent" value="EAPK_267EEF68_1F38_4375_A018_4F7301D0715E"/>
@@ -76,11 +76,16 @@
 								<UML:TaggedValue tag="modified" value="2012-09-21 00:00:00"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="eaA\AAE7AD284CBF.xml"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-09-21 16:22:54"/>
+								<UML:TaggedValue tag="lastsavedate" value="2012-09-21 16:22:53"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
 								<UML:TaggedValue tag="usedtd" value="FALSE"/>
 								<UML:TaggedValue tag="logxml" value="FALSE"/>
-								<UML:TaggedValue tag="packageFlags" value="VCCFG=EarthResource;"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="packageFlags" value="VCCFG=EarthResource;CheckedOutOffline=0;"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="author" value="jll"/>
@@ -91,11 +96,30 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_25239056_F077_4ff7_A0F6_F9C3FDA5108D" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_B162B139_0FCF_44fb_92E9_3B1A838160DA" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 			</UML:Namespace.ownedElement>
 		</UML:Model>
+		<UML:Diagram name="Package dependencies" xmi.id="EAID_A67FBDF4_D82B_4253_968E_EC547D3CBB4A" diagramType="PackageDiagram" owner="EAPK_267EEF68_1F38_4375_A018_4F7301D0715E" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="u05876"/>
+				<UML:TaggedValue tag="created_date" value="2007-10-22 17:36:55"/>
+				<UML:TaggedValue tag="modified_date" value="2009-06-11 12:46:01"/>
+				<UML:TaggedValue tag="package" value="EAPK_267EEF68_1F38_4375_A018_4F7301D0715E"/>
+				<UML:TaggedValue tag="type" value="Package"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
+				<UML:TaggedValue tag="ea_localid" value="3139"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=0;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=481;Top=180;Right=611;Bottom=260;" subject="EAID_91AEEF78_5280_440c_8309_B4EE0F7EC0A9" seqno="1" style="DUID=73B4885A;"/>
+				<UML:DiagramElement geometry="Left=168;Top=178;Right=306;Bottom=251;" subject="EAID_1744A5E8_D58F_47f3_AE66_186DA6870534" seqno="2" style="DUID=515D029B;NSL=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
 	</XMI.content>
 	<XMI.difference/>
 	<XMI.extensions xmi.extender="Enterprise Architect 2.5"/>
