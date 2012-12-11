@@ -12,7 +12,7 @@
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
 				<UML:Package name="EarthResource" xmi.id="EAPK_326F57F8_58A5_4fbf_A9D1_AAE7AD284CBF" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.stereotype>
-						<UML:Stereotype xmi.idref="EAID_53316B0F_093A_4e9c_AC40_774BE2607F78"/>
+						<UML:Stereotype xmi.idref="EAID_4161A54C_8B48_478a_9246_CDA0401B5682"/>
 					</UML:ModelElement.stereotype>
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="parent" value="EAPK_267EEF68_1F38_4375_A018_4F7301D0715E"/>
@@ -108,7 +108,7 @@
 						</UML:Collaboration>
 						<UML:Package name="Mine" xmi.id="EAPK_91AEEF78_5280_440c_8309_B4EE0F7EC0A9" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_30FA45A7_1A70_49ac_8BDD_FB30690EFA85"/>
+								<UML:Stereotype xmi.idref="EAID_69633E3B_3C8A_4215_A563_2908854A4CEC"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="The Mine package describes a Mine as made up of a number of MiningActivities, which take RawMaterial to produce Products from some Commodity.  The Commodity is associated with a MineralOccurrence, the geological description of the economic resource."/>
@@ -2159,7 +2159,7 @@
 						</UML:Package>
 						<UML:Package name="MineralOccurrence" xmi.id="EAPK_1744A5E8_D58F_47f3_AE66_186DA6870534" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_30FA45A7_1A70_49ac_8BDD_FB30690EFA85"/>
+								<UML:Stereotype xmi.idref="EAID_69633E3B_3C8A_4215_A563_2908854A4CEC"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="The MineralOccurrence package explicitly models the properties of those features commonly stored in mineral resource databases.  These are economic or sub-economic concentrations of commodities that may, but need not, have had mining activity associated with them. &#xA;&#xA;The MineralOccurrence package key points are:&#xA;1) Describes Earth Resources independent of associated human activities (i.e. mining); &#xA;2) Caters for description of Earth Resource using mineral deposit models that describe the actual deposit type; mineral systems that describe the processes associated with deposit formation; and supergene processes; &#xA;3) Utilises GeoSciML Mapped Feature to describe spatial representation and Earth Material to describe host, raw and associated materials; &#xA;4) Provides the ability to describe commodity resources formally or informally."/>
@@ -4249,14 +4249,14 @@
 										<UML:Stereotype name="dataType"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="documentation" value="-- Definition --&#xA;The categorisation of an ore according to the UN Framework Classification.&#xA;"/>
+										<UML:TaggedValue tag="documentation" value="-- Definition --&#xA;The categorisation of mineral reserves and resources according to the UN Framework Classification (2009).&#xA;"/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Class"/>
 										<UML:TaggedValue tag="ea_ntype" value="0"/>
 										<UML:TaggedValue tag="version" value="1.0"/>
 										<UML:TaggedValue tag="package" value="EAPK_1744A5E8_D58F_47f3_AE66_186DA6870534"/>
 										<UML:TaggedValue tag="date_created" value="2012-12-07 16:51:26"/>
-										<UML:TaggedValue tag="date_modified" value="2012-12-07 16:58:15"/>
+										<UML:TaggedValue tag="date_modified" value="2012-12-11 10:50:04"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package_name" value="MineralOccurrence"/>
@@ -4280,7 +4280,7 @@
 												<UML:Classifier xmi.idref="EAID_E508E58E_DF52_4b48_A594_6858F7BF2B26"/>
 											</UML:StructuralFeature.type>
 											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="description" value="-- Definition --&#xA;The UNFC value for the ore.&#xA;"/>
+												<UML:TaggedValue tag="description" value="-- Definition --&#xA;The UNFC value for the mineral reserves and resources (2009).&#xA;"/>
 												<UML:TaggedValue tag="type" value="UNFCValue"/>
 												<UML:TaggedValue tag="derived" value="0"/>
 												<UML:TaggedValue tag="containment" value="Not Specified"/>
@@ -4732,14 +4732,14 @@
 										<UML:Stereotype name="codeList"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="documentation" value="-- Definition --&#xA;UN Framework Classification values.&#xA;"/>
+										<UML:TaggedValue tag="documentation" value="-- Definition --&#xA;UN Framework Classification values (2009).&#xA;"/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Class"/>
 										<UML:TaggedValue tag="ea_ntype" value="0"/>
 										<UML:TaggedValue tag="version" value="1.0"/>
 										<UML:TaggedValue tag="package" value="EAPK_1744A5E8_D58F_47f3_AE66_186DA6870534"/>
 										<UML:TaggedValue tag="date_created" value="2012-12-07 16:48:39"/>
-										<UML:TaggedValue tag="date_modified" value="2012-12-07 16:49:47"/>
+										<UML:TaggedValue tag="date_modified" value="2012-12-11 10:52:17"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package_name" value="MineralOccurrence"/>
@@ -5027,10 +5027,10 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_53316B0F_093A_4e9c_AC40_774BE2607F78" name="applicationSchema" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_4161A54C_8B48_478a_9246_CDA0401B5682" name="applicationSchema" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
-				<UML:Stereotype xmi.id="EAID_30FA45A7_1A70_49ac_8BDD_FB30690EFA85" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_69633E3B_3C8A_4215_A563_2908854A4CEC" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 				<UML:DataType xmi.id="eaxmiid1" name="Integer" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
