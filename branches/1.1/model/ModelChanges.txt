@@ -22,6 +22,3 @@ Moved Mine and MiningActivity to Mine <<Leaf>>
 Created Mine diagram
 Renamed MineralOccurrences <<Application Schema>> to EarthResource <<Application Schema>>
 Created Package Dependencies between Mine <<Leaf>> and other packages
-
-
-
