@@ -12,7 +12,7 @@
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
 				<UML:Package name="EarthResource" xmi.id="EAPK_326F57F8_58A5_4fbf_A9D1_AAE7AD284CBF" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.stereotype>
-						<UML:Stereotype xmi.idref="EAID_CCC8AB54_499A_4038_9E92_2D47E123A8E0"/>
+						<UML:Stereotype xmi.idref="EAID_2339A9F1_D45C_41c3_904E_5901478AF7E0"/>
 					</UML:ModelElement.stereotype>
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="parent" value="EAPK_267EEF68_1F38_4375_A018_4F7301D0715E"/>
@@ -108,7 +108,7 @@
 						</UML:Collaboration>
 						<UML:Package name="Mine" xmi.id="EAPK_91AEEF78_5280_440c_8309_B4EE0F7EC0A9" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_AFB98DB6_BD27_49e8_A5FE_1D942DCCEA57"/>
+								<UML:Stereotype xmi.idref="EAID_AA7502EB_A87E_4c71_8F7A_ADB1AE47672F"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="The Mine package describes a Mine as made up of a number of MiningActivities, which take RawMaterial to produce Products from some Commodity.  The Commodity is associated with a MineralOccurrence, the geological description of the economic resource."/>
@@ -2159,7 +2159,7 @@
 						</UML:Package>
 						<UML:Package name="MineralOccurrence" xmi.id="EAPK_1744A5E8_D58F_47f3_AE66_186DA6870534" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_AFB98DB6_BD27_49e8_A5FE_1D942DCCEA57"/>
+								<UML:Stereotype xmi.idref="EAID_AA7502EB_A87E_4c71_8F7A_ADB1AE47672F"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="The MineralOccurrence package explicitly models the properties of those features commonly stored in mineral resource databases.  These are economic or sub-economic concentrations of commodities that may, but need not, have had mining activity associated with them. &#xA;&#xA;The MineralOccurrence package key points are:&#xA;1) Describes Earth Resources independent of associated human activities (i.e. mining); &#xA;2) Caters for description of Earth Resource using mineral deposit models that describe the actual deposit type; mineral systems that describe the processes associated with deposit formation; and supergene processes; &#xA;3) Utilises GeoSciML Mapped Feature to describe spatial representation and Earth Material to describe host, raw and associated materials; &#xA;4) Provides the ability to describe commodity resources formally or informally."/>
@@ -3827,7 +3827,7 @@
 												<UML:Expression/>
 											</UML:Attribute.initialValue>
 											<UML:StructuralFeature.type>
-												<UML:Classifier xmi.idref="EAID_A4C3809D_32CE_4ebd_B2D5_F15F7638E08A"/>
+												<UML:Classifier xmi.idref="EAID_A6E0AD42_2F10_40e6_8FCF_6802C6E160F6"/>
 											</UML:StructuralFeature.type>
 											<UML:ModelElement.stereotype>
 												<UML:Stereotype name="voidable"/>
@@ -5030,10 +5030,10 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_CCC8AB54_499A_4038_9E92_2D47E123A8E0" name="applicationSchema" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_2339A9F1_D45C_41c3_904E_5901478AF7E0" name="applicationSchema" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
-				<UML:Stereotype xmi.id="EAID_AFB98DB6_BD27_49e8_A5FE_1D942DCCEA57" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_AA7502EB_A87E_4c71_8F7A_ADB1AE47672F" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 				<UML:DataType xmi.id="eaxmiid2" name="Integer" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
@@ -5593,7 +5593,6 @@
 		<EAStub xmi.id="EAID_518E1CCB_3674_41c3_83E7_AA34E1912F4A" name="MD_RepresentativeFraction" UMLType="Class"/>
 		<EAStub xmi.id="EAID_923DFBB7_D1CF_4908_B00D_D6B6A1126EBB" name="CGI_LinearOrientation" UMLType="Class"/>
 		<EAStub xmi.id="EAID_4538948C_5EAD_4379_A9AF_6C91CC4DD001" name="CGI_PlanarOrientation" UMLType="Class"/>
-		<EAStub xmi.id="EAID_A4C3809D_32CE_4ebd_B2D5_F15F7638E08A" name="Category" UMLType="Class"/>
 		<EAStub xmi.id="EAID_10DF5EA4_6535_4ef7_AC0A_A55B7E323C94" name="TM_GeometricPrimitive" UMLType="Class"/>
 	</XMI.extensions>
 </XMI>
