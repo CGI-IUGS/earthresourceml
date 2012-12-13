@@ -24,3 +24,4 @@ Renamed MineralOccurrences <<Application Schema>> to EarthResource <<Application
 Created Package Dependencies between Mine <<Leaf>> and other packages
 
 
+
