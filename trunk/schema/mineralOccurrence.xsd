@@ -42,7 +42,7 @@ The earth resource commodity (eg Cu, Au, Dimension Stone).</documentation>
               </appinfo>
             </annotation>
           </element>
-          <element name="commodityImportance">
+          <element name="commodityImportance" type="er:ImportanceValueType">
             <annotation>
               <documentation>-- Definition --
 The importance of the deposit for the commodity.
@@ -50,15 +50,8 @@ The importance of the deposit for the commodity.
 -- Description --
 Several commodities may be of interest inside a deposit. A deposit may be a very large deposit for one commodity (this commodity is the main one) and only a medium-sized deposit for some other commodities. Such a ranking is based on a statistical study of a large set of deposits throughout the world to ensure that it is valid. It is made using histograms allowing for each commodity to define class boundaries and what is a super large, a large, a medium-sized etc deposit for this commodity. This classification is based on the potential or endowment: reserves + resources.</documentation>
             </annotation>
-            <complexType>
-              <simpleContent>
-                <extension base="er:ImportanceValueType">
-                  <attribute name="nilReason" type="gml:NilReasonType"/>
-                </extension>
-              </simpleContent>
-            </complexType>
           </element>
-          <element name="commodityRank">
+          <element name="commodityRank" type="integer">
             <annotation>
               <documentation>-- Definition --
 The rank of the commodity. 
@@ -66,13 +59,6 @@ The rank of the commodity.
 -- Description --
 Commodity rank is based on endowment, i.e. (cumulated) past production + reserves (not including past production) + resources, or if the deposit has never been exploited, reserves + resources. A statistical comparison with a large set of deposits throughout the world enables the determination of the deposit as class A (very large), B (large), or C (medium-sized) for a particular commodity, and also which commodity is the main one, the 2nd one, etc. The rank of a commodity is thus not based on political or economic considerations.</documentation>
             </annotation>
-            <complexType>
-              <simpleContent>
-                <extension base="integer">
-                  <attribute name="nilReason" type="gml:NilReasonType"/>
-                </extension>
-              </simpleContent>
-            </complexType>
           </element>
         </sequence>
       </extension>
@@ -185,41 +171,23 @@ Chronological list of surveys undertaken to better define the potential of a min
 Recaps the work which has been done from regional reconnaissance, surface detailed prospecting, subsurface prospecting, assessment of the resource, to evaluation of the ore deposit. Depending on the work done on occurrences and prospects, allows an estimate of the 'still to be discovered' potential of an area. A detailed assessment with no result would lead to a pessimistic opinion.</documentation>
             </annotation>
           </element>
-          <element maxOccurs="unbounded" name="supergeneModification">
+          <element maxOccurs="unbounded" name="supergeneModification" type="er:SupergeneProcessesPropertyType">
             <annotation>
               <documentation>-- Definition --
 A supergene process which would allow a metal enrichment produced by the chemical remobilisation of metals in an oxidised or transitional environment.</documentation>
             </annotation>
-            <complexType>
-              <sequence minOccurs="0">
-                <element ref="er:SupergeneProcesses"/>
-              </sequence>
-              <attributeGroup ref="gml:AssociationAttributeGroup"/>
-            </complexType>
           </element>
-          <element maxOccurs="unbounded" name="composition">
+          <element maxOccurs="unbounded" name="composition" type="er:EarthResourceMaterialPropertyType">
             <annotation>
               <documentation>-- Definition --
 The material forming the EarthResource.</documentation>
             </annotation>
-            <complexType>
-              <sequence minOccurs="0">
-                <element ref="er:EarthResourceMaterial"/>
-              </sequence>
-              <attributeGroup ref="gml:AssociationAttributeGroup"/>
-            </complexType>
           </element>
-          <element maxOccurs="unbounded" name="oreAmount">
+          <element maxOccurs="unbounded" name="oreAmount" type="er:OreMeasurePropertyType">
             <annotation>
               <documentation>-- Definition --
 The estimated or calculated amount of ore with the identification of the commodities contained and their grade.</documentation>
             </annotation>
-            <complexType>
-              <sequence minOccurs="0">
-                <element ref="er:OreMeasure"/>
-              </sequence>
-              <attributeGroup ref="gml:AssociationAttributeGroup"/>
-            </complexType>
           </element>
           <element name="geneticDescription" type="er:MineralSystemPropertyType">
             <annotation>
@@ -286,23 +254,17 @@ The source or reference for the Earth Resource.</documentation>
             <complexType>
               <complexContent>
                 <extension base="gml:AbstractMetadataPropertyType">
-                  <sequence minOccurs="0"/>
+                  <sequence/>
                   <attributeGroup ref="gml:AssociationAttributeGroup"/>
                 </extension>
               </complexContent>
             </complexType>
           </element>
-          <element name="dimension">
+          <element name="dimension" type="er:EarthResourceDimensionPropertyType">
             <annotation>
               <documentation>-- Definition --
 The size/volume of the earth resource</documentation>
             </annotation>
-            <complexType>
-              <sequence minOccurs="0">
-                <element ref="er:EarthResourceDimension"/>
-              </sequence>
-              <attributeGroup ref="gml:AssociationAttributeGroup"/>
-            </complexType>
           </element>
           <element maxOccurs="unbounded" name="expression">
             <annotation>
@@ -339,7 +301,7 @@ EXAMPLE: stratiform, stratabound, cross-cutting, vein, intrusive contact etc</do
               </complexContent>
             </complexType>
           </element>
-          <element maxOccurs="unbounded" name="linearOrientation">
+          <element maxOccurs="unbounded" name="linearOrientation" type="gsmlu:CGI_LinearOrientationPropertyType">
             <annotation>
               <documentation>-- Definition --
 The linear orientation of the Earth Resource.
@@ -347,14 +309,8 @@ The linear orientation of the Earth Resource.
 -- Description --
 EXAMPLE: Plunge etc</documentation>
             </annotation>
-            <complexType>
-              <sequence minOccurs="0">
-                <element ref="gsmlu:CGI_LinearOrientation"/>
-              </sequence>
-              <attributeGroup ref="gml:AssociationAttributeGroup"/>
-            </complexType>
           </element>
-          <element maxOccurs="unbounded" name="planarOrientation">
+          <element maxOccurs="unbounded" name="planarOrientation" type="gsmlu:CGI_PlanarOrientationPropertyType">
             <annotation>
               <documentation>-- Definition --
 The planar orientation of the Earth Resource.
@@ -362,12 +318,6 @@ The planar orientation of the Earth Resource.
 -- Description --
 EXAMPLE: Dip/Dip Direction etc</documentation>
             </annotation>
-            <complexType>
-              <sequence minOccurs="0">
-                <element ref="gsmlu:CGI_PlanarOrientation"/>
-              </sequence>
-              <attributeGroup ref="gml:AssociationAttributeGroup"/>
-            </complexType>
           </element>
           <element maxOccurs="unbounded" name="shape">
             <annotation>
@@ -563,31 +513,17 @@ Usually includes Resources, as unlike the latter, it does not have to have prosp
     <complexContent>
       <extension base="er:OreMeasureType">
         <sequence>
-          <element name="includesReserves">
+          <element name="includesReserves" type="boolean">
             <annotation>
               <documentation>-- Definition --
 A flag indicating if the estimate includes the reserves value.</documentation>
             </annotation>
-            <complexType>
-              <simpleContent>
-                <extension base="boolean">
-                  <attribute name="nilReason" type="gml:NilReasonType"/>
-                </extension>
-              </simpleContent>
-            </complexType>
           </element>
-          <element name="includesResources">
+          <element name="includesResources" type="boolean">
             <annotation>
               <documentation>-- Definition --
 A flag indicating if the estimate includes the resources value.</documentation>
             </annotation>
-            <complexType>
-              <simpleContent>
-                <extension base="boolean">
-                  <attribute name="nilReason" type="gml:NilReasonType"/>
-                </extension>
-              </simpleContent>
-            </complexType>
           </element>
         </sequence>
       </extension>
@@ -687,7 +623,7 @@ A grouping of mineral deposits defined by generic characteristics.
 EXAMPLE: host rock, host structure, commodity, association with similar mineral processes e.g. porphyry. Regional, national and more universal lists e.g. Cox and Singer 1986</documentation>
             </annotation>
           </element>
-          <element maxOccurs="unbounded" name="mineralDepositType">
+          <element maxOccurs="unbounded" name="mineralDepositType" type="gml:CodeType">
             <annotation>
               <documentation>-- Definition --
 Style of mineral occurrence or deposit. 
@@ -695,13 +631,6 @@ Style of mineral occurrence or deposit.
 --Description --
 Generally a local or regional term. Should be referenced for definitions and descriptions. Single deposit terms may form member of a Mineral Deposit Group in local and regional schemas.</documentation>
             </annotation>
-            <complexType>
-              <simpleContent>
-                <extension base="gml:CodeType">
-                  <attribute name="nilReason" type="gml:NilReasonType"/>
-                </extension>
-              </simpleContent>
-            </complexType>
           </element>
         </sequence>
       </extension>
@@ -733,7 +662,7 @@ The type of mineral occurrence.
 EXAMPLE: prospect, occurrence, mineral deposit, ore deposit.</documentation>
             </annotation>
           </element>
-          <element maxOccurs="unbounded" name="endusePotential">
+          <element maxOccurs="unbounded" name="endusePotential" type="gml:CodeType">
             <annotation>
               <documentation>-- Definition --
 The end-use potential of the mineral.
@@ -741,13 +670,6 @@ The end-use potential of the mineral.
 -- Description --
 EXAMPLE:  for energy, fertilizer, building raw material.</documentation>
             </annotation>
-            <complexType>
-              <simpleContent>
-                <extension base="gml:CodeType">
-                  <attribute name="nilReason" type="gml:NilReasonType"/>
-                </extension>
-              </simpleContent>
-            </complexType>
           </element>
         </sequence>
       </extension>
@@ -858,17 +780,11 @@ Date of calculated or estimated value.
 This may be a single date or a range.</documentation>
         </annotation>
       </element>
-      <element name="dimension">
+      <element name="dimension" type="er:EarthResourceDimensionPropertyType">
         <annotation>
           <documentation>-- Definition --
 Size of the body used in the calculation.</documentation>
         </annotation>
-        <complexType>
-          <sequence minOccurs="0">
-            <element ref="er:EarthResourceDimension"/>
-          </sequence>
-          <attributeGroup ref="gml:AssociationAttributeGroup"/>
-        </complexType>
       </element>
       <element name="proposedExtractionMethod">
         <annotation>
@@ -897,7 +813,7 @@ The reference for the OreMeasure values.</documentation>
         <complexType>
           <complexContent>
             <extension base="gml:AbstractMetadataPropertyType">
-              <sequence minOccurs="0"/>
+              <sequence/>
               <attributeGroup ref="gml:AssociationAttributeGroup"/>
             </extension>
           </complexContent>
@@ -993,18 +909,11 @@ Synonyms: Mineral Resource; Coal Resource (s); Diamond (Gemstone) Resource; Pote
 Indication of whether the resource is measured, indicated,  or inferred.</documentation>
             </annotation>
           </element>
-          <element name="includesReserves">
+          <element name="includesReserves" type="boolean">
             <annotation>
               <documentation>-- Definition --
 A flag indicating whether the estimate of resources includes reserve values.</documentation>
             </annotation>
-            <complexType>
-              <simpleContent>
-                <extension base="boolean">
-                  <attribute name="nilReason" type="gml:NilReasonType"/>
-                </extension>
-              </simpleContent>
-            </complexType>
           </element>
         </sequence>
       </extension>
