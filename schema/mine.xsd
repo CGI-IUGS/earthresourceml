@@ -68,7 +68,7 @@ Allows citing mine plans etc</documentation>
             <complexType>
               <complexContent>
                 <extension base="gml:AbstractMetadataPropertyType">
-                  <sequence minOccurs="0"/>
+                  <sequence/>
                   <attributeGroup ref="gml:AssociationAttributeGroup"/>
                 </extension>
               </complexContent>
@@ -230,17 +230,11 @@ The deposit to which deposit the mining activity is associated.</documentation>
 Product(s) are elaborated from mining activity through a processing phase which may be as simple as extraction. The product of a mine s.s. (excavation) is the mined ore or mined material. The product of a mine s.l. (excavation plus processing plant) is a concentrate containing one or several commodities at various grades for metallic ores. A product can also be dimension stone for ornamental rocks.</documentation>
             </annotation>
           </element>
-          <element maxOccurs="unbounded" name="rawMaterial">
+          <element maxOccurs="unbounded" name="rawMaterial" type="er:MinedMaterialPropertyType">
             <annotation>
               <documentation>-- Definition --
 An ore is rarely extracted or mined alone. It is most of the time accompanied by a variable quantity of gangue, very slightly mineralized or completely barren, composed of non-metallic minerals (sometimes of interest) and/or altered host-rock(s).</documentation>
             </annotation>
-            <complexType>
-              <sequence minOccurs="0">
-                <element ref="er:MinedMaterial"/>
-              </sequence>
-              <attributeGroup ref="gml:AssociationAttributeGroup"/>
-            </complexType>
           </element>
           <element name="associatedMine" type="er:MinePropertyType">
             <annotation>
@@ -452,30 +446,17 @@ The material of which the mining waste is composed.</documentation>
               </complexContent>
             </complexType>
           </element>
-          <element maxOccurs="unbounded" name="storageType">
+          <element maxOccurs="unbounded" name="storageType" type="gml:CodeType">
             <annotation>
               <documentation>-- Definition --
 The storage type of the waste eg surface storage, tailings pond, waste dump, covered storage etc.</documentation>
             </annotation>
-            <complexType>
-              <simpleContent>
-                <extension base="gml:CodeType">
-                  <attribute name="nilReason" type="gml:NilReasonType"/>
-                </extension>
-              </simpleContent>
-            </complexType>
           </element>
-          <element name="wasteMeasure">
+          <element name="wasteMeasure" type="er:MiningWasteMeasurePropertyType">
             <annotation>
               <documentation>-- Definition --
 The measure of mining waste.</documentation>
             </annotation>
-            <complexType>
-              <sequence minOccurs="0">
-                <element ref="er:MiningWasteMeasure"/>
-              </sequence>
-              <attributeGroup ref="gml:AssociationAttributeGroup"/>
-            </complexType>
           </element>
           <element name="wasteType" type="gml:CodeType">
             <annotation>
@@ -483,18 +464,11 @@ The measure of mining waste.</documentation>
 The type of mining waste.</documentation>
             </annotation>
           </element>
-          <element maxOccurs="unbounded" name="environmentalImpact">
+          <element maxOccurs="unbounded" name="environmentalImpact" type="gml:CodeType">
             <annotation>
               <documentation>-- Definition --
 The potential environmental impact of the mining waste.</documentation>
             </annotation>
-            <complexType>
-              <simpleContent>
-                <extension base="gml:CodeType">
-                  <attribute name="nilReason" type="gml:NilReasonType"/>
-                </extension>
-              </simpleContent>
-            </complexType>
           </element>
         </sequence>
       </extension>
@@ -598,7 +572,7 @@ The reference(s) for the product information.  CI_Citation data type cannot be s
             <complexType>
               <complexContent>
                 <extension base="gml:AbstractMetadataPropertyType">
-                  <sequence minOccurs="0"/>
+                  <sequence/>
                   <attributeGroup ref="gml:AssociationAttributeGroup"/>
                 </extension>
               </complexContent>
