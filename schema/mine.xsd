@@ -154,14 +154,14 @@ A data type to describe the raw material of a mining activity.</documentation>
 Uses EarthMaterial to describe the RawMaterial material.</documentation>
         </annotation>
         <complexType>
-          <complexContent>
-            <extension base="gml:AbstractMemberType">
-              <sequence minOccurs="0">
-                <element ref="gsmlem:EarthMaterial"/>
-              </sequence>
-              <attributeGroup ref="gml:AssociationAttributeGroup"/>
-            </extension>
-          </complexContent>
+          <choice minOccurs="0">
+            <element ref="gsmlem:InorganicFluid"/>
+            <element ref="gsmlem:Mineral"/>
+            <element ref="gsmlem:OrganicMaterial"/>
+            <element ref="gsmlem:RockMaterial"/>
+          </choice>
+          <attributeGroup ref="gml:AssociationAttributeGroup"/>
+          <attributeGroup ref="gml:OwnershipAttributeGroup"/>
         </complexType>
       </element>
       <element name="rawMaterialRole" type="er:RawMaterialRoleValueType">
@@ -206,16 +206,16 @@ The term may also include preliminary treatment eg. cleaning or sizing.</documen
     <complexContent>
       <extension base="er:MiningFeatureType">
         <sequence>
-          <element name="processingType" type="er:ProcessingActivityTypeValueType">
+          <element maxOccurs="unbounded" name="processingType" type="er:ProcessingActivityTypeValueType">
             <annotation>
               <documentation>-- Definition --
 The type of processing carried out during the mining activity.</documentation>
             </annotation>
           </element>
-          <element maxOccurs="unbounded" name="producedWaste" type="er:MiningWastePropertyType">
+          <element maxOccurs="unbounded" name="rawMaterial" type="er:MinedMaterialPropertyType">
             <annotation>
               <documentation>-- Definition --
-Waste products from a mining activity, through a processing phase.</documentation>
+An ore is rarely extracted or mined alone. It is most of the time accompanied by a variable quantity of gangue, very slightly mineralized or completely barren, composed of non-metallic minerals (sometimes of interest) and/or altered host-rock(s).</documentation>
             </annotation>
           </element>
           <element name="deposit" type="er:EarthResourcePropertyType">
@@ -230,10 +230,10 @@ The deposit to which deposit the mining activity is associated.</documentation>
 Product(s) are elaborated from mining activity through a processing phase which may be as simple as extraction. The product of a mine s.s. (excavation) is the mined ore or mined material. The product of a mine s.l. (excavation plus processing plant) is a concentrate containing one or several commodities at various grades for metallic ores. A product can also be dimension stone for ornamental rocks.</documentation>
             </annotation>
           </element>
-          <element maxOccurs="unbounded" name="rawMaterial" type="er:MinedMaterialPropertyType">
+          <element maxOccurs="unbounded" name="producedWaste" type="er:MiningWastePropertyType">
             <annotation>
               <documentation>-- Definition --
-An ore is rarely extracted or mined alone. It is most of the time accompanied by a variable quantity of gangue, very slightly mineralized or completely barren, composed of non-metallic minerals (sometimes of interest) and/or altered host-rock(s).</documentation>
+Waste products from a mining activity, through a processing phase.</documentation>
             </annotation>
           </element>
           <element name="associatedMine" type="er:MinePropertyType">
@@ -361,12 +361,6 @@ This is in contrast to positionalAccuracy which is a measure of how well a featu
               </complexContent>
             </complexType>
           </element>
-          <element name="shape" type="gml:GeometryPropertyType">
-            <annotation>
-              <documentation>-- Definition --
-The geometry of the Mining Feature Occurrence</documentation>
-            </annotation>
-          </element>
           <element name="specification" type="er:MiningFeaturePropertyType">
             <annotation>
               <documentation>-- Definition --
@@ -377,6 +371,12 @@ Points to any number of MiningFeatureOccurrences which are occurrences of the Mi
               <appinfo>
                 <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">er:occurrence</reversePropertyName>
               </appinfo>
+            </annotation>
+          </element>
+          <element name="shape" type="gml:GeometryPropertyType">
+            <annotation>
+              <documentation>-- Definition --
+The geometry of the Mining Feature Occurrence</documentation>
             </annotation>
           </element>
           <element maxOccurs="unbounded" name="observationMethod">
@@ -436,14 +436,14 @@ Mining-selected waste (or simply mining waste) can be defined as a part of the m
 The material of which the mining waste is composed.</documentation>
             </annotation>
             <complexType>
-              <complexContent>
-                <extension base="gml:AbstractMemberType">
-                  <sequence minOccurs="0">
-                    <element ref="gsmlem:EarthMaterial"/>
-                  </sequence>
-                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
-                </extension>
-              </complexContent>
+              <choice minOccurs="0">
+                <element ref="gsmlem:InorganicFluid"/>
+                <element ref="gsmlem:Mineral"/>
+                <element ref="gsmlem:OrganicMaterial"/>
+                <element ref="gsmlem:RockMaterial"/>
+              </choice>
+              <attributeGroup ref="gml:AssociationAttributeGroup"/>
+              <attributeGroup ref="gml:OwnershipAttributeGroup"/>
             </complexType>
           </element>
           <element maxOccurs="unbounded" name="storageType" type="gml:CodeType">
