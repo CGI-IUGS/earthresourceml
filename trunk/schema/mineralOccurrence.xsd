@@ -25,10 +25,11 @@ The material of economic interest in the EarthResource</documentation>
     <complexContent>
       <extension base="gml:AbstractFeatureType">
         <sequence>
-          <element name="source" type="er:EarthResourcePropertyType">
+          <element name="source" type="gml:ReferenceType">
             <annotation>
               <documentation>The deposit/resource from which the commodity comes.</documentation>
               <appinfo>
+                <targetElement xmlns="http://www.opengis.net/gml/3.2">er:EarthResource</targetElement>
                 <reversePropertyName xmlns="http://www.opengis.net/gml/3.2">er:commodityDescription</reversePropertyName>
               </appinfo>
             </annotation>
@@ -156,6 +157,18 @@ The kinds of observable or inferred phenomena required to classify economic and 
     <complexContent>
       <extension base="gsml:GeologicFeatureType">
         <sequence>
+          <element name="beginLifespanVersion" type="dateTime">
+            <annotation>
+              <documentation>-- Definition --
+Date and time at which this version of the spatial object was inserted or changed in the spatial data set.</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="endLifespanVersion" type="dateTime">
+            <annotation>
+              <documentation>-- Definition --
+Date and time at which this version of the spatial object was supersed or retired in the spatial data set.</documentation>
+            </annotation>
+          </element>
           <element maxOccurs="unbounded" minOccurs="0" name="resourceExtraction" type="er:MiningActivityPropertyType">
             <annotation>
               <documentation>-- Definition --
