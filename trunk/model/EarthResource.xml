@@ -12,7 +12,7 @@
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
 				<UML:Package name="EarthResource" xmi.id="EAPK_326F57F8_58A5_4fbf_A9D1_AAE7AD284CBF" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.stereotype>
-						<UML:Stereotype xmi.idref="EAID_61A08E7F_811F_470b_B7D0_A4631FA473FE"/>
+						<UML:Stereotype xmi.idref="EAID_ADAEE0F9_0249_4534_B79A_4E979882AC6C"/>
 					</UML:ModelElement.stereotype>
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="parent" value="EAPK_6194BAB3_4483_47de_9D0D_6B1D15B7A226"/>
@@ -109,7 +109,7 @@
 						</UML:Collaboration>
 						<UML:Package name="Mine" xmi.id="EAPK_91AEEF78_5280_440c_8309_B4EE0F7EC0A9" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_714E8B58_567A_4e7b_8C26_7CC727CDDD57"/>
+								<UML:Stereotype xmi.idref="EAID_5440FAD4_4D88_4034_A71D_B7127D44C164"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="The Mine package describes a Mine as made up of a number of MiningActivities, which take RawMaterial to produce Products from some Commodity.  The Commodity is associated with a MineralOccurrence, the geological description of the economic resource."/>
@@ -1429,14 +1429,14 @@
 										<UML:Stereotype name="FeatureType"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="documentation" value="-- Definition --&#xA;Product(s) are elaborated from mining activity through a processing phase which may be as simple as extraction. The product of a mine s.s. (excavation) is the mined ore or mined material. The product of a mine s.l. (excavation plus processing plant) is a concentrate containing one or several commodities at various grades for metallic ores. A product can also be dimension stone or ornamental rocks. &#xA;"/>
+										<UML:TaggedValue tag="documentation" value="-- Definition --&#xA;Product(s) are elaborated from mining activity through a processing phase which may be as simple as extraction. The product of a mine s.s. (excavation) is a concentrate containing one or several commodities at various grades for metallic ores. A product can also be dimension stone or ornamental rocks. &#xA;"/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Class"/>
 										<UML:TaggedValue tag="ea_ntype" value="0"/>
 										<UML:TaggedValue tag="version" value="1.0"/>
 										<UML:TaggedValue tag="package" value="EAPK_91AEEF78_5280_440c_8309_B4EE0F7EC0A9"/>
 										<UML:TaggedValue tag="date_created" value="2007-02-06 08:41:10"/>
-										<UML:TaggedValue tag="date_modified" value="2012-11-28 11:47:00"/>
+										<UML:TaggedValue tag="date_modified" value="2013-08-14 10:49:40"/>
 										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package_name" value="Mine"/>
@@ -2219,7 +2219,7 @@
 						</UML:Package>
 						<UML:Package name="MineralOccurrence" xmi.id="EAPK_1744A5E8_D58F_47f3_AE66_186DA6870534" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_714E8B58_567A_4e7b_8C26_7CC727CDDD57"/>
+								<UML:Stereotype xmi.idref="EAID_5440FAD4_4D88_4034_A71D_B7127D44C164"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="The MineralOccurrence package explicitly models the properties of those features commonly stored in mineral resource databases.  These are economic or sub-economic concentrations of commodities that may, but need not, have had mining activity associated with them. &#xA;&#xA;The MineralOccurrence package key points are:&#xA;1) Describes Earth Resources independent of associated human activities (i.e. mining); &#xA;2) Caters for description of Earth Resource using mineral deposit models that describe the actual deposit type; mineral systems that describe the processes associated with deposit formation; and supergene processes; &#xA;3) Utilises GeoSciML Mapped Feature to describe spatial representation and Earth Material to describe host, raw and associated materials; &#xA;4) Provides the ability to describe commodity resources formally or informally."/>
@@ -5148,10 +5148,10 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_61A08E7F_811F_470b_B7D0_A4631FA473FE" name="applicationSchema" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_ADAEE0F9_0249_4534_B79A_4E979882AC6C" name="applicationSchema" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
-				<UML:Stereotype xmi.id="EAID_714E8B58_567A_4e7b_8C26_7CC727CDDD57" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_5440FAD4_4D88_4034_A71D_B7127D44C164" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 				<UML:DataType xmi.id="eaxmiid2" name="Integer" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
