@@ -1,9 +1,0 @@
-<BranchVCSpec>
-	<PkgGUID>{326F57F8-58A5-4fbf-A9D1-AAE7AD284CBF}</PkgGUID>
-	<XMLPath>EarthResource.xml</XMLPath>
-	<Config>
-		<GUID>EarthResource</GUID>
-		<LocalPath>%EarthResource%</LocalPath>
-		<Type>2</Type>
-	</Config>
-</BranchVCSpec>
