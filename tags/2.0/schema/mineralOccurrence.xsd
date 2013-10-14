@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:er="http://xmlns.earthresourceml.org/EarthResource/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gsml="http://xmlns.geosciml.org/GeoSciML-Core/3.1" xmlns:gsmlem="http://xmlns.geosciml.org/EarthMaterial/3.1" xmlns:gsmlu="http://xmlns.geosciml.org/Utilities/3.0" xmlns:swe="http://www.opengis.net/swe/2.0" elementFormDefault="qualified" targetNamespace="http://xmlns.earthresourceml.org/EarthResource/2.0" version="2.0.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+  xmlns:er="http://xmlns.earthresourceml.org/EarthResource/2.0" 
+  xmlns:gml="http://www.opengis.net/gml/3.2" 
+  xmlns:gsml="http://xmlns.geosciml.org/GeoSciML-Core/3.2" 
+  xmlns:gsmlem="http://xmlns.geosciml.org/EarthMaterial/3.2" 
+  xmlns:gsmlu="http://xmlns.geosciml.org/Utilities/3.2" 
+  xmlns:swe="http://www.opengis.net/swe/2.0" 
+  elementFormDefault="qualified" targetNamespace="http://xmlns.earthresourceml.org/EarthResource/2.0" version="2.0.0">
   <annotation>
     <documentation>The MineralOccurrence package explicitly models the properties of those features commonly stored in mineral resource databases.  These are economic or sub-economic concentrations of commodities that may, but need not, have had mining activity associated with them. 
 
@@ -11,9 +19,9 @@ The MineralOccurrence package key points are:
   <include schemaLocation="earthresourceml.xsd"/>
   <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
   <import namespace="http://www.opengis.net/swe/2.0" schemaLocation="http://schemas.opengis.net/sweCommon/2.0/swe.xsd"/>
-  <import namespace="http://xmlns.geosciml.org/EarthMaterial/3.1" schemaLocation="earthMaterial.xsd"/>
-  <import namespace="http://xmlns.geosciml.org/GeoSciML-Core/3.1" schemaLocation="geosciml-core.xsd"/>
-  <import namespace="http://xmlns.geosciml.org/Utilities/3.0" schemaLocation="http://schemas.geosciml.org/cgiutilities/3.0/cgiUtilities.xsd"/>
+  <import namespace="http://xmlns.geosciml.org/EarthMaterial/3.2" schemaLocation="http://schemas.geosciml.org/earthmaterial/3.2/earthMaterial.xsd"/>
+  <import namespace="http://xmlns.geosciml.org/GeoSciML-Core/3.2" schemaLocation="http://schemas.geosciml.org/geosciml-core/3.2/geosciml-core.xsd"/>
+  <import namespace="http://xmlns.geosciml.org/Utilities/3.2" schemaLocation="http://schemas.geosciml.org/cgiutilities/3.2/cgiUtilities.xsd"/>
   <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
   <element name="Commodity" substitutionGroup="gml:AbstractFeature" type="er:CommodityType">
     <annotation>
@@ -787,7 +795,7 @@ Means of calculating the measurement.
 EXAMPLE: JORC, PERC, Unspecified, UNESCO/World Bank and the Canadian CIM.</documentation>
         </annotation>
       </element>
-      <element name="date" type="gml:TimeGeometricPrimtiveProertyType">
+      <element name="date" type="gml:TimeInstantPropertyType">
         <annotation>
           <documentation>-- Definition --
 Date of calculated or estimated value.
