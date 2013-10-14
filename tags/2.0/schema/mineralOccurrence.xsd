@@ -795,7 +795,7 @@ Means of calculating the measurement.
 EXAMPLE: JORC, PERC, Unspecified, UNESCO/World Bank and the Canadian CIM.</documentation>
         </annotation>
       </element>
-      <element name="date" type="gml:TimeInstantPropertyType">
+      <element name="date" type="gml:TimePrimitivePropertyType">
         <annotation>
           <documentation>-- Definition --
 Date of calculated or estimated value.
