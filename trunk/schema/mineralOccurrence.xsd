@@ -1,18 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" 
-  xmlns:er="http://xmlns.earthresourceml.org/EarthResource/2.0" 
-  xmlns:gml="http://www.opengis.net/gml/3.2" 
-  xmlns:gsml="http://xmlns.geosciml.org/GeoSciML-Core/3.2" 
-  xmlns:gsmlem="http://xmlns.geosciml.org/EarthMaterial/3.2" 
-  xmlns:gsmlu="http://xmlns.geosciml.org/Utilities/3.2" 
-  xmlns:swe="http://www.opengis.net/swe/2.0" 
-  elementFormDefault="qualified" targetNamespace="http://xmlns.earthresourceml.org/EarthResource/2.0" version="2.0.0">
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:er="http://xmlns.earthresourceml.org/EarthResource/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gsml="http://xmlns.geosciml.org/GeoSciML-Core/3.2" xmlns:gsmlem="http://xmlns.geosciml.org/EarthMaterial/3.2" xmlns:gsmlu="http://xmlns.geosciml.org/Utilities/3.2" xmlns:swe="http://www.opengis.net/swe/2.0" elementFormDefault="qualified" targetNamespace="http://xmlns.earthresourceml.org/EarthResource/2.0" version="2.0.0">
   <include schemaLocation="earthresourceml.xsd"/>
   <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
   <import namespace="http://www.opengis.net/swe/2.0" schemaLocation="http://schemas.opengis.net/sweCommon/2.0/swe.xsd"/>
-  <import namespace="http://xmlns.geosciml.org/EarthMaterial/3.2" schemaLocation="http://schemas.geosciml.org/earthmaterial/3.2/earthMaterial.xsd"/>
-  <import namespace="http://xmlns.geosciml.org/GeoSciML-Core/3.2" schemaLocation="http://schemas.geosciml.org/geosciml-core/3.2/geosciml-core.xsd"/>
-  <import namespace="http://xmlns.geosciml.org/Utilities/3.2" schemaLocation="http://schemas.geosciml.org/cgiutilities/3.2/cgiUtilities.xsd"/>
+  <import namespace="http://xmlns.geosciml.org/EarthMaterial/3.2" schemaLocation="earthMaterial.xsd"/>
+  <import namespace="http://xmlns.geosciml.org/GeoSciML-Core/3.2" schemaLocation="geosciml-core.xsd"/>
+  <import namespace="http://xmlns.geosciml.org/Utilities/3.2" schemaLocation="cgiUtilities.xsd"/>
   <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
   <element name="Commodity" substitutionGroup="gml:AbstractFeature" type="er:CommodityType"/>
   <complexType name="CommodityType">
@@ -198,7 +190,7 @@
               </simpleContent>
             </complexType>
           </element>
-          <element minOccurs="0" name="endLifespanVersion" nillable="true">
+          <element name="endLifespanVersion" nillable="true">
             <complexType>
               <simpleContent>
                 <extension base="dateTime">
@@ -246,7 +238,7 @@
               </appinfo>
             </annotation>
           </element>
-          <element maxOccurs="unbounded" minOccurs="0" name="resourceExtraction" nillable="true" type="er:MiningActivityPropertyType"/>
+          <element maxOccurs="unbounded" name="resourceExtraction" nillable="true" type="er:MiningActivityPropertyType"/>
           <element maxOccurs="unbounded" name="oreAmount" nillable="true">
             <complexType>
               <sequence minOccurs="0">
@@ -502,7 +494,18 @@
     <sequence>
       <element maxOccurs="unbounded" name="measureDetails" type="er:CommodityMeasurePropertyType"/>
       <element name="classificationMethodUsed" type="gml:ReferenceType"/>
-      <element name="date" type="gml:TimePrimitivePropertyType"/>
+      <element name="date">
+        <complexType>
+          <complexContent>
+            <extension base="gml:AbstractMemberType">
+              <sequence minOccurs="0">
+                <element ref="gml:AbstractTimeGeometricPrimitive"/>
+              </sequence>
+              <attributeGroup ref="gml:AssociationAttributeGroup"/>
+            </extension>
+          </complexContent>
+        </complexType>
+      </element>
       <element maxOccurs="unbounded" name="sourceReference">
         <annotation>
           <appinfo>
