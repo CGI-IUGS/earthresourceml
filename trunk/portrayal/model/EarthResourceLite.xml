@@ -597,7 +597,7 @@
 								</UML:Constraint>
 							</UML:ModelElement.constraint>
 						</UML:Class>
-						<UML:Class name="CommodityView" xmi.id="EAID_37B33BDE_B015_47e3_BAB8_375C511A7551" visibility="public" namespace="EAPK_D9C5D539_51AC_4546_9945_3F946503685F" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+						<UML:Class name="CommodityResourceView" xmi.id="EAID_37B33BDE_B015_47e3_BAB8_375C511A7551" visibility="public" namespace="EAPK_D9C5D539_51AC_4546_9945_3F946503685F" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.stereotype>
 								<UML:Stereotype name="FeatureType"/>
 							</UML:ModelElement.stereotype>
@@ -609,7 +609,7 @@
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_D9C5D539_51AC_4546_9945_3F946503685F"/>
 								<UML:TaggedValue tag="date_created" value="2016-06-08 17:32:37"/>
-								<UML:TaggedValue tag="date_modified" value="2016-06-08 18:25:12"/>
+								<UML:TaggedValue tag="date_modified" value="2016-06-08 18:35:10"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="EarthResourceML Lite"/>
