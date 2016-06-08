@@ -661,7 +661,7 @@
 										<UML:Classifier xmi.idref="EAID_AF7C81A6_B1C1_4469_A09F_B97989024A14"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="description" value="The commodity or commodities found at an EarthResource. Multiple commodities terms should be concatenated if required. Ideally terms should be sourced from the CommodityCode controlled vocabulary. Link - http://resource.geosciml.org/classifier/cgi/commodity-code/ "/>
+										<UML:TaggedValue tag="description" value="A commodity found in an EarthResource. Other commodity values at the EarthResource should be listed in separate instances. Ideally terms should be sourced from the CommodityCode controlled vocabulary. Link - http://resource.geosciml.org/classifier/cgi/commodity-code/ "/>
 										<UML:TaggedValue tag="type" value="CharacterString"/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
@@ -676,7 +676,7 @@
 										<UML:TaggedValue tag="duplicates" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{0B69FE9C-3CF1-4e56-ABEA-6A2D97320F6D}"/>
 										<UML:TaggedValue tag="ea_localid" value="10779"/>
-										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;union=0;"/>
 										<UML:TaggedValue tag="sequenceNumber" value="3" xmi.id="EAID_AC97FC6E_30EE_4fbb_8B3B_23E0832820CF"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
