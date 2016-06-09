@@ -796,7 +796,7 @@
 										<UML:Classifier xmi.idref="EAID_AF7C81A6_B1C1_4469_A09F_B97989024A14"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="description" value="Endowment refers to that quantity of a mineral in accumulations (deposits) meeting specified physical characteristics such as quality, size and depth. Usually includes all resources and reserves, as a commodity's total endowment does not have to have prospects for eventual economic extraction. It includes the total amount of a commodity originally introduced to a particular location during the deposit forming processes - and thus can include resources, reserves, past production and mining and metallurgical losses. Text string datatype so units of measure can be included in value.  eg, 1.57 Mt @ 3.0 g.t Au"/>
+										<UML:TaggedValue tag="description" value="Endowment refers to that quantity of a mineral in accumulations (deposits) meeting specified physical characteristics such as quality, size and depth. Usually includes all resources and reserves, as a commodity's total endowment does not have to have prospects for eventual economic extraction. It includes the total amount of a commodity originally introduced to a particular location during the deposit forming processes - and thus can include resources, reserves, past production and mining and metallurgical losses. Text string datatype so units of measure can be included in value.  eg, 1.57 Mt @ 3.0 g/t Au"/>
 										<UML:TaggedValue tag="type" value="CharacterString"/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
@@ -823,7 +823,7 @@
 										<UML:Classifier xmi.idref="EAID_AF7C81A6_B1C1_4469_A09F_B97989024A14"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="description" value="The economically mineable part of a Measured and/or Indicated mineral resource. It includes diluting materials and allowances for losses, which may occur when the material is mined. ‘Marketable Coal Reserves’ maybe reported in conjunction with, but not instead of, reports of Ore (Coal) Reserves. ‘Saleable product’ (e.g. for industrial minerals) can be reported in conjunction with ore reserve. Synonyms: Ore Reserve; Coal Reserve (s); Diamond (or gemstone) Ore Reserve; Mineral Reserves (not preferred, should be stated that used to mean the same as JORC’s Ore Reserve); Mineable production estimates. Text string data type so units of measure can be included in value.  eg, 1.23 Mt @ 3.0 g.t Au"/>
+										<UML:TaggedValue tag="description" value="The economically mineable part of a Measured and/or Indicated mineral resource. It includes diluting materials and allowances for losses, which may occur when the material is mined. ‘Marketable Coal Reserves’ maybe reported in conjunction with, but not instead of, reports of Ore (Coal) Reserves. ‘Saleable product’ (e.g. for industrial minerals) can be reported in conjunction with ore reserve. Synonyms: Ore Reserve; Coal Reserve (s); Diamond (or gemstone) Ore Reserve; Mineral Reserves (not preferred, should be stated that used to mean the same as JORC’s Ore Reserve); Mineable production estimates. Text string data type so units of measure can be included in value.  eg, 1.23 Mt @ 3.0 g/t Au"/>
 										<UML:TaggedValue tag="type" value="CharacterString"/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
@@ -931,7 +931,7 @@
 										<UML:Classifier xmi.idref="EAID_AF7C81A6_B1C1_4469_A09F_B97989024A14"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="description" value="Total amount and grade of a concentration or occurrence of material of intrinsic economic interest in or on the Earth's crust in such form, quality and quantity that there are reasonable prospects for eventual economic extraction. eg, 1.57 Mt @ 3.0 g.t Au"/>
+										<UML:TaggedValue tag="description" value="Total amount and grade of a concentration or occurrence of material of intrinsic economic interest in or on the Earth's crust in such form, quality and quantity that there are reasonable prospects for eventual economic extraction. eg, 1.57 Mt @ 3.0 g/t Au"/>
 										<UML:TaggedValue tag="type" value="CharacterString"/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
@@ -3005,21 +3005,21 @@
 				<UML:TaggedValue tag="version" value="1.0 (2016)"/>
 				<UML:TaggedValue tag="author" value="CGI ERML Working Group"/>
 				<UML:TaggedValue tag="created_date" value="2010-05-25 00:00:00"/>
-				<UML:TaggedValue tag="modified_date" value="2016-06-08 18:23:19"/>
+				<UML:TaggedValue tag="modified_date" value="2016-06-09 15:14:34"/>
 				<UML:TaggedValue tag="package" value="EAPK_D9C5D539_51AC_4546_9945_3F946503685F"/>
 				<UML:TaggedValue tag="type" value="Logical"/>
 				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;hl=1;cls=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:ARIAL,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<UML:TaggedValue tag="ea_localid" value="3712"/>
 				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=1134;DocSize.cy=795;ShowDetails=1;Orientation=L;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<UML:TaggedValue tag="styleex" value="SaveTag=C28632EB;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=F062A388;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
-				<UML:DiagramElement geometry="Left=383;Top=83;Right=716;Bottom=496;" subject="EAID_37B33BDE_B015_47e3_BAB8_375C511A7551" seqno="1" style="DUID=8377F87E;NSL=0;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;BCol=15399421;Constraint=1;AttCustom=0;OpCustom=0;PType=0;RzO=1;"/>
-				<UML:DiagramElement geometry="Left=741;Top=451;Right=1017;Bottom=786;" subject="EAID_00BFB38F_1939_466e_A524_E78FFFF84DB4" seqno="2" style="DUID=F8825EE3;NSL=0;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;BCol=15399421;Constraint=1;AttCustom=0;OpCustom=0;PType=0;RzO=1;"/>
-				<UML:DiagramElement geometry="Left=392;Top=521;Right=704;Bottom=752;" subject="EAID_C96889C4_1EC5_42f6_B173_B25A4DB9A469" seqno="3" style="DUID=B8406035;NSL=0;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;Constraint=1;AttCustom=0;OpCustom=0;RzO=1;BCol=15399421;"/>
-				<UML:DiagramElement geometry="Left=733;Top=83;Right=1021;Bottom=431;" subject="EAID_94BA5ECA_0A2F_4050_9474_90EF56FC8D74" seqno="4" style="DUID=AD8214CE;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;Constraint=1;AttCustom=0;OpCustom=0;RzO=1;BCol=15399421;"/>
-				<UML:DiagramElement geometry="Left=33;Top=83;Right=366;Bottom=509;" subject="EAID_823E1817_7B10_4eb7_B8C4_7FB0DB213ABC" seqno="5" style="DUID=5CEA9160;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;Constraint=1;AttCustom=0;OpCustom=0;RzO=1;BCol=15399421;"/>
+				<UML:DiagramElement geometry="Left=383;Top=83;Right=716;Bottom=506;" subject="EAID_37B33BDE_B015_47e3_BAB8_375C511A7551" seqno="1" style="DUID=8377F87E;NSL=0;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;BCol=15399421;Constraint=1;AttCustom=0;OpCustom=0;PType=0;RzO=1;"/>
+				<UML:DiagramElement geometry="Left=741;Top=451;Right=1017;Bottom=796;" subject="EAID_00BFB38F_1939_466e_A524_E78FFFF84DB4" seqno="2" style="DUID=F8825EE3;NSL=0;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;BCol=15399421;Constraint=1;AttCustom=0;OpCustom=0;PType=0;RzO=1;"/>
+				<UML:DiagramElement geometry="Left=392;Top=521;Right=704;Bottom=762;" subject="EAID_C96889C4_1EC5_42f6_B173_B25A4DB9A469" seqno="3" style="DUID=B8406035;NSL=0;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;Constraint=1;AttCustom=0;OpCustom=0;RzO=1;BCol=15399421;"/>
+				<UML:DiagramElement geometry="Left=735;Top=83;Right=1023;Bottom=441;" subject="EAID_94BA5ECA_0A2F_4050_9474_90EF56FC8D74" seqno="4" style="DUID=AD8214CE;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;Constraint=1;AttCustom=0;OpCustom=0;RzO=1;BCol=15399421;"/>
+				<UML:DiagramElement geometry="Left=33;Top=83;Right=366;Bottom=519;" subject="EAID_823E1817_7B10_4eb7_B8C4_7FB0DB213ABC" seqno="5" style="DUID=5CEA9160;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;Constraint=1;AttCustom=0;OpCustom=0;RzO=1;BCol=15399421;"/>
 			</UML:Diagram.element>
 		</UML:Diagram>
 	</XMI.content>
