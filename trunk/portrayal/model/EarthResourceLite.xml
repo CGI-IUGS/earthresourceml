@@ -42,14 +42,14 @@
 								<UML:Stereotype name="FeatureType"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="documentation" value="Class to specify a simple view of a Mining Waste feature for use in Web Mapping Service GetFeatureRequest responses or GML3.1 Simple Feature Level 0 Web Feature Services"/>
+								<UML:TaggedValue tag="documentation" value="A class to specify a simple view of a Mining Waste feature for use in Web Mapping Service GetFeatureRequest responses or GML3.1 Simple Feature Level 0 Web Feature Services."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_D9C5D539_51AC_4546_9945_3F946503685F"/>
 								<UML:TaggedValue tag="date_created" value="2016-06-08 16:50:43"/>
-								<UML:TaggedValue tag="date_modified" value="2016-06-08 18:26:19"/>
+								<UML:TaggedValue tag="date_modified" value="2016-06-10 11:14:05"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="EarthResourceML Lite"/>
@@ -74,7 +74,7 @@
 										<UML:Classifier xmi.idref="EAID_AF7C81A6_B1C1_4469_A09F_B97989024A14"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="description" value="A unique identifier to identify the mine feature."/>
+										<UML:TaggedValue tag="description" value="A unique identifier to identify the mine waste feature."/>
 										<UML:TaggedValue tag="type" value="CharacterString"/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
@@ -89,7 +89,7 @@
 										<UML:TaggedValue tag="duplicates" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{587D8498-01A6-468a-B97B-C421050DF19B}"/>
 										<UML:TaggedValue tag="ea_localid" value="10803"/>
-										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;union=0;"/>
 										<UML:TaggedValue tag="sequenceNumber" value="3" xmi.id="EAID_F3CD227C_E22D_46a5_B20F_704ACB6B6F7F"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
@@ -236,7 +236,7 @@
 										<UML:Classifier xmi.idref="EAID_AF7C81A6_B1C1_4469_A09F_B97989024A14"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="description" value="The material of which the mining waste is composed."/>
+										<UML:TaggedValue tag="description" value="The material(s) of which the mining waste is composed."/>
 										<UML:TaggedValue tag="type" value="CharacterString"/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
@@ -344,7 +344,7 @@
 										<UML:Classifier xmi.idref="EAID_AF7C81A6_B1C1_4469_A09F_B97989024A14"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="description" value="Description of the method that was used to identify the location of the mineral occurrence. Ideally, terms should be sourced from a controlled vocabulary. (eg, global positioning system, published map, field observation, downhole survey, aerial photography, field survey. Link - http://resource.geosciml.org/classifier/cgi/featureobservationmethod/"/>
+										<UML:TaggedValue tag="description" value="Description of the method that was used to identify the location of the mining waste occurrence. Ideally, terms should be sourced from a controlled vocabulary. (eg, global positioning system, published map, field observation, downhole survey, aerial photography, field survey. Link - http://resource.geosciml.org/classifier/cgi/mappedfeatureobservationmethod/"/>
 										<UML:TaggedValue tag="type" value="CharacterString"/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
@@ -359,7 +359,7 @@
 										<UML:TaggedValue tag="duplicates" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{CAE5A506-6DA3-4a91-BB82-F6CB9EA7CCC3}"/>
 										<UML:TaggedValue tag="ea_localid" value="10813"/>
-										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;union=0;"/>
 										<UML:TaggedValue tag="sequenceNumber" value="3" xmi.id="EAID_F3CD227C_E22D_46a5_91D6_76714F785C3E"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
@@ -425,7 +425,7 @@
 										<UML:Classifier xmi.idref="EAID_AF7C81A6_B1C1_4469_A09F_B97989024A14"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="description" value="A URI to a mine that has created the mining waste."/>
+										<UML:TaggedValue tag="description" value="A URI to identify the mine that has created the mining waste."/>
 										<UML:TaggedValue tag="type" value="CharacterString"/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
@@ -533,7 +533,7 @@
 										<UML:Classifier xmi.idref="EAID_8B67A680_304C_4758_9AA1_9172795D367C"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="description" value="Geometry defining the location or extent of the mine.  Only one geometry type may be used in a single MineView feature service."/>
+										<UML:TaggedValue tag="description" value="Geometry defining the location or extent of the mine waste.  Only one geometry type may be used in a single MiningWasteView feature service."/>
 										<UML:TaggedValue tag="type" value="GM_Object"/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
@@ -958,7 +958,7 @@
 										<UML:Classifier xmi.idref="EAID_AF7C81A6_B1C1_4469_A09F_B97989024A14"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="description" value="Description of the method that was used to identify the location of the commodity occurrence. Ideally, terms should be sourced from a controlled vocabulary. (eg, global positioning system, published map, field observation, downhole survey, aerial photography, field survey). Link - http://resource.geosciml.org/classifier/cgi/featureobservationmethod/"/>
+										<UML:TaggedValue tag="description" value="Description of the method that was used to identify the location of the commodity occurrence. Ideally, terms should be sourced from a controlled vocabulary. (eg, global positioning system, published map, field observation, downhole survey, aerial photography, field survey). Link - http://resource.geosciml.org/classifier/cgi/mappedfeatureobservationmethod/"/>
 										<UML:TaggedValue tag="type" value="CharacterString"/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
@@ -973,7 +973,7 @@
 										<UML:TaggedValue tag="duplicates" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{2A466316-9641-4bca-BB2C-D4EB0D8FCACE}"/>
 										<UML:TaggedValue tag="ea_localid" value="10834"/>
-										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;union=0;"/>
 										<UML:TaggedValue tag="sequenceNumber" value="10" xmi.id="EAID_FAB4D42D_7069_44c5_8903_F16113AD67E2"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
@@ -1660,7 +1660,7 @@
 										<UML:Classifier xmi.idref="EAID_AF7C81A6_B1C1_4469_A09F_B97989024A14"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="description" value="Description of the method that was used to identify the location of the mineral occurrence. Ideally terms should be sourced from the FeatureObservationMethod controlled vocabulary. Link - http://resource.geosciml.org/classifier/cgi/featureobservationmethod/"/>
+										<UML:TaggedValue tag="description" value="Description of the method that was used to identify the location of the mineral occurrence. Ideally terms should be sourced from the FeatureObservationMethod controlled vocabulary. Link - http://resource.geosciml.org/classifier/cgi/mappedfeatureobservationmethod/"/>
 										<UML:TaggedValue tag="type" value="CharacterString"/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
@@ -2053,14 +2053,14 @@
 								<UML:Stereotype name="FeatureType"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="documentation" value="Class to specify a simple view of a Mining Activity feature for use in Web Mapping Service GetFeatureRequest responses or GML3.1 Simple Feature Level 0 Web Feature Services"/>
+								<UML:TaggedValue tag="documentation" value="A class to specify a simple view of a Mining Activity feature for use in Web Mapping Service GetFeatureRequest responses or GML3.1 Simple Feature Level 0 Web Feature Services."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_D9C5D539_51AC_4546_9945_3F946503685F"/>
 								<UML:TaggedValue tag="date_created" value="2010-05-25 11:12:39"/>
-								<UML:TaggedValue tag="date_modified" value="2016-06-08 18:26:30"/>
+								<UML:TaggedValue tag="date_modified" value="2016-06-10 11:13:34"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="EarthResourceML Lite"/>
@@ -2111,7 +2111,7 @@
 										<UML:Classifier xmi.idref="EAID_AF7C81A6_B1C1_4469_A09F_B97989024A14"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="description" value="Description of the type of mining activity eg, open pit mining, underground mining, dredge mining. Ideally terms should be sourced from the MiningActivityType controlled vocabulary. Link - http://resource.geosciml.org/classifier/cgi/featureobservationmethod/"/>
+										<UML:TaggedValue tag="description" value="Description of the type of mining activity eg, open pit mining, underground mining, dredge mining. Ideally terms should be sourced from the MiningActivityType controlled vocabulary. Link - http://resource.geosciml.org/classifier/cgi/featureobservationmethod/. Use 'unknown' of activity type is not known."/>
 										<UML:TaggedValue tag="type" value="CharacterString"/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
@@ -2137,7 +2137,7 @@
 										<UML:Classifier xmi.idref="EAID_AF7C81A6_B1C1_4469_A09F_B97989024A14"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="description" value="Date on which the minining activity commenced operation. eg, 2004-05-18"/>
+										<UML:TaggedValue tag="description" value="Date on which the mining activity ceased operation. eg, 2004-05-18"/>
 										<UML:TaggedValue tag="type" value="CharacterString"/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
@@ -2163,7 +2163,7 @@
 										<UML:Classifier xmi.idref="eaxmiid0"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="description" value="Date on which the mining activity ceased operation. eg, 2012-04-22"/>
+										<UML:TaggedValue tag="description" value="Date on which the mining activity commenced operation. eg, 2002-04-22"/>
 										<UML:TaggedValue tag="type" value="CharacterString"/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
@@ -2189,7 +2189,7 @@
 										<UML:Classifier xmi.idref="eaxmiid0"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="description" value="Preferred name of the Mine associated with the MiningActivity"/>
+										<UML:TaggedValue tag="description" value="Preferred name of the Mine associated with the Mining Activity."/>
 										<UML:TaggedValue tag="type" value="CharacterString"/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
@@ -2215,7 +2215,7 @@
 										<UML:Classifier xmi.idref="eaxmiid0"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="description" value="The commodity found at the EarthResource. Other commodity values at the EarthResource should be listed in separate instances. Ideally terms should be sourced from the CommodityCode controlled vocabulary. Link - http://resource.geosciml.org/classifier/cgi/commodity-code/ "/>
+										<UML:TaggedValue tag="description" value="The commodity mined from this Mining Activity. Other commodity values at the mine should be listed in separate instances. Ideally terms should be sourced from the CommodityCode controlled vocabulary. Link - http://resource.geosciml.org/classifier/cgi/commodity-code/ "/>
 										<UML:TaggedValue tag="type" value="CharacterString"/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
@@ -2345,7 +2345,7 @@
 										<UML:Classifier xmi.idref="eaxmiid0"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="description" value="The percentage of valuable constituent derived from an ore, or of coal from a coal seam; a measure of mining or extraction efficency. (Recovery rate is usually expressed as a percent)."/>
+										<UML:TaggedValue tag="description" value="The percentage of valuable constituent derived from an ore, or of coal from a coal seam; a measure of mining or extraction efficiency. (Recovery rate is usually expressed as a percent)."/>
 										<UML:TaggedValue tag="type" value="CharacterString"/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
@@ -2371,7 +2371,7 @@
 										<UML:Classifier xmi.idref="eaxmiid0"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="description" value="Description of the method that was used to identify the location of the mineral occurrence. Ideally, terms should be sourced from a controlled vocabulary. (eg, global positioning system, published map, field observation, downhole survey, aerial photography, field survey). Link - http://resource.geosciml.org/classifier/cgi/featureobservationmethod/"/>
+										<UML:TaggedValue tag="description" value="Description of the method that was used to identify the location of the mine. Ideally, terms should be sourced from a controlled vocabulary. (eg, global positioning system, published map, field observation, downhole survey, aerial photography, field survey). Link - http://resource.geosciml.org/classifier/cgi/mappedfeatureobservationmethod/"/>
 										<UML:TaggedValue tag="type" value="CharacterString"/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
@@ -2386,7 +2386,7 @@
 										<UML:TaggedValue tag="duplicates" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{22DBC148-DE4E-467a-9AC8-635EF56A25B0}"/>
 										<UML:TaggedValue tag="ea_localid" value="10883"/>
-										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;union=0;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="positionalAccuracy" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -2475,7 +2475,7 @@
 										<UML:Classifier xmi.idref="EAID_AF7C81A6_B1C1_4469_A09F_B97989024A14"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="description" value="A URI to identify the Mine associated with the MiningActivity"/>
+										<UML:TaggedValue tag="description" value="A URI to identify the Mine associated with the Mining Activity"/>
 										<UML:TaggedValue tag="type" value="CharacterString"/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
@@ -2590,7 +2590,7 @@
 										<UML:TaggedValue tag="collection" value="false"/>
 										<UML:TaggedValue tag="position" value="19"/>
 										<UML:TaggedValue tag="lowerBound" value="0"/>
-										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="*"/>
 										<UML:TaggedValue tag="duplicates" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{F0A73DD0-D87B-43e2-A8C2-71B1D4FDEE28}"/>
 										<UML:TaggedValue tag="ea_localid" value="10891"/>
@@ -2787,7 +2787,7 @@
 										<UML:Classifier xmi.idref="EAID_AF7C81A6_B1C1_4469_A09F_B97989024A14"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="description" value="Description of the method that was used to identify the location of the mineral occurrence. Ideally, terms should be sourced from a controlled vocabulary. (eg, global positioning system, published map, field observation, downhole survey, aerial photography, field survey. Link - http://resource.geosciml.org/classifier/cgi/featureobservationmethod/"/>
+										<UML:TaggedValue tag="description" value="Description of the method that was used to identify the location of the mineral occurrence. Ideally, terms should be sourced from a controlled vocabulary. (eg, global positioning system, published map, field observation, downhole survey, aerial photography, field survey. Link - http://resource.geosciml.org/classifier/cgi/mappedfeatureobservationmethod/"/>
 										<UML:TaggedValue tag="type" value="CharacterString"/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
@@ -2802,7 +2802,7 @@
 										<UML:TaggedValue tag="duplicates" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{A54B81D6-D55C-4542-B323-7F319F4EB4F9}"/>
 										<UML:TaggedValue tag="ea_localid" value="10897"/>
-										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+										<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;union=0;"/>
 										<UML:TaggedValue tag="sequenceNumber" value="3" xmi.id="EAID_F3CD227C_E22D_46a5_81C0_8A3799006DF0"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
@@ -3005,21 +3005,21 @@
 				<UML:TaggedValue tag="version" value="1.0 (2016)"/>
 				<UML:TaggedValue tag="author" value="CGI ERML Working Group"/>
 				<UML:TaggedValue tag="created_date" value="2010-05-25 00:00:00"/>
-				<UML:TaggedValue tag="modified_date" value="2016-06-09 15:14:34"/>
+				<UML:TaggedValue tag="modified_date" value="2016-06-10 12:09:58"/>
 				<UML:TaggedValue tag="package" value="EAPK_D9C5D539_51AC_4546_9945_3F946503685F"/>
 				<UML:TaggedValue tag="type" value="Logical"/>
 				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;hl=1;cls=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:ARIAL,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<UML:TaggedValue tag="ea_localid" value="3713"/>
 				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=1134;DocSize.cy=795;ShowDetails=1;Orientation=L;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<UML:TaggedValue tag="styleex" value="SaveTag=83D9E6FB;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=E2C08B4E;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
 				<UML:DiagramElement geometry="Left=383;Top=83;Right=716;Bottom=506;" subject="EAID_37B33BDE_B015_47e3_BAB8_375C511A7551" seqno="1" style="DUID=8377F87E;NSL=0;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;BCol=15399421;Constraint=1;AttCustom=0;OpCustom=0;PType=0;RzO=1;"/>
 				<UML:DiagramElement geometry="Left=741;Top=451;Right=1017;Bottom=796;" subject="EAID_00BFB38F_1939_466e_A524_E78FFFF84DB4" seqno="2" style="DUID=F8825EE3;NSL=0;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;BCol=15399421;Constraint=1;AttCustom=0;OpCustom=0;PType=0;RzO=1;"/>
 				<UML:DiagramElement geometry="Left=392;Top=521;Right=704;Bottom=762;" subject="EAID_C96889C4_1EC5_42f6_B173_B25A4DB9A469" seqno="3" style="DUID=B8406035;NSL=0;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;Constraint=1;AttCustom=0;OpCustom=0;RzO=1;BCol=15399421;"/>
 				<UML:DiagramElement geometry="Left=735;Top=83;Right=1023;Bottom=441;" subject="EAID_94BA5ECA_0A2F_4050_9474_90EF56FC8D74" seqno="4" style="DUID=AD8214CE;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;Constraint=1;AttCustom=0;OpCustom=0;RzO=1;BCol=15399421;"/>
-				<UML:DiagramElement geometry="Left=33;Top=83;Right=366;Bottom=519;" subject="EAID_823E1817_7B10_4eb7_B8C4_7FB0DB213ABC" seqno="5" style="DUID=5CEA9160;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;Constraint=1;AttCustom=0;OpCustom=0;RzO=1;BCol=15399421;"/>
+				<UML:DiagramElement geometry="Left=32;Top=83;Right=365;Bottom=519;" subject="EAID_823E1817_7B10_4eb7_B8C4_7FB0DB213ABC" seqno="5" style="DUID=5CEA9160;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;Constraint=1;AttCustom=0;OpCustom=0;RzO=1;BCol=15399421;"/>
 			</UML:Diagram.element>
 		</UML:Diagram>
 	</XMI.content>
