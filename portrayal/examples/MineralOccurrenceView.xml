@@ -22,7 +22,7 @@
     <erl:positionalAccuracy>0.5 metres</erl:positionalAccuracy>
     <erl:source>Lassiter Mining Pty Ltd annual report</erl:source>
     <erl:mineralOccurrenceType_uri>http://resource.geosciml.org/classifier/cgi/mineral-occurrence-type/occurrence</erl:mineralOccurrenceType_uri>
-    <erl:representativeCommodity_uri>http://resource.geosciml.org/classifier/cgi/commodity-code/gold</erl:representativeCommodity_uri>
+    <erl:representativeCommodity_uri>http://resource.geosciml.org/classifier/cgi/commodity-code/precious-metal</erl:representativeCommodity_uri>
     <erl:mine_uri>http://data.geoscience.gov.au/feature/ga/mine/ga.mine.123456</erl:mine_uri>
     <erl:hostGeologicUnit_uri>http://dbforms.ga.gov.au/pls/www/geodx.strat_units.sch_full?wher=stratno=35397</erl:hostGeologicUnit_uri>
     <erl:mineralDepositModel_uri>http://resource.geoscience.gov.au/classifier/ga/mineral-deposit-model/mesothermal-vein-gold</erl:mineralDepositModel_uri>

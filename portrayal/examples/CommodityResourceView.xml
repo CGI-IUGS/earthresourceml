@@ -21,7 +21,7 @@
     <erl:observationMethod>surveyed</erl:observationMethod>
     <erl:positionalAccuracy>0.5 metre</erl:positionalAccuracy>
     <erl:source>Lassiter Mining Pty Ltd annual report</erl:source>
-    <erl:commodityClassifier_uri>http://resource.geosciml.org/classifier/cgi/classification-method-used/jorc-code</erl:commodityClassifier_uri>
+    <erl:commodityClassifier_uri>http://resource.geosciml.org/classifier/cgi/commodity-code/gold</erl:commodityClassifier_uri>
     <erl:mineralOccurrence_uri>http://ga.gov.au/feature/mineralOccurrence/ga.mineralOccurrence.123456</erl:mineralOccurrence_uri>
     <erl:mine_uri>http://ga.gov.au/feature/mine/ga.mine.123456</erl:mine_uri>
     <erl:reservesCategory_uri>http://resource.geosciml.org/classifier/cgi/reserve-assessment-category/proved-ore-reserves</erl:reservesCategory_uri>
