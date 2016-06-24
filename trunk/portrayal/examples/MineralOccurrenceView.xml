@@ -4,8 +4,9 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:gml="http://www.opengis.net/gml"
-    xsi:schemaLocation="http://xmlns.earthresourceml.org/earthresourceml-lite/1.0 file:/R:/users/oraymond/information_management/EarthResourceML/ERML-Lite/erml-lite.xsd" gml:id="ga.mineralOccurrence.123456">
-    <erl:identifier>ga.mineralOccurrence.123456</erl:identifier>
+    xsi:schemaLocation="http://xmlns.earthresourceml.org/earthresourceml-lite/1.0 
+    http://schemas.earthresourceml.org/3.0/erml-lite.xsd" gml:id="ga.mineralOccurrence.123456">
+    <erl:identifier>http://ga.gov.au/feature/mineralOccurrenceView/ga.mineralOccurrenceView.123456</erl:identifier>
     <erl:name>Lassiter's Reef</erl:name>
     <erl:mineralOccurrenceType>occurrence</erl:mineralOccurrenceType>
     <erl:commodity>gold, silver</erl:commodity>
@@ -18,7 +19,7 @@
     <erl:explorationActivityDuration>6 months</erl:explorationActivityDuration>
     <erl:explorationResult>mineral resource defined</erl:explorationResult>
     <erl:observationMethod>surveyed</erl:observationMethod>
-    <erl:positionalAccuracy>10 metres</erl:positionalAccuracy>
+    <erl:positionalAccuracy>0.5 metres</erl:positionalAccuracy>
     <erl:source>Lassiter Mining Pty Ltd annual report</erl:source>
     <erl:mineralOccurrenceType_uri>http://resource.geosciml.org/classifier/cgi/mineral-occurrence-type/occurrence</erl:mineralOccurrenceType_uri>
     <erl:representativeCommodity_uri>http://resource.geosciml.org/classifier/cgi/commodity-code/gold</erl:representativeCommodity_uri>
@@ -28,9 +29,9 @@
     <erl:representativeAge_uri>http://resource.geosciml.org/classifier/ics/icschart/Carboniferous</erl:representativeAge_uri>
     <erl:representativeOlderAge_uri>http://resource.geosciml.org/classifier/ics/icschart/Famennian</erl:representativeOlderAge_uri>
     <erl:representativeYoungerAge_uri>http://resource.geosciml.org/classifier/ics/icschart/Tournaisian</erl:representativeYoungerAge_uri>
-    <erl:specification_uri>http://data.geoscience.gov.au/feature/ga/mineralOccurrence/ga.mineralOccurrence.123456</erl:specification_uri>
+    <erl:specification_uri>http://ga.gov.au/feature/mineralOccurrence/ga.mineralOccurrence.123456</erl:specification_uri>
     <erl:shape>
-        <gml:Point srsName="epsg:4283" srsDimension="2" gml:id="GA.mineralOccurrence.123456.point">
+        <gml:Point srsName="epsg:4283" srsDimension="2" gml:id="GA.mineralOccurrenceView.123456.point">
             <gml:coordinates>138.234 -26.747467</gml:coordinates>
         </gml:Point>
     </erl:shape>
