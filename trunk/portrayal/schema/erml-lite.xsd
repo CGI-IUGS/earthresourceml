@@ -24,9 +24,9 @@
 		schemaLocation="http://schemas.opengis.net/gml/3.1.1/base/gml.xsd"/>
 	<import namespace="http://www.opengis.net/gmlsf"
 		schemaLocation="http://schemas.opengis.net/gml/3.1.1/profiles/gmlsfProfile/1.0.0/gmlsfLevels.xsd"/>
-	
-<!-- ======================================================================= -->	
-	
+
+	<!-- ======================================================================= -->
+
 	<element name="MineView" type="erl:MineViewType" substitutionGroup="gml:_Feature">
 		<annotation>
 			<documentation>A class to specify a simple view of a Mine feature for use in Web Mapping
@@ -40,7 +40,7 @@
 				<sequence>
 					<element name="identifier" type="string">
 						<annotation>
-							<documentation>A unique identifier to identify the mine
+							<documentation>A unique identifier to identify the Mine mapped
 								feature.</documentation>
 						</annotation>
 					</element>
@@ -60,20 +60,21 @@
 					</element>
 					<element minOccurs="0" name="startDate" type="string">
 						<annotation>
-							<documentation>Date that mining commenced.</documentation>
+							<documentation>Date that mining commenced. eg:
+								2008-02-17</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="endDate" type="string">
 						<annotation>
-							<documentation>Date that mining finished.</documentation>
+							<documentation>Date that mining finished. eg: 2009-03-15</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="observationMethod" type="string">
 						<annotation>
 							<documentation>Description of the method that was used to identify the
-								location of the mineral occurrence. Ideally, terms should be sourced
-								from a controlled vocabulary. (eg, global positioning system,
-								published map, field observation, downhole survey, aerial
+								location of the Mine mapped feature. Ideally, terms should be
+								sourced from a controlled vocabulary. (eg, global positioning
+								system, published map, field observation, downhole survey, aerial
 								photography, field survey. Link -
 								http://resource.geosciml.org/classifier/cgi/mappedfeatureobservationmethod/</documentation>
 						</annotation>
@@ -228,6 +229,15 @@
 								http://resource.geosciml.org/classifier/cgi/reserve-assessment-category/</documentation>
 						</annotation>
 					</element>
+					<element minOccurs="0" name="totalResources" type="string">
+						<annotation>
+							<documentation>Total amount and grade of a concentration or occurrence
+								of material of intrinsic economic interest in or on the Earth's
+								crust in such form, quality and quantity that there are reasonable
+								prospects for eventual economic extraction. eg, 1.57 Mt @ 3.0 g/t
+								Au</documentation>
+						</annotation>
+					</element>
 					<element minOccurs="0" name="resourcesCategory" type="string">
 						<annotation>
 							<documentation>The category of resources (eg, indicated, inferred).
@@ -243,15 +253,6 @@
 								MineralResourceReportingClassificationMethod controlled vocabulary
 								term. Link -
 								http://resource.geosciml.org/classifier/cgi/classification-method-used/</documentation>
-						</annotation>
-					</element>
-					<element minOccurs="0" name="totalResources" type="string">
-						<annotation>
-							<documentation>Total amount and grade of a concentration or occurrence
-								of material of intrinsic economic interest in or on the Earth's
-								crust in such form, quality and quantity that there are reasonable
-								prospects for eventual economic extraction. eg, 1.57 Mt @ 3.0 g/t
-								Au</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="observationMethod" type="string">
@@ -354,12 +355,9 @@
 	<element name="MineralOccurrenceView" type="erl:MineralOccurrenceViewType"
 		substitutionGroup="gml:_Feature">
 		<annotation>
-			<documentation>A simplified view of a point-located specimen from GeoSciML
-				GeologicSpecimen (an extension of Observations and Measurements - ISO19156) with key
-				property values summarised as labels (unconstrained character strings) or
-				arbitrarily selected classifiers to be used for thematic mapping purposes. The
-				latter are the properties suffixed with '_uri' and will contain URIs referring to
-				controlled concepts in published vocabularies.</documentation>
+			<documentation>Class to specify a simple view of an ERML MineralOccurrence feature for
+				use in Web Mapping Service GetFeatureRequest responses or GML3.1 Simple Feature
+				Level 0 Web Feature Services.</documentation>
 		</annotation>
 	</element>
 	<complexType name="MineralOccurrenceViewType">
@@ -369,7 +367,7 @@
 					<element name="identifier" type="string">
 						<annotation>
 							<documentation>A unique identifier to identify the mineral occurrence
-								feature.</documentation>
+								mapped feature.</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="name" type="string">
@@ -444,7 +442,7 @@
 					<element minOccurs="0" name="explorationActivityDuration" type="string">
 						<annotation>
 							<documentation>Period, or extent in time, of any exploration
-								activity.</documentation>
+								activity. eg; 1987-1989</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="explorationResult" type="string">
@@ -494,13 +492,13 @@
 					</element>
 					<element minOccurs="0" name="mine_uri" type="string">
 						<annotation>
-							<documentation>A URI to identify an associated mine</documentation>
+							<documentation>A URI to identify an associated mine.</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="hostGeologicUnit_uri" type="string">
 						<annotation>
 							<documentation>A URI to identify the host geologic unit. Ideally, a link
-								to a GeoSciML GeologicUnit or GeologicUnitView
+								to a GeoSciML GeologicUnit or GeologicUnitView.
 								feature.</documentation>
 						</annotation>
 					</element>
@@ -592,8 +590,8 @@
 							<documentation>Description of the type of mining activity eg, open pit
 								mining, underground mining, dredge mining. Ideally terms should be
 								sourced from the MiningActivityType controlled vocabulary. Link -
-								http://resource.geosciml.org/classifier/cgi/featureobservationmethod/.
-								Use 'unknown' of activity type is not known.</documentation>
+								http://resource.geosciml.org/classifier/cgi/mining-activity/.
+								Use 'unknown' if the activity type is not known.</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="activityEndDate" type="string">
@@ -617,7 +615,7 @@
 					<element minOccurs="0" name="commodity" type="string">
 						<annotation>
 							<documentation>The commodity mined by this mining activity. Other
-								commodity values at the mine should be listed in separate instances.
+								commodity values at the mine should be listed in separate Mining Activity instances.
 								Ideally terms should be sourced from the CommodityCode controlled
 								vocabulary. Link -
 								http://resource.geosciml.org/classifier/cgi/commodity-code/</documentation>
@@ -667,7 +665,7 @@
 					<element minOccurs="0" name="observationMethod" type="string">
 						<annotation>
 							<documentation>Description of the method that was used to identify the
-								location of the mining activity. Ideally, terms should be sourced
+								location of the mining activity mapped feature. Ideally, terms should be sourced
 								from a controlled vocabulary. (eg, global positioning system,
 								published map, field observation, downhole survey, aerial
 								photography, field survey). Link -
@@ -720,7 +718,7 @@
 						<annotation>
 							<documentation>Geometry defining the location or extent of the mining
 								activity. Only one geometry type may be used in a single
-								MineralOccurrenceView feature service.</documentation>
+								MiningActivityView feature service.</documentation>
 						</annotation>
 					</element>
 					<any processContents="lax" minOccurs="0" maxOccurs="unbounded">
@@ -754,7 +752,7 @@
 				<sequence>
 					<element name="identifier" type="string">
 						<annotation>
-							<documentation>A unique identifier to identify the mine waste
+							<documentation>A unique identifier to identify the mine waste mapped
 								feature.</documentation>
 						</annotation>
 					</element>
@@ -780,9 +778,9 @@
 					</element>
 					<element minOccurs="0" name="processingType" type="string">
 						<annotation>
-							<documentation>Mining processing activity applied to the earth resource.
-								Ideally terms should be sourced from the ProcessingActivityType
-								controlled vocabulary. Link -
+							<documentation>Mining processing activity that produced the waste
+								product. Ideally terms should be sourced from the
+								ProcessingActivityType controlled vocabulary. Link -
 								http://resource.geosciml.org/classifier/cgi/mining-processing-activity/</documentation>
 						</annotation>
 					</element>
