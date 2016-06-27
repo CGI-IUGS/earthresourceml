@@ -2759,7 +2759,7 @@
 										<UML:Classifier xmi.idref="EAID_AF7C81A6_B1C1_4469_A09F_B97989024A14"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="description" value="Name of the owner of the mine. If there was more than one owner over the life of the mine, multiple names and time periods may be concatenated."/>
+										<UML:TaggedValue tag="description" value="Name of the owner of the mine. If there was more than one owner over the life of the mine, multiple names and time periods may be concatenated.  eg: MIM Ltd (1924-2003), Xstrata (2003-2013), Glencore (2013-2016)"/>
 										<UML:TaggedValue tag="type" value="CharacterString"/>
 										<UML:TaggedValue tag="derived" value="0"/>
 										<UML:TaggedValue tag="containment" value="Not Specified"/>
