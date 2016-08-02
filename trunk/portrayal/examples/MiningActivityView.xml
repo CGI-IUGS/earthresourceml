@@ -6,7 +6,7 @@
     xmlns:gml="http://www.opengis.net/gml"
     xsi:schemaLocation="http://xmlns.earthresourceml.org/earthresourceml-lite/1.0 
     http://schemas.earthresourceml.org/earthresourceml-lite/1.0/erml-lite.xsd" gml:id="ga.miningActivityView.123456">
-    <erl:identifier>http://data.geoscience.gov.au/feature/ga/mineView/ga.miningActivityView.123456</erl:identifier>
+    <erl:identifier>http://data.geoscience.gov.au/feature/ga/miningActivity/ga.miningActivityView.123456</erl:identifier>
     <erl:activityType>open-pit mining</erl:activityType>
     <erl:activityEndDate>2008-06-21</erl:activityEndDate>
     <erl:activityStartDate>2006-05-13</erl:activityStartDate>
