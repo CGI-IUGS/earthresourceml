@@ -40,7 +40,7 @@
 				<sequence>
 					<element name="identifier" type="string">
 						<annotation>
-							<documentation>A unique identifier to identify the Mine mapped
+							<documentation>A unique identifier (ideally a URI) to identify the Mine mapped
 								feature.</documentation>
 						</annotation>
 					</element>
@@ -58,15 +58,19 @@
 								http://resource.geosciml.org/classifier/cgi/mine-status/</documentation>
 						</annotation>
 					</element>
+					<element minOccurs="0" name="owner" type="string">
+						<annotation>
+							<documentation>Name of the current owner of the mine. (eg: BHP Billiton)</documentation>
+						</annotation>
+					</element>
 					<element minOccurs="0" name="startDate" type="string">
 						<annotation>
-							<documentation>Date that mining commenced. eg:
-								2008-02-17</documentation>
+							<documentation>Date that mining commenced (eg; 2008-02-17).  ISO 8601 date format should be used.</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="endDate" type="string">
 						<annotation>
-							<documentation>Date that mining finished. eg: 2009-03-15</documentation>
+							<documentation>Date that mining finished (eg; 2009-03-15). ISO 8601 date format should be used.</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="observationMethod" type="string">
@@ -95,8 +99,8 @@
 					<element name="status_uri" type="string">
 						<annotation>
 							<documentation>A URI to identify a value from a controlled vocabulary
-								for operational status of the mine. Ideally should link to the
-								MineStatusCategory controlled vocabulary term. Link -
+								for the operational status of the mine. Ideally should link to the
+								MineStatusCategory controlled vocabulary. Link -
 								http://resource.geosciml.org/classifier/cgi/mine-status/.</documentation>
 						</annotation>
 					</element>
@@ -145,8 +149,8 @@
 				<sequence>
 					<element name="identifier" type="string">
 						<annotation>
-							<documentation>A unique identifier to identify the Commodity
-								feature.</documentation>
+							<documentation>A unique identifier (ideally a URI) to identify this Commodity
+								Resource mapped feature.</documentation>
 						</annotation>
 					</element>
 					<element name="commodity" type="string">
@@ -366,7 +370,7 @@
 				<sequence>
 					<element name="identifier" type="string">
 						<annotation>
-							<documentation>A unique identifier to identify the mineral occurrence
+							<documentation>A unique identifier (ideally a URI) to identify the mineral occurrence
 								mapped feature.</documentation>
 						</annotation>
 					</element>
@@ -516,7 +520,7 @@
 								the mineralisation. This will be defined entirely at the discretion
 								of the data provider and may be a single event selected from the
 								mineral occurrence's geologic history or a value summarising the all
-								or part of it's history. Link -
+								or part of its history. Link -
 								http://resource.geosciml.org/classifier/ics/ischart/</documentation>
 						</annotation>
 					</element>
@@ -581,7 +585,7 @@
 				<sequence>
 					<element name="identifier" type="string">
 						<annotation>
-							<documentation>A unique identifier to identify the mining activity
+							<documentation>A unique identifier (ideally a URI) to identify the mining activity
 								feature.</documentation>
 						</annotation>
 					</element>
@@ -596,14 +600,14 @@
 					</element>
 					<element minOccurs="0" name="activityEndDate" type="string">
 						<annotation>
-							<documentation>Date on which the mining activity ceased operation. eg,
-								2004-05-18</documentation>
+							<documentation>Date on which the mining activity ceased operation. 
+								Use ISO 8601 date format. eg, 2004-05-18.</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="activityStartDate" type="string">
 						<annotation>
 							<documentation>Date on which the mining activity commenced operation.
-								eg, 2002-04-22</documentation>
+								Use ISO 8601 date format. eg, 2002-04-22</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="mineName" type="string">
@@ -619,6 +623,12 @@
 								Ideally terms should be sourced from the CommodityCode controlled
 								vocabulary. Link -
 								http://resource.geosciml.org/classifier/cgi/commodity-code/</documentation>
+						</annotation>
+					</element>
+					<element minOccurs="0" name="operator" type="string">
+						<annotation>
+							<documentation>Name of the operating company or individual that 
+								undertook the Mining Activity.</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="oreProcessedAmount" type="string">
@@ -690,13 +700,14 @@
 							<documentation>A URI to identify the activity type for the mining
 								activity. Should link to a term from the MiningActivityType
 								controlled vocabulary. Link -
-								http://resource.geosciml.org/classifier/cgi/mining-activity/</documentation>
+								http://resource.geosciml.org/classifier/cgi/mining-activity/. 
+								Use an appropriate OGC nil value if the activity type is unknown.</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="mine_uri" type="string">
 						<annotation>
-							<documentation>A URI to identify the Mine associated with the Mining
-								Activity</documentation>
+							<documentation>A URI to identify the Mine associated with the mining
+								activity</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="commodity_uri" type="string">
@@ -752,15 +763,16 @@
 				<sequence>
 					<element name="identifier" type="string">
 						<annotation>
-							<documentation>A unique identifier to identify the mine waste mapped
+							<documentation>A unique identifier (ideally a URI) to identify the mine waste mapped
 								feature.</documentation>
 						</annotation>
 					</element>
-					<element minOccurs="0" name="wasteType" type="string">
+					<element name="wasteType" type="string">
 						<annotation>
 							<documentation>The type of mining waste. Recommended terms should be
 								sourced from the Mining Waste directive - 2006/21/EU and its
-								vocabulary (2000/532/EC)</documentation>
+								vocabulary (2000/532/EC). Use an appropriate OGC nil value (eg; unknown)
+							    if waste type is not known.</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="storageType" type="string">
@@ -848,10 +860,12 @@
 								waste.</documentation>
 						</annotation>
 					</element>
-					<element minOccurs="0" name="wasteType_uri" type="string">
+					<element name="wasteType_uri" type="string">
 						<annotation>
-							<documentation>A URI to identify the waste type for the mining waste.
-								Should link to a controlled vocabulary term.</documentation>
+							<documentation>A URI to identify the waste type for the mining waste.  
+								Should link to a controlled vocabulary term.  Use an appropriate OGC 
+								nil value (eg; http://www.opengis.net/def/nil/OGC/0/unknown) if waste 
+								type is not known.</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="storageType_uri" type="string">
