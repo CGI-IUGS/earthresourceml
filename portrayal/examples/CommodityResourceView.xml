@@ -6,7 +6,7 @@
     xmlns:gml="http://www.opengis.net/gml"
     xsi:schemaLocation="http://xmlns.earthresourceml.org/earthresourceml-lite/1.0 
     http://schemas.earthresourceml.org/earthresourceml-lite/1.0/erml-lite.xsd" gml:id="ga.commodityResourceView.123456">
-    <erl:identifier>http://data.geoscience.gov.au/feature/ga/commodityResourceView/ga.mineralOccurrence.123456</erl:identifier>
+    <erl:identifier>http://data.geoscience.gov.au/feature/ga/commodityResourceView/ga.commodityResourceView.123456</erl:identifier>
     <erl:commodity>gold</erl:commodity>
     <erl:commodityRank>primary commodity</erl:commodityRank>
     <erl:commodityImportance>very large</erl:commodityImportance>
