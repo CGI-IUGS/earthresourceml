@@ -11,7 +11,7 @@
     <erl:commodityRank>primary commodity</erl:commodityRank>
     <erl:commodityImportance>very large</erl:commodityImportance>
     <erl:mineralOccurrenceName>Lassiter's Reef</erl:mineralOccurrenceName>
-    <erl:mineName>Lassiters</erl:mineName>
+    <erl:mineName>Lassiters</erl:mineName> 
     <erl:totalEndowment>1300 Mt @ 2.7 g/t Au</erl:totalEndowment>
     <erl:totalReserves>800 Mt @ 2.9 g/t Au</erl:totalReserves>
     <erl:reservesCategory>proved ore reserves</erl:reservesCategory>
