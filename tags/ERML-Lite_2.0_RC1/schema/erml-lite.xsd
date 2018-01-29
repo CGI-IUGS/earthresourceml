@@ -49,6 +49,15 @@
 								http://resource.geosciml.org/classifier/cgi/mine-status/</documentation>
 						</annotation>
 					</element>
+					<element minOccurs="0" name="commodity" type="string">
+						<annotation>
+							<documentation>The commodity or commodities associated with a name. Multiple commodity
+								terms should be concatenated if required. Ideally terms
+								should be sourced from the CommodityCode controlled vocabulary.
+								Link -
+								http://resource.geosciml.org/classifier/cgi/commodity-code/</documentation>
+						</annotation>
+					</element>			
 					<element minOccurs="0" name="owner" type="string">
 						<annotation>
 							<documentation>Name of the current owner of the mine. (eg: BHP Billiton)</documentation>
@@ -93,6 +102,14 @@
 								for the operational status of the mine. Ideally should link to the
 								MineStatusCategory controlled vocabulary. Link -
 								http://resource.geosciml.org/classifier/cgi/mine-status/.</documentation>
+						</annotation>
+					</element>
+					<element minOccurs="0" name="representativeCommodity_uri" type="string">
+						<annotation>
+							<documentation>A URI to identify the major commodity of commodity group 
+								associated with the mine. Ideally should link to the
+								CommodityCode controlled vocabulary. Link -
+								http://resource.geosciml.org/classifier/cgi/commodity-code/.</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="specification_uri" type="string">
