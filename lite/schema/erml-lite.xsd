@@ -200,23 +200,12 @@
 					</element>
 					<element minOccurs="0" name="mineName" type="string">
 						<annotation>
-							<documentation>The name of a mine associated with the commodity
-								resource, if applicable.</documentation>
+							<documentation>The name of a mine associated with the commodity resource, if applicable.</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="oreMeasure" type="string">
 						<annotation>
-							<documentation>The estimate of the Reserve, Resource or Endowment ore amount.</documentation>
-							
-						</annotation>
-					</element>
-					<element minOccurs="0" name="oreMeasureType" type="string">
-						<annotation>
-							<documentation>The type of ore measure. Examples may include
-								endowment, reserve, resource and UNFC. Ideally terms should be
-								sourced from the OreMeasureType controlled vocabulary. Link -
-								http://resource.geosciml.org/classifier/cgi/ore-measure-type/</documentation>
-							
+							<documentation>The estimate of the Reserve, Resource or Endowment ore amount. (eg, 53.6 Mt @ 2.1% Cu, 1.5 g/t Au)</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="oreMeasureAssessmentCategory" type="string">
@@ -227,104 +216,76 @@
 								Link -
 								http://resource.geosciml.org/classifier/cgi/reserve-assessment-category/
 								and http://resource.geosciml.org/classifier/cgi/resource-assessment-category</documentation>
-							
 						</annotation>
-					</element>
-					
-					
+					</element>				
 					<element minOccurs="0" name="classificationMethodUsed" type="string">
 						<annotation>
 							<documentation>The classification method used to calculate the
-								measurement of ore. Should be a
-								MineralResourceReportingClassificationMethod controlled vocabulary
-								term. Link -
-								http://resource.geosciml.org/classifier/cgi/classification-method-used/</documentation>
+								measurement of ore. Should be a MineralResourceReportingClassificationMethod controlled vocabulary term. 
+								Link - http://resource.geosciml.org/classifier/cgi/classification-method-used/</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="observationMethod" type="string">
 						<annotation>
-							<documentation>Description of the method that was used to identify the
-								location of the commodity occurrence. Ideally, terms should be
-								sourced from a controlled vocabulary. (eg, global positioning
-								system, published map, field observation, downhole survey, aerial
-								photography, field survey). Link -
+							<documentation>Description of the method that was used to identify the location of the commodity occurrence. 
+								Ideally, terms should be sourced from a controlled vocabulary. (eg, global positioning
+								system, published map, field observation, downhole survey, aerial photography, field survey). Link -
 								http://resource.geosciml.org/classifier/cgi/mappedfeatureobservationmethod/</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="positionalAccuracy" type="string">
 						<annotation>
-							<documentation>Text description of the accuracy of the feature location.
-								(eg, accurate, approximate, diagrammatic, indefinite, unknown, 5
-								metres, 1 kilometre)</documentation>
+							<documentation>Text description of the accuracy of the feature location. (eg, accurate, approximate, diagrammatic, indefinite, unknown, 5 metres, 1 kilometre)</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="source" type="string">
 						<annotation>
-							<documentation>A reference for the source(s) of information for the
-								commodity description.</documentation>
+							<documentation>A reference for the source(s) of information for the commodity description.</documentation>
 						</annotation>
 					</element>
 					<element name="commodityClassifier_uri" type="string">
 						<annotation>
-							<documentation>A URI to identify the commodity. Ideally should link to
-								the CommodityCode controlled vocabulary term. Link -
+							<documentation>A URI to identify the commodity. Ideally should link to the CommodityCode controlled vocabulary term. Link -
 								http://resource.geosciml.org/classifier/cgi/commodity-code/
 							</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="mineralOccurrence_uri" type="string">
 						<annotation>
-							<documentation>A URI to identify an associated Mineral
-								Occurrence.</documentation>
+							<documentation>A URI to identify an associated Mineral Occurrence.</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="mine_uri" type="string">
 						<annotation>
-							<documentation>A URI to identify an associated Mine.</documentation>
-						</annotation>
-					</element>
-					<element minOccurs="0" name="oreMeasureType_uri" type="string">
-						<annotation>
-							<documentation>A URI to identify the ore measure type.</documentation>
-							
+							<documentation>A URI to identify an associated Mine. Should resolve to a EarthResourceML or EarthResourceML-Lite representation of the associated mine.</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="oreMeasureAssessmentCategory_uri"
 						type="string">
 						<annotation>
-							<documentation>A URI to identify the ore measure subcategory. Should link
-								to one of a EarthResourceReserveCategory or EarthResourceQuantityAssessmentCategory
-								controlled vocabulary term. Links - http://resource.geosciml.org/classifier/cgi/reserve-assessment-category/
-								and http://resource.geosciml.org/classifier/cgi/resource-assessment-category</documentation>
-							
+							<documentation>A URI to identify the ore measure subcategory. Should link to a term from a controlled vocabulary for OreMeasureAssessmentCategory</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="classificationMethodUsed_uri" type="string">
 						<annotation>
-							<documentation>A URI to identify the classification method used to
-								calculate the measurement of ore. Should link to a
-								MineralResourceReporting ClassificationMethod controlled vocabulary
-								term. Link -
+							<documentation>A URI to identify the classification method used to calculate the measurement of ore. Should link to a
+								MineralResourceReporting ClassificationMethod controlled vocabulary term. Link -
 								http://resource.geosciml.org/classifier/cgi/classification-method-used/</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="specification_uri" type="string">
 						<annotation>
-							<documentation>A URI to identify a full EarthResourceML description of
-								the commodity resource feature.</documentation>
+							<documentation>A URI to identify a full EarthResourceML description of the commodity resource feature.</documentation>
 						</annotation>
 					</element>
 					<element name="shape" type="gml:GeometryPropertyType">
 						<annotation>
-							<documentation>Geometry defining the location or extent of the commodity
-								resource. Only one geometry type may be used in a single
-								CommodityResourceView feature service.</documentation>
+							<documentation>Geometry defining the location or extent of the commodity resource. Only one geometry type may be used in a single CommodityResourceView feature service.</documentation>
 						</annotation>
 					</element>
 					<any processContents="lax" minOccurs="0" maxOccurs="unbounded">
 						<annotation>
-							<documentation>A placeholder allowing any user-defined attributes to be
-								delivered in addition to those specified above.</documentation>
+							<documentation>A placeholder allowing any user-defined attributes to be delivered in addition to those specified above.</documentation>
 						</annotation>
 					</any>
 				</sequence>
