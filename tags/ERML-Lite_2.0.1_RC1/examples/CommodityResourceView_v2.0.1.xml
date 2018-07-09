@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<erl:CommodityResourceView 
+    xmlns:erl="http://xmlns.earthresourceml.org/earthresourceml-lite/2.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:gml="http://www.opengis.net/gml/3.2"
+    xsi:schemaLocation="http://xmlns.earthresourceml.org/earthresourceml-lite/2.0 http://schemas.earthresourceml.org/earthresourceml-lite/2.0/erml-lite.xsd"
+    gml:id="test_v2.0.1">
+    <erl:identifier>http://data.geoscience.gov.au/feature/ga/commodityResourceView/ga.commodityResourceView.123456</erl:identifier>   
+    <erl:commodity>gold</erl:commodity>
+    <erl:commodityRank>primary commodity</erl:commodityRank>
+    <erl:commodityImportance>very large</erl:commodityImportance>
+    <erl:mineralOccurrenceName>Lassiter's Reef</erl:mineralOccurrenceName>
+    <erl:mineName>Lassiters</erl:mineName>
+    <erl:oreMeasure>800 Mt @ 2.9 g/t Au</erl:oreMeasure>
+     <erl:oreMeasureAssessmentCategory>probable ore reserves</erl:oreMeasureAssessmentCategory>
+    <erl:classificationMethodUsed>JORC code</erl:classificationMethodUsed>
+    <erl:observationMethod>surveyed</erl:observationMethod>
+    <erl:positionalAccuracy>10 metres</erl:positionalAccuracy>
+    <erl:source>BHP Pty Ltd annual report, 1897</erl:source>
+    <erl:commodity_uri>http://resource.geosciml.org/classifier/cgi/commodity-code/gold</erl:commodity_uri>
+    <erl:mineralOccurrence_uri>http://data.geoscience.gov.au/feature/ga/mineralOccurrenceView/ga.mineralOccurrenceView.123456</erl:mineralOccurrence_uri>
+    <erl:mine_uri>http://data.geoscience.gov.au/feature/mineView/ga.mineView.123456</erl:mine_uri>
+    <erl:oreMeasureAssessmentCategory_uri>http://resource.geosciml.org/classifier/cgi/reserve-assessment-category/probable-ore-reserves</erl:oreMeasureAssessmentCategory_uri>
+    <erl:classificationMethodUsed_uri>http://resource.geosciml.org/classifier/cgi/classification-method-used/jorc-code</erl:classificationMethodUsed_uri>
+    <erl:specification_uri>http://data.geoscience.gov.au/feature/commodityResource/ga.commodityResource.123456</erl:specification_uri>
+    <erl:shape>
+        <gml:Point srsName="epsg:4283" srsDimension="2" gml:id="GA.commodityResourceView.123456.point">          
+            <gml:pos>138.234 -26.747467</gml:pos>
+        </gml:Point>
+    </erl:shape>
+</erl:CommodityResourceView>
