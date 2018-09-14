@@ -12,6 +12,7 @@
 			delivering responses to WMS queries.
 		
 		    Change from 2.0.0 to 2.0.1 - Added processingPlantName and processingPlant_uri to MiningWasteView
+		                               - Added oreMeasureType and oreMeasureType_uri to CommodityResourceView
 		
 		</documentation>
 
@@ -211,15 +212,22 @@
 							<documentation>The estimate of the Reserve, Resource or Endowment ore amount. (eg, 53.6 Mt @ 2.1% Cu, 1.5 g/t Au)</documentation>
 						</annotation>
 					</element>
+					<element minOccurs="0" name="oreMeasureType" type="string">
+						<annotation>
+							<documentation>The type of ore measure. Examples may include: endowment, reserve, resource, production, UNFC.  Ideally, terms should be sourced from the OreMeasureType 
+								controlled vocabulary.  Link - http://resource.geosciml.org/classifier/cgi/ore-measure-type</documentation>
+						</annotation>
+					</element>
 					<element minOccurs="0" name="oreMeasureAssessmentCategory" type="string">
 						<annotation>
-							<documentation>The category of ore measure (eg, proved, probable, proved and probable, measured, indicated, measured and indicated, and inferred).Should be a EarthResourceReserveCategory or EarthResourceQuantityAssessmentCategory controlled vocabulary term.
-Link - http://resource.geosciml.org/classifier/cgi/ore-measure-assessment-category/</documentation>
+							<documentation>The category of ore measure (eg, proved, probable, proved and probable, measured, indicated, measured and indicated, and inferred). Should be a 
+								OreMeasureAssessmentCategory controlled vocabulary term. Link - http://resource.geosciml.org/classifier/cgi/ore-measure-assessment-category/</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="classificationMethodUsed" type="string">
 						<annotation>
-							<documentation>The classification method used to calculate the measurement of ore. Should be a MineralResourceReportingClassificationMethod controlled vocabulary term (eg, JORC Code, CRIRSCO Code). Link - http://resource.geosciml.org/classifier/cgi/classification-method-used</documentation>
+							<documentation>The classification method used to calculate the measurement of ore. Should be a MineralResourceReportingClassificationMethod controlled vocabulary 
+								term (eg, JORC Code, CRIRSCO Code). Link - http://resource.geosciml.org/classifier/cgi/classification-method-used</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="observationMethod" type="string">
@@ -242,7 +250,8 @@ Link - http://resource.geosciml.org/classifier/cgi/ore-measure-assessment-catego
 					</element>
 					<element name="commodity_uri" type="string">
 						<annotation>
-							<documentation>A URI to identify the commodity. Ideally should link to the CommodityCode controlled vocabulary term. Link - http://resource.geosciml.org/classifier/cgi/commodity-code</documentation>
+							<documentation>A URI to identify the commodity. Ideally should link to the CommodityCode controlled vocabulary term. 
+								Link - http://resource.geosciml.org/classifier/cgi/commodity-code</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="mineralOccurrence_uri" type="string">
@@ -255,9 +264,15 @@ Link - http://resource.geosciml.org/classifier/cgi/ore-measure-assessment-catego
 							<documentation>A URI to identify an associated Mine. Should resolve to a EarthResourceML or EarthResourceML-Lite representation of the associated mine.</documentation>
 						</annotation>
 					</element>
+					<element minOccurs="0" name="oreMeasureType_uri" type="string">
+						<annotation>
+							<documentation>A URI to identify the ore measure type from a controlled vocabulary, ideally from http://resource.geosciml.org/classifier/cgi/ore_measure_type</documentation>
+						</annotation>
+					</element>
 					<element minOccurs="0" name="oreMeasureAssessmentCategory_uri" type="string">
 						<annotation>
-							<documentation>A URI to identify the ore measure subcategory. Should link to a term from a controlled vocabulary for OreMeasureAssessmentCategory</documentation>
+							<documentation>A URI to identify the ore measure assessment category. Should link to a term from a controlled vocabulary for OreMeasureAssessmentCategory, 
+								ideally http://resource.geosciml.org/classifier/cgi/ore-measure-assessment-category</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="classificationMethodUsed_uri" type="string">
