@@ -13,7 +13,8 @@
     <erl:mineralOccurrenceName>Lassiter's Reef</erl:mineralOccurrenceName>
     <erl:mineName>Lassiters</erl:mineName>
     <erl:oreMeasure>800 Mt @ 2.9 g/t Au</erl:oreMeasure>
-     <erl:oreMeasureAssessmentCategory>probable ore reserves</erl:oreMeasureAssessmentCategory>
+    <erl:oreMeasureType>reserve</erl:oreMeasureType>
+    <erl:oreMeasureAssessmentCategory>probable</erl:oreMeasureAssessmentCategory>
     <erl:classificationMethodUsed>JORC code</erl:classificationMethodUsed>
     <erl:observationMethod>surveyed</erl:observationMethod>
     <erl:positionalAccuracy>10 metres</erl:positionalAccuracy>
@@ -21,9 +22,10 @@
     <erl:commodity_uri>http://resource.geosciml.org/classifier/cgi/commodity-code/gold</erl:commodity_uri>
     <erl:mineralOccurrence_uri>http://data.geoscience.gov.au/feature/ga/mineralOccurrenceView/ga.mineralOccurrenceView.123456</erl:mineralOccurrence_uri>
     <erl:mine_uri>http://data.geoscience.gov.au/feature/mineView/ga.mineView.123456</erl:mine_uri>
-    <erl:oreMeasureAssessmentCategory_uri>http://resource.geosciml.org/classifier/cgi/reserve-assessment-category/probable-ore-reserves</erl:oreMeasureAssessmentCategory_uri>
+    <erl:oreMeasureType_uri>http://resource.geosciml.org/classifier/cgi/ore-measure-type/reserve</erl:oreMeasureType_uri>
+    <erl:oreMeasureAssessmentCategory_uri>http://resource.geosciml.org/classifier/cgi/reserve-assessment-category/probable</erl:oreMeasureAssessmentCategory_uri>
     <erl:classificationMethodUsed_uri>http://resource.geosciml.org/classifier/cgi/classification-method-used/jorc-code</erl:classificationMethodUsed_uri>
-    <erl:specification_uri>http://data.geoscience.gov.au/feature/commodityResource/ga.commodityResource.123456</erl:specification_uri>
+    <erl:specification_uri>http://data.geoscience.gov.au/feature/commodityResource/ga.oreMeasure.123456</erl:specification_uri>
     <erl:shape>
         <gml:Point srsName="epsg:4283" srsDimension="2" gml:id="GA.commodityResourceView.123456.point">          
             <gml:pos>138.234 -26.747467</gml:pos>
