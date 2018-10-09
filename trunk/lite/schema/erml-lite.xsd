@@ -161,17 +161,16 @@
 				<sequence>
 					<element name="identifier" type="string">
 						<annotation>
-							<documentation>A unique identifier (ideally a URI) to identify this Commodity
-								Resource mapped feature.</documentation>
+							<documentation>A unique identifier (ideally a URI) to identify this Commodity Resource mapped feature. 
+								If gml:identifier is used (in GMLv3.2 services) then gml:identifier and erl:identifier shall be the same.</documentation>
 						</annotation>
 					</element>
 					<element name="commodity" type="string">
 						<annotation>
-							<documentation>A commodity found in an EarthResource. Other commodity
-								values at the EarthResource should be listed in separate instances.
-								Ideally terms should be sourced from the CommodityCode controlled
-								vocabulary. Link -
-								http://resource.geosciml.org/classifier/cgi/commodity-code/.</documentation>
+							<documentation>A commodity found in an EarthResource. Other commodity values at the EarthResource should be listed in separate instances. 
+								Ideally terms should be sourced from the CommodityCode controlled vocabulary. Link - http://resource.geosciml.org/classifier/cgi/commodity-code/.  
+								Where gml:name is used in GMLv3.2 services, erl:commodity and gml:name shall be the same.
+								</documentation>
 						</annotation>
 					</element>
 					<element minOccurs="0" name="commodityRank" type="string">
